@@ -10,7 +10,9 @@ install:
 	conda env update -f '$(_SRC)/environment.yml'
 
 backup:
-	python '$(_SRC)/dlhn/dlhn/dlhn.py' -u westurner -o index.html
+	@# items with a cachetime newer than 14d ago may need to be pulled again
+	@# because they may not be locked yet (cachetime != item_time)
+	python '$(_SRC)/dlhn/dlhn/dlhn.py' -u westurner -o index.html --expire-newerthan 14d
 
 commit:
 	git add ./index.html ./index.html.json ./dlhn.sqlite && \
