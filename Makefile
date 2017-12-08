@@ -14,6 +14,9 @@ backup:
 	@# because they may not be locked yet (cachetime != item_time)
 	python '$(_SRC)/dlhn/dlhn/dlhn.py' -u westurner -o index.html --expire-newerthan 14d
 
+backup-nocache:
+	python '$(_SRC)/dlhn/dlhn/dlhn.py' -u westurner -o index.html
+
 commit:
 	git add ./index.html ./index.html.json ./dlhn.sqlite && \
 	git commit -m ":books: Updated index.html, index.html.json, and dlhn.sqlite"
