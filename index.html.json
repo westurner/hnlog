@@ -5930,7 +5930,7 @@
       "url": "https://www.theverge.com/2017/11/28/16710450/fcc-net-neutrality-fact-sheet-is-total-nonsense", 
       "title": "The 5 most ridiculous things the FCC says in its new net neutrality propaganda", 
       "by": "pulisse", 
-      "score": 163, 
+      "score": 164, 
       "time": 1512183326, 
       "type": "story", 
       "id": 15829851
@@ -6034,13 +6034,14 @@
     "15866287": {
       "time_iso": "2017-12-06 18:55:25", 
       "kids": [
+        15889353, 
         15866466, 
         15866288
       ], 
-      "descendants": 3, 
+      "descendants": 4, 
       "title": "Ask HN: Can hashes be replaced with optimization problems in blockchain?", 
       "by": "pacavaca", 
-      "score": 2, 
+      "score": 3, 
       "time": 1512604525, 
       "type": "story", 
       "id": 15866287
@@ -6053,9 +6054,831 @@
       "time": 1512606290, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "15879519": {
+      "time_iso": "2017-12-08 10:53:49", 
+      "kids": [
+        15881013, 
+        15880373, 
+        15882403, 
+        15881930, 
+        15882093, 
+        15884180, 
+        15880457, 
+        15883742, 
+        15880314, 
+        15880855, 
+        15883791, 
+        15880345, 
+        15883603, 
+        15879629, 
+        15902043, 
+        15884186, 
+        15882768, 
+        15882050, 
+        15880813, 
+        15880581, 
+        15881299, 
+        15880166, 
+        15882726, 
+        15880833
+      ], 
+      "descendants": 68, 
+      "url": "http://arthur-johnston.com/hacker_writes_a_childrens_book/", 
+      "title": "A Hacker Writes a Children's Book", 
+      "by": "arthurjj", 
+      "score": 170, 
+      "time": 1512748429, 
+      "type": "story", 
+      "id": 15879519
+    }, 
+    "15889353": {
+      "time_iso": "2017-12-09 20:53:23", 
+      "parent": 15866287, 
+      "text": "CureCoin.<p>From <a href=\"https://curecoin.net/knowledge-base/about-curecoin/what-is-curecoin/\" rel=\"nofollow\">https://curecoin.net/knowledge-base/about-curecoin/what-is-c...</a> :</p><p>&gt; Curecoin allows owners of both ASIC and GPU/CPU hardware to earn. Curecoin puts ASICs to work at what they are good at\u2013securing a blockchain, while it puts GPUs and CPUs to work with work items that can only be done on them\u2013protein folding. While still having a secure blockchain, it supports, and thus is supported by, scientific research.</p><p>...</p><p>From \"CureCoin Reaches #1 Ranking on Folding@home\" \n<a href=\"https://www.newswire.com/news/bio-research-loves-curecoin-gamers-and-speculators-to-overtake-1-team-19890448\" rel=\"nofollow\">https://www.newswire.com/news/bio-research-loves-curecoin-ga...</a> :</p><p>&gt; As of the afternoon of August 29, 2017 (Eastern Time), the Curecoin Team 224497 earned the world's #1 rank on Stanford's Folding@home - a protein folding simulation Distributed Computing Network (DCN). In a little over 3 years, the team (including our merge-folding partners at Foldingcoin) collectively produced 160 billion points worth of molecular computations to support research in the areas of cancer, Alzheimer's, Huntington's, Parkinson's, Infectious Disease as well as helping scientists uncover new molecular dynamics through groundbreaking computational techniques.</p>", 
+      "id": 15889353, 
+      "time": 1512870803, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15893911": {
+      "time_iso": "2017-12-10 17:50:44", 
+      "kids": [
+        15894808, 
+        15894061, 
+        15896093, 
+        15894506, 
+        15895441, 
+        15894106, 
+        15894338, 
+        15895681, 
+        15894431, 
+        15896355, 
+        15894763, 
+        15895240, 
+        15896988, 
+        15896909, 
+        15898100, 
+        15894542, 
+        15896943, 
+        15896798, 
+        15894908, 
+        15894630, 
+        15900466, 
+        15895064, 
+        15895427, 
+        15895529, 
+        15895531, 
+        15895669, 
+        15896167, 
+        15898454, 
+        15901914, 
+        15894490, 
+        15894482
+      ], 
+      "descendants": 163, 
+      "url": "https://projecteuler.net", 
+      "title": "Project Euler", 
+      "by": "vinchuco", 
+      "score": 792, 
+      "time": 1512946244, 
+      "type": "story", 
+      "id": 15893911
+    }, 
+    "15894808": {
+      "time_iso": "2017-12-10 21:46:19", 
+      "kids": [
+        15895023, 
+        15895379, 
+        15897249, 
+        15894881, 
+        15895344, 
+        15905443, 
+        15900139, 
+        15898378, 
+        15900131
+      ], 
+      "parent": 15893911, 
+      "text": "After hearing about it for years, I decided to start working through Project Euler about two weeks ago.  It really is much more about math than programming, although it's a lot of fun to take on the problems with a language that has tail call optimization because so many of the problems involve recurrence relations.<p>I like that the problems are constructed in a way that usually punishes you for trying to use brute force.  Sometimes there's a problem that doesn't have a more elegant solution, though, as if to remind us that brute force often works remarkably well.</p>", 
+      "id": 15894808, 
+      "time": 1512960379, 
+      "type": "comment", 
+      "by": "sevensor"
+    }, 
+    "15894881": {
+      "time_iso": "2017-12-10 22:09:58", 
+      "kids": [
+        15895255
+      ], 
+      "parent": 15894808, 
+      "text": "I agree with Project Euler being mostly about math.  I prefer Codewars for practicing programming or learning a new language.", 
+      "id": 15894881, 
+      "time": 1512961798, 
+      "type": "comment", 
+      "by": "tedmiston"
+    }, 
+    "15895255": {
+      "time_iso": "2017-12-11 00:01:40", 
+      "kids": [
+        15895586, 
+        15896583, 
+        15895881
+      ], 
+      "parent": 15894881, 
+      "text": "Euler was a mathematician after all. Now thinking about it I wonder what project Djikstra would look like, or say maybe project Stallman.", 
+      "id": 15895255, 
+      "time": 1512968500, 
+      "type": "comment", 
+      "by": "Nydhal"
+    }, 
+    "15896583": {
+      "time_iso": "2017-12-11 07:16:13", 
+      "kids": [
+        15898457, 
+        15907466
+      ], 
+      "parent": 15895255, 
+      "text": "There's a Project Rosalind (named after Rosalind Franklin) which is sort of like Project Euler for bioinformatics: <a href=\"http://rosalind.info/about/\" rel=\"nofollow\">http://rosalind.info/about/</a>", 
+      "id": 15896583, 
+      "time": 1512994573, 
+      "type": "comment", 
+      "by": "indigochill"
+    }, 
+    "15898304": {
+      "time_iso": "2017-12-11 11:58:38", 
+      "kids": [
+        15899206, 
+        15899404, 
+        15901995, 
+        15900425, 
+        15900269, 
+        15903882, 
+        15902596, 
+        15901632, 
+        15900343, 
+        15902699, 
+        15902319, 
+        15899645, 
+        15899437, 
+        15900152, 
+        15899425
+      ], 
+      "descendants": 154, 
+      "url": "https://www.theverge.com/2017/12/11/16754040/steve-wozniak-vint-cerf-internet-pioneer-net-neutrality-letter-senate", 
+      "title": "Tech luminaries call net neutrality vote an 'imminent threat'", 
+      "by": "kjhughes", 
+      "score": 279, 
+      "time": 1513011518, 
+      "type": "story", 
+      "id": 15898304
+    }, 
+    "15899901": {
+      "time_iso": "2017-12-11 15:02:04", 
+      "kids": [
+        15902350, 
+        15900321, 
+        15903968, 
+        15901763, 
+        15913206, 
+        15901768, 
+        15901033, 
+        15908455, 
+        15901847, 
+        15900040, 
+        15910608, 
+        15906692, 
+        15902411, 
+        15904883, 
+        15904068, 
+        15903033, 
+        15903759, 
+        15906224, 
+        15902266, 
+        15903469, 
+        15905725, 
+        15909126, 
+        15907254, 
+        15902770, 
+        15911823, 
+        15902937, 
+        15904000, 
+        15902428, 
+        15907981, 
+        15901396
+      ], 
+      "descendants": 51, 
+      "text": "I often find myself \"needing\" to take a mini-break after just a few minutes of concerted effort while coding.  In particular, this often occurs after I've made a tiny breakthrough, prompting me to reward myself by checking Twitter or HN. This bad habit quickly derails any momentum.  What are some tips to increase focus stamina and avoid distraction?", 
+      "title": "Ask HN: How do you stay focused while programming/working?", 
+      "by": "flipfloppity", 
+      "score": 82, 
+      "time": 1513022524, 
+      "type": "story", 
+      "id": 15899901
+    }, 
+    "15900321": {
+      "time_iso": "2017-12-11 15:51:31", 
+      "kids": [
+        15902086, 
+        15907066, 
+        15903786, 
+        15906221
+      ], 
+      "parent": 15899901, 
+      "text": "It's not exactly new and exciting, but I found that listening to calm, instrumental music helps me focus. Mostly Ambient. If you do not like electronic music, Stars Of The Lid or Bohren &amp; Der Club Of Gore are very much worth checking out.<p>Also, <a href=\"https://mynoise.net/\" rel=\"nofollow\">https://mynoise.net/</a> has worked wonders for me.</p><p>In both cases, it seems that unstructured audio input, like, occupies the parts of my mind that would otherwise distract me.</p>", 
+      "id": 15900321, 
+      "time": 1513025491, 
+      "type": "comment", 
+      "by": "krylon"
+    }, 
+    "15901632": {
+      "time_iso": "2017-12-11 18:14:12", 
+      "parent": 15898304, 
+      "text": "&gt;  \u201cThe current technically-incorrect order discards decades of careful work by FCC chairs from both parties, who understood the threats that Internet access providers could pose to open markets on the Internet.\u201d<p>Paid prioritization is that threat.</p><p>Again, streaming video content for all ages is not more important than online courses.</p>", 
+      "id": 15901632, 
+      "time": 1513034052, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15901656": {
+      "time_iso": "2017-12-11 18:17:52", 
+      "kids": [
+        15901806
+      ], 
+      "descendants": 2, 
+      "title": "Ask HN: Do ISPs have a legal obligation to not sell minors' web history anymore?", 
+      "by": "westurner", 
+      "score": 2, 
+      "time": 1513034272, 
+      "type": "story", 
+      "id": 15901656
+    }, 
+    "15901806": {
+      "time_iso": "2017-12-11 18:37:10", 
+      "kids": [
+        15901857
+      ], 
+      "parent": 15901656, 
+      "text": "I guess COPPA is still in place and in theory it applies to ISPs, although they may be allowed to assume that all traffic from a household comes from the bill payer who is presumably over 13.<p><a href=\"http://kellywarnerlaw.com/childrens-online-privacy-protection-act-rules/\" rel=\"nofollow\">http://kellywarnerlaw.com/childrens-online-privacy-protectio...</a></p><p><a href=\"https://www.theverge.com/2017/3/31/15138526/isp-privacy-bill-vote-trump-marsha-blackburn-internet-browsing-history\" rel=\"nofollow\">https://www.theverge.com/2017/3/31/15138526/isp-privacy-bill...</a></p>", 
+      "id": 15901806, 
+      "time": 1513035430, 
+      "type": "comment", 
+      "by": "wmf"
+    }, 
+    "15901857": {
+      "time_iso": "2017-12-11 18:44:51", 
+      "parent": 15901806, 
+      "text": "So they can currently argue that, since they don't know the age of the browser, they're not liable?<p>Weren't we better off with a policy making it illegal to sell web browsing history for anyone; regardless of whether their age or disability is known?</p>", 
+      "id": 15901857, 
+      "time": 1513035891, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15902043": {
+      "time_iso": "2017-12-11 19:19:47", 
+      "parent": 15879519, 
+      "text": "The rhymes and illustrations look great! Is there a board book edition?<p>Other great STEM and computers books for kids:</p><p>\"A is for Array\"</p><p>\"Lift-the-Flap Computers and Coding\"</p><p>\"Computational Fairy Tales\"</p><p>\"Hello Ruby: Adventures in Coding\"</p><p>\"Python for Kids: A Playful Introduction To Programming\"</p><p>\"Lauren Ipsum: A Story About Computer Science and Other Improbable Things\"</p><p>\"Rosie Revere, Engineer\"</p><p>\"Ada Byron Lovelace and the Thinking Machine\"</p><p>\"HTML for Babies: Volume 1 of Web Design for Babies\"</p><p>\"What Do You Do With a Problem?\"</p><p>\"What Do You Do With an Idea?\"</p><p>\"ABCs of Mathematics\", \n\"The Pythagorean Theorem for Babies\",\n\"Non-Euclidian Geometry for Babies\",\n\"Introductory Calculus for Infants\", \n\"ABCs of Physics\", \n\"Statistical Physics for Babies\",\n\"Netwonian Physics for Babies\", \n\"Optical Physics for Babies\", \n\"General Relativity for Babies\", \n\"Quantum Physics for Babies\", \"Quantum Information for Babies\", \"Quantum Entanglement for Babies\"</p><p>\"ELI5\": \"Explain like I'm five\"</p><p>Someone should really make a list of these.</p>", 
+      "id": 15902043, 
+      "time": 1513037987, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15902054": {
+      "time_iso": "2017-12-11 19:21:38", 
+      "kids": [
+        15902264, 
+        15902301, 
+        15902358, 
+        15902397, 
+        15902250, 
+        15902520, 
+        15902978, 
+        15902650, 
+        15902305, 
+        15902395, 
+        15903985, 
+        15903260, 
+        15903188, 
+        15905285, 
+        15902916, 
+        15903760, 
+        15902258, 
+        15902721, 
+        15902282, 
+        15917193, 
+        15906202, 
+        15903711, 
+        15904116, 
+        15909408, 
+        15908839, 
+        15902662, 
+        15902485, 
+        15905269, 
+        15902280, 
+        15905363, 
+        15902570, 
+        15903687, 
+        15903709, 
+        15902718, 
+        15902671
+      ], 
+      "descendants": 161, 
+      "url": "https://www.sec.gov/news/public-statement/statement-clayton-2017-12-11", 
+      "title": "Statement on Cryptocurrencies and Initial Coin Offerings", 
+      "by": "corbinpage", 
+      "score": 811, 
+      "time": 1513038098, 
+      "type": "story", 
+      "id": 15902054
+    }, 
+    "15902086": {
+      "time_iso": "2017-12-11 19:28:13", 
+      "parent": 15900321, 
+      "text": "&gt; It's not exactly new and exciting, but I found that listening to calm, instrumental music helps me focus. Mostly Ambient.<p>Same. Lounge, Ambient, Chillout, Chillstep (<a href=\"https://di.fm\" rel=\"nofollow\">https://di.fm</a> has a bunch of great streams. SoundCloud and MixCloud have complete replayable sets, too.)</p><p>I've heard that videogame soundtracks are designed to not be distracting; to help focus.</p>", 
+      "id": 15902086, 
+      "time": 1513038493, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15902190": {
+      "time_iso": "2017-12-11 19:49:44", 
+      "kids": [
+        15903775, 
+        15907689, 
+        15902597, 
+        15903382, 
+        15902951, 
+        15902997, 
+        15902924, 
+        15903472, 
+        15904430, 
+        15903712
+      ], 
+      "descendants": 22, 
+      "url": "http://davidbkemp.github.io/QuantumComputingArticle/", 
+      "title": "An Interactive Introduction to Quantum Computing", 
+      "by": "kevlened", 
+      "score": 252, 
+      "time": 1513039784, 
+      "type": "story", 
+      "id": 15902190
+    }, 
+    "15902250": {
+      "time_iso": "2017-12-11 20:03:23", 
+      "kids": [
+        15902399, 
+        15905485, 
+        15902488
+      ], 
+      "parent": 15902054, 
+      "text": "A little emphasis, focusing on the aftermath from the SEC's July report on the DAO:<p>&gt; \"Following the issuance of the 21(a) Report, certain market professionals have attempted to highlight utility characteristics of their proposed initial coin offerings in an effort to claim that their proposed tokens or coins are not securities.  <i>Many of these assertions appear to elevate form over substance.  Merely calling a token a \u201cutility\u201d token or structuring it to provide some utility does not prevent the token from being a security.</i>\"</p>", 
+      "id": 15902250, 
+      "time": 1513040603, 
+      "type": "comment", 
+      "by": "jashkenas"
+    }, 
+    "15905485": {
+      "time_iso": "2017-12-12 08:43:38", 
+      "kids": [
+        15907314
+      ], 
+      "parent": 15902250, 
+      "text": "I think people are viewing this as an attack on crypto, when its actually just common sense. People put too much faith the 'Contract' half of 'Ethereum/Smart Contract'<p>Basically. Today ICOs are selling tokens as shares of equity in their company, or similar. Which you can then sell on.</p><p>The problem is these companies essentially reserve the right to disregard that contract and could then sell their company, domestically or overseas, for cash, without recompensating any token holders.</p><p>Securities regulation and law stops that. But the tokens do need to be lawful securities in order for the court to recognize them.</p><p>Otherwise how can the court help you, and who else is going to help you?</p>", 
+      "id": 15905485, 
+      "time": 1513086218, 
+      "type": "comment", 
+      "by": "jackpeterfletch"
+    }, 
+    "15906119": {
+      "time_iso": "2017-12-12 10:17:39", 
+      "kids": [
+        15906914, 
+        15907497, 
+        15907039, 
+        15907047, 
+        15907092, 
+        15907045, 
+        15906928, 
+        15906962
+      ], 
+      "descendants": 83, 
+      "url": "https://www.wsj.com/articles/whos-afraid-of-bitcoin-futures-traders-going-short-1513036234", 
+      "title": "Who\u2019s Afraid of Bitcoin? The Futures Traders Going Short", 
+      "by": "thisisit", 
+      "score": 53, 
+      "time": 1513091859, 
+      "type": "story", 
+      "id": 15906119
+    }, 
+    "15907047": {
+      "time_iso": "2017-12-12 11:51:07", 
+      "kids": [
+        15907384
+      ], 
+      "parent": 15906119, 
+      "text": "Wall Street being able to buy Bitcoin might increase demand, but they might also do things that would at least at times amplify sell pressure like panic selling, shorting it, leveraged shorting, margin calls", 
+      "id": 15907047, 
+      "time": 1513097467, 
+      "type": "comment", 
+      "by": "nerfhammer"
+    }, 
+    "15907314": {
+      "time_iso": "2017-12-12 12:16:04", 
+      "parent": 15905485, 
+      "text": "&gt; I think people are viewing this as an attack on crypto, when its actually just common sense.<p>&gt; [\u2026] The problem is these companies essentially reserve the right to disregard that contract and could then sell their company, domestically or overseas, for cash, without recompensating any token holders.</p><p>&gt; Securities regulation and law stops that. But the tokens do need to be lawful securities in order for the court to recognize them.</p><p>This. IRS regards coins and tokens as capital gains taxable things regardless of whether they qualify as securities. SEC exists <i>to protect investors</i> from scams and unfair dealing. In order to protect investors, SEC regulates issuance of securities.</p>", 
+      "id": 15907314, 
+      "time": 1513098964, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15907384": {
+      "time_iso": "2017-12-12 12:22:49", 
+      "parent": 15907047, 
+      "text": "Shark futures traders here to save the mf'in day!", 
+      "id": 15907384, 
+      "time": 1513099369, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15907466": {
+      "time_iso": "2017-12-12 12:29:49", 
+      "parent": 15896583, 
+      "text": "I like <a href=\"https://rosalind.info\" rel=\"nofollow\">https://rosalind.info</a> bioinformatics problems because:<p>- There are problem explanations and an accompanying textbook.</p><p>- You can structure the solutions with unit tests that test for known good values.</p><p>- There's a graph of problems.</p>", 
+      "id": 15907466, 
+      "time": 1513099789, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15907523": {
+      "time_iso": "2017-12-12 12:34:46", 
+      "kids": [
+        15907552, 
+        15907571
+      ], 
+      "descendants": 2, 
+      "url": "https://arxiv.org/abs/1710.10377", 
+      "title": "Quantum attacks on Bitcoin, and how to protect against them (ECDSA, SHA256)", 
+      "by": "westurner", 
+      "score": 2, 
+      "time": 1513100086, 
+      "type": "story", 
+      "id": 15907523
+    }, 
+    "15907552": {
+      "time_iso": "2017-12-12 12:36:50", 
+      "parent": 15907523, 
+      "text": "\"Quantum attacks on Bitcoin, and how to protect against them (ECDSA, SHA256)\"\n<a href=\"https://www.arxiv-vanity.com/papers/1710.10377/\" rel=\"nofollow\">https://www.arxiv-vanity.com/papers/1710.10377/</a><p>&gt; [\u2026] On the other hand, the elliptic curve signature scheme used by Bitcoin is much more at risk, and could be completely broken by a quantum computer as early as 2027, by the most optimistic estimates.</p>", 
+      "id": 15907552, 
+      "time": 1513100210, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15907571": {
+      "time_iso": "2017-12-12 12:38:27", 
+      "parent": 15907523, 
+      "text": "From <a href=\"https://csrc.nist.gov/Projects/Post-Quantum-Cryptography\" rel=\"nofollow\">https://csrc.nist.gov/Projects/Post-Quantum-Cryptography</a> :<p>&gt; NIST has initiated a process to solicit, evaluate, and standardize one or more quantum-resistant public-key cryptographic algorithms.  Nominations for post-quantum candidate algorithms may now be submitted, up until the final deadline of November 30, 2017.</p>", 
+      "id": 15907571, 
+      "time": 1513100307, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15907689": {
+      "time_iso": "2017-12-12 12:48:35", 
+      "parent": 15902190, 
+      "text": "Part 2 mentions two quantum algorithms that could be used to break Bitcoin (and SSH and SSL/TLS; and most modern cryptographic security systems):\nShor's algorithm for factorization and Grover's search algorithm.<p>Part 2: <a href=\"http://davidbkemp.github.io/QuantumComputingArticle/part2.html\" rel=\"nofollow\">http://davidbkemp.github.io/QuantumComputingArticle/part2.ht...</a></p><p>Shor's algorithm: <a href=\"https://en.wikipedia.org/wiki/Shor%27s_algorithm\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Shor%27s_algorithm</a></p><p>Grover's algorithm: <a href=\"https://en.wikipedia.org/wiki/Grover%27s_algorithm\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Grover%27s_algorithm</a></p><p>I don't know what heading I'd suggest for something about how concentration of quantum capabilities will create dangerous asymmetry. (That is why we need post-quantum (\"quantum resistant\") hash, signature, and encryption algorithms in the near future.)</p>", 
+      "id": 15907689, 
+      "time": 1513100915, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15913250": {
+      "time_iso": "2017-12-13 04:59:42", 
+      "kids": [
+        15918507, 
+        15916959, 
+        15917772, 
+        15916763, 
+        15916679, 
+        15916907, 
+        15916626, 
+        15916858, 
+        15918816, 
+        15917281, 
+        15916981, 
+        15916548, 
+        15917114, 
+        15917165, 
+        15916807, 
+        15918610, 
+        15922799, 
+        15918030, 
+        15916820, 
+        15919629, 
+        15918861, 
+        15916725, 
+        15917362, 
+        15917253, 
+        15918704, 
+        15919331, 
+        15919669, 
+        15913777, 
+        15916653, 
+        15916484
+      ], 
+      "descendants": 171, 
+      "url": "https://theconversation.com/universities-spend-millions-on-accessing-results-of-publicly-funded-research-88392", 
+      "title": "Universities spend millions on accessing results of publicly funded research", 
+      "by": "versteegen", 
+      "score": 623, 
+      "time": 1513159182, 
+      "type": "story", 
+      "id": 15913250
+    }, 
+    "15916725": {
+      "time_iso": "2017-12-13 14:20:43", 
+      "kids": [
+        15917008, 
+        15918493
+      ], 
+      "parent": 15913250, 
+      "text": "Are there good open source solutions for journal publishing? (HTML abstract, PDFs, comments, ...)?", 
+      "id": 15916725, 
+      "time": 1513192843, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15918493": {
+      "time_iso": "2017-12-13 17:57:20", 
+      "kids": [
+        15920600
+      ], 
+      "parent": 15916725, 
+      "text": "Yes- quite a few beyond what's already been listed, in fact:<p><a href=\"http://www.theoj.org/\" rel=\"nofollow\">http://www.theoj.org/</a>\n<a href=\"https://plos.github.io/ambraproject/index.html\" rel=\"nofollow\">https://plos.github.io/ambraproject/index.html</a>\n<a href=\"https://v4.pubpub.org/\" rel=\"nofollow\">https://v4.pubpub.org/</a></p>", 
+      "id": 15918493, 
+      "time": 1513205840, 
+      "type": "comment", 
+      "by": "neuromantik8086"
+    }, 
+    "15920600": {
+      "time_iso": "2017-12-14 02:43:51", 
+      "kids": [
+        15923624
+      ], 
+      "parent": 15918493, 
+      "text": "Ambra is being discontinued! <a href=\"http://blogs.plos.org/plos/2017/12/ceo-letter-to-the-community-mudditt/\" rel=\"nofollow\">http://blogs.plos.org/plos/2017/12/ceo-letter-to-the-communi...</a><p><i>Edit:</i> And theoj doesn't really appear to be maintained anymore either...</p>", 
+      "id": 15920600, 
+      "time": 1513237431, 
+      "type": "comment", 
+      "by": "Vinnl"
+    }, 
+    "15923624": {
+      "time_iso": "2017-12-14 11:35:19", 
+      "kids": [
+        15930971
+      ], 
+      "parent": 15920600, 
+      "text": "&gt; Ambra is being discontinued!<p>The article mentions the discontinuation of Aperta but nothing about Ambra?</p><p><a href=\"https://plos.github.io/ambraproject/Developer-Overview.html\" rel=\"nofollow\">https://plos.github.io/ambraproject/Developer-Overview.html</a></p><p><a href=\"https://github.com/PLOS/ambra\" rel=\"nofollow\">https://github.com/PLOS/ambra</a></p>", 
+      "id": 15923624, 
+      "time": 1513269319, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15930971": {
+      "time_iso": "2017-12-15 05:58:18", 
+      "parent": 15923624, 
+      "text": "I'm sorry, I just realised that as well - my mistake.", 
+      "id": 15930971, 
+      "time": 1513335498, 
+      "type": "comment", 
+      "by": "Vinnl"
+    }, 
+    "15939390": {
+      "time_iso": "2017-12-16 08:12:44", 
+      "kids": [
+        15939485, 
+        15939595, 
+        15939629, 
+        15939619, 
+        15939799, 
+        15939486, 
+        15939477, 
+        15939577, 
+        15939669, 
+        15940585, 
+        15939719, 
+        15939556
+      ], 
+      "descendants": 50, 
+      "url": "http://msutoday.msu.edu/news/2017/msu-scholars-find-21-trillion-in-unauthorized-government-spending-defense-department-to-conduct/", 
+      "title": "MSU Scholars Find $21T in Unauthorized Government Spending", 
+      "by": "sillypuddy", 
+      "score": 131, 
+      "time": 1513429964, 
+      "type": "story", 
+      "id": 15939390
+    }, 
+    "15940585": {
+      "time_iso": "2017-12-16 12:42:15", 
+      "kids": [
+        15945520, 
+        15945484
+      ], 
+      "parent": 15939390, 
+      "text": "Unauthorized federal spending (in these two departments) 1998-2015: $21T<p>Federal debt (2017): $20T</p><p>$ 20,000,000,000,000 USD</p>", 
+      "id": 15940585, 
+      "time": 1513446135, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15945484": {
+      "time_iso": "2017-12-17 07:27:42", 
+      "parent": 15940585, 
+      "deleted": true, 
+      "time": 1513513662, 
+      "type": "comment", 
+      "id": 15945484
+    }, 
+    "15945490": {
+      "time_iso": "2017-12-17 07:32:06", 
+      "kids": [
+        15945727, 
+        15945689, 
+        15945775, 
+        15945973, 
+        15946099, 
+        15945698, 
+        15946080, 
+        15947943, 
+        15945845, 
+        15946110, 
+        15945949, 
+        15947582
+      ], 
+      "descendants": 40, 
+      "url": "https://github.com/julienr/ipynb_playground/blob/master/bitcoin/dumbcoin/dumbcoin.ipynb", 
+      "title": "Show HN: An educational blockchain implementation in Python", 
+      "by": "jre", 
+      "score": 291, 
+      "time": 1513513926, 
+      "type": "story", 
+      "id": 15945490
+    }, 
+    "15945520": {
+      "time_iso": "2017-12-17 07:40:14", 
+      "kids": [
+        15945549
+      ], 
+      "parent": 15940585, 
+      "text": "Would a blockchain for government expenditures help avoid this type of error?<p>We already now have <a href=\"https://usaspending.gov\" rel=\"nofollow\">https://usaspending.gov</a> ( <a href=\"https://beta.usaspending.gov\" rel=\"nofollow\">https://beta.usaspending.gov</a> ) and expenditure line item metadata.</p><p>Would having traceable money in a distributed ledger help us keep track of money collected from taxpayers?</p><p>Obviously, the volatility of most cryptocurrencies would be disadvantageous for purposes of transferring and accounting for government spending. Isn't there a way to peg a cryptocurrency to the USD; even with Quantitative Easing?  How is Quantitative Easing different from just deciding to print trillions more 'coins' in order to counter debt or inflation or deflation; why is the government in debt at all?</p>", 
+      "id": 15945520, 
+      "time": 1513514414, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15945549": {
+      "time_iso": "2017-12-17 07:49:10", 
+      "parent": 15945520, 
+      "text": "re: Quantitative Easing<p><a href=\"https://en.wikipedia.org/wiki/Quantitative_easing\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Quantitative_easing</a></p><p>Say I have $100 in my Social Security Fund (in very non-aggressive investments which need to meet or exceed inflation) and the total supply of money (including paper notes and numbers in debit and credit columns of various public and private databases) the total supply of money is $1T with $1T in debt; if 1T <i>is printed</i> to pay for that debt, is my $100 in retirement savings then worth $50? Or is it more complex than that?</p>", 
+      "id": 15945549, 
+      "time": 1513514950, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15945727": {
+      "time_iso": "2017-12-17 08:42:57", 
+      "kids": [
+        15946300, 
+        15947251, 
+        15945889, 
+        15946552, 
+        15946162, 
+        15946343
+      ], 
+      "parent": 15945490, 
+      "text": "&gt; It is NOT secure neither a real blockchain and you should NOT use this for anything else than educational purposes.<p>It would be nice if non-secure parts of implementation or design were clearly marked.</p><p>What's the point of education article, if bad examples aren't clearly marked as bad? If MD5 usage is the only issue, author could easily replace it with SHA and get rid of the warning at the start. If there are other issues, how can a reader know which parts to trust?</p><p>Even if fixing bad/insecure parts are \"left as an exercise for the reader\", learning value of the article would be much greater if those parts would be at least pointed at.</p>", 
+      "id": 15945727, 
+      "time": 1513518177, 
+      "type": "comment", 
+      "by": "magnat"
+    }, 
+    "15945775": {
+      "time_iso": "2017-12-17 09:01:08", 
+      "kids": [
+        15946474, 
+        15947406
+      ], 
+      "parent": 15945490, 
+      "text": "Thanks! Simplest explanation I've seen.<p>Here's an nbviewer link (which, like base58, works on/over a phone):\n<a href=\"https://nbviewer.jupyter.org/github/julienr/ipynb_playground/blob/master/bitcoin/dumbcoin/dumbcoin.ipynb\" rel=\"nofollow\">https://nbviewer.jupyter.org/github/julienr/ipynb_playground...</a></p><p>Note that Bitcoin does two rounds of SHA256 rather than one round of MD5. There's also a \"P2P DHT\" (peer-to-peer distributed hash table) for storing and retrieving blocks from the blockchain; instead of traditional database multi-master replication and secured offline backups.</p><p>&gt; ERROR:root:Invalid transaction signature, trying to spend someone else's money ?</p><p>This could be more specific. Where would these types of error messages log to?</p>", 
+      "id": 15945775, 
+      "time": 1513519268, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15946300": {
+      "time_iso": "2017-12-17 11:17:58", 
+      "kids": [
+        15947342, 
+        15948229
+      ], 
+      "parent": 15945727, 
+      "text": "OP here.<p>erikb is spot on in the sibling comment. This hasn't been expert-reviewed, hasn't been audited so I'm pretty confident there is a bug somewhere that I don't know about.</p><p>It's educational in the sense that I tried as best a I could to implement the various algorithmic parts (mining, validating blocks &amp; transactions, etc...).</p><p>I originally used MD5 because I thought I would do more exploration regarding difficulty and MD5 is faster to compute than SHA. In the end, I didn't do that exploration, so I could easily replace MD5 with SHA. I'll update the notebook to use SHA, but I'm still not gonna remove the warning :)</p><p>I'll also try to point out more explicitly which parts I <i>think</i> are not secure.</p>", 
+      "id": 15946300, 
+      "time": 1513527478, 
+      "type": "comment", 
+      "by": "jre"
+    }, 
+    "15947342": {
+      "time_iso": "2017-12-17 15:01:19", 
+      "kids": [
+        15947843
+      ], 
+      "parent": 15946300, 
+      "text": "&gt; I'll also try to point out more explicitly which parts I think are not secure.<p>Things I've noticed:</p><p>* Use of floating point arithmetic.</p><p>* Non-reproducible serialization in verify_transaction can produce slightly different, but equivalent JSON, which leads to rejecting transactions if produced JSON is platform-dependent (e.g. CRLFs, spaces vs tabs).</p><p>* Miners can perform DoS by creating a pair of blocks referencing each other (recursive call in verify_block is made before any sanity checks or hash checks, so they can modify block's ancestor without worrying about changing its hash).</p><p>* mine method can loop forever due to integer overflow.</p><p>* Miners can put in block a transaction with output sum greater than input sum - only place where it is checked is in compute_fee and no path from verify_block leads there.</p>", 
+      "id": 15947342, 
+      "time": 1513540879, 
+      "type": "comment", 
+      "by": "magnat"
+    }, 
+    "15947406": {
+      "time_iso": "2017-12-17 15:16:28", 
+      "parent": 15945775, 
+      "text": "My mistake, it's BitTorrent that has a DHT. Instead of finding the most network local peer with the block identified by a (prev_hash, hash) hash table key, the Bitcoin blockchain broadcasts all messages to all nodes; which must each maintain a complete backup of the entire blockchain.<p>\"Protocol documentation\"\n<a href=\"https://en.bitcoin.it/wiki/Protocol_documentation\" rel=\"nofollow\">https://en.bitcoin.it/wiki/Protocol_documentation</a></p>", 
+      "id": 15947406, 
+      "time": 1513541788, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15947843": {
+      "time_iso": "2017-12-17 16:42:01", 
+      "kids": [
+        15947982
+      ], 
+      "parent": 15947342, 
+      "text": "Those are all very good points I didn't think about, thanks for these.<p>I'll fix the two bugs with verify_block and the possibility for a miner to inject invalid a output &gt; input transaction.</p><p>I'll add a note for the 3 others.</p>", 
+      "id": 15947843, 
+      "time": 1513546921, 
+      "type": "comment", 
+      "by": "jre"
+    }, 
+    "15947982": {
+      "time_iso": "2017-12-17 17:12:59", 
+      "kids": [
+        15948355
+      ], 
+      "parent": 15947843, 
+      "text": "For deterministic serialization (~canonicalization), you can use \nsort_keys=True or serialize OrderedDicts. For deseialization, you'd need object_pairs_hook=collections.OrderedDict.<p>Most current blockchains sign a binary representation with fixed length fields. In terms of JSON, JSON-LD is for graphs and it can be canonicalized. Blockcerts and Chainpoint are JSON-LD specs:</p><p>&gt; Blockcerts uses the Verifiable Claims MerkleProof2017 signature format, which is based on Chainpoint 2.0.</p><p><a href=\"https://github.com/blockchain-certificates/cert-verifier-js/blob/master/README.md#check-certificate-integrity\" rel=\"nofollow\">https://github.com/blockchain-certificates/cert-verifier-js/...</a></p>", 
+      "id": 15947982, 
+      "time": 1513548779, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "15948355": {
+      "time_iso": "2017-12-17 18:49:04", 
+      "kids": [
+        15948434
+      ], 
+      "parent": 15947982, 
+      "text": "FYI, dicts are now ordered by default as of Python 3.6.", 
+      "id": 15948355, 
+      "time": 1513554544, 
+      "type": "comment", 
+      "by": "Cyph0n"
+    }, 
+    "15948434": {
+      "time_iso": "2017-12-17 19:07:34", 
+      "kids": [
+        15949077, 
+        15948448
+      ], 
+      "parent": 15948355, 
+      "text": "That's an implementation detail, and shouldn't be relied upon. If you want an ordered dictionary, you should use collections.OrderedDict.", 
+      "id": 15948434, 
+      "time": 1513555654, 
+      "type": "comment", 
+      "by": "cpburns2009"
+    }, 
+    "15949077": {
+      "time_iso": "2017-12-17 22:01:41", 
+      "parent": 15948434, 
+      "text": "It's now the spec for 3.6+.<p>&gt; #python news:   @gvanrossum just pronounced that dicts are now guaranteed to retain insertion order.  This is the end of a long journey.</p><p><a href=\"https://twitter.com/raymondh/status/941709626545864704\" rel=\"nofollow\">https://twitter.com/raymondh/status/941709626545864704</a></p><p>More here:\n<a href=\"https://www.reddit.com/r/Python/comments/7jyluw/dict_knownordered_versus_ordereddict_an/\" rel=\"nofollow\">https://www.reddit.com/r/Python/comments/7jyluw/dict_knownor...</a></p><p>OrderedDicts are backwards-compatible and are guaranteed to maintain order after deletion.</p>", 
+      "id": 15949077, 
+      "time": 1513566101, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    15945490, 
+    15939390, 
+    15913250, 
+    15902190, 
+    15907523, 
+    15893911, 
+    15906119, 
+    15902054, 
+    15899901, 
+    15879519, 
+    15901656, 
+    15898304, 
     15866287, 
     15822297, 
     15840757, 
