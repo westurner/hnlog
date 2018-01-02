@@ -6996,8 +6996,8 @@
         15965373, 
         15965381, 
         15965800, 
-        15995037, 
         15965079, 
+        15995037, 
         15965637, 
         15964912
       ], 
@@ -7180,26 +7180,26 @@
         16012649, 
         16018632, 
         16011177, 
-        16011452, 
         16009769, 
+        16011452, 
         16011426, 
         16015573, 
         16010175, 
         16009785, 
         16009845, 
-        16014441, 
         16009926, 
         16011052, 
         16011819, 
+        16014441, 
         16009774, 
-        16014339, 
-        16013988, 
-        16013974, 
         16010602, 
+        16013988, 
+        16014339, 
+        16013974, 
         16013152, 
         16012919, 
-        16013717, 
         16010626, 
+        16013717, 
         16012699, 
         16010657, 
         16014519, 
@@ -7215,7 +7215,7 @@
       "url": "https://www.nytimes.com/2017/12/25/business/energy-environment/germany-electricity-negative-prices.html", 
       "title": "Power Prices Go Negative in Germany", 
       "by": "kwindla", 
-      "score": 482, 
+      "score": 484, 
       "time": 1514309827, 
       "type": "story", 
       "id": 16009623
@@ -7307,6 +7307,29 @@
       "type": "comment", 
       "by": "JanSt"
     }, 
+    "16014628": {
+      "time_iso": "2017-12-27 08:32:39", 
+      "kids": [
+        16016952, 
+        16015583, 
+        16016029, 
+        16015814, 
+        16015662, 
+        16015555, 
+        16017743, 
+        16019971, 
+        16015146, 
+        16018186
+      ], 
+      "descendants": 48, 
+      "url": "https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-1-Submissions", 
+      "title": "NIST Post-Quantum Cryptography Round 1 Submissions", 
+      "by": "sohkamyung", 
+      "score": 130, 
+      "time": 1514381559, 
+      "type": "story", 
+      "id": 16014628
+    }, 
     "16015772": {
       "time_iso": "2017-12-27 11:36:28", 
       "kids": [
@@ -7318,6 +7341,19 @@
       "time": 1514392588, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16017743": {
+      "time_iso": "2017-12-27 15:26:07", 
+      "kids": [
+        16052295, 
+        16017826
+      ], 
+      "parent": 16014628, 
+      "text": "Are there any blogs that talk about what\u2019s required in a crypto algorithm to withstand quantum computing? Is a straightforward increasing the key size enough? Or are there new paradigms explored? Are these algorithms symmetric or asymmetric?", 
+      "id": 16017743, 
+      "time": 1514406367, 
+      "type": "comment", 
+      "by": "yalogin"
     }, 
     "16018427": {
       "time_iso": "2017-12-27 17:03:15", 
@@ -7332,8 +7368,8 @@
       "time_iso": "2017-12-29 15:53:06", 
       "kids": [
         16033397, 
-        16033836, 
         16033195, 
+        16033836, 
         16033250, 
         16033799, 
         16033117, 
@@ -7343,11 +7379,11 @@
         16034186, 
         16033810
       ], 
-      "descendants": 41, 
+      "descendants": 53, 
       "url": "http://gridcoin.us/", 
       "title": "Gridcoin: Rewarding Scientific Distributed Computing", 
       "by": "trueduke", 
-      "score": 124, 
+      "score": 131, 
       "time": 1514580786, 
       "type": "story", 
       "id": 16031912
@@ -7433,9 +7469,43 @@
       "time": 1514646298, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16049440": {
+      "time_iso": "2018-01-01 21:38:58", 
+      "kids": [
+        16052193, 
+        16049457
+      ], 
+      "descendants": 2, 
+      "title": "What are some good resources to learn about Quantum Computing?", 
+      "by": "nmehta21", 
+      "score": 3, 
+      "time": 1514860738, 
+      "type": "story", 
+      "id": 16049440
+    }, 
+    "16052193": {
+      "time_iso": "2018-01-02 10:05:26", 
+      "parent": 16049440, 
+      "text": "Quantum computing:\n<a href=\"https://en.wikipedia.org/wiki/Quantum_computing\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Quantum_computing</a><p>Quantum algorithm: <a href=\"https://en.wikipedia.org/wiki/Quantum_algorithm\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Quantum_algorithm</a></p><p>Quantum Algorithm Zoo:\n<a href=\"http://math.nist.gov/quantum/zoo/\" rel=\"nofollow\">http://math.nist.gov/quantum/zoo/</a></p><p>Jupyter notebooks:</p><p>* QISKit/qiskit-tutorial &gt; \n\"Exploring Quantum Information Concepts\"\n<a href=\"https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/blob/stable/index.ipynb\" rel=\"nofollow\">https://nbviewer.jupyter.org/github/QISKit/qiskit-tutorial/b...</a></p><p>* jrjohansson/qutip-lectures &gt; \n\"Lecture 0 - Introduction to QuTiP - The Quantum Toolbox in Python\" <a href=\"https://nbviewer.jupyter.org/github/jrjohansson/qutip-lectures/blob/master/Lecture-0-Introduction-to-QuTiP.ipynb\" rel=\"nofollow\">https://nbviewer.jupyter.org/github/jrjohansson/qutip-lectur...</a></p><p><a href=\"http://qutip.org/tutorials.html\" rel=\"nofollow\">http://qutip.org/tutorials.html</a></p><p>* sympy/quantum_notebooks <a href=\"https://nbviewer.jupyter.org/github/sympy/quantum_notebooks/tree/master/notebooks/\" rel=\"nofollow\">https://nbviewer.jupyter.org/github/sympy/quantum_notebooks/...</a></p><p><a href=\"https://github.com/topics/quantum\" rel=\"nofollow\">https://github.com/topics/quantum</a></p><p>krishnakumarsekar/awesome-quantum-machine-learning:\n<a href=\"https://github.com/krishnakumarsekar/awesome-quantum-machine-learning\" rel=\"nofollow\">https://github.com/krishnakumarsekar/awesome-quantum-machine...</a></p><p>arxiv quant-ph:\n<a href=\"https://arxiv.org/list/quant-ph/recent\" rel=\"nofollow\">https://arxiv.org/list/quant-ph/recent</a></p>", 
+      "id": 16052193, 
+      "time": 1514905526, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16052295": {
+      "time_iso": "2018-01-02 10:21:07", 
+      "parent": 16017743, 
+      "text": "This paper lists a few of the practical concerns for quantum-resistant algos (and proposes an algo that wasn't submitted to NIST Post-Quantum Cryptography Round 1):<p>\"Quantum attacks on Bitcoin, and how to protect against them\"\n<a href=\"https://arxiv.org/abs/1710.10377\" rel=\"nofollow\">https://arxiv.org/abs/1710.10377</a> (~2027?)</p><p>A few Quantum Computing and Quantum Algorithm resources:\n<a href=\"https://news.ycombinator.com/item?id=16052193\" rel=\"nofollow\">https://news.ycombinator.com/item?id=16052193</a></p><p><i>Responsive HTML</i> (arxiv-vanity/engrafo, PLoS,) or <i>Markdown in a Jupyter notebook</i> (stored in a Git repo with a tag and maybe a DOI from figshare or Zenodo) really would be far more useful than comparing LaTeX equations rendered into PDFs.</p>", 
+      "id": 16052295, 
+      "time": 1514906467, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16014628, 
+    16049440, 
     16031912, 
     16009623, 
     15982007, 
