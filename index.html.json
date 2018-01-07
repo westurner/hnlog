@@ -7129,8 +7129,8 @@
         15987826, 
         15985366, 
         15985371, 
-        15988746, 
         15985440, 
+        15988746, 
         15988380, 
         15986831, 
         15985578, 
@@ -7149,7 +7149,7 @@
       "url": "https://www.quantamagazine.org/mathematicians-find-wrinkle-in-famed-fluid-equations-20171221/", 
       "title": "Mathematicians Find Wrinkle in Famed Fluid Equations", 
       "by": "digital55", 
-      "score": 239, 
+      "score": 240, 
       "time": 1513884635, 
       "type": "story", 
       "id": 15982007
@@ -7501,9 +7501,69 @@
       "time": 1514906467, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16052492": {
+      "time_iso": "2018-01-02 10:48:10", 
+      "kids": [
+        16052779
+      ], 
+      "descendants": 1, 
+      "url": "http://lesswrong.com/lw/mfm/a_year_of_spaced_repetition_software_in_the/", 
+      "title": "A Year of Spaced Repetition Software in the Classroom", 
+      "by": "misiti3780", 
+      "score": 4, 
+      "time": 1514908090, 
+      "type": "story", 
+      "id": 16052492
+    }, 
+    "16052779": {
+      "time_iso": "2018-01-02 11:20:45", 
+      "parent": 16052492, 
+      "text": "What a great article about using Anki during class in a Language Arts curriculum.<p><a href=\"https://en.wikipedia.org/wiki/Spaced_repetition\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Spaced_repetition</a></p><p><a href=\"https://en.wikipedia.org/wiki/Anki_(software)\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Anki_(software)</a></p>", 
+      "id": 16052779, 
+      "time": 1514910045, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16091531": {
+      "time_iso": "2018-01-07 12:06:03", 
+      "kids": [
+        16091716
+      ], 
+      "descendants": 2, 
+      "url": "https://tpaschalis.github.io/numpy-matlab-matrix-to-latex/", 
+      "title": "Show HN: Convert Matlab/NumPy matrices to LaTeX tables", 
+      "by": "tpaschalis", 
+      "score": 3, 
+      "time": 1515344763, 
+      "type": "story", 
+      "id": 16091531
+    }, 
+    "16091716": {
+      "time_iso": "2018-01-07 12:42:27", 
+      "kids": [
+        16091747
+      ], 
+      "parent": 16091531, 
+      "text": "LaTeX must be escaped in order to prevent LaTeX injection.<p>AFAIU, numpy.savetxt does not escape LaTeX characters?</p><p>Jupyter Notebook rich object display protocol checks for obj._repr_latex_() when converting a Jupyter notebook from .ipynb to LaTeX.</p><p>The Pandas _repr_latex_() function calls to_latex(escape=True <i>\u2020</i> <i>).\n<a href=\"https://github.com/pandas-dev/pandas/blob/master/pandas/core/generic.py\" rel=\"nofollow\">https://github.com/pandas-dev/pandas/blob/master/pandas/core...</a></i></p><p>\u2020* The default value of escape \ufe0f (and a few other presentational parameters) is determined from the display.latex.escape option:\n<a href=\"https://pandas.pydata.org/pandas-docs/stable/options.html?highlight=display.latex#available-options\" rel=\"nofollow\">https://pandas.pydata.org/pandas-docs/stable/options.html?hi...</a> *</p><p>df = pd.read_csv('filename.csv', ); \ndf.to_latex(escape=True)</p><p>Or, with a Jupyter notebook:</p><p>df = pd.read_csv('filename.csv', ); \ndf</p><p># $ jupyter convert --to latex filename.ipynb</p>", 
+      "id": 16091716, 
+      "time": 1515346947, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16091747": {
+      "time_iso": "2018-01-07 12:50:37", 
+      "parent": 16091716, 
+      "text": "Wouldn't it be great if there was a LaTeX incantation that allowed for specifying that the referenced dataset URI (maybe optionally displayed also as a table) is a premise of the analysis; with RDFa and/ or JSONLD in addition to LaTeX PDF? That way, an automated analysis tool could identify and at least retrieve the data for rigorous unbiased analyses.<p><a href=\"http://schema.org/Dataset\" rel=\"nofollow\">http://schema.org/Dataset</a></p><p><a href=\"http://schema.org/ScholarlyArticle\" rel=\"nofollow\">http://schema.org/ScholarlyArticle</a></p><p>#StructuredPremises</p>", 
+      "id": 16091747, 
+      "time": 1515347437, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16091531, 
+    16052492, 
     16014628, 
     16049440, 
     16031912, 

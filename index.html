@@ -114,6 +114,20 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2018-01-07 12:06:03</td>
+        <td><a href="#story-16091531">Show HN: Convert Matlab/NumPy matrices to LaTeX tables</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=tpaschalis">tpaschalis</a></td>
+        <td>3</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2018-01-02 10:48:10</td>
+        <td><a href="#story-16052492">A Year of Spaced Repetition Software in the Classroom</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=misiti3780">misiti3780</a></td>
+        <td>4</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2017-12-27 08:32:39</td>
         <td><a href="#story-16014628">NIST Post-Quantum Cryptography Round 1 Submissions</a></td>
         <td><a href="https://news.ycombinator.com/user?id=sohkamyung">sohkamyung</a></td>
@@ -145,7 +159,7 @@
         <td>2017-12-21 14:30:35</td>
         <td><a href="#story-15982007">Mathematicians Find Wrinkle in Famed Fluid Equations</a></td>
         <td><a href="https://news.ycombinator.com/user?id=digital55">digital55</a></td>
-        <td>239</td>
+        <td>240</td>
     </tr>
     
     <tr scope="row" >
@@ -986,6 +1000,95 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-16091531">
+    <div class="card-block">
+      <a class="collapser" href="#story-16091531-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-16091531-collapse">
+        <h4 class="card-title"><a href="#story-16091531">Show HN: Convert Matlab/NumPy matrices to LaTeX tables</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=tpaschalis">tpaschalis</a> |
+          <a href="https://news.ycombinator.com/item?id=16091531"
+          
+          >2018-01-07 12:06:03</a> | 3  | <a href="#story-16091531">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://tpaschalis.github.io/numpy-matlab-matrix-to-latex/" rel="nofollow">https://tpaschalis.github.io/numpy-matlab-matrix-to-latex/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-16091716">
+    <div class="card-block">
+      <a class="collapser" href="#comment-16091716-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-16091716-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=16091716"
+          id="comment-16091716"
+          >2018-01-07 12:42:27</a> | <a href="#comment-16091716">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">LaTeX must be escaped in order to prevent LaTeX injection.<p>AFAIU, numpy.savetxt does not escape LaTeX characters?</p><p>Jupyter Notebook rich object display protocol checks for obj._repr_latex_() when converting a Jupyter notebook from .ipynb to LaTeX.</p><p>The Pandas _repr_latex_() function calls to_latex(escape=True <i>†</i> <i>).
+<a href="https://github.com/pandas-dev/pandas/blob/master/pandas/core/generic.py" rel="nofollow">https://github.com/pandas-dev/pandas/blob/master/pandas/core...</a></i></p><p>†* The default value of escape ️ (and a few other presentational parameters) is determined from the display.latex.escape option:
+<a href="https://pandas.pydata.org/pandas-docs/stable/options.html?highlight=display.latex#available-options" rel="nofollow">https://pandas.pydata.org/pandas-docs/stable/options.html?hi...</a> *</p><p>df = pd.read_csv('filename.csv', ); 
+df.to_latex(escape=True)</p><p>Or, with a Jupyter notebook:</p><p>df = pd.read_csv('filename.csv', ); 
+df</p><p># $ jupyter convert --to latex filename.ipynb</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-16091747">
+    <div class="card-block">
+      <a class="collapser" href="#comment-16091747-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-16091747-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=16091747"
+          id="comment-16091747"
+          >2018-01-07 12:50:37</a> | <a href="#comment-16091747">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Wouldn't it be great if there was a LaTeX incantation that allowed for specifying that the referenced dataset URI (maybe optionally displayed also as a table) is a premise of the analysis; with RDFa and/ or JSONLD in addition to LaTeX PDF? That way, an automated analysis tool could identify and at least retrieve the data for rigorous unbiased analyses.<p><a href="http://schema.org/Dataset" rel="nofollow">http://schema.org/Dataset</a></p><p><a href="http://schema.org/ScholarlyArticle" rel="nofollow">http://schema.org/ScholarlyArticle</a></p><p>#StructuredPremises</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-16052492">
+    <div class="card-block">
+      <a class="collapser" href="#story-16052492-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-16052492-collapse">
+        <h4 class="card-title"><a href="#story-16052492">A Year of Spaced Repetition Software in the Classroom</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=misiti3780">misiti3780</a> |
+          <a href="https://news.ycombinator.com/item?id=16052492"
+          
+          >2018-01-02 10:48:10</a> | 4  | <a href="#story-16052492">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="http://lesswrong.com/lw/mfm/a_year_of_spaced_repetition_software_in_the/" rel="nofollow">http://lesswrong.com/lw/mfm/a_year_of_spaced_repetition_software_in_the/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-16052779">
+    <div class="card-block">
+      <a class="collapser" href="#comment-16052779-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-16052779-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=16052779"
+          id="comment-16052779"
+          >2018-01-02 11:20:45</a> | <a href="#comment-16052779">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">What a great article about using Anki during class in a Language Arts curriculum.<p><a href="https://en.wikipedia.org/wiki/Spaced_repetition" rel="nofollow">https://en.wikipedia.org/wiki/Spaced_repetition</a></p><p><a href="https://en.wikipedia.org/wiki/Anki_(software)" rel="nofollow">https://en.wikipedia.org/wiki/Anki_(software)</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-16014628">
     <div class="card-block">
       <a class="collapser" href="#story-16014628-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -1375,7 +1478,7 @@ CureCoin Reaches #1 Ranking on Folding@home</p><p>As of the afternoon of August 
           <a href="https://news.ycombinator.com/user?id=digital55">digital55</a> |
           <a href="https://news.ycombinator.com/item?id=15982007"
           
-          >2017-12-21 14:30:35</a> | 239  | <a href="#story-15982007">#</a> | <a href="#" class="toplink">^</a>
+          >2017-12-21 14:30:35</a> | 240  | <a href="#story-15982007">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.quantamagazine.org/mathematicians-find-wrinkle-in-famed-fluid-equations-20171221/" rel="nofollow">https://www.quantamagazine.org/mathematicians-find-wrinkle-in-famed-fluid-equations-20171221/</a></span>
