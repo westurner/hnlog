@@ -7175,27 +7175,27 @@
         16009899, 
         16011489, 
         16013175, 
-        16010850, 
         16009811, 
+        16010850, 
         16012649, 
         16018632, 
-        16011177, 
         16009769, 
+        16011177, 
         16011452, 
         16011426, 
-        16015573, 
         16010175, 
+        16015573, 
         16009785, 
         16009845, 
         16009926, 
         16011052, 
+        16009774, 
         16011819, 
         16014441, 
-        16009774, 
         16010602, 
         16013988, 
-        16014339, 
         16013974, 
+        16014339, 
         16013152, 
         16012919, 
         16010626, 
@@ -7211,11 +7211,11 @@
         16010036, 
         16011667
       ], 
-      "descendants": 247, 
+      "descendants": 250, 
       "url": "https://www.nytimes.com/2017/12/25/business/energy-environment/germany-electricity-negative-prices.html", 
       "title": "Power Prices Go Negative in Germany", 
       "by": "kwindla", 
-      "score": 484, 
+      "score": 485, 
       "time": 1514309827, 
       "type": "story", 
       "id": 16009623
@@ -7315,8 +7315,8 @@
         16016029, 
         16015814, 
         16015662, 
-        16015555, 
         16017743, 
+        16015555, 
         16019971, 
         16015146, 
         16018186
@@ -7345,8 +7345,8 @@
     "16017743": {
       "time_iso": "2017-12-27 15:26:07", 
       "kids": [
-        16052295, 
-        16017826
+        16017826, 
+        16052295
       ], 
       "parent": 16014628, 
       "text": "Are there any blogs that talk about what\u2019s required in a crypto algorithm to withstand quantum computing? Is a straightforward increasing the key size enough? Or are there new paradigms explored? Are these algorithms symmetric or asymmetric?", 
@@ -7371,19 +7371,19 @@
         16033195, 
         16033836, 
         16033250, 
-        16033799, 
         16033117, 
+        16033799, 
         16033161, 
         16034259, 
         16033686, 
         16034186, 
         16033810
       ], 
-      "descendants": 53, 
+      "descendants": 55, 
       "url": "http://gridcoin.us/", 
       "title": "Gridcoin: Rewarding Scientific Distributed Computing", 
       "by": "trueduke", 
-      "score": 131, 
+      "score": 134, 
       "time": 1514580786, 
       "type": "story", 
       "id": 16031912
@@ -7559,9 +7559,143 @@
       "time": 1515347437, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16117803": {
+      "time_iso": "2018-01-10 14:02:09", 
+      "kids": [
+        16119378, 
+        16118122
+      ], 
+      "descendants": 6, 
+      "url": "https://twitter.com/Swizec/status/951158831760908288", 
+      "title": "Git is a blockchain", 
+      "by": "Swizec", 
+      "score": 13, 
+      "time": 1515610929, 
+      "type": "story", 
+      "id": 16117803
+    }, 
+    "16119378": {
+      "time_iso": "2018-01-10 16:41:52", 
+      "kids": [
+        16119584
+      ], 
+      "parent": 16117803, 
+      "text": "Bitcoin is very much inspired by git; though in terms of immutability it's more similar to mercurial and subversion (git push -f)<p>Git accepts whatever timestamp a node chooses to add to a commit. This can cause interesting sorts in terms of chronological and topological sort orders.</p><p>Without an agreed-upon central git server there <i>is not</i> a canonical graph.</p><p>You can use GPG signatures with Git, but you need to provide your own keyserver and then there's still no way to enforce permissions (e.g. who can ALTER, UPDATE, or DELETE which files).</p><p>Git is a directed acyclic graph (DAG). Not a chain. Blockchains are chains to prevent double-spending (e.g. on a different fork).</p><p>Bitcoin was accepted by The Linux Foundation (Linus Torvalds wrote Git):\n<a href=\"https://lists.linuxfoundation.org/pipermail/bitcoin-dev/\" rel=\"nofollow\">https://lists.linuxfoundation.org/pipermail/bitcoin-dev/</a></p>", 
+      "id": 16119378, 
+      "time": 1515620512, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16119584": {
+      "time_iso": "2018-01-10 17:06:36", 
+      "parent": 16119378, 
+      "text": "It's always been a mix of inspiration in my mind:<p>- Torrent P2P file sharing.</p><p>- Git like data structure and protocol</p><p>- Immutability from functional programming</p><p>- Public key cryptography</p>", 
+      "id": 16119584, 
+      "time": 1515621996, 
+      "type": "comment", 
+      "by": "gitgud"
+    }, 
+    "16126373": {
+      "time_iso": "2018-01-11 13:27:17", 
+      "kids": [
+        16127482
+      ], 
+      "descendants": 1, 
+      "url": "https://www.w3.org/blog/2018/01/what-does-the-publishing-industry-bring-to-the-web/", 
+      "title": "What does the publishing industry bring to the Web?", 
+      "by": "mpweiher", 
+      "score": 2, 
+      "time": 1515695237, 
+      "type": "story", 
+      "id": 16126373
+    }, 
+    "16127482": {
+      "time_iso": "2018-01-11 15:25:04", 
+      "parent": 16126373, 
+      "text": "Q: What does the publishing industry bring to the Web?<p>A: PDF hosting, comments, a community of experts</p><p>FWIU, Publishing@W3C proposes WPUB [1] instead of PDF or MHTML for 'publishing' <a href=\"http://schema.org/ScholarlyArticle\" rel=\"nofollow\">http://schema.org/ScholarlyArticle</a> .</p><p>How do WPUB canonical identifiers (which reference/redirect(?) to the latest version of the resource) work with W3C Web Annotations attached to e.g. sentences within a resource identified with a URI? When the document changes, what happens to the attached comments? This is also a problem with PDFs: with a filename like document-20180111-v01.pdf and a stable(!) URL like <a href=\"http://example.org/document-20180111-v01.pdf\" rel=\"nofollow\">http://example.org/document-20180111-v01.pdf</a>, we can add Web Annotations to that URI; but with a new URI, those annotations are lost.</p><p>[1] <a href=\"https://w3c.github.io/wpub/\" rel=\"nofollow\">https://w3c.github.io/wpub/</a></p>", 
+      "id": 16127482, 
+      "time": 1515702304, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16142545": {
+      "time_iso": "2018-01-13 21:42:47", 
+      "kids": [
+        16142837
+      ], 
+      "descendants": 2, 
+      "url": "https://github.com/neilpanchal/spinzero-jupyter-theme", 
+      "title": "Spinzero \u2013 A Minimal Jupyter Notebook Theme", 
+      "by": "neilpanchal", 
+      "score": 5, 
+      "time": 1515897767, 
+      "type": "story", 
+      "id": 16142545
+    }, 
+    "16142837": {
+      "time_iso": "2018-01-13 23:46:45", 
+      "kids": [
+        16142849
+      ], 
+      "parent": 16142545, 
+      "text": "+1. The Computer Modern serif fonts look legit. Like LaTeX legit.<p>Now, if we could make the fonts unscalable and put things in two columns (in order to require extra scrolling and 36 character wide almost-compiling copy-and-pasted code samples without syntax highlighting) we'd be almost there!</p>", 
+      "id": 16142837, 
+      "time": 1515905205, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16142849": {
+      "time_iso": "2018-01-13 23:50:31", 
+      "parent": 16142837, 
+      "text": "I searched for Computer Modern fonts and they're all available here: <a href=\"http://canopus.iacp.dvo.ru/~panov/cm-unicode/\" rel=\"nofollow\">http://canopus.iacp.dvo.ru/~panov/cm-unicode/</a><p>I am surprised why these beauties are not widely adopted on websites and such. I agree, they just look very disciplined and professional.</p><p>I'd hope someday these relics are hosted on Google Fonts.</p>", 
+      "id": 16142849, 
+      "time": 1515905431, 
+      "type": "comment", 
+      "by": "fermienrico"
+    }, 
+    "16176337": {
+      "time_iso": "2018-01-18 06:36:07", 
+      "kids": [
+        16176858, 
+        16176360
+      ], 
+      "descendants": 3, 
+      "text": "I am a full-time Android developer who does most of his programming work in Java. I am a non CS graduate so didn't study Data structure and algorithms course in university so I am not familiar with this subject which is hindering my prospect of getting better programming jobs. There are so many resources out there on this subject that I am unable to decide which one is the best for my case. Could someone please point me out in the right direction. Thanks.", 
+      "title": "Ask HN: Recommended course/website/book to learn data structure and algorithms", 
+      "by": "strikeX", 
+      "score": 2, 
+      "time": 1516275367, 
+      "type": "story", 
+      "id": 16176337
+    }, 
+    "16176858": {
+      "time_iso": "2018-01-18 08:24:41", 
+      "kids": [
+        16176889
+      ], 
+      "parent": 16176337, 
+      "text": "Data Structure: <a href=\"https://en.wikipedia.org/wiki/Data_structure\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Data_structure</a><p>Algorithm:\n<a href=\"https://en.wikipedia.org/wiki/Algorithm\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Algorithm</a></p><p>Big O notation: \n<a href=\"https://en.wikipedia.org/wiki/Big_O_notation\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Big_O_notation</a></p><p>Big-O Cheatsheet: \n<a href=\"http://bigocheatsheet.com\" rel=\"nofollow\">http://bigocheatsheet.com</a></p><p>Coding Interview University &gt; Data Structures: \n<a href=\"https://github.com/jwasham/coding-interview-university/blob/master/README.md#data-structures\" rel=\"nofollow\">https://github.com/jwasham/coding-interview-university/blob/...</a></p><p>OSSU: Open Source Society University &gt; Core CS &gt; Core Theory &gt; \n\"Algorithms: Design and Analysis, Part I\" [&amp;2]\n<a href=\"https://github.com/ossu/computer-science/blob/master/README.md#core-theory\" rel=\"nofollow\">https://github.com/ossu/computer-science/blob/master/README....</a></p><p>\"Algorithms, 4th Edition\" (2011; Sedgewick, Wayne): \n<a href=\"https://algs4.cs.princeton.edu/\" rel=\"nofollow\">https://algs4.cs.princeton.edu/</a></p>", 
+      "id": 16176858, 
+      "time": 1516281881, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16176889": {
+      "time_iso": "2018-01-18 08:30:10", 
+      "parent": 16176858, 
+      "text": "Complexity Zoo &gt; Petting Zoo (P, NP,):\n<a href=\"https://complexityzoo.uwaterloo.ca/Petting_Zoo\" rel=\"nofollow\">https://complexityzoo.uwaterloo.ca/Petting_Zoo</a>", 
+      "id": 16176889, 
+      "time": 1516282210, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16176337, 
+    16142545, 
+    16126373, 
+    16117803, 
     16091531, 
     16052492, 
     16014628, 
