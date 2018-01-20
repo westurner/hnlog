@@ -7689,10 +7689,147 @@
       "time": 1516282210, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16178534": {
+      "time_iso": "2018-01-18 11:47:03", 
+      "kids": [
+        16179541, 
+        16178934, 
+        16179182, 
+        16180554, 
+        16179673, 
+        16178965, 
+        16179597, 
+        16178923, 
+        16179335, 
+        16179192, 
+        16180107, 
+        16181481, 
+        16178859, 
+        16179560, 
+        16179261, 
+        16179806, 
+        16180401, 
+        16179773, 
+        16182505, 
+        16184573, 
+        16184010, 
+        16180180, 
+        16179076, 
+        16180355, 
+        16186530, 
+        16179322, 
+        16192424, 
+        16180059, 
+        16183779, 
+        16179310, 
+        16179107
+      ], 
+      "descendants": 220, 
+      "url": "https://www.winehq.org/news/2018011801", 
+      "title": "Wine 3.0 Released", 
+      "by": "etiam", 
+      "score": 711, 
+      "time": 1516294023, 
+      "type": "story", 
+      "id": 16178534
+    }, 
+    "16181536": {
+      "time_iso": "2018-01-18 16:16:16", 
+      "kids": [
+        16183883, 
+        16181538
+      ], 
+      "descendants": 2, 
+      "url": "https://github.com/cryptosphere/ordo", 
+      "title": "ORDO: a modern alternative to X.509", 
+      "by": "juancampa", 
+      "score": 1, 
+      "time": 1516310176, 
+      "type": "story", 
+      "id": 16181536
+    }, 
+    "16183139": {
+      "time_iso": "2018-01-18 19:51:30", 
+      "kids": [
+        16183152, 
+        16183742
+      ], 
+      "descendants": 2, 
+      "url": "http://www.businessinsider.com/kimbal-musks-food-nonprofit-goes-national-learning-gardens-schools-2018-1/", 
+      "title": "Kimbal Musk is leading a $25M mission to fix food in US schools", 
+      "by": "rmason", 
+      "score": 2, 
+      "time": 1516323090, 
+      "type": "story", 
+      "id": 16183139
+    }, 
+    "16183742": {
+      "time_iso": "2018-01-18 21:41:48", 
+      "parent": 16183139, 
+      "text": "+1. The introduction to \"Nudge: Improving Decisions about Health, Wealth, and Happiness\" discusses how choices about food placement in cafeterias influence students' dietary decisions.", 
+      "id": 16183742, 
+      "time": 1516329708, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16183779": {
+      "time_iso": "2018-01-18 21:48:46", 
+      "parent": 16178534, 
+      "text": "Hopefully this fixes the text in the GMAT Prep app.", 
+      "id": 16183779, 
+      "time": 1516330126, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16183883": {
+      "time_iso": "2018-01-18 22:15:55", 
+      "parent": 16181536, 
+      "text": "There are a number of W3C specs for this type of thing.<p>Linked Data Signatures (ld-signatures) relies upon a graph canonicalization algorithm that works with any RDF format (RDF/XML, JSON-LD, Turtle,)</p><p>&gt; The signature mechanism can be used across a variety of RDF data syntaxes such as JSON-LD, N-Quads, and TURTLE, without the need to regenerate the signature</p><p><a href=\"https://w3c-dvcg.github.io/ld-signatures/\" rel=\"nofollow\">https://w3c-dvcg.github.io/ld-signatures/</a></p><p>A defined way to transform ORDO to RDF would be useful for WoT graph applications.</p><p>WebID can express X509 certs with the cert ontology.\n{cert:X509Certificate, cert:PGPCertificate,} rdfs:subClassOf cert:Certificate</p><p><a href=\"https://www.w3.org/ns/auth/cert\" rel=\"nofollow\">https://www.w3.org/ns/auth/cert</a></p><p><a href=\"https://www.w3.org/2005/Incubator/webid/spec/\" rel=\"nofollow\">https://www.w3.org/2005/Incubator/webid/spec/</a></p><p>ld-signatures is newer than WebID.</p><p>(Also, we should put certificates in a blockchain; just like Blockcerts (JSON-LD))</p>", 
+      "id": 16183883, 
+      "time": 1516331755, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16190283": {
+      "time_iso": "2018-01-19 17:06:07", 
+      "kids": [
+        16191693
+      ], 
+      "descendants": 1, 
+      "url": "https://cs.stackexchange.com/questions/3/why-is-quicksort-better-than-other-sorting-algorithms-in-practice", 
+      "title": "Why is quicksort better than other sorting algorithms in practice?", 
+      "by": "isp", 
+      "score": 5, 
+      "time": 1516399567, 
+      "type": "story", 
+      "id": 16190283
+    }, 
+    "16191693": {
+      "time_iso": "2018-01-19 21:26:38", 
+      "parent": 16190283, 
+      "text": "The top-voted response is helpful: throwing away constants as in Big-O notation is misleading, average cases aren't the case; Sedgewick Algorthms book.<p><a href=\"https://en.wikipedia.org/wiki/Quicksort\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Quicksort</a></p><p><a href=\"https://rosettacode.org/wiki/Sorting_algorithms/Quicksort\" rel=\"nofollow\">https://rosettacode.org/wiki/Sorting_algorithms/Quicksort</a></p>", 
+      "id": 16191693, 
+      "time": 1516415198, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16194699": {
+      "time_iso": "2018-01-20 13:43:51", 
+      "parent": 16176337, 
+      "text": "While perusing awesome-awesomeness [1], I found awesome-algorithms [2] , algovis [3], and awesome-big-o  [4].<p>[1] <a href=\"https://github.com/bayandin/awesome-awesomeness\" rel=\"nofollow\">https://github.com/bayandin/awesome-awesomeness</a></p><p>[2] <a href=\"https://github.com/tayllan/awesome-algorithms\" rel=\"nofollow\">https://github.com/tayllan/awesome-algorithms</a></p><p>[3] <a href=\"https://github.com/enjalot/algovis\" rel=\"nofollow\">https://github.com/enjalot/algovis</a></p><p>[4] <a href=\"https://github.com/okulbilisim/awesome-big-o\" rel=\"nofollow\">https://github.com/okulbilisim/awesome-big-o</a></p>", 
+      "id": 16194699, 
+      "time": 1516473831, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
     16176337, 
+    16190283, 
+    16181536, 
+    16178534, 
+    16183139, 
     16142545, 
     16126373, 
     16117803, 
