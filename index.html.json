@@ -7534,7 +7534,7 @@
       "url": "https://tpaschalis.github.io/numpy-matlab-matrix-to-latex/", 
       "title": "Show HN: Convert Matlab/NumPy matrices to LaTeX tables", 
       "by": "tpaschalis", 
-      "score": 3, 
+      "score": 4, 
       "time": 1515344763, 
       "type": "story", 
       "id": 16091531
@@ -7822,9 +7822,225 @@
       "time": 1516473831, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16218989": {
+      "time_iso": "2018-01-23 18:41:16", 
+      "kids": [
+        16219617, 
+        16219039, 
+        16219089, 
+        16220050
+      ], 
+      "descendants": 5, 
+      "title": "Ask HN: Which programming language has the best documentation?", 
+      "by": "siquick", 
+      "score": 3, 
+      "time": 1516750876, 
+      "type": "story", 
+      "id": 16218989
+    }, 
+    "16219617": {
+      "time_iso": "2018-01-23 20:36:33", 
+      "parent": 16218989, 
+      "text": "Python! The Python docs are written in ReStructuredText and built with Sphinx.<p><a href=\"https://docs.python.org/\" rel=\"nofollow\">https://docs.python.org/</a></p><p><a href=\"https://devguide.python.org\" rel=\"nofollow\">https://devguide.python.org</a></p><p><a href=\"https://packaging.python.org\" rel=\"nofollow\">https://packaging.python.org</a></p>", 
+      "id": 16219617, 
+      "time": 1516757793, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235385": {
+      "time_iso": "2018-01-25 17:38:38", 
+      "kids": [
+        16235631, 
+        16235553, 
+        16235712, 
+        16235672
+      ], 
+      "descendants": 12, 
+      "url": "https://coincenter.org/entry/five-myths-about-bitcoin-s-energy-use", 
+      "title": "Five myths about Bitcoin\u2019s energy use", 
+      "by": "nvk", 
+      "score": 10, 
+      "time": 1516919918, 
+      "type": "story", 
+      "id": 16235385
+    }, 
+    "16235404": {
+      "time_iso": "2018-01-25 17:41:24", 
+      "kids": [
+        16235762, 
+        16236209, 
+        16235984, 
+        16235596
+      ], 
+      "descendants": 7, 
+      "url": "https://github.com/blog/2495-multiple-issue-and-pull-request-templates", 
+      "title": "Multiple issue and pull request templates", 
+      "by": "clarkbw", 
+      "score": 15, 
+      "time": 1516920084, 
+      "type": "story", 
+      "id": 16235404
+    }, 
+    "16235553": {
+      "time_iso": "2018-01-25 18:00:52", 
+      "kids": [
+        16235682, 
+        16235623
+      ], 
+      "parent": 16235385, 
+      "text": "&gt; But electricity costs matter even more to a Bitcoin miner than typical heavy industry. Electricity costs can be 30-70% of their total costs of operation.<p>&gt; [...] If Bitcoin mining really does begin to consume vast quantities of the global electricity supply it will, it follows, spur massive growth in efficient electricity production\u2014i.e. the green energy revolution. Moore\u2019s Law was partially a story about incredible advances in materials science, but it was also a story about incredible demand for computing that drove those advances and made semiconductor research and development profitable. If you want to see a Moore\u2019s-Law-like revolution in energy, then you should be rooting for, and not against, Bitcoin. The fact is that the Bitcoin network, right now, is providing a $200,000 bounty every 10 minutes (the mining reward) to the person who can find the cheapest energy on the planet.</p>", 
+      "id": 16235553, 
+      "time": 1516921252, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235596": {
+      "time_iso": "2018-01-25 18:06:52", 
+      "kids": [
+        16235776
+      ], 
+      "parent": 16235404, 
+      "text": "+1<p>Default: /ISSUE_TEMPLATE.md</p><p>/ISSUE_TEMPLATE/&lt;name&gt;.md&lt;/name&gt;</p><p>Default: /PULL_REQUEST_TEMPLATE.md</p><p>/PULL_REQUEST_TEMPLATE/&lt;name&gt;.md&lt;/name&gt;</p>", 
+      "id": 16235596, 
+      "time": 1516921612, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235623": {
+      "time_iso": "2018-01-25 18:10:49", 
+      "kids": [
+        16235669
+      ], 
+      "parent": 16235553, 
+      "text": "So, it's actually (~$200K-(n_kwhrs*cost_kwhr)) for whoever wins the block mining lottery (which is about every 10 minutes and can be anyone who's mining).<p>But the point about Bitcoin maintaining demand for and while we move to competitive lower cost renewable energy and greater efficiency is good.</p><p>What we should hope to see is the blockchain industry directly investing in clean energy capacity development in order to rationally minimize their primary costs and maximize environmental sustainability.</p>", 
+      "id": 16235623, 
+      "time": 1516921849, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235669": {
+      "time_iso": "2018-01-25 18:16:23", 
+      "kids": [
+        16235749
+      ], 
+      "parent": 16235623, 
+      "text": "It is kind of missing the point though. If everyone was competing to make electrical single-person planes to help people commute to work it would also increase demand for renewable/electrical energy - but can we agree, that just using electrical cars instead of planes is going to take a lot less electricity overall?", 
+      "id": 16235669, 
+      "time": 1516922183, 
+      "type": "comment", 
+      "by": "doppel"
+    }, 
+    "16235672": {
+      "time_iso": "2018-01-25 18:16:51", 
+      "kids": [
+        16235706
+      ], 
+      "parent": 16235385, 
+      "text": "Bitcoin's energy use will tend to raise to match the mining profits. As long as both BTC's price and transaction fees keep raising, the energy miners spend will continue to raise.\nBTC's price is going up due to speculation, and transaction fees due to blocks being full.", 
+      "id": 16235672, 
+      "time": 1516922211, 
+      "type": "comment", 
+      "by": "cosarara97"
+    }, 
+    "16235682": {
+      "time_iso": "2018-01-25 18:17:50", 
+      "kids": [
+        16235830
+      ], 
+      "parent": 16235553, 
+      "text": "This is ridiculous. The economy is already incentivized to find cheaper electricity by forces far more powerful than Bitcoin. By this logic, you would defend a craze for trying to boil the sea.", 
+      "id": 16235682, 
+      "time": 1516922270, 
+      "type": "comment", 
+      "by": "comicjk"
+    }, 
+    "16235706": {
+      "time_iso": "2018-01-25 18:21:40", 
+      "kids": [
+        16235790
+      ], 
+      "parent": 16235672, 
+      "text": "Even at current levels, BTC's built in block rewards dominate tx fees (12.50BTC built in + 1.38 tx fees). The 12.5 built in reward is essentially a subsidy for mining.", 
+      "id": 16235706, 
+      "time": 1516922500, 
+      "type": "comment", 
+      "by": "spiznnx"
+    }, 
+    "16235712": {
+      "time_iso": "2018-01-25 18:22:05", 
+      "kids": [
+        16235913
+      ], 
+      "parent": 16235385, 
+      "text": "Regarding the proof-of-stake part: Ethereum devs are also working on sharding which will make scaling on the Ethereum Blockchain way easier. I really think that Ethereum will be the No.1 cryptocurrency in the near future. Bitcoin devs showed plenty of times, that they are not capable of keeping pace with demand (couldn't even get the block size thing right). Bitcoin is virtually dead. No one can really use it for real world transactions. Plus Bitcoin in reality is a really central coin, completely in the hands of the miners. Even if the Bitcoin devs decided to go with PoS, the miners wouldn't agree.", 
+      "id": 16235712, 
+      "time": 1516922525, 
+      "type": "comment", 
+      "by": "dna_polymerase"
+    }, 
+    "16235749": {
+      "time_iso": "2018-01-25 18:29:09", 
+      "parent": 16235669, 
+      "text": "Yes, and then energy prices would decrease due to less demand. Blockchain energy usage maintains demand for energy; which keeps prices high enough that production of renewables can profitably compete with nonrenewables while we reach production volumes of solar, wind, and hemp supercapacitors for grid storage.<p>&gt; Throughout the first half of 2008, oil regularly reached record high prices.[2][3][4][5] Prices on June 27, 2008, touched $141.71/barrel, for August delivery in the New York Mercantile Exchange [...] The highest recorded price per barrel maximum of $147.02 was reached on July 11, 2008.</p><p>At that price, there's more demand for renewables (such as electric vehicles and solar panels)</p><p>&gt; Since late 2013 the oil price has fallen below the $100 mark, plummeting below the $50 mark one year later.</p><p><a href=\"https://en.wikipedia.org/wiki/World_oil_market_chronology_from_2003\" rel=\"nofollow\">https://en.wikipedia.org/wiki/World_oil_market_chronology_fr...</a></p><p>... Energy costs and inflation are highly covariate. (Trouble is, CPI All rarely ever goes back down)</p>", 
+      "id": 16235749, 
+      "time": 1516922949, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235776": {
+      "time_iso": "2018-01-25 18:34:18", 
+      "kids": [
+        16235923
+      ], 
+      "parent": 16235596, 
+      "text": "You can leave the last S for off (for savings) if you want /ISSUE_TEMPLATE(S)/ or /PULL_REQUEST_TEMPLATE(S)/", 
+      "id": 16235776, 
+      "time": 1516923258, 
+      "type": "comment", 
+      "by": "clarkbw"
+    }, 
+    "16235790": {
+      "time_iso": "2018-01-25 18:36:46", 
+      "parent": 16235706, 
+      "text": "The block reward is an incentive for redundant distributed replica nodes.", 
+      "id": 16235790, 
+      "time": 1516923406, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235830": {
+      "time_iso": "2018-01-25 18:44:24", 
+      "parent": 16235682, 
+      "text": "If the market had internalized the external health, environmental, and defense costs of nonrenewable energy, we would already have cheap, plentiful renewable energy. But we don't: the market is failing to optimize for factors other than margin. (New Keynesian economics admits market failure, but not non-rationality.)<p>So, (speculative_valuation - cost) is the margin. Whereas with a stock in a leveraged high-frequency market with shorting, (shareholder_equity - market_cap) is explainable in terms of the market information that is shared.</p>", 
+      "id": 16235830, 
+      "time": 1516923864, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235913": {
+      "time_iso": "2018-01-25 18:55:53", 
+      "parent": 16235712, 
+      "text": "Proof of Work (Bitcoin*, ...), Proof of Stake (Ethereum Casper), Proof of Space, Proof of Research (GridCoin, CureCoin,)<p>Plasma (Ethereum) and Lightning Network (BitCoin (SHA256), Litecoin (scrypt),) will likely offload a significant amount of transaction volume and thereby reduce the kWh/transaction metrics.</p>", 
+      "id": 16235913, 
+      "time": 1516924553, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16235923": {
+      "time_iso": "2018-01-25 18:57:58", 
+      "parent": 16235776, 
+      "text": "Good call. I've updated the post.", 
+      "id": 16235923, 
+      "time": 1516924678, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16235404, 
+    16235385, 
+    16218989, 
     16176337, 
     16190283, 
     16181536, 
