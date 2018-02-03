@@ -8280,13 +8280,13 @@
         16284805, 
         16284722, 
         16286594, 
+        16284313, 
         16284329, 
         16283860, 
         16284985, 
         16286148, 
         16285107, 
-        16284502, 
-        16284313
+        16284502
       ], 
       "descendants": 188, 
       "url": "https://www.scientificamerican.com/article/instead-of-filling-cavities-dentists-may-soon-regenerate-teeth/", 
@@ -8312,7 +8312,7 @@
         16294913, 
         16296363
       ], 
-      "descendants": 68, 
+      "descendants": 69, 
       "url": "https://www.cnet.com/roadshow/news/tesla-racing-series-electric-gt-cars/", 
       "title": "Tesla racing series: Electric cars get the green light \u2013 Roadshow", 
       "by": "rbanffy", 
@@ -8364,10 +8364,22 @@
     }, 
     "16298753": {
       "time_iso": "2018-02-03 13:21:34", 
+      "kids": [
+        16298834
+      ], 
       "parent": 16289440, 
       "text": "Tesla Racing Circuit ideas for increasing power discharge rate, reducing heat, and reducing build weight:<p>Hemp supercapacitors (similar power density as graphene supercapacitors and li-ion, lower cost than graphene)</p><p>Active cooling. Modified passive cooling.</p><p>Biocomposite frame and panels (stronger and lighter than steel and aluminum (George Washington Carver))</p>", 
       "id": 16298753, 
       "time": 1517682094, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16298834": {
+      "time_iso": "2018-02-03 13:36:36", 
+      "parent": 16298753, 
+      "text": "&gt; Biocomposite frame and panels (stronger and lighter than steel and aluminum (George Washington Carver))<p>\"Soybean Car\" (1941) <a href=\"https://en.wikipedia.org/wiki/Soybean_car\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Soybean_car</a></p>", 
+      "id": 16298834, 
+      "time": 1517682996, 
       "type": "comment", 
       "by": "westurner"
     }
