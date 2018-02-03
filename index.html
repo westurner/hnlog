@@ -114,17 +114,24 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2018-02-02 13:40:19</td>
+        <td><a href="#story-16292993">What happens if you have too many jupyter notebooks?</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=tvorogme">tvorogme</a></td>
+        <td>3</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2018-02-01 00:49:46</td>
         <td><a href="#story-16279856">Cancer ‘vaccine’ eliminates tumors in mice</a></td>
         <td><a href="https://news.ycombinator.com/user?id=jv22222">jv22222</a></td>
-        <td>882</td>
+        <td>906</td>
     </tr>
     
     <tr scope="row" >
         <td>2018-02-01 12:23:08</td>
         <td><a href="#story-16283685">Boosting teeth’s healing ability by mobilizing stem cells in dental pulp</a></td>
         <td><a href="https://news.ycombinator.com/user?id=digital55">digital55</a></td>
-        <td>298</td>
+        <td>302</td>
     </tr>
     
     <tr scope="row"  class="bold">
@@ -1112,6 +1119,45 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-16292993">
+    <div class="card-block">
+      <a class="collapser" href="#story-16292993-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-16292993-collapse">
+        <h4 class="card-title"><a href="#story-16292993">What happens if you have too many jupyter notebooks?</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=tvorogme">tvorogme</a> |
+          <a href="https://news.ycombinator.com/item?id=16292993"
+          
+          >2018-02-02 13:40:19</a> | 3  | <a href="#story-16292993">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">These days there is a tendency in data analysis to use Jupyter Notebooks. But what happens if you have too many jupyter notebooks? For example, there are more than a hundred.<p>Actually, you start creating some modules. However, it is less convenient to work with them compared to what was before. It happens that you should code in web interface, somewhere in similar to the notepad++ form or you should change your IDLE.</p><p>Personally, I work in Pycharm and so far I couldn't assess remote interpreter or VCS. It is because pickle files or word2vec weighs too much (3gb+) and so I don't want to download/upload them. 
+Also Jupyter is't cool in pycharm.</p><p>Do you have better practices in your companies?
+How to correctly adjust IDLE?
+Do you know about any possible substitution for the IPython notebook in the world of data analysis?</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-16294220">
+    <div class="card-block">
+      <a class="collapser" href="#comment-16294220-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-16294220-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=16294220"
+          id="comment-16294220"
+          >2018-02-02 16:11:35</a> | <a href="#comment-16294220">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; what happens if you have too many jupyter notebooks? For example, there are more than a hundred.<p>Like anything else, Jupyter Notebook is limited by the CPU and RAM of the system hosting the Tornado server and Jupyter kernels.</p><p>At 100 notebooks (or even just one), it may be a good time to factor common routines into a packaged module with tests and documentation.</p><p>It's actually possible (though inefficient) to import code from Jupyter notebooks with  ipython/ipynb (pypi:ipynb): 
+<a href="https://github.com/ipython/ipynb" rel="nofollow">https://github.com/ipython/ipynb</a> 
+( <a href="https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Importing%20Notebooks.html" rel="nofollow">https://jupyter-notebook.readthedocs.io/en/stable/examples/N...</a> )</p><p>&gt; Actually, you start creating some modules. However, it is less convenient to work with them compared to what was before. It happens that you should code in web interface, somewhere in similar to the notepad++ form or you should change your IDLE.</p><p>The Spyder IDE has support for .ipynb notebooks converted to .py (which have the IPython prompt markers in them). Spyder can connect an interpreter prompt to a running IPython/Jupyter kennel. There's also a Spyder plugin for Jupyter Notebook: 
+<a href="https://github.com/spyder-ide/spyder-notebook" rel="nofollow">https://github.com/spyder-ide/spyder-notebook</a></p><p>&gt; Personally, I work in Pycharm and so far I couldn't assess remote interpreter or VCS. It is because pickle files or word2vec weighs too much (3gb+) and so I don't want to download/upload them.</p><p>Remote data access times can be made faster by increasing the space efficiency of the storage format, increasing the bandwidth of the connection, moving the data to the code, or moving the code to the data.</p><p>&gt; Do you have better practices in your companies?</p><p>There are a number of [Reproducible] Data Science cookiecutter templates which have a directory for notebooks, module packaging, and Sphinx docs: <a href="https://cookiecutter.readthedocs.io/en/latest/readme.html#data-science" rel="nofollow">https://cookiecutter.readthedocs.io/en/latest/readme.html#da...</a></p><p>Refactoring increases testability and code reuse.</p><p>&gt; How to correctly adjust IDLE?</p><p>I don't think I understand the question?</p><p>"Configuring IPython" <a href="https://ipython.readthedocs.io/en/stable/config/index.html" rel="nofollow">https://ipython.readthedocs.io/en/stable/config/index.html</a></p><p>Jupyter &gt; "Installation, Configuration, and Usage" <a href="https://jupyter.readthedocs.io/en/latest/projects/content-projects.html#" rel="nofollow">https://jupyter.readthedocs.io/en/latest/projects/content-pr...</a></p><p>&gt; Do you know about any possible substitution for the IPython notebook in the world of data analysis?</p><p>From <a href="https://en.wikipedia.org/wiki/Notebook_interface" rel="nofollow">https://en.wikipedia.org/wiki/Notebook_interface</a> :</p><p>&gt; &gt; "Examples of the notebook interface include the Mathematica notebook, Maple worksheet, MATLAB notebook, IPython/Jupyter, R Markdown, Apache Zeppelin, Apache Spark Notebook, and the Databricks cloud."</p><p>There are lots of Jupyter kernels for different tools and languages (over 100; including for other 'notebook interfaces'):
+<a href="https://github.com/jupyter/jupyter/wiki/Jupyter-kernels" rel="nofollow">https://github.com/jupyter/jupyter/wiki/Jupyter-kernels</a></p><p>And there are lots of Jupyter integrations and extensions: <a href="https://github.com/quobit/awesome-python-in-education/blob/master/README.md#jupyter" rel="nofollow">https://github.com/quobit/awesome-python-in-education/blob/m...</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-16279856">
     <div class="card-block">
       <a class="collapser" href="#story-16279856-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -1121,7 +1167,7 @@
           <a href="https://news.ycombinator.com/user?id=jv22222">jv22222</a> |
           <a href="https://news.ycombinator.com/item?id=16279856"
           
-          >2018-02-01 00:49:46</a> | 882  | <a href="#story-16279856">#</a> | <a href="#" class="toplink">^</a>
+          >2018-02-01 00:49:46</a> | 906  | <a href="#story-16279856">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://med.stanford.edu/news/all-news/2018/01/cancer-vaccine-eliminates-tumors-in-mice.html" rel="nofollow">https://med.stanford.edu/news/all-news/2018/01/cancer-vaccine-eliminates-tumors-in-mice.html</a></span>
@@ -1155,7 +1201,7 @@
           <a href="https://news.ycombinator.com/user?id=digital55">digital55</a> |
           <a href="https://news.ycombinator.com/item?id=16283685"
           
-          >2018-02-01 12:23:08</a> | 298  | <a href="#story-16283685">#</a> | <a href="#" class="toplink">^</a>
+          >2018-02-01 12:23:08</a> | 302  | <a href="#story-16283685">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.scientificamerican.com/article/instead-of-filling-cavities-dentists-may-soon-regenerate-teeth/" rel="nofollow">https://www.scientificamerican.com/article/instead-of-filling-cavities-dentists-may-soon-regenerate-teeth/</a></span>
