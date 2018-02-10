@@ -8104,7 +8104,7 @@
       "url": "https://www.weforum.org/agenda/2017/06/drones-plant-100000-trees-a-day?utm_content=buffer6368b&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer", 
       "title": "Drones that can plant 100k trees a day", 
       "by": "artsandsci", 
-      "score": 146, 
+      "score": 147, 
       "time": 1517262275, 
       "type": "story", 
       "id": 16260892
@@ -8221,8 +8221,8 @@
         16283780, 
         16290345, 
         16281331, 
-        16285147, 
         16280339, 
+        16285147, 
         16286204, 
         16280656, 
         16280499, 
@@ -8254,7 +8254,7 @@
       "url": "https://med.stanford.edu/news/all-news/2018/01/cancer-vaccine-eliminates-tumors-in-mice.html", 
       "title": "Cancer \u2018vaccine\u2019 eliminates tumors in mice", 
       "by": "jv22222", 
-      "score": 941, 
+      "score": 942, 
       "time": 1517464186, 
       "type": "story", 
       "id": 16279856
@@ -8414,10 +8414,10 @@
         16299793, 
         16300187, 
         16302367, 
-        16310393, 
         16301203, 
         16300120, 
         16299976, 
+        16310393, 
         16302171, 
         16300484, 
         16299890, 
@@ -8430,8 +8430,8 @@
         16302360, 
         16302373, 
         16301003, 
-        16302512, 
         16300025, 
+        16302512, 
         16300176, 
         16300219, 
         16299837, 
@@ -8442,7 +8442,7 @@
       "text": "Hello All!<p>what are techniques you all used to learn and understand a large codebase? what are the tools you use?</p>", 
       "title": "Ask HN: How to understand the large codebase of an open-source project?", 
       "by": "maqbool", 
-      "score": 184, 
+      "score": 186, 
       "time": 1517686562, 
       "type": "story", 
       "id": 16299125
@@ -8546,9 +8546,34 @@
       "time": 1518151573, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16345101": {
+      "time_iso": "2018-02-09 19:42:21", 
+      "kids": [
+        16345856, 
+        16345486
+      ], 
+      "descendants": 2, 
+      "url": "https://www.sciencealert.com/maybe-we-can-t-live-comfortably-without-ruining-the-planet", 
+      "title": "There Might Be No Way to Live Comfortably Without Also Ruining the Planet", 
+      "by": "SirLJ", 
+      "score": 6, 
+      "time": 1518223341, 
+      "type": "story", 
+      "id": 16345101
+    }, 
+    "16345856": {
+      "time_iso": "2018-02-09 23:19:54", 
+      "parent": 16345101, 
+      "text": "\"A good life for all within planetary boundaries\" (2018) \n<a href=\"https://www.nature.com/articles/s41893-018-0021-4\" rel=\"nofollow\">https://www.nature.com/articles/s41893-018-0021-4</a><p>&gt; \"Radical changes are needed if all people are to live well within the limits of the planet,\" [...]</p><p>&gt; \"These include moving beyond the pursuit of economic growth in wealthy nations, shifting rapidly from fossil fuels to renewable energy, and significantly reducing inequality.</p><p>&gt; \"Our physical infrastructure and the way we distribute resources are both part of what we call provisioning systems. If all people are to lead a good life within the planet's limits then these provisioning systems need to be fundamentally restructured to allow for basic needs to be met at a much lower level of resource use.\"</p><p>Perhaps ironically, our developments in service of sustainability (resource efficiency) needs for a civilization on Mars are directly relevant to solving these problems on Earth.</p><p>Recycle everything.</p><p>Survive without soil, steel, hydrocarbons, animals, oxygen.</p><p>Convert CO2, sunlight, water, and geothermal energy to forms necessary for life.</p><p><a href=\"https://en.wikipedia.org/wiki/Colonization_of_Mars\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Colonization_of_Mars</a></p><p>Algae, carbon capture, carbon sequestration, lab grown plants, water purification, solar power, [...]</p><p>Mars requires a geomagnetic field in order to sustain an atmosphere in order to [...].</p><p>\"The Limits to Growth\" (1972, 2004) very clearly forecasts these same unsustainable patterns of resource consumption: 'needs' which exceed and transgress our planetary biophysical boundaries.</p><p>The 17 UN Sustainable Development Goals (#GlobalGoals) outline our worthwhile international objectives. The Paris Agreement sets targets and asks for commitments from nation states (and businesses) to help achieve these goals most efficiently and most sustainably.</p><p>In the US, the Clean Power Plan was intended to redirect our national resources toward renewable energy with far less external costs. Direct and indirect subsidies for nonrenewables are irrational. Are subsidies helpful or necessary to reach production volumes of renewable energy products and services?</p><p>There are certainly financial incentives for anyone who chooses to invest in solving for the Global Goals; and everyone can!</p>", 
+      "id": 16345856, 
+      "time": 1518236394, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16345101, 
     16337784, 
     16337192, 
     16329551, 
