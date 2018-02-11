@@ -8554,20 +8554,20 @@
         16346603, 
         16346787, 
         16349334, 
+        16347081, 
         16349249, 
         16349297, 
-        16347081, 
         16349140, 
-        16349206, 
         16345486, 
+        16349206, 
         16348949, 
         16345856
       ], 
-      "descendants": 52, 
+      "descendants": 54, 
       "url": "https://www.sciencealert.com/maybe-we-can-t-live-comfortably-without-ruining-the-planet", 
       "title": "There Might Be No Way to Live Comfortably Without Also Ruining the Planet", 
       "by": "SirLJ", 
-      "score": 33, 
+      "score": 38, 
       "time": 1518223341, 
       "type": "story", 
       "id": 16345101
@@ -8585,9 +8585,10 @@
       "time_iso": "2018-02-10 11:25:54", 
       "kids": [
         16349581, 
+        16349686, 
         16349423
       ], 
-      "descendants": 2, 
+      "descendants": 3, 
       "title": "Ask HN: What are some common abbreviations you use as a developer?", 
       "by": "yagamidev", 
       "score": 3, 
@@ -8612,9 +8613,43 @@
       "time": 1518296658, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16350686": {
+      "time_iso": "2018-02-10 20:41:21", 
+      "kids": [
+        16351230, 
+        16351155
+      ], 
+      "descendants": 2, 
+      "url": "https://news.stanford.edu/2018/02/08/avoiding-blackouts-100-renewable-energy/", 
+      "title": "Avoiding blackouts with 100% renewable energy", 
+      "by": "ramonvillasante", 
+      "score": 2, 
+      "time": 1518313281, 
+      "type": "story", 
+      "id": 16350686
+    }, 
+    "16351155": {
+      "time_iso": "2018-02-10 23:18:36", 
+      "parent": 16350686, 
+      "text": "\"Matching demand with supply at low cost in 139 countries among 20 world regions with 100% intermittent wind, water, and sunlight (WWS) for all purposes\" (Renewable Energy, 2018) <a href=\"https://web.stanford.edu/group/efmh/jacobson/Articles/I/CombiningRenew/combining.html\" rel=\"nofollow\">https://web.stanford.edu/group/efmh/jacobson/Articles/I/Comb...</a>", 
+      "id": 16351155, 
+      "time": 1518322716, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16351230": {
+      "time_iso": "2018-02-10 23:40:09", 
+      "parent": 16350686, 
+      "text": "I notice that cases A and C require <i>batteries</i> for storage.<p>Should there be a separate entry for new gen supercapacitors? Supercapacitors built with both graphene and hemp have different Max Charge Rate (GW), Max Discharge Rate (GW), and Storage (TWh) capacities than even future-extrapolated batteries and current supercapacitors.</p><p><a href=\"https://en.wikipedia.org/wiki/Supercapacitor\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Supercapacitor</a></p><p>The cost and capabilities stats in this article look very promising:</p><p>\"Hemp Carbon Makes Supercapacitors Superfast\u201d\n<a href=\"https://www.asme.org/engineering-topics/articles/energy/hemp-carbon-makes-supercapacitors-superfast\" rel=\"nofollow\">https://www.asme.org/engineering-topics/articles/energy/hemp...</a></p><p>&gt; \u201cOur device\u2019s electrochemical performance is on par with or better than graphene-based devices,\u201d Mitlin says. \u201cThe key advantage is that our electrodes are made from biowaste using a simple process, and therefore, are much cheaper than graphene.\u201d</p><p>&gt; Graphene is, however, expensive to manufacture, costing as much as $2,000 per gram. [...] developed a process for converting fibrous hemp waste into a unique graphene-like nanomaterial that outperforms graphene. What\u2019s more, it can be manufactured for less than $500 per ton.</p><p>&gt; Hemp fiber waste was pressure-cooked (hydrothermal synthesis) at 180 \u00b0C for 24 hours. The resulting carbonized material was treated with potassium hydroxide and then heated to temperatures as high as 800 \u00b0C, resulting in the formation of uniquely structured nanosheets. Testing of this material revealed that it discharged 49 kW of power per kg of material\u2014nearly triple what standard commercial electrodes supply, 17 kW/kg.</p><p><a href=\"https://scholar.google.com/scholar?hl=en&amp;q=hemp+supercapacitor\" rel=\"nofollow\">https://scholar.google.com/scholar?hl=en&amp;q=hemp+supercapacit...</a></p><p>To be clear, supercapacitors are an alternative to li-ion batteries.</p>", 
+      "id": 16351230, 
+      "time": 1518324009, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16350686, 
     16347942, 
     16345101, 
     16337784, 
