@@ -8556,18 +8556,19 @@
         16349334, 
         16347081, 
         16349249, 
+        16371455, 
         16349297, 
-        16349140, 
         16345486, 
+        16349140, 
         16349206, 
         16348949, 
         16345856
       ], 
-      "descendants": 54, 
+      "descendants": 59, 
       "url": "https://www.sciencealert.com/maybe-we-can-t-live-comfortably-without-ruining-the-planet", 
       "title": "There Might Be No Way to Live Comfortably Without Also Ruining the Planet", 
       "by": "SirLJ", 
-      "score": 38, 
+      "score": 43, 
       "time": 1518223341, 
       "type": "story", 
       "id": 16345101
@@ -8646,9 +8647,205 @@
       "time": 1518324009, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16390046": {
+      "time_iso": "2018-02-16 00:16:09", 
+      "kids": [
+        16390372, 
+        16391738, 
+        16390765, 
+        16390148, 
+        16392548, 
+        16391546, 
+        16393010, 
+        16391889, 
+        16390136, 
+        16392387, 
+        16392298, 
+        16391622, 
+        16393470, 
+        16392265, 
+        16391147, 
+        16391549, 
+        16390273, 
+        16393638, 
+        16391077, 
+        16391924, 
+        16394812, 
+        16391623, 
+        16392221, 
+        16390402, 
+        16394432, 
+        16391973, 
+        16395628, 
+        16398827, 
+        16391698, 
+        16391576, 
+        16391691, 
+        16394142, 
+        16391956, 
+        16390535, 
+        16390231, 
+        16391093, 
+        16390488
+      ], 
+      "descendants": 99, 
+      "url": "http://www.pathsensitive.com/2018/01/the-benjamin-franklin-method-of-reading.html", 
+      "title": "The Benjamin Franklin method for learning more from programming books", 
+      "by": "nancyhua", 
+      "score": 566, 
+      "time": 1518758169, 
+      "type": "story", 
+      "id": 16390046
+    }, 
+    "16392221": {
+      "time_iso": "2018-02-16 08:43:25", 
+      "parent": 16390046, 
+      "text": "&gt; Read your programming book as normal. When you get to a code sample, read it over<p>&gt; Then close the book.</p><p>&gt; Then try to type it up.</p><p>According to a passage  \nin \"The Autobiography of Benjamin Franklin\" (1791)\nregarding re-typing from \"The Spectator\"</p><p><a href=\"https://en.wikipedia.org/wiki/The_Autobiography_of_Benjamin_Franklin\" rel=\"nofollow\">https://en.wikipedia.org/wiki/The_Autobiography_of_Benjamin_...</a></p><p>EBook: <a href=\"http://www.gutenberg.org/ebooks/148\" rel=\"nofollow\">http://www.gutenberg.org/ebooks/148</a></p>", 
+      "id": 16392221, 
+      "time": 1518788605, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16406967": {
+      "time_iso": "2018-02-18 12:09:07", 
+      "kids": [
+        16407282, 
+        16407277, 
+        16406999, 
+        16411342
+      ], 
+      "descendants": 4, 
+      "url": "https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/1bewilligung/fintech/wegleitung-ico.pdf?la=en", 
+      "title": "Guidelines for enquiries regarding the regulatory framework for ICOs [pdf]", 
+      "by": "paulsutter", 
+      "score": 23, 
+      "time": 1518973747, 
+      "type": "story", 
+      "id": 16406967
+    }, 
+    "16407277": {
+      "time_iso": "2018-02-18 13:13:00", 
+      "kids": [
+        16409715
+      ], 
+      "parent": 16406967, 
+      "text": "This is a helpful table indicating whether a Payment, Utility, Asset, or Hybrid coin/token: is a security, qualifies under Swiss AML payment law.<p>The \"Minimum information \nrequirements for ICO enquiries\" appendix seems like a good set of questions for evaluating ICOs. Are there other good questions to ask when considering whether to invest in a Payment, Utility, Asset, or Hybrid ICO?</p><p>Are US regulations different from these clear and helpful regulatory guidelines for ICOs in Switzerland?</p>", 
+      "id": 16407277, 
+      "time": 1518977580, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16409715": {
+      "time_iso": "2018-02-18 19:01:36", 
+      "parent": 16407277, 
+      "text": "&gt; Are there other good questions to ask when considering whether to invest in a Payment, Utility, Asset, or Hybrid ICO?<p>This paper doesn seem to cover that, only on how regulators should treat investments.</p><p>On investing in ICOs, the questions are the same as any other IPO. And, in most cases, just speculation.</p>", 
+      "id": 16409715, 
+      "time": 1518998496, 
+      "type": "comment", 
+      "by": "ucaetano"
+    }, 
+    "16423764": {
+      "time_iso": "2018-02-20 15:14:40", 
+      "kids": [
+        16425099
+      ], 
+      "descendants": 2, 
+      "url": "https://blog.cloudflare.com/using-go-as-a-scripting-language-in-linux/", 
+      "title": "Using Go as a scripting language in Linux", 
+      "by": "neoasterisk", 
+      "score": 8, 
+      "time": 1519157680, 
+      "type": "story", 
+      "id": 16423764
+    }, 
+    "16425099": {
+      "time_iso": "2018-02-20 18:01:36", 
+      "kids": [
+        16436585
+      ], 
+      "parent": 16423764, 
+      "text": "I, too, didn't realize that shebang parsing is implemented in the `binfmt_script` kernel module.<p>Does this persist across reboots?</p><p></p><pre><code>  echo ':golang:E::go::/usr/local/bin/gorun:OC' | sudo tee /proc/sys/fs/binfmt_misc/register</code></pre>", 
+      "id": 16425099, 
+      "time": 1519167696, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16428309": {
+      "time_iso": "2018-02-21 05:03:58", 
+      "kids": [
+        16428949, 
+        16429725, 
+        16430193, 
+        16428392, 
+        16430232, 
+        16429987, 
+        16430120, 
+        16430941, 
+        16429950, 
+        16437447, 
+        16430498, 
+        16429766, 
+        16440180
+      ], 
+      "descendants": 36, 
+      "title": "Ask HN: What's the best algorithms and data structures online course?", 
+      "by": "zabana", 
+      "score": 253, 
+      "time": 1519207438, 
+      "type": "story", 
+      "id": 16428309
+    }, 
+    "16436585": {
+      "time_iso": "2018-02-22 05:20:37", 
+      "parent": 16425099, 
+      "text": "No, but different init systems may autoload formats based on some configuration files. Systemd, for instance: <a href=\"https://www.freedesktop.org/software/systemd/man/systemd-binfmt.service.html\" rel=\"nofollow\">https://www.freedesktop.org/software/systemd/man/systemd-bin...</a>", 
+      "id": 16436585, 
+      "time": 1519294837, 
+      "type": "comment", 
+      "by": "secumod"
+    }, 
+    "16437447": {
+      "time_iso": "2018-02-22 08:42:30", 
+      "parent": 16428309, 
+      "text": "These aren't courses, but from answers to\n\"Ask HN: Recommended course/website/book to learn data structure and algorithms\" :<p>Data Structure: <a href=\"https://en.wikipedia.org/wiki/Data_structure\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Data_structure</a></p><p>Algorithm:<a href=\"https://en.wikipedia.org/wiki/Algorithm\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Algorithm</a></p><p>Big O notation:<a href=\"https://en.wikipedia.org/wiki/Big_O_notation\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Big_O_notation</a></p><p>Big-O Cheatsheet: <a href=\"http://bigocheatsheet.com\" rel=\"nofollow\">http://bigocheatsheet.com</a></p><p>Coding Interview University &gt; Data Structures: <a href=\"https://github.com/jwasham/coding-interview-university/blob/master/README.md#data-structures\" rel=\"nofollow\">https://github.com/jwasham/coding-interview-university/blob/...</a></p><p>OSSU: Open Source Society University &gt; Core CS &gt; Core Theory &gt; \"Algorithms: Design and Analysis, Part I\" [&amp;2] <a href=\"https://github.com/ossu/computer-science/blob/master/README.md#core-theory\" rel=\"nofollow\">https://github.com/ossu/computer-science/blob/master/README....</a></p><p>\"Algorithms, 4th Edition\" (2011; Sedgewick, Wayne): <a href=\"https://algs4.cs.princeton.edu/\" rel=\"nofollow\">https://algs4.cs.princeton.edu/</a></p><p>Complexity Zoo &gt; Petting Zoo (P, NP,): <a href=\"https://complexityzoo.uwaterloo.ca/Petting_Zoo\" rel=\"nofollow\">https://complexityzoo.uwaterloo.ca/Petting_Zoo</a></p><p>While perusing awesome-awesomeness [1], I found awesome-algorithms [2] , algovis [3], and awesome-big-o [4].</p><p>[1] <a href=\"https://github.com/bayandin/awesome-awesomeness\" rel=\"nofollow\">https://github.com/bayandin/awesome-awesomeness</a></p><p>[2] <a href=\"https://github.com/tayllan/awesome-algorithms\" rel=\"nofollow\">https://github.com/tayllan/awesome-algorithms</a></p><p>[3] <a href=\"https://github.com/enjalot/algovis\" rel=\"nofollow\">https://github.com/enjalot/algovis</a></p><p>[4] <a href=\"https://github.com/okulbilisim/awesome-big-o\" rel=\"nofollow\">https://github.com/okulbilisim/awesome-big-o</a></p>", 
+      "id": 16437447, 
+      "time": 1519306950, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16441128": {
+      "time_iso": "2018-02-22 15:35:51", 
+      "kids": [
+        16441782, 
+        16441785, 
+        16441694
+      ], 
+      "descendants": 3, 
+      "text": "Reading Troy Hunt's password release V2 blog post [0], I came across the NIST recommendation to prevent users from creating accounts with passwords discovered in data breaches. This got me thinking: would a website admin (ex. small business owner with a custom website) benefit from a service that validates user passwords? The idea is to create a registration iframe with forms for email, password, etc., which would check hashed credentials against a database of data from breaches. Additionally, client-side validation would enforce rules recommended by the NIST's Digital Identity Guidelines [1], which would relieve admins from implementing their own rules. I'm sure there are additional security features that can be added.<p>1. Have you seen a need for this type of service, and could you see this being adopted at all?</p><p>2. Do you know of a service like this? I've looked, no hits so far.</p><p>3. Does the architecture seem sound?</p><p>[0]: https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/</p><p>[1]: https://www.nist.gov/itl/tig/projects/special-publication-800-63</p>", 
+      "title": "Ask HN: Thoughts on a website-embeddable, credential validating service?", 
+      "by": "estroz", 
+      "score": 8, 
+      "time": 1519331751, 
+      "type": "story", 
+      "id": 16441128
+    }, 
+    "16441694": {
+      "time_iso": "2018-02-22 16:43:53", 
+      "parent": 16441128, 
+      "text": "blockchain-certificates/cert-verifier-js:\n<a href=\"https://github.com/blockchain-certificates/cert-verifier-js\" rel=\"nofollow\">https://github.com/blockchain-certificates/cert-verifier-js</a><p>&gt; A library to enable parsing and verifying a Blockcert. This can be used as a node package or in a browser. The browserified script is available as verifier.js.</p><p><a href=\"https://github.com/blockchain-certificates/cert-issuer\" rel=\"nofollow\">https://github.com/blockchain-certificates/cert-issuer</a></p><p>&gt; The cert-issuer project issues blockchain certificates by creating a transaction from the issuing institution to the recipient on the Bitcoin blockchain that includes the hash of the certificate itself.</p><p>... We could/should also store X.509 cert hashes in a blockchain.</p>", 
+      "id": 16441694, 
+      "time": 1519335833, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16441128, 
+    16428309, 
+    16423764, 
+    16406967, 
+    16390046, 
     16350686, 
     16347942, 
     16345101, 
