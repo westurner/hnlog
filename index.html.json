@@ -8776,22 +8776,22 @@
       "kids": [
         16428949, 
         16429725, 
-        16430193, 
         16428392, 
+        16430193, 
         16430232, 
+        16429950, 
         16429987, 
         16430120, 
         16430941, 
-        16429950, 
-        16437447, 
         16430498, 
         16429766, 
+        16437447, 
         16440180
       ], 
       "descendants": 36, 
       "title": "Ask HN: What's the best algorithms and data structures online course?", 
       "by": "zabana", 
-      "score": 253, 
+      "score": 272, 
       "time": 1519207438, 
       "type": "story", 
       "id": 16428309
@@ -8818,29 +8818,463 @@
       "time_iso": "2018-02-22 15:35:51", 
       "kids": [
         16441782, 
+        16442046, 
         16441785, 
+        16448790, 
+        16442913, 
+        16442184, 
         16441694
       ], 
-      "descendants": 3, 
+      "descendants": 18, 
       "text": "Reading Troy Hunt's password release V2 blog post [0], I came across the NIST recommendation to prevent users from creating accounts with passwords discovered in data breaches. This got me thinking: would a website admin (ex. small business owner with a custom website) benefit from a service that validates user passwords? The idea is to create a registration iframe with forms for email, password, etc., which would check hashed credentials against a database of data from breaches. Additionally, client-side validation would enforce rules recommended by the NIST's Digital Identity Guidelines [1], which would relieve admins from implementing their own rules. I'm sure there are additional security features that can be added.<p>1. Have you seen a need for this type of service, and could you see this being adopted at all?</p><p>2. Do you know of a service like this? I've looked, no hits so far.</p><p>3. Does the architecture seem sound?</p><p>[0]: https://www.troyhunt.com/ive-just-launched-pwned-passwords-version-2/</p><p>[1]: https://www.nist.gov/itl/tig/projects/special-publication-800-63</p>", 
       "title": "Ask HN: Thoughts on a website-embeddable, credential validating service?", 
       "by": "estroz", 
-      "score": 8, 
+      "score": 28, 
       "time": 1519331751, 
       "type": "story", 
       "id": 16441128
     }, 
     "16441694": {
       "time_iso": "2018-02-22 16:43:53", 
+      "kids": [
+        16442309
+      ], 
       "parent": 16441128, 
       "text": "blockchain-certificates/cert-verifier-js:\n<a href=\"https://github.com/blockchain-certificates/cert-verifier-js\" rel=\"nofollow\">https://github.com/blockchain-certificates/cert-verifier-js</a><p>&gt; A library to enable parsing and verifying a Blockcert. This can be used as a node package or in a browser. The browserified script is available as verifier.js.</p><p><a href=\"https://github.com/blockchain-certificates/cert-issuer\" rel=\"nofollow\">https://github.com/blockchain-certificates/cert-issuer</a></p><p>&gt; The cert-issuer project issues blockchain certificates by creating a transaction from the issuing institution to the recipient on the Bitcoin blockchain that includes the hash of the certificate itself.</p><p>... We could/should also store X.509 cert hashes in a blockchain.</p>", 
       "id": 16441694, 
       "time": 1519335833, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16442309": {
+      "time_iso": "2018-02-22 17:51:41", 
+      "kids": [
+        16442781
+      ], 
+      "parent": 16441694, 
+      "text": "Exactly what part of such a service would benefit from anything related to a blockchain?", 
+      "id": 16442309, 
+      "time": 1519339901, 
+      "type": "comment", 
+      "by": "jlgaddis"
+    }, 
+    "16442781": {
+      "time_iso": "2018-02-22 18:56:39", 
+      "kids": [
+        16444630
+      ], 
+      "parent": 16442309, 
+      "text": "Are you asking me why blockcerts stores certs in a blockchain?<p>Or whether using certs (really long passwords) is a better option than submitting unhashed passwords on a given datetime to a third-party in order to make sure they're not in the pwned passwords tables?</p>", 
+      "id": 16442781, 
+      "time": 1519343799, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16444630": {
+      "time_iso": "2018-02-23 01:28:12", 
+      "kids": [
+        16448872
+      ], 
+      "parent": 16442781, 
+      "text": "I was just reading about a company trying to make self-sovereign identity including actual certs (like degrees and such) an accessible and widely applicable/acceptable technology using Ethereum blockchain. I thought it showed some real practicality and promise. I believe it begins with U- forgot the name.Perhaps UPort? Anyhow, I'd be interested in hearing from anyone here about why that might be a bad or good idea. I don't personally have the skill in that tech to know.", 
+      "id": 16444630, 
+      "time": 1519367292, 
+      "type": "comment", 
+      "by": "brooklyn_ashey"
+    }, 
+    "16448872": {
+      "time_iso": "2018-02-23 14:53:24", 
+      "kids": [
+        16451950
+      ], 
+      "parent": 16444630, 
+      "text": "Known Traveler Digital Identity system is a \"new model for airport screening and security that uses biometrics, cryptography and distributed ledger technologies.\"<p>Blockcerts are for academic credentials, AFAIU.</p><p>[EDIT]</p><p>Existing blockchains have a limited TPS (transactions per second) for writes; but not for reads. Sharding and layer-2 (sidechains) do not have the same assurances. I'm sure we all remember how cryptokitties congested the txpool during the Bitcoin futures launch.</p>", 
+      "id": 16448872, 
+      "time": 1519415604, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16451950": {
+      "time_iso": "2018-02-24 00:50:52", 
+      "parent": 16448872, 
+      "text": "Thank you. I looked into \"clear\", one of the airport known traveler ID systems. (I'm assuming there are others) It's pretty cool/concerning. Takes ~ 8 min to load a traveler into its system.  Thanks for reminding me of TPS---the info on read vs write.", 
+      "id": 16451950, 
+      "time": 1519451452, 
+      "type": "comment", 
+      "by": "brooklyn_ashey"
+    }, 
+    "16473729": {
+      "time_iso": "2018-02-27 09:47:40", 
+      "kids": [
+        16474017, 
+        16474558, 
+        16475022, 
+        16474963, 
+        16473985, 
+        16474470, 
+        16476099, 
+        16473978, 
+        16474891, 
+        16475203, 
+        16474457, 
+        16474378, 
+        16476926, 
+        16473844, 
+        16475525, 
+        16473833, 
+        16474601, 
+        16476035, 
+        16481004, 
+        16475445, 
+        16474355, 
+        16475575, 
+        16475484, 
+        16474542, 
+        16483386, 
+        16484405, 
+        16475654, 
+        16477688, 
+        16474649, 
+        16476789, 
+        16474973, 
+        16475663, 
+        16477219, 
+        16477627, 
+        16475612, 
+        16477013, 
+        16476786, 
+        16474131, 
+        16480505, 
+        16477665, 
+        16474868, 
+        16477750, 
+        16474952, 
+        16475260, 
+        16476666, 
+        16474846, 
+        16478136, 
+        16488556, 
+        16475178, 
+        16476623, 
+        16475429, 
+        16474301, 
+        16473815, 
+        16475584, 
+        16476242, 
+        16474373, 
+        16474466, 
+        16473830, 
+        16473874, 
+        16473991
+      ], 
+      "descendants": 495, 
+      "url": "https://www.vox.com/energy-and-environment/2018/2/27/17052488/electricity-demand-utilities?utm_campaign=drvox&utm_content=chorus&utm_medium=social&utm_source=twitter", 
+      "title": "After rising for 100 years, electricity demand is flat", 
+      "by": "aaronbrethorst", 
+      "score": 629, 
+      "time": 1519742860, 
+      "type": "story", 
+      "id": 16473729
+    }, 
+    "16473776": {
+      "time_iso": "2018-02-27 09:52:39", 
+      "kids": [
+        16477199, 
+        16480284, 
+        16479299, 
+        16478374, 
+        16478246, 
+        16478604, 
+        16478645, 
+        16477327, 
+        16477819
+      ], 
+      "descendants": 47, 
+      "url": "http://www.latimes.com/science/sciencenow/la-sci-sn-atomic-clock-gravity-20180212-story.html", 
+      "title": "Scientists use an atomic clock to measure the height of a mountain", 
+      "by": "montrose", 
+      "score": 45, 
+      "time": 1519743159, 
+      "type": "story", 
+      "id": 16473776
+    }, 
+    "16474263": {
+      "time_iso": "2018-02-27 10:37:54", 
+      "kids": [
+        16479785
+      ], 
+      "descendants": 1, 
+      "url": "https://medium.com/@schaun.wheeler/a-framework-for-evaluating-data-scientist-competency-89b5f275a6bf", 
+      "title": "A framework for evaluating data scientist competency", 
+      "by": "schaunwheeler", 
+      "score": 3, 
+      "time": 1519745874, 
+      "type": "story", 
+      "id": 16474263
+    }, 
+    "16474891": {
+      "time_iso": "2018-02-27 11:23:06", 
+      "kids": [
+        16475004, 
+        16479934
+      ], 
+      "parent": 16473729, 
+      "text": "Cryptocurrency mining is about to consume more electricity than home usage in Iceland.[1] I assume it's similar in other places that have cheaper electricity.<p>Seems that power companies should encourage consumers to mine Bitcoin. Problem solved.</p><p>[1] <a href=\"https://qz.com/1204840/iceland-will-use-more-electricity-mining-bitcoins-than-powering-homes/\" rel=\"nofollow\">https://qz.com/1204840/iceland-will-use-more-electricity-min...</a></p>", 
+      "id": 16474891, 
+      "time": 1519748586, 
+      "type": "comment", 
+      "by": "unreal37"
+    }, 
+    "16478986": {
+      "time_iso": "2018-02-27 18:10:10", 
+      "kids": [
+        16483443, 
+        16479191, 
+        16479135
+      ], 
+      "descendants": 3, 
+      "text": "My side project is beginning to attract interest from a few people who would like to hop on board. At this point I am just doing what feels familiar and sensible, but the project manager perspective is new to me. Are there any sort of articles/books/podcasts/etc that could clue me into how to become better at it?", 
+      "title": "Resources to learn project management best practices?", 
+      "by": "chuie", 
+      "score": 1, 
+      "time": 1519773010, 
+      "type": "story", 
+      "id": 16478986
+    }, 
+    "16479118": {
+      "time_iso": "2018-02-27 18:24:45", 
+      "kids": [
+        16479335
+      ], 
+      "descendants": 1, 
+      "url": "https://www.gremlin.com/community/tutorials/chaos-engineering-the-history-principles-and-practice/", 
+      "title": "Chaos Engineering: the history, principles, and practice", 
+      "by": "austingunter", 
+      "score": 2, 
+      "time": 1519773885, 
+      "type": "story", 
+      "id": 16479118
+    }, 
+    "16479147": {
+      "time_iso": "2018-02-27 18:28:01", 
+      "kids": [
+        16479349
+      ], 
+      "descendants": 1, 
+      "url": "http://www.bbc.com/news/business-43217596", 
+      "title": "Levi Strauss to use lasers instead of people to finish jeans", 
+      "by": "e2e4", 
+      "score": 3, 
+      "time": 1519774081, 
+      "type": "story", 
+      "id": 16479147
+    }, 
+    "16479191": {
+      "time_iso": "2018-02-27 18:33:52", 
+      "parent": 16478986, 
+      "text": "Project Management: <a href=\"https://wrdrd.github.io/docs/consulting/software-development#project-management\" rel=\"nofollow\">https://wrdrd.github.io/docs/consulting/software-development...</a> ... #requirements-traceability, #work-breakdown-structure (Mission, Project, Goal/Objective #n;  Issue #n, - [ ] Task)<p>\"Ask HN: How do you, as a developer, set measurable and actionable goals?\" <a href=\"https://westurner.github.io/hnlog/#story-15119635\" rel=\"nofollow\">https://westurner.github.io/hnlog/#story-15119635</a></p><p>- Burndown Chart, User Stories</p><p>... GitHub and GitLab have milestones and reorderable issue boards. I still like <a href=\"https://waffle.io\" rel=\"nofollow\">https://waffle.io</a> for complexity points; though you can also just create labels for e.g. complexity (Complexity-5) and priority (Priority-5).</p>", 
+      "id": 16479191, 
+      "time": 1519774432, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16479299": {
+      "time_iso": "2018-02-27 18:48:46", 
+      "kids": [
+        16480028
+      ], 
+      "parent": 16473776, 
+      "text": "Quantum_clock#More_accurate_experimental_clocks: \n<a href=\"https://en.wikipedia.org/wiki/Quantum_clock#More_accurate_experimental_clocks\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Quantum_clock#More_accurate_ex...</a><p>&gt; In 2015 JILA evaluated the absolute frequency uncertainty of their latest strontium-87 optical lattice clock at 2.1 \u00d7 10\u221218, which corresponds to a measurable gravitational time dilation for an elevation change of 2 cm (0.79 in) on planet Earth that according to JILA/NIST Fellow Jun Ye is \"getting really close to being useful for relativistic geodesy\".</p><p>AFAIU, this type of geodesy isn't possible with 'normal' time structs. Are nanoseconds enough?</p><p>\"[Python-Dev] PEP 564: Add new time functions with nanosecond resolution\" <a href=\"https://mail.python.org/pipermail/python-dev/2017-October/149944.html\" rel=\"nofollow\">https://mail.python.org/pipermail/python-dev/2017-October/14...</a></p>", 
+      "id": 16479299, 
+      "time": 1519775326, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16479335": {
+      "time_iso": "2018-02-27 18:55:19", 
+      "parent": 16479118, 
+      "text": "awesome-chaos-engineering lists a bunch of chaos engineering resources and tools such as Gremlin: <a href=\"https://github.com/dastergon/awesome-chaos-engineering\" rel=\"nofollow\">https://github.com/dastergon/awesome-chaos-engineering</a>", 
+      "id": 16479335, 
+      "time": 1519775719, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16479349": {
+      "time_iso": "2018-02-27 18:57:10", 
+      "parent": 16479147, 
+      "text": "&gt; The firm says the new techniques will reduce chemical use and make the way in which jeans are faded, distressed and ripped more efficient.<p>Yes, but can they make them as comfortable as this pair I've been working on for many years?</p><p>Can they sew/weave cool patches in?</p>", 
+      "id": 16479349, 
+      "time": 1519775830, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16479785": {
+      "time_iso": "2018-02-27 20:03:38", 
+      "parent": 16474263, 
+      "text": "Something HTML with local state like \"Programmer Competency Matrix\" would be great.<p><a href=\"http://sijinjoseph.com/programmer-competency-matrix/\" rel=\"nofollow\">http://sijinjoseph.com/programmer-competency-matrix/</a></p><p><a href=\"https://competency-checklist.appspot.com/\" rel=\"nofollow\">https://competency-checklist.appspot.com/</a></p><p><a href=\"https://github.com/hltbra/programmer-competency-checklist\" rel=\"nofollow\">https://github.com/hltbra/programmer-competency-checklist</a></p>", 
+      "id": 16479785, 
+      "time": 1519779818, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16479934": {
+      "time_iso": "2018-02-27 20:32:47", 
+      "parent": 16474891, 
+      "text": "&gt; Seems that power companies should encourage consumers to mine Bitcoin. Problem solved.<p>Blockchains will likely continue to generate considerable demand for electricity for the foreseeable future.</p><p>Blockchain firms can locate where energy is cheapest. Currently that's in countries where energy prices go negative due to excess capacity and insufficient energy storage resources (batteries, [hemp/graphene] supercapacitors, water towers).</p><p>With continued demand, energy companies can continue to invest in new clean energy generation alternatives.</p><p>Unfortunately, in the current administration's proposed budget, funding for ARPA-E is cancelled and allocated to clean coal; which Canada, France, and the UK are committed to phasing out entirely by ~2030.</p>", 
+      "id": 16479934, 
+      "time": 1519781567, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16480028": {
+      "time_iso": "2018-02-27 20:55:31", 
+      "parent": 16479299, 
+      "text": "The thread you linked makes a good point: there isn't really any reason to care about the actual time, only the relative time. These sorts of clocks just use 256- or 512-bit counters; it's not like they're having overflow issues.", 
+      "id": 16480028, 
+      "time": 1519782931, 
+      "type": "comment", 
+      "by": "inteleng"
+    }, 
+    "16489365": {
+      "time_iso": "2018-02-28 22:06:35", 
+      "kids": [
+        16489494, 
+        16490054
+      ], 
+      "descendants": 2, 
+      "text": "For example to become a professional in:<p>- back-end api development</p><p>- DevOps</p><p>- Data Engineer (big data, data science, ML, etc)</p>", 
+      "title": "Ask HN: How feasible is it to become proficient in several disciplines?", 
+      "by": "diehunde", 
+      "score": 4, 
+      "time": 1519873595, 
+      "type": "story", 
+      "id": 16489365
+    }, 
+    "16489494": {
+      "time_iso": "2018-02-28 22:40:11", 
+      "parent": 16489365, 
+      "text": "It is feasible, though as with any type of specialization, you're then a \"jack of all trades, master of none\". Maybe a title like \"Full Stack Data Engineer\" would be descriptive.<p>You could write an OAuth API for accepting and performing analysis of datasets (model fitting / parameter estimation; classification or prediction), write a test suite, write Kubernetes YAML for a load-balanced geodistributed dev/test/prod architecture, and continuously deploy said application (from branch merges, optionally with a manual confirmation step; e.g. with GitLab CI) and still not be an actual Data Engineer.</p>", 
+      "id": 16489494, 
+      "time": 1519875611, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16490229": {
+      "time_iso": "2018-03-01 02:06:42", 
+      "kids": [
+        16490283
+      ], 
+      "descendants": 2, 
+      "url": "https://veerasundar.com/blog/2018/03/gitflow-animated/", 
+      "title": "Gitflow \u2013 Animated in React", 
+      "by": "v33ra", 
+      "score": 3, 
+      "time": 1519888002, 
+      "type": "story", 
+      "id": 16490229
+    }, 
+    "16490283": {
+      "time_iso": "2018-03-01 02:28:07", 
+      "kids": [
+        16490437
+      ], 
+      "parent": 16490229, 
+      "text": "Thanks! A command log would be really helpful too.<p>The HubFlow docs contain GitFlow docs and some really helpful diagrams: <a href=\"https://datasift.github.io/gitflow/IntroducingGitFlow.html\" rel=\"nofollow\">https://datasift.github.io/gitflow/IntroducingGitFlow.html</a></p><p>I change the release prefix to 'v' so that the git tags for the release look like 'v0.0.1' and 'v0.1.0':</p><p></p><pre><code>  git config --replace-all gitflow.prefix.versiontag v\n  git config --replace-all hubflow.prefix.versiontag v\n</code></pre>\nI usually use HubFlow instead of GitFlow because it requires there to be a Pull Request; though GitFlow does work when offline / without access to GitHub.", 
+      "id": 16490283, 
+      "time": 1519889287, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16490437": {
+      "time_iso": "2018-03-01 03:20:45", 
+      "parent": 16490283, 
+      "text": "Sure.. will add the command log", 
+      "id": 16490437, 
+      "time": 1519892445, 
+      "type": "comment", 
+      "by": "v33ra"
+    }, 
+    "16501147": {
+      "time_iso": "2018-03-02 08:21:41", 
+      "kids": [
+        16501385, 
+        16501494, 
+        16501991, 
+        16505609, 
+        16501304, 
+        16501621, 
+        16505772, 
+        16501319, 
+        16501272, 
+        16502133, 
+        16501240, 
+        16506153, 
+        16507907, 
+        16503106, 
+        16508202, 
+        16505655, 
+        16507510, 
+        16501290, 
+        16506231, 
+        16503456, 
+        16505625, 
+        16503794, 
+        16507358, 
+        16505656, 
+        16506856, 
+        16502970, 
+        16505623, 
+        16505694, 
+        16505894, 
+        16503195, 
+        16502416, 
+        16505634, 
+        16506426, 
+        16507080, 
+        16506547, 
+        16502142, 
+        16501765, 
+        16503105, 
+        16502598, 
+        16507119, 
+        16506754, 
+        16502718, 
+        16506280, 
+        16502215, 
+        16501495, 
+        16506975, 
+        16503460, 
+        16502418
+      ], 
+      "descendants": 198, 
+      "url": "https://twitter.com/jack/status/969234275420655616", 
+      "title": "\u201cWe\u2019re committing Twitter to increase the health and civility of conversation\u201d", 
+      "by": "dankohn1", 
+      "score": 147, 
+      "time": 1519996901, 
+      "type": "story", 
+      "id": 16501147
+    }, 
+    "16508202": {
+      "time_iso": "2018-03-03 01:27:15", 
+      "parent": 16501147, 
+      "text": "First Amendment protections apply to suits brought by the government. Civil suits are required to prove damages (\"quantum of loss\").<p>There are many open platforms. (I've contributed to those as well). Some are built on open standards. None of said open platforms have procedures or resources for handling the onslaught of disrespectful trash that the people we've raised eventually use these platforms for communicating at other people who have feelings and understand the Golden Rule.</p><p><a href=\"https://en.wikipedia.org/wiki/Golden_Rule\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Golden_Rule</a></p><p>The initial early adopters (who have other better things to do) are fine: helpful, caring, critical, respectful; healthy. And then everyone else comes surging in with hate, disrespect, and vitriol; unhealthy. They don't even realize that being hateful and disrespectful is making them more depressed. They think that complaining and talking smack to people is changing the world. And then they turn off the phone or log out of the computer, and carry on with their lives.</p><p>No-one taught them to be the positive, helpful energy they want to attract from the world. No-one properly conditioned them to either respectfully disagree according to the data or sit down and listen. No-one explained to them that a well-founded argument doesn't fit in 140 or 280 characters, but a link and a headline do. No-one explained to them that what they write on the internet lasts forever and will be found by their future interviewers, investors, jurors, and voters. No-one taught them that being respectful and helpful in service of other people - of the group's success, of peaceful coexistence - is the way to get ahead AND be happy. \"No-one told me that.\"</p><p>Shareholders of public corporations want to see growth in meaningless numbers, foreign authoritarian governments see free expression as a threat to their ever-so-fragile self-perceptions, political groups seek to frame and smear and malign and discredit (because they are so in need of group acceptance; because money still isn't making them happy), and there are children with too much free time reading all of these.</p><p>No-one is holding these people accountable: we need transparency and accountability. We need to focus on more important goals and feel good about helping; about volunteering our time to help others be happier.</p><p>Instead, now that these haters and scam artists have all self-identified, we must spend our time conditioning their communications until they learn to respectfully disagree on facts and data or go somewhere else. \"That's how you feel? Great. How does that make your victim feel?\" is the confrontation that some people are seeking from companies that set out to serve free speech and provide a forum for citizens to share the actual news.</p><p>Who's going to pay for that? Can they sue for their costs and losses? Advertisers do not want a spot next to hateful and disrespectful.</p><p>\"How dare you speak of censorship in such veiled terms!?\" Really? They're talking about taking down phrases like \"kill\" and \"should die\"; not phrases like \"I disagree because:\"</p><p>So, now, because there are so many hateful economically disadvantaged people in the world with nothing better to do and no idea how to run a business or keep a job with benefits, these companies need to staff 24 hour a day censors to take down the hate and terror and gang recruiting <i>within one hour</i>. What a distorted mirror of our divisively fractured wealth inequality, indeed.</p><p>\"Ban gangs ASAP, please: they'll just go away\"</p><p>How much does it cost to pay prison labor to redundantly respond to this trash? Are those the skills they need to choose a different career with benefits and savings that meet or exceed inflation when they get out?</p><p>What is the procedure for referring threats of violence to justice in your jurisdiction? Are there wealthy individuals in your community who would love to contribute resources to this effort? Maybe they have some region-specific pointers for helping the have-nots out here trolling like it's going to get them somewhere they want to be in life?</p><p>Let me share a little story with you:</p><p>A person walks into a bar/restaurant, flicks off the bartender/waiter, orders 5 glasses of free water, starts plastering ads to the walls and other peoples' tables, starts making threats to groups of people cordially conversing, and walks out.</p>", 
+      "id": 16508202, 
+      "time": 1520058435, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16501147, 
+    16490229, 
+    16489365, 
+    16473729, 
+    16474263, 
+    16479147, 
+    16479118, 
+    16473776, 
+    16478986, 
     16441128, 
     16428309, 
     16423764, 
