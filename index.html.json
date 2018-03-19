@@ -9263,9 +9263,119 @@
       "time": 1520058435, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16612939": {
+      "time_iso": "2018-03-18 13:13:15", 
+      "kids": [
+        16614680, 
+        16614203, 
+        16615293, 
+        16614460, 
+        16613663, 
+        16614018, 
+        16616156, 
+        16614112, 
+        16613620, 
+        16615255, 
+        16615350, 
+        16615644, 
+        16615281, 
+        16615271, 
+        16613094, 
+        16616428, 
+        16615256, 
+        16614632, 
+        16613695
+      ], 
+      "descendants": 149, 
+      "url": "https://theintercept.com/2018/03/16/twitter-bot-detector-software/", 
+      "title": "Hackers Are So Fed Up with Twitter Bots They\u2019re Hunting Them Down Themselves", 
+      "by": "CrankyBear", 
+      "score": 271, 
+      "time": 1521393195, 
+      "type": "story", 
+      "id": 16612939
+    }, 
+    "16613663": {
+      "time_iso": "2018-03-18 15:10:49", 
+      "kids": [
+        16613765, 
+        16613986, 
+        16614379
+      ], 
+      "parent": 16612939, 
+      "text": "This is an interesting approach. Maybe Twitter shouldn't solve the fake accounts problem directly, maybe they should come up with an evaluation criteria and then create a market for identifying fake accounts.<p>If their evaluation criteria is good, they could get away with 0 cost to build the best possible system (motivated by competition on a market).</p>", 
+      "id": 16613663, 
+      "time": 1521400249, 
+      "type": "comment", 
+      "by": "obblekk"
+    }, 
+    "16613695": {
+      "time_iso": "2018-03-18 15:15:38", 
+      "kids": [
+        16613948, 
+        16613994, 
+        16614869, 
+        16613724, 
+        16613725
+      ], 
+      "parent": 16612939, 
+      "text": "A real hacker move would be to just leave Twitter and go to Mastodon <a href=\"https://joinmastodon.org\" rel=\"nofollow\">https://joinmastodon.org</a>", 
+      "id": 16613695, 
+      "time": 1521400538, 
+      "type": "comment", 
+      "by": "carlchenet"
+    }, 
+    "16613948": {
+      "time_iso": "2018-03-18 15:59:30", 
+      "kids": [
+        16614179, 
+        16614126, 
+        16614647, 
+        16614335
+      ], 
+      "parent": 16613695, 
+      "text": "Are you suggesting that Mastodon has a better system for identifying harassment, spam, and spam accounts? Or that, given that they're mostly friendly early adopters, they haven't yet encountered the problem?", 
+      "id": 16613948, 
+      "time": 1521403170, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16613986": {
+      "time_iso": "2018-03-18 16:04:39", 
+      "parent": 16613663, 
+      "text": "There's an open call for papers/proposals for handling the deluge. \"Funding will be provided as an unrestricted gift to the proposer's organization(s)\" ... \"Twitter Health Metrics Proposal Submission\" <a href=\"https://blog.twitter.com/official/en_us/topics/company/2018/twitter-health-metrics-proposal-submission.html\" rel=\"nofollow\">https://blog.twitter.com/official/en_us/topics/company/2018/...</a>", 
+      "id": 16613986, 
+      "time": 1521403479, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16614179": {
+      "time_iso": "2018-03-18 16:38:58", 
+      "kids": [
+        16615679, 
+        16614396, 
+        16614864
+      ], 
+      "parent": 16613948, 
+      "text": "It seems to me like you don't understand the crucial difference between Twitter and Mastodon.<p>There's no such thing as Mastodon, a singular social network. Mastodon is a series of instances that talk to each other. A sysadmin running the instance can do whatever he pleases in his instance, including closing the registration, banning entire instances from communicating with his instance, and enforcing whichever rules he wants to enforce.</p><p>Mastodon doesn't deal with such issues at all. It's sysadmins running Mastodon instances that are supposed to deal with such issues.</p><p>It's more like reddit, where mods of subreddits have nearly complete authority over their own space on the social network, than it is like Twitter, in which a single entity is in charge.</p>", 
+      "id": 16614179, 
+      "time": 1521405538, 
+      "type": "comment", 
+      "by": "r3bl"
+    }, 
+    "16615679": {
+      "time_iso": "2018-03-18 21:49:54", 
+      "parent": 16614179, 
+      "text": "Mastodon is a federated system like StatusNet/GNU Social.<p>So, in your opinion, Mastodon <i>nodes</i> - by virtue of being federated - would be better equipped to handle the spam and harassment volume that Twitter is subject to?</p><p>I find that hard to believe.</p><p>ActivityPub (and OStatus, and ActivityStreams/Salmon, and OpenSocial) are all great specs and great ideas. Hosting and moderation cost real money (which spammers/scammers are wasting).</p><p>Know what's also great? Learning. For learning, we have the xAPI/TinCan spec and also schema.org/Action.</p>", 
+      "id": 16615679, 
+      "time": 1521424194, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16612939, 
     16501147, 
     16490229, 
     16489365, 
