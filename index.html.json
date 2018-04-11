@@ -9372,9 +9372,285 @@
       "time": 1521424194, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16778330": {
+      "time_iso": "2018-04-06 19:16:25", 
+      "kids": [
+        16805519, 
+        16778829
+      ], 
+      "descendants": 2, 
+      "url": "https://wccftech.com/nvidia-amd-gpu-prices-down-25-in-march-beginning-to-normalize/", 
+      "title": "GPU Prices Drop ~25% in March as Supply Normalizes", 
+      "by": "merqurio", 
+      "score": 2, 
+      "time": 1523056585, 
+      "type": "story", 
+      "id": 16778330
+    }, 
+    "16798287": {
+      "time_iso": "2018-04-09 21:17:43", 
+      "kids": [
+        16800664, 
+        16800004, 
+        16801080, 
+        16800330, 
+        16800464, 
+        16799782, 
+        16802445, 
+        16800224, 
+        16799634, 
+        16801895, 
+        16801277, 
+        16799735, 
+        16800671, 
+        16800677, 
+        16799794, 
+        16800456, 
+        16800505, 
+        16800741, 
+        16800454
+      ], 
+      "descendants": 84, 
+      "url": "https://reneweconomy.com.au/portugal-reaches-100-renewables-ends-fossil-fuel-subsidies-32820/", 
+      "title": "Portugal electricity generation temporarily reaches 100% renewable", 
+      "by": "mgdo", 
+      "score": 233, 
+      "time": 1523323063, 
+      "type": "story", 
+      "id": 16798287
+    }, 
+    "16798868": {
+      "time_iso": "2018-04-09 23:51:08", 
+      "kids": [
+        16799379, 
+        16799337, 
+        16799915, 
+        16801546, 
+        16799199, 
+        16803433, 
+        16799936, 
+        16799293, 
+        16799650, 
+        16799439, 
+        16799223, 
+        16799129, 
+        16799386, 
+        16799820
+      ], 
+      "descendants": 177, 
+      "url": "https://www.apple.com/ca/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/", 
+      "title": "Apple says it\u2019s now powered by renewable energy worldwide", 
+      "by": "iamspoilt", 
+      "score": 270, 
+      "time": 1523332268, 
+      "type": "story", 
+      "id": 16798868
+    }, 
+    "16799379": {
+      "time_iso": "2018-04-10 02:07:10", 
+      "kids": [
+        16799533, 
+        16799434, 
+        16799589, 
+        16802627, 
+        16801631
+      ], 
+      "parent": 16798868, 
+      "text": "As this article [1] explains, Apple does not (and cannot) actually run on 100% renewable energy globally, as any of its stores/premises/facilities that are connected to local municipal power grids will use whatever power generation method is used on that grid, and that is still likely to be fossil fuel in most locations.<p>But they purchase Renewable Energy Certificates to offset their use of non-renewable energy, so they can make the claim that their net consumption of non-renewable electricity is negative.</p><p>[1] <a href=\"https://www.theverge.com/2018/4/9/17216656/apple-renewable-energy-worldwide-climate-change\" rel=\"nofollow\">https://www.theverge.com/2018/4/9/17216656/apple-renewable-e...</a></p>", 
+      "id": 16799379, 
+      "time": 1523340430, 
+      "type": "comment", 
+      "by": "tomhoward"
+    }, 
+    "16799434": {
+      "time_iso": "2018-04-10 02:22:03", 
+      "kids": [
+        16799457, 
+        16799812, 
+        16799882, 
+        16799499, 
+        16799642
+      ], 
+      "parent": 16799379, 
+      "text": "This is weird. So if I run a wind farm that generates 1 MW(...h? why is this an energy unit and not power? but whatever...) and I use all of that electricity myself, I can also sell 1 REC to someone else so that they claim they run on green electricity. Which means that now either (a) I have to legally claim I run on dirty electricity (which is a lie on its face and make no sense???) or (b) we <i>both</i> claim we run on green power, double-dipping and screwing up the accounting of greenness.<p>Am I misunderstanding something? How does this work?</p>", 
+      "id": 16799434, 
+      "time": 1523341323, 
+      "type": "comment", 
+      "by": "mehrdadn"
+    }, 
+    "16799457": {
+      "time_iso": "2018-04-10 02:28:40", 
+      "kids": [
+        16799480
+      ], 
+      "parent": 16799434, 
+      "text": "No that's how it works. That's also the reason why Norway, despite only using hydro, has only 40-50% renewable energy in some statistics. They sell green energy certificates to consumers abroad (e.g. in Germany). Officially, Norwegians then use coal power whereas in reality it's all hydro power. There isn't even enough transmission capacity to the south to get that kind of exchange physically.", 
+      "id": 16799457, 
+      "time": 1523341720, 
+      "type": "comment", 
+      "by": "dx034"
+    }, 
+    "16799480": {
+      "time_iso": "2018-04-10 02:36:26", 
+      "kids": [
+        16799689, 
+        16799570, 
+        16799528, 
+        16802311, 
+        16799527, 
+        16800481, 
+        16799502
+      ], 
+      "parent": 16799457, 
+      "text": "Wow! And I just realized there seems to be another loophole: that means (say) a company like Apple could start a separate power company in Norway based on hydro power, have that company completely <i>waste</i> 100% of the energy it produce there, and yet \"buy\" the equivalent REC in another jurisdiction where they run on coal and suddenly get to 100% \"green\" power... potentially even making more money in tax credits, if there are any, all while consuming more and more dirty power without actually helping anybody shift to renewable energy. Right?", 
+      "id": 16799480, 
+      "time": 1523342186, 
+      "type": "comment", 
+      "by": "mehrdadn"
+    }, 
+    "16799689": {
+      "time_iso": "2018-04-10 03:29:58", 
+      "kids": [
+        16800744, 
+        16803195
+      ], 
+      "parent": 16799480, 
+      "text": "I think it comes down to giving them credit for funding the construction of massive clean energy projects, even if they don't exclusively use the electricity from that project themselves.<p>Look at Microsoft.  They just funded a deal to build out an absolutely massive solar farm in Virginia.</p><p><a href=\"https://blogs.microsoft.com/on-the-issues/2018/03/21/new-solar-deal-moves-us-ahead-of-schedule-in-creating-a-cleaner-cloud/\" rel=\"nofollow\">https://blogs.microsoft.com/on-the-issues/2018/03/21/new-sol...</a></p><p>They do have facilities in state that will only need a fraction of that power to be 100% green, and the excess will be pumped into the local Virginia power grid and used by consumers there.</p><p>Basically, Microsoft is saying that they funded the project to generate excess green energy in one place to offset the dirty energy they consume in areas where there is no local green power option available.</p>", 
+      "id": 16799689, 
+      "time": 1523345398, 
+      "type": "comment", 
+      "by": "GeekyBear"
+    }, 
+    "16800004": {
+      "time_iso": "2018-04-10 05:00:26", 
+      "kids": [
+        16800166, 
+        16800571, 
+        16800269
+      ], 
+      "parent": 16798287, 
+      "text": "Currently we are passing through an atypical wind and rain period. Our dams are full and pouring out water as we are producing more energy than we consume.<p>Despite all of this energy prices don't drop as they are bound to one of the few legal monopolies in Europe: the grid operation cartel (REN in the article, there is only one allowed for each EU country).</p><p>Also this feels as fake news since we have a few very old (and historically insecure, like sines power plant and carregado power plant) fossil fuel power plants that are still operating with no signs of slowing down while making profits through several scams in chemical engineering their way into the 0 emissions lot.</p>", 
+      "id": 16800004, 
+      "time": 1523350826, 
+      "type": "comment", 
+      "by": "HugoDaniel"
+    }, 
+    "16800269": {
+      "time_iso": "2018-04-10 06:17:18", 
+      "kids": [
+        16800693, 
+        16801347
+      ], 
+      "parent": 16800004, 
+      "text": "are batteries (or some sort of storage) in the infrastructure plan for the future?", 
+      "id": 16800269, 
+      "time": 1523355438, 
+      "type": "comment", 
+      "by": "hobolord"
+    }, 
+    "16800693": {
+      "time_iso": "2018-04-10 08:05:02", 
+      "kids": [
+        16802399, 
+        16800917
+      ], 
+      "parent": 16800269, 
+      "text": "Hemp supercapacitors might be a good solution to the energy grid storage problem. Hemp absorbs carbon, doesn't leave unplowable roots in the fields, returns up to 70% of nutrients to the soil, and grows quickly just about anywhere.<p>Hemp bast fiber is normally waste. Hemp anodes for supercapacitors are made from the bast fiber that is normally waste.</p><p>Graphene is very useful; but industrial production of graphene is dangerous because lungs and blood-brain barrier.</p><p>Hemp is an alternative to graphene for modern supercapacitors (which now have much greater power density in wH/kg)</p><p>\"Hemp Carbon Makes Supercapacitors Superfast\u201d\n<a href=\"https://www.asme.org/engineering-topics/articles/energy/hemp-carbon-makes-supercapacitors-superfast\" rel=\"nofollow\">https://www.asme.org/engineering-topics/articles/energy/hemp...</a></p><p>&gt; <i>\u201cOur device\u2019s electrochemical performance is on par with or better than graphene-based devices,\u201d Mitlin says. \u201cThe key advantage is that our electrodes are made from biowaste using a simple process, and therefore, are much cheaper than graphene.\u201d</i></p><p>&gt; <i>Graphene is, however, expensive to manufacture, costing as much as $2,000 per gram. [...] developed a process for converting fibrous hemp waste into a unique graphene-like nanomaterial that outperforms graphene. What\u2019s more, it can be manufactured for less than $500 per ton.</i></p><p>&gt; <i>Hemp fiber waste was pressure-cooked (hydrothermal synthesis) at 180 \u00b0C for 24 hours. The resulting carbonized material was treated with potassium hydroxide and then heated to temperatures as high as 800 \u00b0C, resulting in the formation of uniquely structured nanosheets. Testing of this material revealed that it discharged 49 kW of power per kg of material\u2014nearly triple what standard commercial electrodes supply, 17 kW/kg.</i></p><p><a href=\"https://scholar.google.com/scholar?hl=en&amp;q=hemp+supercapacitor\" rel=\"nofollow\">https://scholar.google.com/scholar?hl=en&amp;q=hemp+supercapacit...</a></p><p><a href=\"https://en.wikipedia.org/wiki/Supercapacitor\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Supercapacitor</a></p><p>I feel like a broken record mentioning this again and again.</p>", 
+      "id": 16800693, 
+      "time": 1523361902, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16800744": {
+      "time_iso": "2018-04-10 08:17:23", 
+      "parent": 16799689, 
+      "text": "100% renewable energy by purchasing and funding renewable energy is an outstanding acheivement.<p>Is there another statistic for measuring how many KWhr or MWhr are sourced directly from renewable energy sources (or, more logically, 'directly' from batteries + hemp supercapacitors between use and generation)?</p>", 
+      "id": 16800744, 
+      "time": 1523362643, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16800917": {
+      "time_iso": "2018-04-10 08:47:58", 
+      "kids": [
+        16804939
+      ], 
+      "parent": 16800693, 
+      "text": "It does sound amazing and economical, like almost too good to be true, but I very much hope it is true. What are the downsides? Is there a degradation problem or something similar? Other than the stoner connection in people's minds, what kind of resistance is there to this? Why isn't it widely known?", 
+      "id": 16800917, 
+      "time": 1523364478, 
+      "type": "comment", 
+      "by": "malloryerik"
+    }, 
+    "16802399": {
+      "time_iso": "2018-04-10 12:06:16", 
+      "kids": [
+        16804862
+      ], 
+      "parent": 16800693, 
+      "text": "If you're going to be mentioning this again in the future please correct your usage of power/energy density. Power density is measured in W/kg, energy density is measured in Wh/kg. Supercapacitors tend to excel in the former but be poor in the latter. You mentioned power density but used units for energy density. This happens so often in media that I feel the need to correct it even in a comment.", 
+      "id": 16802399, 
+      "time": 1523376376, 
+      "type": "comment", 
+      "by": "telchar"
+    }, 
+    "16804862": {
+      "time_iso": "2018-04-10 16:14:15", 
+      "kids": [
+        16807013
+      ], 
+      "parent": 16802399, 
+      "text": "&gt; please correct your usage of power/energy density. Power density is measured in W/kg, energy density is measured in Wh/kg. Supercapacitors tend to excel in the former but be poor in the latter.<p>I'd update the units; good call. You may have that confused? Traditional supercapacitors have had lower power density and faster charging/discharging. Graphene and hemp somewhat change the game, AFAIU.</p><p>It makes sense to put supercapacitors <i>in front of</i> the battery banks because they last so many cycles and because they charge and discharge so quickly (a very helpful capability for handling spiky wind and solar loads).</p>", 
+      "id": 16804862, 
+      "time": 1523391255, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16804939": {
+      "time_iso": "2018-04-10 16:21:27", 
+      "parent": 16800917, 
+      "text": "You know, I'm not sure. This article is from a few years ago now and there's not much uptake.<p>It may be that most people dismiss supercapacitors based on the stats for legacy (pre-graphene/pre-hemp) supercapacitors: large but quick and long-lasting.</p><p>It may be that hemp is taxed at up to 90% because it's a controlled substance in the US (but not in Europe, Canada, or China; where we must import shelled hemp seeds from). A historical accident?</p>", 
+      "id": 16804939, 
+      "time": 1523391687, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16805519": {
+      "time_iso": "2018-04-10 17:16:07", 
+      "parent": 16778330, 
+      "text": "How do these new GPUs compare to those from 10 years ago in terms of FLOPs per Watt?\n<a href=\"https://en.wikipedia.org/wiki/Performance_per_watt\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Performance_per_watt</a><p>The new ASICs for Ethereum mining can't be solely responsible for this percent of the market.</p><p>(Note that NVIDIA's stock price is up over 1700% over the past 10 years. And that Bitcoin mining on CPUs and GPUs hasn't been profitable for quite awhile. In 2007, I don't think we knew that hashing could be done on GPUs; though there were SSL accelerator cards that were mighty expensive)</p>", 
+      "id": 16805519, 
+      "time": 1523394967, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16807013": {
+      "time_iso": "2018-04-10 20:30:04", 
+      "kids": [
+        16812053
+      ], 
+      "parent": 16804862, 
+      "text": "I think you may still be a little confused. Power density is the rate at which energy can be added to or drawn from the the cell per unit mass. So faster charging and discharging means high power density. Energy density is the total amount of energy that can be stored per unit mass. Supercapacitors are typically higher in power density and lower in energy density than batteries[1].<p>You're right that it makes sense to put supercapacitors in front of the battery banks for the reasons you said.</p><p>[1] <a href=\"http://berc.berkeley.edu/storage-wars-batteries-vs-supercapacitors\" rel=\"nofollow\">http://berc.berkeley.edu/storage-wars-batteries-vs-supercapa...</a></p>", 
+      "id": 16807013, 
+      "time": 1523406604, 
+      "type": "comment", 
+      "by": "telchar"
+    }, 
+    "16812053": {
+      "time_iso": "2018-04-11 11:23:47", 
+      "parent": 16807013, 
+      "text": "I must have logically assumed that rate of charge and discharge include time (hours) in the unit: Wh/kg.<p>My understanding is that there's usually a curve over time t that represents the charging rate from empty through full.</p>", 
+      "id": 16812053, 
+      "time": 1523460227, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16798287, 
+    16778330, 
+    16798868, 
     16612939, 
     16501147, 
     16490229, 
