@@ -9415,7 +9415,7 @@
       "url": "https://reneweconomy.com.au/portugal-reaches-100-renewables-ends-fossil-fuel-subsidies-32820/", 
       "title": "Portugal electricity generation temporarily reaches 100% renewable", 
       "by": "mgdo", 
-      "score": 233, 
+      "score": 234, 
       "time": 1523323063, 
       "type": "story", 
       "id": 16798287
@@ -9425,6 +9425,7 @@
       "kids": [
         16799379, 
         16799337, 
+        16812584, 
         16799915, 
         16801546, 
         16799199, 
@@ -9438,11 +9439,11 @@
         16799386, 
         16799820
       ], 
-      "descendants": 177, 
+      "descendants": 178, 
       "url": "https://www.apple.com/ca/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/", 
       "title": "Apple says it\u2019s now powered by renewable energy worldwide", 
       "by": "iamspoilt", 
-      "score": 271, 
+      "score": 272, 
       "time": 1523332268, 
       "type": "story", 
       "id": 16798868
@@ -9645,9 +9646,45 @@
       "time": 1523460227, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "16813956": {
+      "time_iso": "2018-04-11 14:28:06", 
+      "kids": [
+        16813974
+      ], 
+      "descendants": 2, 
+      "text": "Are batteries the primary justification for \"buy all sell all\" over \"net metering\"?<p>Are next-gen supercapacitors the solution?</p>", 
+      "title": "Ask HN: Do battery costs justify \u201cbuy all sell all\u201d over \u201cnet metering\u201d?", 
+      "by": "westurner", 
+      "score": 1, 
+      "time": 1523471286, 
+      "type": "story", 
+      "id": 16813956
+    }, 
+    "16813974": {
+      "time_iso": "2018-04-11 14:29:22", 
+      "kids": [
+        16814022
+      ], 
+      "parent": 16813956, 
+      "text": "&gt; <i>Ask HN: Do battery costs justify \"buy all sell all\" over \"net metering\"?</i><p>&gt; <i>Are batteries the primary justification for \"buy all sell all\" over \"net metering\"?</i></p><p>&gt; <i>Are next-gen supercapacitors the solution?</i></p><p>With \"Net Metering\", electric utilities buy consumers' excess generated energy at retail or wholesale rates.\n<a href=\"https://en.wikipedia.org/wiki/Net_metering\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Net_metering</a></p><p>With \"Buy All, Sell All\", electric utilities require consumers to sell all of the energy they generate from e.g. solar panels (usually at wholesale prices, AFAIU) and buy all of the energy they consume at retail rates. They can't place the meter after any local batteries.</p><p>Do I have this right?</p><p><i>Net metering</i>:</p><p>(used-generated) x (retail || wholesale)</p><p><i>Buy all, sell all</i>:</p><p>(used x retail) - (generated x wholesale)</p><p>For the <i>energy generating consumer</i>, net metering is a better deal: they have power when the grid is down, and they keep or earn more for the energy generation capability they choose to invest in.</p><p>Utilities argue that: maintaining grid storage and transfer costs money, which justifies paying energy generating consumers less than they pay for more constant sources of energy like dams, wind farms, and commercial solar plants.</p><p>Building a two-way power transfer grid costs money. Batteries require replacement after a limited number of cycles. Spiky or bursting power generation is not good for batteries because they don't get a full cycle. [Hemp] supercapacitors can smooth out that load and handle many more partial charge and discharge cycles.</p><p>Is energy storage the primary justifying cost driver for \"buy all, sell all\"?</p><p>What investments are needed in order to more strongly incentivize clean energy generation? Do we need low cost supercapacitors to handle the spiky load?</p><p>Are these utilities granted a monopoly? Are they price fixing?</p><p>Energy demand from blockchain mining has not managed to keep demand constant so that utilities have profit to invest in clean energy generation and a two-way smart grid that accommodates spiky consumer energy generation. Demand for electricity is falling as we become less wasteful and more energy efficient. As the cost of renewable energy continues to fall (and become less expensive than nonrenewables), there should be more margin for energy utilities which cost-rationally and environmentally-rationally choose to buy renewable energy and sell it to consumers.</p><p>Please correct me with the appropriate terminology.</p><p>How can we more strongly incentivize consumer solar panel investments?</p>", 
+      "id": 16813974, 
+      "time": 1523471362, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "16814022": {
+      "time_iso": "2018-04-11 14:33:27", 
+      "parent": 16813974, 
+      "text": "Here's a discussion about the lower costs of hemp supercapacitors as compared with graphene super capacitors:\n<a href=\"https://news.ycombinator.com/item?id=16800693\" rel=\"nofollow\">https://news.ycombinator.com/item?id=16800693</a><p>\"\"\"\nHemp supercapacitors might be a good solution to the energy grid storage problem. Hemp absorbs carbon, doesn't leave unplowable roots in the fields, returns up to 70% of nutrients to the soil, and grows quickly just about anywhere.\nHemp bast fiber is normally waste. Hemp anodes for supercapacitors are made from the bast fiber that is normally waste.</p><p>Graphene is very useful; but industrial production of graphene is dangerous because lungs and blood-brain barrier.</p><p>Hemp is an alternative to graphene for modern supercapacitors (which now have much greater [energy density] in wH/kg)</p><p>\"Hemp Carbon Makes Supercapacitors Superfast\u201d \n<a href=\"https://www.asme.org/engineering-topics/articles/energy/hemp-carbon-makes-supercapacitors-superfast\" rel=\"nofollow\">https://www.asme.org/engineering-topics/articles/energy/hemp...</a></p><p>&gt; <i>\u201cOur device\u2019s electrochemical performance is on par with or better than graphene-based devices,\u201d Mitlin says. \u201cThe key advantage is that our electrodes are made from biowaste using a simple process, and therefore, are much cheaper than graphene.\u201d</i></p><p>&gt; <i>Graphene is, however, expensive to manufacture, costing as much as $2,000 per gram. [...] developed a process for converting fibrous hemp waste into a unique graphene-like nanomaterial that outperforms graphene. What\u2019s more, it can be manufactured for less than $500 per ton.</i></p><p>&gt; <i>Hemp fiber waste was pressure-cooked (hydrothermal synthesis) at 180 \u00b0C for 24 hours. The resulting carbonized material was treated with potassium hydroxide and then heated to temperatures as high as 800 \u00b0C, resulting in the formation of uniquely structured nanosheets. Testing of this material revealed that it discharged 49 kW of power per kg of material\u2014nearly triple what standard commercial electrodes supply, 17 kW/kg.</i></p><p><a href=\"https://scholar.google.com/scholar?hl=en&amp;q=hemp+supercapacit..\" rel=\"nofollow\">https://scholar.google.com/scholar?hl=en&amp;q=hemp+supercapacit...</a>.</p><p><a href=\"https://en.wikipedia.org/wiki/Supercapacitor\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Supercapacitor</a></p><p>I feel like a broken record mentioning this again and again.\n\"\"'</p>", 
+      "id": 16814022, 
+      "time": 1523471607, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    16813956, 
     16798287, 
     16778330, 
     16798868, 
