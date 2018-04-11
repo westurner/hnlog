@@ -9397,8 +9397,8 @@
         16800330, 
         16800464, 
         16799782, 
-        16802445, 
         16800224, 
+        16802445, 
         16799634, 
         16801895, 
         16801277, 
@@ -9442,7 +9442,7 @@
       "url": "https://www.apple.com/ca/newsroom/2018/04/apple-now-globally-powered-by-100-percent-renewable-energy/", 
       "title": "Apple says it\u2019s now powered by renewable energy worldwide", 
       "by": "iamspoilt", 
-      "score": 270, 
+      "score": 271, 
       "time": 1523332268, 
       "type": "story", 
       "id": 16798868
@@ -9640,7 +9640,7 @@
     "16812053": {
       "time_iso": "2018-04-11 11:23:47", 
       "parent": 16807013, 
-      "text": "I must have logically assumed that rate of charge and discharge include time (hours) in the unit: Wh/kg.<p>My understanding is that there's usually a curve over time t that represents the charging rate from empty through full.</p>", 
+      "text": "I must have logically assumed that rate of charge and discharge include time (hours) in the unit: Wh/kg.<p>My understanding is that there's usually a curve over time t that represents the charging rate from empty through full.</p><p>[edit]</p><p>\"C rate\"</p><p>Battery_(electricity)#C_rate \n<a href=\"https://en.wikipedia.org/wiki/Battery_(electricity)#C_rate\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Battery_(electricity)#C_rate</a></p><p>Battery_charger#C-rates \n<a href=\"https://en.wikipedia.org/wiki/Battery_charger#C-rates\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Battery_charger#C-rates</a></p><p>&gt; <i>Charge and discharge rates are often denoted as C or C-rate, which is a measure of the rate at which a battery is charged or discharged relative to its capacity. As such the C-rate is defined as the charge or discharge current divided by the battery's capacity to store an electrical charge. While rarely stated explicitly, the unit of the C-rate is [h^\u22121], equivalent to stating the battery's capacity to store an electrical charge in unit hour times current in the same unit as the charge or discharge current.</i></p>", 
       "id": 16812053, 
       "time": 1523460227, 
       "type": "comment", 
