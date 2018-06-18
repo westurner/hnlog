@@ -9761,11 +9761,403 @@
       "time": 1527056440, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "17132331": {
+      "time_iso": "2018-05-23 04:37:59", 
+      "kids": [
+        17135229
+      ], 
+      "parent": 17131589, 
+      "text": "Because TLS 1.3 is sat in the Editor queue patiently alongside other RFCs there isn't, or shouldn't be, any software compatible with TLS 1.3 today. Implementations of the Draft 23 or other editions are deliberately incompatible with and must be replaced by the real TLS 1.3 after the Editor is done with it even though (as it stands) they are otherwise functionally identical.", 
+      "id": 17132331, 
+      "time": 1527064679, 
+      "type": "comment", 
+      "by": "tialaramex"
+    }, 
+    "17135229": {
+      "time_iso": "2018-05-23 12:03:11", 
+      "parent": 17132331, 
+      "text": "Firefox, Chrome, and CloudFlare all already support (DRAFT) TLS 1.3:\n<a href=\"https://www.ghacks.net/2017/06/15/how-to-enable-tls-1-3-support-in-firefox-and-chrome/\" rel=\"nofollow\">https://www.ghacks.net/2017/06/15/how-to-enable-tls-1-3-supp...</a><p>Apache mod_nss and nginx support (DRAFT) TLS 1.3.</p><p>The changes to allowed ciphers in TLS 1.3 could be implemented by modifying webserver config (e.g. as produced by the aforementioned Mozilla config generator tool). IDK what versions of (unupgraded) browsers that would cut off.</p>", 
+      "id": 17135229, 
+      "time": 1527091391, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17280423": {
+      "time_iso": "2018-06-10 18:04:07", 
+      "kids": [
+        17280482, 
+        17280968
+      ], 
+      "descendants": 2, 
+      "text": "Besides classification and regression, and the unsupervised methods for principle components, clustering and frequent item-sets, what tools are there in the ML toolkit and what kinds of problems are amenable to their use?", 
+      "title": "Ask HN: Is there a taxonomy of machine learning types?", 
+      "by": "ljw1001", 
+      "score": 3, 
+      "time": 1528668247, 
+      "type": "story", 
+      "id": 17280423
+    }, 
+    "17280968": {
+      "time_iso": "2018-06-10 20:49:05", 
+      "parent": 17280423, 
+      "text": "Outline of Machine Learning\n<a href=\"https://en.wikipedia.org/wiki/Outline_of_machine_learning\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Outline_of_machine_learning</a><p>Machine learning # Applications\n<a href=\"https://en.wikipedia.org/wiki/Machine_learning#Applications\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Machine_learning#Applications</a></p><p>\"machine learning map\" image search:\n<a href=\"https://www.google.com/search?q=machine+learning+map&amp;tbm=isch\" rel=\"nofollow\">https://www.google.com/search?q=machine+learning+map&amp;tbm=isc...</a></p>", 
+      "id": 17280968, 
+      "time": 1528678145, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17313937": {
+      "time_iso": "2018-06-14 14:13:13", 
+      "kids": [
+        17314701, 
+        17315965, 
+        17314941, 
+        17315111, 
+        17314428, 
+        17316754, 
+        17315068, 
+        17315593, 
+        17314890, 
+        17314544, 
+        17314449, 
+        17316645, 
+        17315662, 
+        17319128, 
+        17318252, 
+        17316938, 
+        17315127, 
+        17315233, 
+        17314999, 
+        17315130, 
+        17314777, 
+        17315023, 
+        17314817, 
+        17315745, 
+        17315320, 
+        17315326, 
+        17314445
+      ], 
+      "descendants": 114, 
+      "url": "https://deepmind.com/blog/neural-scene-representation-and-rendering/", 
+      "title": "Neural scene representation and rendering", 
+      "by": "johnmoberg", 
+      "score": 540, 
+      "time": 1528999993, 
+      "type": "story", 
+      "id": 17313937
+    }, 
+    "17314701": {
+      "time_iso": "2018-06-14 15:39:19", 
+      "kids": [
+        17314943, 
+        17314741, 
+        17316108
+      ], 
+      "parent": 17313937, 
+      "text": "This work is a natural progression from a lot of other prior work in the literature... but that doesn't make the results any less impressive.  The examples shown are amazingly, unbelievably good!  Really GREAT WORK.<p>Based on a quick skim of the paper, here is my oversimplified description of how this works:</p><p>During training, an agent navigates an artificial 3D scene, observing multiple 2D snapshots of the scene, each snapshot from a different vantage point.  The agent passes these snapshots to a deep net composed of two main parts: a representation-learning net and a scene-generation net. The representation-learning net takes as input the agent's observations and produces a scene representation (i.e., a lower-dimensional embedding which encodes information about the underlying scene).  The scene-generation network then predicts the scene from three inputs: (1) <i>an arbitrary query viewpoint</i>,  (2) the scene representation, and (3) stochastic latent variables. The two networks are trained jointly, end-to-end, to maximize the likelihood of generating the ground-truth image that would be observed from the query viewpoint.  See Figure 1 on Page 15 of the Open Access version of the paper.  Obviously I'm playing loose with language and leaving out numerous important details, but this is essentially how training works, as I understand it based on a first skim.</p><p>EDIT: I replaced \"somewhat obvious\" with \"natural,\" which better conveys what I actually meant to write the first time around.</p>", 
+      "id": 17314701, 
+      "time": 1529005159, 
+      "type": "comment", 
+      "by": "cs702"
+    }, 
+    "17314943": {
+      "time_iso": "2018-06-14 16:11:42", 
+      "kids": [
+        17336407, 
+        17316421, 
+        17315845, 
+        17316141, 
+        17315064
+      ], 
+      "parent": 17314701, 
+      "text": "I, literally just 15 minutes ago, had a chat with a friend of mine exactly about how what we are doing right now with computer vision is all based on a flawed premise (supervised 2D  training set). The human brain works in 3D space (or 3D+time) and then projects all this knowledge in a 2D image.<p>Here I was, thinking I finally had thought of a nice PhD project and then Deepmind comes along and gets the scoop! Haha.</p>", 
+      "id": 17314943, 
+      "time": 1529007102, 
+      "type": "comment", 
+      "by": "Rainymood"
+    }, 
+    "17332638": {
+      "time_iso": "2018-06-17 11:00:59", 
+      "kids": [
+        17334042, 
+        17333592, 
+        17336363, 
+        17336802, 
+        17333550, 
+        17336281, 
+        17334377, 
+        17334561, 
+        17336427, 
+        17335149, 
+        17333833, 
+        17335686, 
+        17334528, 
+        17335078, 
+        17333666, 
+        17334564, 
+        17334204, 
+        17334770, 
+        17336601
+      ], 
+      "descendants": 67, 
+      "url": "https://floooh.github.io/2018/06/17/handles-vs-pointers.html", 
+      "title": "Handles are the better pointers", 
+      "by": "ingve", 
+      "score": 163, 
+      "time": 1529247659, 
+      "type": "story", 
+      "id": 17332638
+    }, 
+    "17334042": {
+      "time_iso": "2018-06-17 16:05:03", 
+      "kids": [
+        17334657, 
+        17336454, 
+        17335541, 
+        17334165, 
+        17335819, 
+        17334601
+      ], 
+      "parent": 17332638, 
+      "text": "A few years ago I wanted to make a shoot-em-up game using C# and XNA I could play with my kids on an Xbox. It worked fine except for slight pauses for GC every once in a while which ruined the experience.<p>The best solution I found was to get rid of objects and allocation entirely and instead store the state of the game in  per-type tables like in this article.</p><p>Then I realized that I didn't need per-type tables at all, and if I used what amounted to a union of all types I could store all the game state in a single table, excluding graphical data and textures.</p><p>Next I realized that since most objects had properties like position and velocity, I could update those with a single method by iterating through the table.</p><p>That led to each \"object\" being a collection of various properties acted on by independent methods which were things like gravity and collision detection. I could specify that a particular game entity was subject to gravity or not, etc.</p><p>The resulting performance was fantastic and I found I could have many thousands of on-screen objects at the time with no hiccups. The design also made it really easy to save and replay game state; just save or serialize the single state table and input for each frame.</p><p>The final optimization would have been to write a language that would define game entities in terms of the game components they were subject to and automatically generate the single class that was union of all possible types and would be a \"row\" in the table. I didn't get around to that because it just wasn't necessary for the simple game I made.</p><p>I was inspired to do this from various articles about \"component based game design\" published at the time that were variations on this technique, and the common thread was that a hierarchical OO structure ended up adding a lot of unneeded complexity for games that hindered flexibility as requirements changed or different behaviors for in-game entities were added.</p><p>Edit: This is a good article on the approach. <a href=\"http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/\" rel=\"nofollow\">http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy...</a></p>", 
+      "id": 17334042, 
+      "time": 1529265903, 
+      "type": "comment", 
+      "by": "drblast"
+    }, 
+    "17334613": {
+      "time_iso": "2018-06-17 18:13:13", 
+      "kids": [
+        17337283, 
+        17336647, 
+        17336255, 
+        17335589, 
+        17336050, 
+        17336648, 
+        17336160
+      ], 
+      "descendants": 18, 
+      "text": "if not, why? how do you validate your achievements?", 
+      "title": "Ask HN: Do you consider yourself to be a good programmer?", 
+      "by": "type0", 
+      "score": 14, 
+      "time": 1529273593, 
+      "type": "story", 
+      "id": 17334613
+    }, 
+    "17335125": {
+      "time_iso": "2018-06-17 20:19:20", 
+      "kids": [
+        17335555
+      ], 
+      "descendants": 1, 
+      "url": "https://cleantechnica.com/2018/06/14/new-us-solar-record-2-155-cents-per-kwh-400-mwh-of-energy-storage/", 
+      "title": "New US Solar Record \u2013 2.155 Cents per KWh", 
+      "by": "prostoalex", 
+      "score": 4, 
+      "time": 1529281160, 
+      "type": "story", 
+      "id": 17335125
+    }, 
+    "17335555": {
+      "time_iso": "2018-06-17 22:21:14", 
+      "parent": 17335125, 
+      "text": "\"Cost of electricity by source\" <a href=\"https://en.wikipedia.org/wiki/Cost_of_electricity_by_source\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Cost_of_electricity_by_source</a><p>\"Electricity pricing\" <a href=\"https://en.wikipedia.org/wiki/Electricity_pricing\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Electricity_pricing</a></p><p>&gt; <i>United States\t8 to 17 ; 37[c] 43[c]</i> [cents USD/kWh]</p>", 
+      "id": 17335555, 
+      "time": 1529288474, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17335589": {
+      "time_iso": "2018-06-17 22:28:58", 
+      "kids": [
+        17335982
+      ], 
+      "parent": 17334613, 
+      "text": "&gt; For identifying strengths and weaknesses: \"Programmer Competency Matrix\":<p>&gt; - <a href=\"http://sijinjoseph.com/programmer-competency-matrix/\" rel=\"nofollow\">http://sijinjoseph.com/programmer-competency-matrix/</a></p><p>&gt; - <a href=\"https://competency-checklist.appspot.com/\" rel=\"nofollow\">https://competency-checklist.appspot.com/</a></p><p>&gt; - <a href=\"https://github.com/hltbra/programmer-competency-checklist\" rel=\"nofollow\">https://github.com/hltbra/programmer-competency-checklist</a></p>", 
+      "id": 17335589, 
+      "time": 1529288938, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17335982": {
+      "time_iso": "2018-06-18 00:12:34", 
+      "kids": [
+        17336328
+      ], 
+      "parent": 17335589, 
+      "text": "Don\u2019t read too much into that. TDD for example is not leveling up it\u2019s an opinionated approach to development.", 
+      "id": 17335982, 
+      "time": 1529295154, 
+      "type": "comment", 
+      "by": "digianarchist"
+    }, 
+    "17336328": {
+      "time_iso": "2018-06-18 02:31:59", 
+      "kids": [
+        17336417, 
+        17336661, 
+        17336452
+      ], 
+      "parent": 17335982, 
+      "text": "Automated testing is not a choice in many industries.<p>If you're not familiar with TDD, you haven't yet achieved that level of mastery.</p><p>There's a productivity boost to being able to change quickly without breaking things.</p><p>Is all unit/functional/integration testing and continuous integrating TDD? Is it still TDD if you write the tests after you write the function (and before you commit/merge)?</p><p>I think this competency matrix is a helpful resource. And I think that learning TDD is an important thing for a good programmer.</p>", 
+      "id": 17336328, 
+      "time": 1529303519, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17336407": {
+      "time_iso": "2018-06-18 02:56:56", 
+      "parent": 17314943, 
+      "text": "\"Spatial memory\"\n<a href=\"https://en.wikipedia.org/wiki/Spatial_memory\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Spatial_memory</a><p>It may be splitting hairs, but I think the mammalian brain, at least, can simulate/remember/imagine additional 'dimensions' like X/Y/Z spin, derivatives of velocity like acceleration/jerk/jounce.</p><p>Is space 11 dimensional (M string theory) or 2 dimensional (holographic principle)? What 'dimensions' does the human brain process? Is this capacity innate or learned; should we expect pilots and astronauts to have learned to more intuitively cognitively simulate gravity with their minds?</p>", 
+      "id": 17336407, 
+      "time": 1529305016, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17336417": {
+      "time_iso": "2018-06-18 03:01:25", 
+      "kids": [
+        17336481
+      ], 
+      "parent": 17336328, 
+      "text": "There is absolutely no need to follow TDD to be good at testing.", 
+      "id": 17336417, 
+      "time": 1529305285, 
+      "type": "comment", 
+      "by": "gaastonsr"
+    }, 
+    "17336452": {
+      "time_iso": "2018-06-18 03:14:49", 
+      "kids": [
+        17336498
+      ], 
+      "parent": 17336328, 
+      "text": "&gt; Is all unit/functional/integration testing and continuous integrating TDD?<p>No. They differentiate in the matrix.</p><p>&gt; If you're not familiar with TDD, you haven't yet achieved that level of mastery.</p><p>That's not true - I've worked on teams with far lower defect rates than the typical TDD team.</p><p>TDD can help keep a developer focused - and this can help overall productivity rates - but it doesn't directly help lower defect rates.</p>", 
+      "id": 17336452, 
+      "time": 1529306089, 
+      "type": "comment", 
+      "by": "sheepmullet"
+    }, 
+    "17336454": {
+      "time_iso": "2018-06-18 03:15:37", 
+      "kids": [
+        17336886
+      ], 
+      "parent": 17334042, 
+      "text": "&gt; <i>The final optimization would have been to write a language that would define game entities in terms of the game components they were subject to and automatically generate the single class that was union of all possible types and would be a \"row\" in the table</i><p>django-typed-models \n<a href=\"https://github.com/craigds/django-typed-models\" rel=\"nofollow\">https://github.com/craigds/django-typed-models</a></p><p>&gt; <i>polymorphic django models using automatic type-field downcasting</i></p><p>&gt; <i>The actual type of each object is stored in the database, and when the object is retrieved it is automatically cast to the correct model class</i></p><p>...</p><p>&gt; <i>the common thread was that a hierarchical OO structure ended up adding a lot of unneeded complexity for games that hindered flexibility as requirements changed or different behaviors for in-game entities were added.</i></p><p>So, in order to draw a bounding box for an ensemble of hierarchically/tree/graph-linked objects (possibly modified in supersteps for reproducibility), is an array-based adjacency matrix still fastest?</p><p>Are sparse arrays any faster for this data architecture?</p>", 
+      "id": 17336454, 
+      "time": 1529306137, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17336481": {
+      "time_iso": "2018-06-18 03:22:28", 
+      "kids": [
+        17336665, 
+        17336599
+      ], 
+      "parent": 17336417, 
+      "text": "This is all unfounded conjecture: it seems easier to remember which parameter combinations may exist and need to be tested <i>when writing the function</i>; so \"let's all write tests later\" becomes a black box exercise which is indeed a helpful perspective for review, but isn't the most effective use of resources.", 
+      "id": 17336481, 
+      "time": 1529306548, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17336498": {
+      "time_iso": "2018-06-18 03:28:47", 
+      "parent": 17336452, 
+      "text": "&gt; <i>TDD can help keep a developer focused - and this can help overall productivity rates - but it doesn't directly help lower defect rates.</i><p>We would need to reference some data with statistical power; though randomization and control are infeasible: no two teams are the same, no two projects are the same, no two objective evaluations of different apps' teams' defect rates are an apples to apples comparison.</p><p>Maybe it's the coverage expectation: do not add code that is not run by at least one test.</p>", 
+      "id": 17336498, 
+      "time": 1529306927, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17336599": {
+      "time_iso": "2018-06-18 04:02:03", 
+      "kids": [
+        17336813
+      ], 
+      "parent": 17336481, 
+      "text": "IMHO being convinced that there's only one true and correct methodology (TDD, Scrum, etc.) or paradigm (functional, objective, reactive programming, etc.) is a sign of being a bad programmer.", 
+      "id": 17336599, 
+      "time": 1529308923, 
+      "type": "comment", 
+      "by": "mpetkevicius"
+    }, 
+    "17336665": {
+      "time_iso": "2018-06-18 04:24:50", 
+      "kids": [
+        17337177
+      ], 
+      "parent": 17336481, 
+      "text": "The simple solution there is to simply not use specific parameters (outside ovious edge-cases, ie supplying -1 and 2^63 into your memory allocator). Writing a simple reproducible fuzzer is easy for most contained functions.<p>I find blackbox testing itself also fairly useful. The part where you forget which parameter combinations may occur can be useful since you now A) rely on documentation you made and B) can write your test independent of how you implemented it just like if you had written it beforehand. (Just don't forget to avoid falling into the 'write test to pass function' trap)</p>", 
+      "id": 17336665, 
+      "time": 1529310290, 
+      "type": "comment", 
+      "by": "zaarn"
+    }, 
+    "17336813": {
+      "time_iso": "2018-06-18 05:16:15", 
+      "parent": 17336599, 
+      "text": "A good programmer finds common attributes and behaviors and organizes them into namespaced structs/arrays/objects with functions/methods and tests.\nAbstractly, which terms should we use to describe hierarchical clusters of things with information and behaviors if not those from a known software development or project management methodology?<p>And a good programmer asks why people might have spent so much time formalizing project development methodologies. \"What sorts of product (team) failures are we dealing with here?\" is an expensive question to answer as a team.</p><p>By applying tenets of Named agile software development methodologies, teams and managers can feel like they're discussing past and current experiences/successes/failures with <i>comparable</i> implementations of approaches that were or are appropriate for different contexts.</p><p>To argue the other side, just cherry picking from different methodologies is creating a new methodology, which requires time to justify basically what we already have terms for on the wall over here.</p><p>\"We just pop tasks off the queue however\" is really convenient for devs but can be kept cohesive by defining sensible queues: [kanban] board columns can indicate task/issue/card states and primacy,  [sprint] milestone planning meetings can yield complexity 'points' estimates for <i>completable</i> tasks and their subtasks.\nWith team velocity (points/time), a manager can try to appropriately schedule <i>optimal paths</i> of tasks (that meet the SMART criteria (specific, measurable, achievable, relevant, and <i>Time-bound</i>)); instead of fretting with the team over adjusting dates on a Gantt chart (task dependency graph) deadline, the team can</p><p>What about your testing approach makes it '<i>NOT</i> TDD'?</p><p>How long should the pre-release static analysis and dynamic analyses take in my fancy DevOps CI TDD with optional CD? Can we release or deploy right now? Why or why not?</p><p>'We can't release today because we spent too much time arguing about quotes like \"A foolish consistency is the hobgoblin of little minds, adored by little statesmen and philosophers and divines.\" (\"Self Reliance\" 1841. Emerson) and we didn't spec out the roof trusses ahead of time because we're continually developing a new meeting format, so we didn't get to that, or testing the new thing, yet.'</p><p>A good programmer can answer the three questions in a regular meeting at any time, really:</p><p>&gt; 1. What have you completed since the last meeting?</p><p>&gt; 2. What do you plan to complete by the next meeting?</p><p>&gt; 3. What is getting in your way?</p><p>And:</p><p>Can we justify refactoring right now for greater efficiency or additional functionality?</p>", 
+      "id": 17336813, 
+      "time": 1529313375, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17336886": {
+      "time_iso": "2018-06-18 05:31:31", 
+      "kids": [
+        17337100
+      ], 
+      "parent": 17336454, 
+      "text": "&gt; django-typed-models <a href=\"https://github.com/craigds/django-typed-models\" rel=\"nofollow\">https://github.com/craigds/django-typed-models</a><p>Interesting, never came across it. But I've got a Django GitHub library (not yet open source, because it's in a project I've been working with on and off) that does the same for managing GitHub's accounts. An Organization and User inherit the same properties and I downcast them based on their polymorphic type field.</p>", 
+      "id": 17336886, 
+      "time": 1529314291, 
+      "type": "comment", 
+      "by": "Improvotter"
+    }, 
+    "17337100": {
+      "time_iso": "2018-06-18 06:35:44", 
+      "parent": 17336886, 
+      "text": "ContentType.model_class(),\nmodels.Model.meta.abstract=True, django-reversion, django-guardian<p>IDK how to do partial indexes with the Django ORM? A simple filter(bool, rows) could probably significantly shrink the indexes for such a wide table.</p><p>Arrays are fast if the features/dimensions are known at compile time (if the TBox/schema is static). There's probably an intersection between object reference overhead and array copy costs.</p><p>Arrow (with e.g. parquet on disk) can help minimize data serialization/deserialization costs and maximize copy-free data interoperability (with columnar arrays that may have different performance characteristics for whole-scene transformation operations than regular arrays).</p><p>Many implementations of SQL ALTER TABLE don't have to create a full copy in order to add a column, but do require a permission that probably shouldn't be GRANTed to the application user and so online schema changes are scheduled downtime operations.</p><p>If you're not discovering new features at runtime and your access pattern is generally linear, arrays probably are the fastest data structure.</p><p>Hacker News also has a type attribute that you might say is used polymorphically:  <a href=\"https://github.com/HackerNews/API/blob/master/README.md#items\" rel=\"nofollow\">https://github.com/HackerNews/API/blob/master/README.md#item...</a></p><p>Types in RDF are additive: a thing may have zero or more rdf:type property instances. RDF quads can be stored in one SQL table like:</p><p>_id,g,s,p,o,xsd:datatype,xml:lang</p><p>... with a few compound indexes that are combinations of (s,p,o) so that triple pattern graph queries like (?s,?p,1) are fast. Partial indexes (SQLite, PostgreSQL,) would be faster than full-table indexes for RDF in SQL, too.</p>", 
+      "id": 17337100, 
+      "time": 1529318144, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17337177": {
+      "time_iso": "2018-06-18 06:49:43", 
+      "kids": [
+        17337259
+      ], 
+      "parent": 17336665, 
+      "text": "IMHO, it's so much easier to write good, comprehensive tests while writing the function (FUT: function under test) because that information is already in working memory.<p>It's also easier to adversarially write tests with a fresh perspective.</p><p>I shouldn't need to fuzz every parameter for every commit. Certainly for releases.</p><p>\"Building an AppSec Pipeline: Keeping your program, and your life, sane\" <a href=\"https://www.owasp.org/index.php/OWASP_AppSec_Pipeline\" rel=\"nofollow\">https://www.owasp.org/index.php/OWASP_AppSec_Pipeline</a></p>", 
+      "id": 17337177, 
+      "time": 1529318983, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17337259": {
+      "time_iso": "2018-06-18 07:08:01", 
+      "parent": 17337177, 
+      "text": "I mean, I general don't think you should write fuzzers for absolutely everything (most contained functions =&gt; doesn't touch a lot of other stuff and few parameters with a known parameter space)<p>The general solution is to use whatever testing methodology you are comfortable, that is very effective, very efficient and covers a lot of problem space. Of course no testing method does that so you'll have to constantly balance whatever works best (which is why I think pure TDD is overrated)</p>", 
+      "id": 17337259, 
+      "time": 1529320081, 
+      "type": "comment", 
+      "by": "zaarn"
     }
   }, 
   "roots": [
-    17131249, 
+    17334613, 
+    17332638, 
+    17313937, 
+    17335125, 
+    17280423, 
     17129093, 
+    17131249, 
     16822947, 
     16813956, 
     16798287, 
