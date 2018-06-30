@@ -9882,29 +9882,33 @@
       "kids": [
         17334042, 
         17333592, 
-        17336363, 
-        17336802, 
-        17333550, 
-        17336281, 
         17334377, 
         17334561, 
-        17336427, 
-        17335149, 
-        17333833, 
-        17335686, 
-        17334528, 
-        17335078, 
-        17333666, 
-        17334564, 
-        17334204, 
         17334770, 
-        17336601
+        17334528, 
+        17336427, 
+        17333550, 
+        17336363, 
+        17336802, 
+        17337562, 
+        17335686, 
+        17333833, 
+        17335149, 
+        17336281, 
+        17333666, 
+        17336601, 
+        17335078, 
+        17334564, 
+        17339909, 
+        17334204, 
+        17348881, 
+        17348326
       ], 
-      "descendants": 67, 
+      "descendants": 80, 
       "url": "https://floooh.github.io/2018/06/17/handles-vs-pointers.html", 
       "title": "Handles are the better pointers", 
       "by": "ingve", 
-      "score": 163, 
+      "score": 194, 
       "time": 1529247659, 
       "type": "story", 
       "id": 17332638
@@ -9913,11 +9917,11 @@
       "time_iso": "2018-06-17 16:05:03", 
       "kids": [
         17334657, 
-        17336454, 
         17335541, 
         17334165, 
-        17335819, 
-        17334601
+        17336454, 
+        17334601, 
+        17335819
       ], 
       "parent": 17332638, 
       "text": "A few years ago I wanted to make a shoot-em-up game using C# and XNA I could play with my kids on an Xbox. It worked fine except for slight pauses for GC every once in a while which ruined the experience.<p>The best solution I found was to get rid of objects and allocation entirely and instead store the state of the game in  per-type tables like in this article.</p><p>Then I realized that I didn't need per-type tables at all, and if I used what amounted to a union of all types I could store all the game state in a single table, excluding graphical data and textures.</p><p>Next I realized that since most objects had properties like position and velocity, I could update those with a single method by iterating through the table.</p><p>That led to each \"object\" being a collection of various properties acted on by independent methods which were things like gravity and collision detection. I could specify that a particular game entity was subject to gravity or not, etc.</p><p>The resulting performance was fantastic and I found I could have many thousands of on-screen objects at the time with no hiccups. The design also made it really easy to save and replay game state; just save or serialize the single state table and input for each frame.</p><p>The final optimization would have been to write a language that would define game entities in terms of the game components they were subject to and automatically generate the single class that was union of all possible types and would be a \"row\" in the table. I didn't get around to that because it just wasn't necessary for the simple game I made.</p><p>I was inspired to do this from various articles about \"component based game design\" published at the time that were variations on this technique, and the common thread was that a hierarchical OO structure ended up adding a lot of unneeded complexity for games that hindered flexibility as requirements changed or different behaviors for in-game entities were added.</p><p>Edit: This is a good article on the approach. <a href=\"http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy/\" rel=\"nofollow\">http://cowboyprogramming.com/2007/01/05/evolve-your-heirachy...</a></p>", 
@@ -9929,19 +9933,28 @@
     "17334613": {
       "time_iso": "2018-06-17 18:13:13", 
       "kids": [
+        17338514, 
+        17338654, 
         17337283, 
-        17336647, 
-        17336255, 
         17335589, 
+        17351679, 
+        17336647, 
+        17339339, 
+        17350835, 
+        17336255, 
         17336050, 
+        17338241, 
         17336648, 
+        17350355, 
+        17355602, 
+        17341195, 
         17336160
       ], 
-      "descendants": 18, 
+      "descendants": 35, 
       "text": "if not, why? how do you validate your achievements?", 
       "title": "Ask HN: Do you consider yourself to be a good programmer?", 
       "by": "type0", 
-      "score": 14, 
+      "score": 27, 
       "time": 1529273593, 
       "type": "story", 
       "id": 17334613
@@ -9984,7 +9997,8 @@
     "17335982": {
       "time_iso": "2018-06-18 00:12:34", 
       "kids": [
-        17336328
+        17336328, 
+        17345995
       ], 
       "parent": 17335589, 
       "text": "Don\u2019t read too much into that. TDD for example is not leveling up it\u2019s an opinionated approach to development.", 
@@ -10055,8 +10069,8 @@
     "17336481": {
       "time_iso": "2018-06-18 03:22:28", 
       "kids": [
-        17336665, 
-        17336599
+        17336599, 
+        17336665
       ], 
       "parent": 17336417, 
       "text": "This is all unfounded conjecture: it seems easier to remember which parameter combinations may exist and need to be tested <i>when writing the function</i>; so \"let's all write tests later\" becomes a black box exercise which is indeed a helpful perspective for review, but isn't the most effective use of resources.", 
@@ -10148,9 +10162,403 @@
       "time": 1529320081, 
       "type": "comment", 
       "by": "zaarn"
+    }, 
+    "17337678": {
+      "time_iso": "2018-06-18 08:26:23", 
+      "kids": [
+        17340646, 
+        17340953, 
+        17340473, 
+        17341412, 
+        17340557, 
+        17341672, 
+        17340491, 
+        17342214, 
+        17344020, 
+        17344682
+      ], 
+      "descendants": 36, 
+      "url": "http://socratic-form-microscopy.com/2018/06/17/a-cross-of-gold-the-best-speech-youve-never-heard/", 
+      "title": "William Jennings Bryan\u2019s \u201cCross of Gold\u201d Speech", 
+      "by": "zjacobi", 
+      "score": 71, 
+      "time": 1529324783, 
+      "type": "story", 
+      "id": 17337678
+    }, 
+    "17342214": {
+      "time_iso": "2018-06-18 18:41:59", 
+      "parent": 17337678, 
+      "deleted": true, 
+      "time": 1529361719, 
+      "type": "comment", 
+      "id": 17342214
+    }, 
+    "17365366": {
+      "time_iso": "2018-06-21 10:22:43", 
+      "kids": [
+        17367290, 
+        17365622, 
+        17367492, 
+        17366331, 
+        17367717, 
+        17365519, 
+        17369070, 
+        17365553, 
+        17366280, 
+        17365485, 
+        17370546, 
+        17365596, 
+        17366550, 
+        17366499, 
+        17371734, 
+        17365662, 
+        17369246, 
+        17365613, 
+        17366505, 
+        17369640, 
+        17368608, 
+        17365725, 
+        17365663, 
+        17367749, 
+        17368744, 
+        17373245, 
+        17366415, 
+        17365992, 
+        17365695, 
+        17368129, 
+        17369584, 
+        17365802, 
+        17367811, 
+        17370203, 
+        17370082, 
+        17366094, 
+        17370829, 
+        17368806, 
+        17369335, 
+        17370137, 
+        17367886, 
+        17366105, 
+        17368518, 
+        17367618, 
+        17370104, 
+        17366333, 
+        17369539, 
+        17366348, 
+        17381466, 
+        17370048, 
+        17371152, 
+        17370535, 
+        17369632, 
+        17367899, 
+        17369871, 
+        17369697, 
+        17370703, 
+        17366950, 
+        17368172, 
+        17369389, 
+        17369667, 
+        17367266, 
+        17367126, 
+        17365676, 
+        17367980, 
+        17365573, 
+        17365529, 
+        17365593, 
+        17365881, 
+        17365637
+      ], 
+      "descendants": 582, 
+      "url": "https://www.bloomberg.com/news/articles/2018-06-21/states-can-require-internet-tax-collection-supreme-court-rules-jiomtl5c", 
+      "title": "States Can Require Internet Tax Collection, Supreme Court Rules", 
+      "by": "uptown", 
+      "score": 541, 
+      "time": 1529590963, 
+      "type": "story", 
+      "id": 17365366
+    }, 
+    "17365622": {
+      "time_iso": "2018-06-21 10:46:20", 
+      "kids": [
+        17366739, 
+        17366106, 
+        17365873, 
+        17365704, 
+        17366341, 
+        17365657, 
+        17366143, 
+        17366668, 
+        17365987, 
+        17367627, 
+        17366046, 
+        17366015, 
+        17367134, 
+        17366961, 
+        17366981, 
+        17366436
+      ], 
+      "parent": 17365366, 
+      "text": "I have a hunch that this will, in the end, be a massive win for large retailers vs. small ones.  The task of figuring out how to calculate tax for all states is more or less the same amount of work regardless of size, which means for someone like Amazon it's more or less trivial, but for a mom-and-pop store it's a major hassle.", 
+      "id": 17365622, 
+      "time": 1529592380, 
+      "type": "comment", 
+      "by": "rossdavidh"
+    }, 
+    "17366739": {
+      "time_iso": "2018-06-21 12:41:16", 
+      "kids": [
+        17366956, 
+        17370908, 
+        17369983, 
+        17366874
+      ], 
+      "parent": 17365622, 
+      "text": "Thankfully with Shopify it is extremely easy and straightforward to manage for my wife's small online store. Their platform does a great job properly charging taxes by state, county and city in certain situations.  Then using an inexpensive plan from <a href=\"https://www.taxjar.com/\" rel=\"nofollow\">https://www.taxjar.com/</a> the entire filing and paying process is 100% automated.<p>In 10 minutes I was able to file and pay all the sales taxes to several state, dozens of California counties and a handful of cities that charge additional taxes on top.</p>", 
+      "id": 17366739, 
+      "time": 1529599276, 
+      "type": "comment", 
+      "by": "jonathanmoore"
+    }, 
+    "17366874": {
+      "time_iso": "2018-06-21 12:53:10", 
+      "kids": [
+        17366940, 
+        17367275
+      ], 
+      "parent": 17366739, 
+      "text": "So you assume.  As a small business you are unlikely to be audited, but that software could easily be wrong creating a huge minefield and potential liability.", 
+      "id": 17366874, 
+      "time": 1529599990, 
+      "type": "comment", 
+      "by": "Retric"
+    }, 
+    "17366940": {
+      "time_iso": "2018-06-21 12:59:25", 
+      "kids": [
+        17366971, 
+        17367649
+      ], 
+      "parent": 17366874, 
+      "text": "So that would be the software companies' liability. And such business practice can differentiate good ones from the bad ones. I'm seeing a new business market here even.", 
+      "id": 17366940, 
+      "time": 1529600365, 
+      "type": "comment", 
+      "by": "esturk"
+    }, 
+    "17366971": {
+      "time_iso": "2018-06-21 13:01:50", 
+      "kids": [
+        17367054, 
+        17367260, 
+        17367051, 
+        17367044
+      ], 
+      "parent": 17366940, 
+      "text": "<a href=\"https://en.wikipedia.org/wiki/Parable_of_the_broken_window\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Parable_of_the_broken_window</a><p>There is zero economic gain from more complex tax rules.  Further, the software does not absolve you of liability.  At best they may agree to cover it, but that's unlikely and they can also go broke if they get it wrong.</p>", 
+      "id": 17366971, 
+      "time": 1529600510, 
+      "type": "comment", 
+      "by": "Retric"
+    }, 
+    "17367260": {
+      "time_iso": "2018-06-21 13:25:52", 
+      "kids": [
+        17367669
+      ], 
+      "parent": 17366971, 
+      "text": "Actually, current sales tax software provided by South Dakota and other states <i>does</i> absolve a merchant for liability if used to calculate sales tax due.", 
+      "id": 17367260, 
+      "time": 1529601952, 
+      "type": "comment", 
+      "by": "gamblor956"
+    }, 
+    "17367669": {
+      "time_iso": "2018-06-21 14:00:43", 
+      "kids": [
+        17369009
+      ], 
+      "parent": 17367260, 
+      "text": "I agree with this approach!<p>Actually, the federal government should oblige each member state to provide the algorithm, and sign it cryptographically and have it expire every X fixed time interval, and have signed algorithms for the current and next time interval, so that software can automatically fetch and stay up to date.</p><p>Then the \"business opportunity\" of navigating FUD evaporates. Currently any such enterprise charging for such a service can spend a fraction of their budget lobbying against harmonization...</p><p>Since it would be an obligation of the states to the federal government, these algorithms (provided by each member state) should be hosted on a fixed federal government site.</p><p>Time to start a petition?</p>", 
+      "id": 17367669, 
+      "time": 1529604043, 
+      "type": "comment", 
+      "by": "DoctorOetker"
+    }, 
+    "17369009": {
+      "time_iso": "2018-06-21 16:28:50", 
+      "kids": [
+        17378466
+      ], 
+      "parent": 17367669, 
+      "text": "This would reduce costs of tax collection for all parties.<p>What is the most convenient format for this layered geographic data? Are the tax district boundary polygons already otherwise available as open data?\nWhat do localities call these? Sales tax tables, sales tax database, machine-readable flat files in an open format with a common schema?</p><p>How much tax revenue should it cost to provide such a service on a national level?</p><p>States, Counties, Cities, 'Tax Zones'(?) could be required to host tax.state.us.gov or similar with something like Project Open Data JSONLD /data.json that could be aggregated and shared by a server with a URL registry, a task queue service, and a CDN service.</p><p>While the Bitcoin tax payments bill passed the Senate and House in Arizona, it was vetoed in May 2018. Seminole County in Florida now allows tax payment with crytocurrencies such as Bitcoin:</p><p><a href=\"https://cointelegraph.com/news/us-seminole-county-florida-to-accept-crypto-for-tax-payment\" rel=\"nofollow\">https://cointelegraph.com/news/us-seminole-county-florida-to...</a></p><p>&gt; <i>According to a press release, the county will begin accepting Bitcoin (BTC) and Bitcoin Cash (BCH) to pay for services, including property taxes, driver license and ID card fees, as well as tags and titles. The Seminole County Tax Collector will reportedly employ blockchain payments company BitPay, which will allow the county to receive settlement the next business day directly to its bank account in US dollars.</i></p><p>This could also help reduce the costs of tax collection and possibly increase the likelihood of compliance with the forthcoming tax bills!</p>", 
+      "id": 17369009, 
+      "time": 1529612930, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17378466": {
+      "time_iso": "2018-06-22 19:43:09", 
+      "parent": 17369009, 
+      "text": "these are all very good questions, and only a community discussion of people with the right skills and interests can draft a petition, if enough people contribute to the discussion we can make the proposal more reasonable and robust against valid criticisms... but I believe we can make this happen by just starting the discussion. We can bitch on Hacker News, or we can draft a proposal for the different government levels. The more reasonable we draft it, the higher the probability the petition will be a success. I think it wouldn't be hard to argue against this proposal that a legally enforced computation should be open source, i.e. not just the algorithm for the computation but also all the data lists and boundary polygons used in the algorithm...", 
+      "id": 17378466, 
+      "time": 1529710989, 
+      "type": "comment", 
+      "by": "DoctorOetker"
+    }, 
+    "17395736": {
+      "time_iso": "2018-06-25 16:57:46", 
+      "kids": [
+        17396446, 
+        17396434, 
+        17400862, 
+        17400460, 
+        17399832, 
+        17398555, 
+        17396782
+      ], 
+      "descendants": 109, 
+      "url": "https://arstechnica.com/science/2018/06/fda-approves-first-marijuana-derived-drug-and-it-may-spark-dea-rescheduling/", 
+      "title": "FDA approves first marijuana-derived drug and it may spark DEA rescheduling", 
+      "by": "mikece", 
+      "score": 149, 
+      "time": 1529960266, 
+      "type": "story", 
+      "id": 17395736
+    }, 
+    "17399832": {
+      "time_iso": "2018-06-26 08:04:30", 
+      "kids": [
+        17399852, 
+        17402103, 
+        17401606, 
+        17399874, 
+        17402999, 
+        17402204, 
+        17399954, 
+        17401244
+      ], 
+      "parent": 17395736, 
+      "text": "Perhaps someone from the US could help me understand the federal vs state legality of cannabis in the USA?<p>Can a state override <i>any</i> federal law?</p><p>Could federal-level law enforcement theoretically charge someone in a cannabis-legal state for drug offenses?</p>", 
+      "id": 17399832, 
+      "time": 1530014670, 
+      "type": "comment", 
+      "by": "GordonS"
+    }, 
+    "17401244": {
+      "time_iso": "2018-06-26 11:20:23", 
+      "kids": [
+        17401682
+      ], 
+      "parent": 17399832, 
+      "text": "states cannot override any federal law.<p>the federal government merely tolerates the semi-autonomous nature of states in order to maintain order. but the legality of the federal government's supremacy is well evolved, its power and might is extremely disproportionally higher than any collective of states, and at this point the semi-autonomous nature of states is pure fiction as the federal government can assume jurisdiction over any intra-state matter if it wanted to through its interstate commerce laws.</p><p>yes, federal level law enforcement can theoretically charge someone in a cannabis-legal state for drug offenses. this still happens. the discretion of the words of the President, the heads of the DEA and DOJ prevent the MAJORITY of it from happening and also guide the discretion of the courts and public sympathy. so right now, for the last two administrations it has not been a priority to upset the social order in cannabis-legal states. but it can still happen.</p>", 
+      "id": 17401244, 
+      "time": 1530026423, 
+      "type": "comment", 
+      "by": "deltateam"
+    }, 
+    "17401682": {
+      "time_iso": "2018-06-26 12:01:56", 
+      "kids": [
+        17402221
+      ], 
+      "parent": 17401244, 
+      "text": "&gt; states cannot override any federal law.<p>Not actually true: <a href=\"https://en.wikipedia.org/wiki/Nullification_(U.S._Constitution)\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Nullification_(U.S._Constituti...</a></p>", 
+      "id": 17401682, 
+      "time": 1530028916, 
+      "type": "comment", 
+      "by": "UncleEntity"
+    }, 
+    "17402221": {
+      "time_iso": "2018-06-26 12:57:14", 
+      "kids": [
+        17403132
+      ], 
+      "parent": 17401682, 
+      "text": "&gt; not actually true<p>a concept which requires agreement from the federal courts themselves, who have never upheld a single argument related to  this concept.</p><p>not actually what?</p>", 
+      "id": 17402221, 
+      "time": 1530032234, 
+      "type": "comment", 
+      "by": "deltateam"
+    }, 
+    "17403132": {
+      "time_iso": "2018-06-26 14:53:03", 
+      "kids": [
+        17404745
+      ], 
+      "parent": 17402221, 
+      "text": "Selective incorporation:\n<a href=\"https://en.wikipedia.org/wiki/Incorporation_of_the_Bill_of_Rights\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Incorporation_of_the_Bill_of_R...</a><p>10th Amendment:\n<a href=\"https://en.wikipedia.org/wiki/Tenth_Amendment_to_the_United_States_Constitution\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Tenth_Amendment_to_the_United_...</a></p><p>&gt; <i>The Tenth Amendment, which makes explicit the idea that the federal government is limited to only the powers granted in the Constitution, has been declared to be a truism by the Supreme Court.</i></p><p>Supremacy clause: \n<a href=\"https://en.wikipedia.org/wiki/Supremacy_Clause\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Supremacy_Clause</a></p><p>&gt; <i>The Supremacy Clause of the United States Constitution (Article VI, Clause 2) establishes that the Constitution, federal laws made pursuant to it, and treaties made under its authority, constitute the supreme law of the land.[1] It provides that state courts are bound by the supreme law; in case of conflict between federal and state law, the federal law must be applied. Even state constitutions are subordinate to federal law.[2] In essence, it is a conflict-of-laws rule specifying that certain federal acts take priority over any state acts that conflict with federal law</i></p><p>Natural rights ('inalienable rights': Equal rights, Life, Liberty, pursuit of Happiness):\n<a href=\"https://en.wikipedia.org/wiki/Natural_and_legal_rights\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Natural_and_legal_rights</a></p><p>9th Amendment:\n<a href=\"https://en.wikipedia.org/wiki/Ninth_Amendment_to_the_United_States_Constitution\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Ninth_Amendment_to_the_United_...</a></p><p>&gt; <i>The Ninth Amendment (Amendment IX) to the United States Constitution addresses rights, retained by the people, that are not specifically enumerated in the Constitution. It is part of the Bill of Rights.</i></p><p>If the 9th Amendment recognizes any unenumerated rights of the people (with Supremacy, regardless of selective incorporation), it certainly recognizes those of the Declaration of Independence ((secession from the king ('CSA')), Equality, Life, Liberty, pursuit of Happiness), our non-binding charter which frames the entirety of the Constitutional convention</p>", 
+      "id": 17403132, 
+      "time": 1530039183, 
+      "type": "comment", 
+      "by": "is_this_valid2"
+    }, 
+    "17404745": {
+      "time_iso": "2018-06-26 19:30:22", 
+      "kids": [
+        17412453
+      ], 
+      "parent": 17403132, 
+      "text": "All of these things have been interpreted by the courts and their conclusion was not like yours<p>It is nice that you are interested in these things, but they simply cannot be read verbatim and then extrapolated to other things.</p><p>This isn't educational for anybody, this is a view that lacks all consensus and all avenues to ever garner consensus in this country.</p>", 
+      "id": 17404745, 
+      "time": 1530055822, 
+      "type": "comment", 
+      "by": "deltateam"
+    }, 
+    "17412453": {
+      "time_iso": "2018-06-27 18:34:42", 
+      "parent": 17404745, 
+      "text": "Again, I ask you to explain how the current law grants equal rights.<p><a href=\"https://news.ycombinator.com/item?id=17401906\" rel=\"nofollow\">https://news.ycombinator.com/item?id=17401906</a></p><p>&gt; <i>We tend to have issues with Equal rights/protections: slavery, voting rights, [school] segregation. Please help us understand how to do this Equally:</i></p><p>&gt;&gt; <i>Furthermore, (1) write a function to determine whether a given Person has a (natural inalienable) right: what information may you require? (2) write a function to determine whether any two Persons have equal rights.</i></p><p>Abolitionists faced similar criticism from on high.</p>", 
+      "id": 17412453, 
+      "time": 1530138882, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17429302": {
+      "time_iso": "2018-06-29 23:17:31", 
+      "kids": [
+        17429640, 
+        17430152, 
+        17429987, 
+        17429873, 
+        17430250, 
+        17429982
+      ], 
+      "descendants": 14, 
+      "url": "https://renewablesnow.com/news/wind-solar-farms-produce-10-of-us-power-in-4-mo-617830/", 
+      "title": "Wind, solar farms produce 10% of US power in the first four months of 2018", 
+      "by": "toomuchtodo", 
+      "score": 73, 
+      "time": 1530328651, 
+      "type": "story", 
+      "id": 17429302
+    }, 
+    "17430250": {
+      "time_iso": "2018-06-30 06:17:55", 
+      "kids": [
+        17430718
+      ], 
+      "parent": 17429302, 
+      "text": "Take note: 10% PRODUCED, not 10% CONSUMED.<p>This is counting all output by wind and solar regardless if it is needed and usable when the power is being produced. This is quite important because wind and solar are not on-demand sources of power.</p>", 
+      "id": 17430250, 
+      "time": 1530353875, 
+      "type": "comment", 
+      "by": "sintaxi"
+    }, 
+    "17430718": {
+      "time_iso": "2018-06-30 08:53:13", 
+      "parent": 17430250, 
+      "text": "&gt; <i>This is counting all output by wind and solar regardless if it is needed and usable when the power is being produced. This is quite important because wind and solar are not on-demand sources of power.</i><p>I think you have that backwards: in the US, we lack the ability to scale down coal and nuclear plants. Solar and Wind are generally the first to get pulled offline when generated capacity exceeds demand and storage.</p><p>TIL this is called \"curtailment\" and it's an argument that utilities have used to justify not spending on renewables that are saving the environment from global warming (which is going to require more electricity for air conditioning).</p><p>Solar energy production peaks around noon. Demand for electricity  peaks in the evening. We need storage (batteries with supercapacitors out front) in order to store the difference between peak generation and peak use. Because they're unable to store this extra energy, they temporarily shut down solar and wind and leave the polluting plants online.</p><p>Consumers aren't exposed to daily price fluctuations: they get a flat rate that makes it easy to check their bill; so there's no price incentive to e.g. charge an EV at midday when energy is cheapest.</p><p>The 'Duck curve' shows this relation between peak supply and demand in electricity markets:\n<a href=\"https://en.wikipedia.org/wiki/Duck_curve\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Duck_curve</a></p><p>Developing energy storage capabilities (through infrastructure and open access basic research that can be capitalized by all) is likely the best solution. According to a fairly recent report, we could go 100% renewable with the energy storage tech that exists today.</p><p>But there's no money for it. There's money for subsidizing oil production (regardless of harms (!)), but not so much for wind and solar. There's money for responding to natural disasters caused by global warming, but not so much for non-carbon-based energy sources that don't cause global warming. A film called \"The Burden: Fossil Fuel, the Military, and National Security\" quotes the actual unsubsidized price of a gallon of gasoline.</p><p>Wouldn't it be great if there was some kind of computer workload that could be run whenever energy is cheapest ( '<i>energy spot instances</i>') so that we can accelerate our migration to renewable energy sources that are saving the environment for future generations? If there were people who had strong incentives to create demand for power-efficient chips and inexpensive clean energy.</p><p>Where would be if we had continued with Jimmy Carter's solar panels of the roof of the White House (instead of constant war and meddling with competing oil production regions of the world)?</p><p>It's good to see wind and solar growing this fast this year. A chart with cost per kWhr or MWhr would be enlightening.</p>", 
+      "id": 17430718, 
+      "time": 1530363193, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    17429302, 
+    17395736, 
+    17365366, 
+    17337678, 
     17334613, 
     17332638, 
     17313937, 
