@@ -10211,8 +10211,8 @@
         17365596, 
         17366550, 
         17366499, 
-        17371734, 
         17365662, 
+        17371734, 
         17369246, 
         17365613, 
         17366505, 
@@ -10236,18 +10236,18 @@
         17370829, 
         17368806, 
         17369335, 
-        17370137, 
         17367886, 
         17366105, 
+        17370137, 
         17368518, 
         17367618, 
         17370104, 
         17366333, 
         17369539, 
         17366348, 
-        17381466, 
         17370048, 
         17371152, 
+        17381466, 
         17370535, 
         17369632, 
         17367899, 
@@ -10268,7 +10268,7 @@
         17365881, 
         17365637
       ], 
-      "descendants": 582, 
+      "descendants": 583, 
       "url": "https://www.bloomberg.com/news/articles/2018-06-21/states-can-require-internet-tax-collection-supreme-court-rules-jiomtl5c", 
       "title": "States Can Require Internet Tax Collection, Supreme Court Rules", 
       "by": "uptown", 
@@ -10416,11 +10416,11 @@
         17398555, 
         17396782
       ], 
-      "descendants": 109, 
+      "descendants": 110, 
       "url": "https://arstechnica.com/science/2018/06/fda-approves-first-marijuana-derived-drug-and-it-may-spark-dea-rescheduling/", 
       "title": "FDA approves first marijuana-derived drug and it may spark DEA rescheduling", 
       "by": "mikece", 
-      "score": 149, 
+      "score": 150, 
       "time": 1529960266, 
       "type": "story", 
       "id": 17395736
@@ -10517,17 +10517,17 @@
       "time_iso": "2018-06-29 23:17:31", 
       "kids": [
         17429640, 
-        17430152, 
         17429987, 
-        17429873, 
         17430250, 
-        17429982
+        17429982, 
+        17430152, 
+        17429873
       ], 
-      "descendants": 14, 
+      "descendants": 23, 
       "url": "https://renewablesnow.com/news/wind-solar-farms-produce-10-of-us-power-in-4-mo-617830/", 
       "title": "Wind, solar farms produce 10% of US power in the first four months of 2018", 
       "by": "toomuchtodo", 
-      "score": 73, 
+      "score": 85, 
       "time": 1530328651, 
       "type": "story", 
       "id": 17429302
@@ -10547,14 +10547,243 @@
     "17430718": {
       "time_iso": "2018-06-30 08:53:13", 
       "parent": 17430250, 
-      "text": "&gt; <i>This is counting all output by wind and solar regardless if it is needed and usable when the power is being produced. This is quite important because wind and solar are not on-demand sources of power.</i><p>I think you have that backwards: in the US, we lack the ability to scale down coal and nuclear plants. Solar and Wind are generally the first to get pulled offline when generated capacity exceeds demand and storage.</p><p>TIL this is called \"curtailment\" and it's an argument that utilities have used to justify not spending on renewables that are saving the environment from global warming (which is going to require more electricity for air conditioning).</p><p>Solar energy production peaks around noon. Demand for electricity  peaks in the evening. We need storage (batteries with supercapacitors out front) in order to store the difference between peak generation and peak use. Because they're unable to store this extra energy, they temporarily shut down solar and wind and leave the polluting plants online.</p><p>Consumers aren't exposed to daily price fluctuations: they get a flat rate that makes it easy to check their bill; so there's no price incentive to e.g. charge an EV at midday when energy is cheapest.</p><p>The 'Duck curve' shows this relation between peak supply and demand in electricity markets:\n<a href=\"https://en.wikipedia.org/wiki/Duck_curve\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Duck_curve</a></p><p>Developing energy storage capabilities (through infrastructure and open access basic research that can be capitalized by all) is likely the best solution. According to a fairly recent report, we could go 100% renewable with the energy storage tech that exists today.</p><p>But there's no money for it. There's money for subsidizing oil production (regardless of harms (!)), but not so much for wind and solar. There's money for responding to natural disasters caused by global warming, but not so much for non-carbon-based energy sources that don't cause global warming. A film called \"The Burden: Fossil Fuel, the Military, and National Security\" quotes the actual unsubsidized price of a gallon of gasoline.</p><p>Wouldn't it be great if there was some kind of computer workload that could be run whenever energy is cheapest ( '<i>energy spot instances</i>') so that we can accelerate our migration to renewable energy sources that are saving the environment for future generations? If there were people who had strong incentives to create demand for power-efficient chips and inexpensive clean energy.</p><p>Where would be if we had continued with Jimmy Carter's solar panels of the roof of the White House (instead of constant war and meddling with competing oil production regions of the world)?</p><p>It's good to see wind and solar growing this fast this year. A chart with cost per kWhr or MWhr would be enlightening.</p>", 
+      "text": "&gt; <i>This is counting all output by wind and solar regardless if it is needed and usable when the power is being produced. This is quite important because wind and solar are not on-demand sources of power.</i><p>I think you have that backwards: in the US, we lack the ability to scale down coal and nuclear plants. Solar and Wind are generally the first to get pulled offline when generated capacity exceeds demand and storage.</p><p>TIL this is called \"curtailment\" and it's an argument that utilities have used to justify not spending on renewables that are saving the environment from global warming (which is going to require more electricity for air conditioning).</p><p>Solar energy production peaks around noon. Demand for electricity  peaks in the evening. We need storage (batteries with supercapacitors out front) in order to store the difference between peak generation and peak use. Because they're unable to store this extra energy, they temporarily shut down solar and wind and leave the polluting plants online.</p><p>Consumers aren't exposed to daily price fluctuations: they get a flat rate that makes it easy to check their bill; so there's no price incentive to e.g. charge an EV at midday when energy is cheapest.</p><p>The 'Duck curve' shows this relation between peak supply and demand in electricity markets:\n<a href=\"https://en.wikipedia.org/wiki/Duck_curve\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Duck_curve</a></p><p>Developing energy storage capabilities (through infrastructure and open access basic research that can be capitalized by all) is likely the best solution. According to a fairly recent report, we could go 100% renewable with the energy storage tech that exists today.</p><p>But there's no money for it. There's money for subsidizing oil production (regardless of harms (!)), but not so much for wind and solar. There's money for responding to natural disasters caused by global warming, but not so much for non-carbon-based energy sources that don't cause global warming. A film called \"The Burden: Fossil Fuel, the Military, and National Security\" quotes the actual unsubsidized price of a gallon of gasoline.</p><p>Wouldn't it be great if there was some kind of computer workload that could be run whenever energy is cheapest ( '<i>energy spot instances</i>') so that we can accelerate our migration to renewable energy sources that are saving the environment for future generations? If there were people who had strong incentives to create demand for power-efficient chips and inexpensive clean energy.</p><p>Where would be if we had continued with Jimmy Carter's solar panels on the roof of the White House (instead of constant war and meddling with competing oil production regions of the world)?</p><p>It's good to see wind and solar growing this fast this year. A chart with cost per kWhr or MWhr would be enlightening.</p>", 
       "id": 17430718, 
       "time": 1530363193, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17432423": {
+      "time_iso": "2018-06-30 15:45:56", 
+      "kids": [
+        17433833, 
+        17436108
+      ], 
+      "descendants": 2, 
+      "url": "https://arxiv.org/abs/1806.09729", 
+      "title": "There is now a backprop principle for deep learning on quantum computers", 
+      "by": "GVQ", 
+      "score": 3, 
+      "time": 1530387956, 
+      "type": "story", 
+      "id": 17432423
+    }, 
+    "17433525": {
+      "time_iso": "2018-06-30 21:03:36", 
+      "kids": [
+        17434352, 
+        17433575, 
+        17434840, 
+        17435708, 
+        17433968, 
+        17435304, 
+        17433657, 
+        17437298
+      ], 
+      "descendants": 19, 
+      "url": "https://eurekalert.org/pub_releases/2018-06/hjap-ae062818.php", 
+      "title": "New research a \u2018breakthrough for large-scale discrete optimization\u2019", 
+      "by": "new_guy", 
+      "score": 96, 
+      "time": 1530407016, 
+      "type": "story", 
+      "id": 17433525
+    }, 
+    "17433575": {
+      "time_iso": "2018-06-30 21:24:33", 
+      "kids": [
+        17433763, 
+        17434080
+      ], 
+      "parent": 17433525, 
+      "text": "Looks like it may be this paper:<p><a href=\"https://arxiv.org/pdf/1804.06355\" rel=\"nofollow\">https://arxiv.org/pdf/1804.06355</a></p>", 
+      "id": 17433575, 
+      "time": 1530408273, 
+      "type": "comment", 
+      "by": "mindcrime"
+    }, 
+    "17433763": {
+      "time_iso": "2018-06-30 22:28:10", 
+      "parent": 17433575, 
+      "text": "\"An Exponential Speedup in Parallel Running Time for Submodular Maximization without Loss in Approximation\" \n<a href=\"https://www.arxiv-vanity.com/papers/1804.06355/\" rel=\"nofollow\">https://www.arxiv-vanity.com/papers/1804.06355/</a><p>The ACM STOC 2018 conference links to \"The Adaptive Complexity of Maximizing a Submodular Function\" <a href=\"http://dl.acm.org/authorize?N651970\" rel=\"nofollow\">http://dl.acm.org/authorize?N651970</a>\n<a href=\"https://scholar.harvard.edu/files/ericbalkanski/files/the-adaptive-complexity-of-maximizing-a-submodular-function.pdf\" rel=\"nofollow\">https://scholar.harvard.edu/files/ericbalkanski/files/the-ad...</a></p><p>A DOI URI would be great, thanks.</p>", 
+      "id": 17433763, 
+      "time": 1530412090, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17433833": {
+      "time_iso": "2018-06-30 22:51:14", 
+      "parent": 17432423, 
+      "text": "\"A Universal Training Algorithm for Quantum Deep Learning\" <a href=\"https://www.arxiv-vanity.com/papers/1806.09729/\" rel=\"nofollow\">https://www.arxiv-vanity.com/papers/1806.09729/</a>", 
+      "id": 17433833, 
+      "time": 1530413474, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17435044": {
+      "time_iso": "2018-07-01 06:49:08", 
+      "kids": [
+        17440717, 
+        17441314, 
+        17440002, 
+        17440037, 
+        17441018, 
+        17441443, 
+        17440967, 
+        17440294, 
+        17442093, 
+        17441501, 
+        17441527, 
+        17440864, 
+        17441373, 
+        17440282, 
+        17441099
+      ], 
+      "descendants": 47, 
+      "url": "https://www.npr.org/2018/06/30/624373367/more-states-opting-to-robo-grade-student-essays-by-computer", 
+      "title": "More States Opting to 'Robo-Grade' Student Essays by Computer", 
+      "by": "happy-go-lucky", 
+      "score": 44, 
+      "time": 1530442148, 
+      "type": "story", 
+      "id": 17435044
+    }, 
+    "17440770": {
+      "time_iso": "2018-07-02 07:26:28", 
+      "kids": [
+        17446060, 
+        17441108, 
+        17441101, 
+        17440949, 
+        17440908, 
+        17440889, 
+        17441267, 
+        17444910, 
+        17445443, 
+        17440910, 
+        17443460, 
+        17441001, 
+        17440859, 
+        17441041, 
+        17440953, 
+        17441170, 
+        17440990, 
+        17441605, 
+        17441156, 
+        17443476, 
+        17440981, 
+        17443938, 
+        17441198, 
+        17440971
+      ], 
+      "descendants": 33, 
+      "text": "I want to build an online course on graph algorithms for my university. I've tried to find a solution which would let submit, execute and test student's code (implement an online judge), but have had no success. There are a lot of complex LMS and none of them seem to have this feature as a basic functionality.<p>Are there any good out-of-box solutions? I'm sure I can build a course using Moodle or another popular LMS with some plugin, but I don't want to spend my time customizing things.</p><p>I'm interested both in platforms and self-hosted solutions. Thanks!</p>", 
+      "title": "Ask HN: Looking for a simple solution for building an online course", 
+      "by": "r4victor", 
+      "score": 57, 
+      "time": 1530530788, 
+      "type": "story", 
+      "id": 17440770
+    }, 
+    "17440889": {
+      "time_iso": "2018-07-02 07:52:48", 
+      "kids": [
+        17441470
+      ], 
+      "parent": 17440770, 
+      "text": "Maybe look at Jupyter Notebook? It does much of this out of the box, but may not be exactly what you are looking for.<p><a href=\"http://jupyter.org/about\" rel=\"nofollow\">http://jupyter.org/about</a></p>", 
+      "id": 17440889, 
+      "time": 1530532368, 
+      "type": "comment", 
+      "by": "w8rbt"
+    }, 
+    "17441470": {
+      "time_iso": "2018-07-02 09:35:34", 
+      "parent": 17440889, 
+      "text": "nbgrader is a \"A system for assigning and grading Jupyter notebooks.\"\n<a href=\"https://github.com/jupyter/nbgrader\" rel=\"nofollow\">https://github.com/jupyter/nbgrader</a><p>jupyter-edx-grader-xblock\n<a href=\"https://github.com/ibleducation/jupyter-edx-grader-xblock\" rel=\"nofollow\">https://github.com/ibleducation/jupyter-edx-grader-xblock</a></p><p>&gt; <i>Auto-grade a student assignment created as a Jupyter notebook, using the nbgrader Jupyter extension, and write the score in the Open edX gradebook</i></p><p>... networkx is a graph library written in Python which has pretty good docs: <a href=\"https://networkx.github.io/documentation/stable/reference/\" rel=\"nofollow\">https://networkx.github.io/documentation/stable/reference/</a></p><p>There are a few books which feature networkx.</p>", 
+      "id": 17441470, 
+      "time": 1530538534, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17441527": {
+      "time_iso": "2018-07-02 09:44:33", 
+      "kids": [
+        17441658
+      ], 
+      "parent": 17435044, 
+      "text": "edX can automate short essay grading with edx/edx-ora2 \"Open Response Assessment Suite\" [1] and edx/ease \"Enhanced AI scoring engine\" [2].<p>1: <a href=\"https://github.com/edx/edx-ora2\" rel=\"nofollow\">https://github.com/edx/edx-ora2</a>\n2: <a href=\"https://github.com/edx/ease\" rel=\"nofollow\">https://github.com/edx/ease</a></p><p>... I believe there's also a tool for peer feedback.</p>", 
+      "id": 17441527, 
+      "time": 1530539073, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17441658": {
+      "time_iso": "2018-07-02 10:00:59", 
+      "parent": 17441527, 
+      "text": "Peer feedback/grading on MOOCs is pretty bad in my experience. There\u2019s too much diversity of skills, language ability, etc. And too many people who bring their own biases and mostly ignore any grading instructions.<p>Peer discussion and feedback are useful in things like college classes. Much less so with MOOCs.</p>", 
+      "id": 17441658, 
+      "time": 1530540059, 
+      "type": "comment", 
+      "by": "ghaff"
+    }, 
+    "17441820": {
+      "time_iso": "2018-07-02 10:18:14", 
+      "kids": [
+        17442830, 
+        17441987, 
+        17442815
+      ], 
+      "descendants": 6, 
+      "url": "https://www.vanityfair.com/news/2018/07/the-man-who-created-the-world-wide-web-has-some-regrets", 
+      "title": "Tim Berners-Lee is working a platform designed to re-decentralize the web", 
+      "by": "rapnie", 
+      "score": 36, 
+      "time": 1530541094, 
+      "type": "story", 
+      "id": 17441820
+    }, 
+    "17442830": {
+      "time_iso": "2018-07-02 12:06:48", 
+      "kids": [
+        17446235
+      ], 
+      "parent": 17441820, 
+      "text": "Does anyone have some links on Solid that aren't media articles? I can't find anything, not even in Tim's homepage.", 
+      "id": 17442830, 
+      "time": 1530547608, 
+      "type": "comment", 
+      "by": "princekolt"
+    }, 
+    "17446235": {
+      "time_iso": "2018-07-02 19:31:24", 
+      "kids": [
+        17446434, 
+        17446328
+      ], 
+      "parent": 17442830, 
+      "text": "Home page: <a href=\"https://solid.mit.edu/\" rel=\"nofollow\">https://solid.mit.edu/</a>", 
+      "id": 17446235, 
+      "time": 1530574284, 
+      "type": "comment", 
+      "by": "madrox"
+    }, 
+    "17446434": {
+      "time_iso": "2018-07-02 20:06:57", 
+      "parent": 17446235, 
+      "text": "Spec: <a href=\"https://github.com/solid/solid-spec\" rel=\"nofollow\">https://github.com/solid/solid-spec</a><p>Source: <a href=\"https://github.com/solid/solid\" rel=\"nofollow\">https://github.com/solid/solid</a></p><p>...</p><p>From <a href=\"https://news.ycombinator.com/item?id=16615679\" rel=\"nofollow\">https://news.ycombinator.com/item?id=16615679</a> \n( <a href=\"https://westurner.github.io/hnlog/#comment-16615679\" rel=\"nofollow\">https://westurner.github.io/hnlog/#comment-16615679</a> )</p><p>&gt; <i>ActivityPub (and OStatus, and ActivityStreams/Salmon, and OpenSocial) are all great specs and great ideas. Hosting and moderation cost real money (which spammers/scammers are wasting).</i></p><p>&gt; <i>Know what's also great? Learning. For learning, we have the xAPI/TinCan spec and also schema.org/Action.</i></p><p>Mastodon has now supplanted GNU StatusNet.</p>", 
+      "id": 17446434, 
+      "time": 1530576417, 
       "type": "comment", 
       "by": "westurner"
     }
   }, 
   "roots": [
+    17441820, 
+    17435044, 
+    17440770, 
+    17432423, 
+    17433525, 
     17429302, 
     17395736, 
     17365366, 
