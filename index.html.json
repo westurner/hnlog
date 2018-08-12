@@ -11172,8 +11172,8 @@
         17738139, 
         17736817, 
         17736994, 
-        17743068, 
         17738605, 
+        17743068, 
         17737418, 
         17736673, 
         17737364, 
@@ -11310,14 +11310,32 @@
       "type": "comment", 
       "by": "earenndil"
     }, 
+    "17739342": {
+      "time_iso": "2018-08-11 07:57:44", 
+      "kids": [
+        17745653, 
+        17739467, 
+        17739470, 
+        17740668, 
+        17739867
+      ], 
+      "descendants": 65, 
+      "url": "https://tools.ietf.org/html/rfc8446", 
+      "title": "The Transport Layer Security (TLS) Protocol Version 1.3", 
+      "by": "dochtman", 
+      "score": 244, 
+      "time": 1533988664, 
+      "type": "story", 
+      "id": 17739342
+    }, 
     "17744150": {
       "time_iso": "2018-08-12 08:56:52", 
       "kids": [
         17744865, 
         17745557, 
         17745549, 
-        17744672, 
         17744348, 
+        17744672, 
         17744595, 
         17745166, 
         17745071, 
@@ -11331,7 +11349,7 @@
       "url": "http://academictorrents.com/", 
       "title": "Academic Torrents \u2013 Making 27TB of research data available", 
       "by": "jacquesm", 
-      "score": 385, 
+      "score": 396, 
       "time": 1534078612, 
       "type": "story", 
       "id": 17744150
@@ -11356,9 +11374,19 @@
       "time": 1534096648, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "17745653": {
+      "time_iso": "2018-08-12 14:26:41", 
+      "parent": 17739342, 
+      "text": "Is PKI still an optional feature of TLS? Can one  still use self-signed x.509 certificates and have key-signing parties?", 
+      "id": 17745653, 
+      "time": 1534098401, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    17739342, 
     17744150, 
     17736046, 
     17709922, 
