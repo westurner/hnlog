@@ -11940,16 +11940,16 @@
         17869248, 
         17869182, 
         17869154, 
-        17869333, 
         17869286, 
+        17869333, 
         17869268, 
         17869237
       ], 
-      "descendants": 40, 
+      "descendants": 45, 
       "url": "https://www.bloomberg.com/news/features/2018-08-29/miami-s-other-water-problem", 
       "title": "Miami Will Be Underwater Soon. Its Drinking Water Could Go First", 
       "by": "hourislate", 
-      "score": 75, 
+      "score": 77, 
       "time": 1535555759, 
       "type": "story", 
       "id": 17868840
@@ -11957,7 +11957,7 @@
     "17869286": {
       "time_iso": "2018-08-29 12:04:30", 
       "parent": 17868840, 
-      "text": "Now, now, let's focus on the positives here:<p>- more pollution from shipping routes through the Arctic circle (and yucky-looking icebergs that tourists don't like)</p><p>- less beachfront property</p><p>- more desalinatable water</p><p>- hotter heat</p><p>- more revulsive detestable significant others</p><p>- costs of responding to natural disasters occurring with greater frequency due to elevated ocean temperatures</p><p>- less parking spaces (!)</p><p>What are the other costs and benefits here?</p>", 
+      "text": "Now, now, let's focus on the positives here:<p>- more pollution from shipping routes through the Arctic circle (and yucky-looking icebergs that tourists don't like)</p><p>- less beachfront property</p><p>- more desalinatable water</p><p>- hotter heat</p><p>- more revulsive detestable significant others (displaced global unrest)</p><p>- costs of responding to natural disasters occurring with greater frequency due to elevated ocean temperatures</p><p>- less parking spaces (!)</p><p>What are the other costs and benefits here?</p>", 
       "id": 17869286, 
       "time": 1535558670, 
       "type": "comment", 
