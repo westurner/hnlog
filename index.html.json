@@ -11736,7 +11736,7 @@
         17864727, 
         17859001
       ], 
-      "descendants": 81, 
+      "descendants": 82, 
       "url": "https://home.cern/about/updates/2018/08/long-sought-decay-higgs-boson-observed", 
       "title": "Long-sought decay of Higgs boson observed at CERN", 
       "by": "chmaynard", 
@@ -11945,11 +11945,11 @@
         17869268, 
         17869237
       ], 
-      "descendants": 45, 
+      "descendants": 58, 
       "url": "https://www.bloomberg.com/news/features/2018-08-29/miami-s-other-water-problem", 
       "title": "Miami Will Be Underwater Soon. Its Drinking Water Could Go First", 
       "by": "hourislate", 
-      "score": 77, 
+      "score": 83, 
       "time": 1535555759, 
       "type": "story", 
       "id": 17868840
@@ -11962,9 +11962,33 @@
       "time": 1535558670, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "17869424": {
+      "time_iso": "2018-08-29 12:18:35", 
+      "kids": [
+        17869433
+      ], 
+      "descendants": 1, 
+      "url": "http://www.theburdenfilm.com/watch_the_film", 
+      "title": "The Burden: Fossil Fuel, the Military and National Security", 
+      "by": "westurner", 
+      "score": 1, 
+      "time": 1535559515, 
+      "type": "story", 
+      "id": 17869424
+    }, 
+    "17869433": {
+      "time_iso": "2018-08-29 12:19:35", 
+      "parent": 17869424, 
+      "text": "Here's a link to the video: <a href=\"https://vimeo.com/194560636\" rel=\"nofollow\">https://vimeo.com/194560636</a>", 
+      "id": 17869433, 
+      "time": 1535559575, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    17869424, 
     17868840, 
     17866120, 
     17861598, 
