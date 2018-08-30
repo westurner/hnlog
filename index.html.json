@@ -11597,7 +11597,7 @@
       "url": "https://github.com/sinclairtarget/um", 
       "title": "Um \u2013 Create your own man pages so you can remember how to do stuff", 
       "by": "quickthrower2", 
-      "score": 643, 
+      "score": 644, 
       "time": 1534732040, 
       "type": "story", 
       "id": 17797355
@@ -11736,11 +11736,11 @@
         17864727, 
         17859001
       ], 
-      "descendants": 82, 
+      "descendants": 83, 
       "url": "https://home.cern/about/updates/2018/08/long-sought-decay-higgs-boson-observed", 
       "title": "Long-sought decay of Higgs boson observed at CERN", 
       "by": "chmaynard", 
-      "score": 239, 
+      "score": 242, 
       "time": 1535459508, 
       "type": "story", 
       "id": 17858252
@@ -11753,6 +11753,7 @@
         17859237, 
         17860217, 
         17859665, 
+        17875740, 
         17859089, 
         17859814, 
         17862600, 
@@ -11764,15 +11765,15 @@
         17860143, 
         17861693, 
         17859594, 
-        17860789, 
         17860237, 
+        17860789, 
         17859031
       ], 
-      "descendants": 121, 
+      "descendants": 122, 
       "url": "https://www.eff.org/deeplinks/2018/08/blog-post-wyden-911-disruption-css", 
       "title": "Sen. Wyden Confirms Cell-Site Simulators Disrupt Emergency Calls", 
       "by": "DiabloD3", 
-      "score": 501, 
+      "score": 512, 
       "time": 1535461254, 
       "type": "story", 
       "id": 17858453
@@ -11780,8 +11781,8 @@
     "17858697": {
       "time_iso": "2018-08-28 09:41:50", 
       "kids": [
-        17869190, 
         17862032, 
+        17869190, 
         17858714, 
         17861365, 
         17859219, 
@@ -11810,13 +11811,14 @@
         17866569, 
         17867453, 
         17862230, 
+        17869794, 
         17862469
       ], 
-      "descendants": 8, 
+      "descendants": 12, 
       "url": "https://blog.nightly.mozilla.org/2018/08/28/firefox-nightly-secure-dns-experimental-results/", 
       "title": "Firefox Nightly Secure DNS Experimental Results", 
       "by": "Vinnl", 
-      "score": 38, 
+      "score": 39, 
       "time": 1535481712, 
       "type": "story", 
       "id": 17861598
@@ -11936,26 +11938,41 @@
     "17868840": {
       "time_iso": "2018-08-29 11:15:59", 
       "kids": [
+        17869513, 
         17869228, 
         17869248, 
-        17869182, 
         17869154, 
-        17869286, 
+        17871010, 
+        17869658, 
+        17869597, 
+        17870131, 
+        17869970, 
+        17869548, 
+        17871113, 
         17869333, 
+        17870048, 
         17869268, 
-        17869237
+        17869237, 
+        17870370, 
+        17869182, 
+        17869525, 
+        17869814, 
+        17869286
       ], 
-      "descendants": 58, 
+      "descendants": 251, 
       "url": "https://www.bloomberg.com/news/features/2018-08-29/miami-s-other-water-problem", 
       "title": "Miami Will Be Underwater Soon. Its Drinking Water Could Go First", 
       "by": "hourislate", 
-      "score": 83, 
+      "score": 261, 
       "time": 1535555759, 
       "type": "story", 
       "id": 17868840
     }, 
     "17869286": {
       "time_iso": "2018-08-29 12:04:30", 
+      "kids": [
+        17877394
+      ], 
       "parent": 17868840, 
       "text": "Now, now, let's focus on the positives here:<p>- more pollution from shipping routes through the Arctic circle (and yucky-looking icebergs that tourists don't like)</p><p>- less beachfront property</p><p>- more desalinatable water</p><p>- hotter heat</p><p>- more revulsive detestable significant others (displaced global unrest)</p><p>- costs of responding to natural disasters occurring with greater frequency due to elevated ocean temperatures</p><p>- less parking spaces (!)</p><p>What are the other costs and benefits here?</p>", 
       "id": 17869286, 
@@ -11972,7 +11989,7 @@
       "url": "http://www.theburdenfilm.com/watch_the_film", 
       "title": "The Burden: Fossil Fuel, the Military and National Security", 
       "by": "westurner", 
-      "score": 1, 
+      "score": 3, 
       "time": 1535559515, 
       "type": "story", 
       "id": 17869424
@@ -11985,11 +12002,44 @@
       "time": 1535559575, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "17873785": {
+      "time_iso": "2018-08-29 22:50:51", 
+      "kids": [
+        17874099
+      ], 
+      "descendants": 1, 
+      "url": "https://www.indiehackers.com/forum/free-hosting-vps-for-ngo-project-99a4477c91", 
+      "title": "Free hosting VPS for NGO project?", 
+      "by": "vikramjb", 
+      "score": 1, 
+      "time": 1535597451, 
+      "type": "story", 
+      "id": 17873785
+    }, 
+    "17874099": {
+      "time_iso": "2018-08-30 00:32:33", 
+      "parent": 17873785, 
+      "text": "GCP, OpenShift, AppEngine, Firebase, and Heroku all have a free plan.", 
+      "id": 17874099, 
+      "time": 1535603553, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17877394": {
+      "time_iso": "2018-08-30 11:14:28", 
+      "parent": 17869286, 
+      "text": "I've received a number of downvotes for this comment. I think it's misunderstood, and that's my fault: I should have included [sarcasm] around the whole comment [/sarcasm].<p>I've written about our need to address climate change here in past comments. I think the administration's climate change denials (see: \"climate change politifact') and regulatory rollbacks are beyond despicable: they're sabotaging the United States by allowing more toxic chemicals into the environment that we all share, and allowing more sites that must be protected with tax dollars that aren't there because these industries pay far less than <i>benchmarks</i> in terms of effective tax rate. We know that vehicle emissions, mercury, and coal ash are toxic: why would we allow people to violate the rights of others in that way?</p><p>A person could voluntarily consume said toxic byproducts and not have violated their own rights or the rights of others, you understand. There's no medical value and low potential for abuse, so we just sit idly by while they're violating the rights of other people by dumping toxic chemicals into the environment that are both poisonous and strongly linked to climate change.</p><p>What would help us care about this? A sarcastic list of additional reasons that we should care? No! Miami underwater during tourist season is enough! I've had enough!</p><p>So, my mistake here - my downvote-earning mistake - was dropping my generally helpful, hopeful tone for cynicism and sarcasm that wasn't motivating enough.</p><p>We need people to regulate pollution in order to prevent further costs of climate change. Water in the streets holds up commerce, travel, hampers national security, and destroys the road.</p><p>We must stop rewarding pollution if we want it to stop. What motivates other people to care?</p>", 
+      "id": 17877394, 
+      "time": 1535642068, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
-    17869424, 
     17868840, 
+    17873785, 
+    17869424, 
     17866120, 
     17861598, 
     17858252, 
