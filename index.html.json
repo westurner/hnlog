@@ -12147,27 +12147,115 @@
       "time_iso": "2018-09-12 16:02:35", 
       "kids": [
         17973300, 
-        17973337, 
-        17973354, 
+        17973484, 
         17973173, 
-        17973334, 
-        17973114
+        17973337, 
+        17973425, 
+        17973388, 
+        17973354, 
+        17973114, 
+        17974401, 
+        17973926, 
+        17973796, 
+        17975834, 
+        17974164, 
+        17973893, 
+        17975017, 
+        17974264, 
+        17973334
       ], 
-      "descendants": 7, 
+      "descendants": 81, 
       "url": "https://www.eff.org/deeplinks/2018/09/today-europe-lost-internet-now-we-fight-back", 
-      "title": "Today, Europe Lost the Internet. Now, We Fight Back", 
+      "title": "Today, Europe Lost The Internet. Now, We Fight Back", 
       "by": "DiabloD3", 
-      "score": 80, 
+      "score": 331, 
       "time": 1536782555, 
       "type": "story", 
       "id": 17972636
     }, 
     "17973300": {
       "time_iso": "2018-09-12 17:03:05", 
+      "kids": [
+        17973870, 
+        17973602, 
+        17974026, 
+        17973464, 
+        17973458
+      ], 
       "parent": 17972636, 
       "text": "Here's a quote from this excellent article:<p>&gt; <i>An error rate of even one percent will still mean tens of millions of acts of arbitrary censorship, every day.</i></p><p>And a redundant -- positively defiant -- link <i>and</i> page title:</p><p>\"Today, Europe Lost The Internet. Now, We Fight Back.\"\n<a href=\"https://www.eff.org/deeplinks/2018/09/today-europe-lost-internet-now-we-fight-back\" rel=\"nofollow\">https://www.eff.org/deeplinks/2018/09/today-europe-lost-inte...</a></p><p>Firms with 50 or less employees should stay that small, really.</p><p>VPN providers in North and South America FTW.</p>", 
       "id": 17973300, 
       "time": 1536786185, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17973458": {
+      "time_iso": "2018-09-12 17:18:31", 
+      "kids": [
+        17973786
+      ], 
+      "parent": 17973300, 
+      "text": "&gt; VPN providers in North and South America FTW.<p>Article 13 will affect the entire Internet, not just people in Europe. Most people on the Internet use large, multinational platforms. Those platforms will set rules according to the lowest common denominator, because it's the easiest to implement.</p><p>This means that people <i>all over the world</i> are going to have a much more difficult time with any user-generated content. That's true <i>even for user-created content</i>, even if there is no other copyright holder involved (look at how badly Content ID has played out).</p>", 
+      "id": 17973458, 
+      "time": 1536787111, 
+      "type": "comment", 
+      "by": "chimeracoder"
+    }, 
+    "17973786": {
+      "time_iso": "2018-09-12 17:53:00", 
+      "kids": [
+        17973817
+      ], 
+      "parent": 17973458, 
+      "text": "Or they just stop doing business in Europe.", 
+      "id": 17973786, 
+      "time": 1536789180, 
+      "type": "comment", 
+      "by": "irrational"
+    }, 
+    "17973817": {
+      "time_iso": "2018-09-12 17:56:37", 
+      "kids": [
+        17973922
+      ], 
+      "parent": 17973786, 
+      "text": "Since europe is a quite big market, maybe not an option and easier to geolocate and restrict just EU-Traffic", 
+      "id": 17973817, 
+      "time": 1536789397, 
+      "type": "comment", 
+      "by": "hutzlibu"
+    }, 
+    "17973922": {
+      "time_iso": "2018-09-12 18:10:43", 
+      "kids": [
+        17975311, 
+        17974004
+      ], 
+      "parent": 17973817, 
+      "text": "Or just not, if there's no nexus to europe. I suspect for a small business, the right thing to do would be to simply ignore EU directives. I would not be surprised if the US passes a law to make judgements against US companies without a European nexus (users in Europe would not count) unenforceable in the US. That was done with the SPEECH act to stop libel tourism.", 
+      "id": 17973922, 
+      "time": 1536790243, 
+      "type": "comment", 
+      "by": "trothamel"
+    }, 
+    "17975311": {
+      "time_iso": "2018-09-12 21:57:25", 
+      "kids": [
+        17976334
+      ], 
+      "parent": 17973922, 
+      "text": "Technically, the phrase \"Useful Arts and Sciences\" in the Copyright Clause of the US Constitution applies to just that; the definitions of which have coincidentally changed over the years.<p>The harms to Freedom of Speech -- i.e. impossible 99% accuracy in content filtering still results in far too much censorship --\nso significantly outweigh the benefits for a limited number of special interests intending to thwart inferior American information services which also currently host \"art\" and content pertaining to the \"useful arts\"; that it's hard to believe this new policy will have it's intended effects.</p><p>Haven't there been multiple studies which show that free marketing from e.g. content piracy -- people who experience and recommended said goods at $0 -- is actually a net positive for the large corporate entertainment industry? That, unimpeded, content spreads like the common cold through word of mouth; resulting in greater number of artful impressions.</p>", 
+      "id": 17975311, 
+      "time": 1536803845, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "17976334": {
+      "time_iso": "2018-09-13 01:42:35", 
+      "parent": 17975311, 
+      "text": "How can they not anticipate de-listing of EU content from news and academic article aggregators as an outcome of these new policies? (Resulting in even greater outsized impact on one possible front page that consumers can choose to consume)<p>For countries in the EU with less than 300 million voters, if you want:</p><p>- time for your headline: $</p><p>- time for your snippet: $$</p><p>- time for your og:description: $$</p><p>- free video hosting: $$$</p><p>- video revenue: $$$$</p><p>- &lt; 30% American content: $$$$$</p><p>And what of academic article aggregators? Can they still index schema:ScholarlyArticle titles and provide a value-added information service for science?</p>", 
+      "id": 17976334, 
+      "time": 1536817355, 
       "type": "comment", 
       "by": "westurner"
     }
