@@ -12172,7 +12172,7 @@
       "url": "https://www.eff.org/deeplinks/2018/09/today-europe-lost-internet-now-we-fight-back", 
       "title": "Today, Europe Lost The Internet. Now, We Fight Back", 
       "by": "DiabloD3", 
-      "score": 432, 
+      "score": 433, 
       "time": 1536782555, 
       "type": "story", 
       "id": 17972636
@@ -12297,9 +12297,107 @@
       "time": 1537408346, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18046191": {
+      "time_iso": "2018-09-22 10:52:45", 
+      "kids": [
+        18046824, 
+        18046817, 
+        18046725, 
+        18047236, 
+        18046867, 
+        18046949, 
+        18047310, 
+        18047234, 
+        18047186, 
+        18047014, 
+        18047243, 
+        18046967, 
+        18046812, 
+        18046951, 
+        18046406, 
+        18047670, 
+        18046859
+      ], 
+      "descendants": 109, 
+      "url": "https://www.bloombergquint.com/business/2018/09/22/draft-order-for-trump-would-crack-down-on-google-facebook#gs.vJ6cFkE", 
+      "title": "White House Drafts Order to Probe Google, Facebook Practices", 
+      "by": "Jerry2", 
+      "score": 94, 
+      "time": 1537627965, 
+      "type": "story", 
+      "id": 18046191
+    }, 
+    "18046817": {
+      "time_iso": "2018-09-22 13:09:42", 
+      "kids": [
+        18047671, 
+        18047039, 
+        18046836, 
+        18047003, 
+        18046881, 
+        18047309
+      ], 
+      "parent": 18046191, 
+      "text": "This sounds like they want the equal representation policies that the Republican Party got rolled back in the 80s (ruled unconstitutional iirc). It\u2019s what allowed the rise of partisan \u201cnews\u201d. It seems like any \u201cequal exposure\u201d policies would hit the same issues.<p>That said the primary \u201cimbalanced exposure\u201d seems to be due to evicting people who simply spend their time attacking minorities, attack equal rights, and promoting violence towards anyone that they dislike. For whatever reason the Republican Party seems to have decided that those people represent \u201cconservative\u201d views that private companies should have to support.</p>", 
+      "id": 18046817, 
+      "time": 1537636182, 
+      "type": "comment", 
+      "by": "olliej"
+    }, 
+    "18046881": {
+      "time_iso": "2018-09-22 13:23:34", 
+      "kids": [
+        18046991, 
+        18047035, 
+        18046913
+      ], 
+      "parent": 18046817, 
+      "text": "i. e. : People who are exercising their right to free speech.", 
+      "id": 18046881, 
+      "time": 1537637014, 
+      "type": "comment", 
+      "by": "patrickg_zill"
+    }, 
+    "18046991": {
+      "time_iso": "2018-09-22 13:45:12", 
+      "kids": [
+        18047696, 
+        18047037, 
+        18047116, 
+        18047408
+      ], 
+      "parent": 18046881, 
+      "text": "'Right to free speech' does not exist outside the government. It never has, unless there's an amendment to the first amendment that no one is telling us about..", 
+      "id": 18046991, 
+      "time": 1537638312, 
+      "type": "comment", 
+      "by": "craftyguy"
+    }, 
+    "18047696": {
+      "time_iso": "2018-09-22 15:57:12", 
+      "kids": [
+        18048081
+      ], 
+      "parent": 18046991, 
+      "text": "Repeating what I said in an earlier comment....they were able to grow to the size they have become because they are exempted from liable laws under safe harbor. The argument for that was that they were neutral platforms.  They no longer are so they either need to remove the protections or be subject to the first amendment but they should not be able to have it both ways.....and I don't think there is case law to back this one way or the other yet...", 
+      "id": 18047696, 
+      "time": 1537646232, 
+      "type": "comment", 
+      "by": "lgleason"
+    }, 
+    "18048081": {
+      "time_iso": "2018-09-22 17:25:20", 
+      "parent": 18047696, 
+      "text": "&gt; <i>they were able to grow to the size they have become because they are exempted from liable laws under safe harbor</i><p>This was not a selective protection. When the government grants limited resources like electromagnetic spectrum and right of way, they're not directly making a monopoly, but the FCC does then claim right to regulate speech.</p><p>In the interest of fairness, the FCC classed telecommunication service providers as common carriers; thus authorizing FCC to pass net neutrality protections which require equal prioritization of internet traffic. (No blocking, No throttling, No paid prioritization). The current administration doesn't feel that that's fair, and so they've moved to dismantle said \"burdensome regulations\".</p><p>The current administration is now apparently attempting to argue that information service providers - which are all equally granted safe harbor and obligated to comply with DMCA - have no right to take down abuse and harassment because anti-trust monopoly therefore Freedom of Speech doesn't apply to these corporation persons.</p><p>Selective bias, indeed! Broadcast TV and Radio are subject to different rules than Cable (non-broadcast) TV.</p><p>Other regimes have attempted to argue that the government has the right to dictate the media as well.</p><p>Taking down abuse and harassment is necessary and well within the rights of a person and a corporation in the United States. Taking down certain content is now legally required <i>within 24 hours</i> of notice from the government in the EU.</p><p>Where is the line between a media conglomerate that produces news entertainment and an information service provider? If there is none, and the government has the right to regulate \"equal time\" on non-granted-spectrum media outlets,\nfuture administrations could force ConservativeNewsOutletZ and LiberalNewsOutletZ to carry specific non-emergency content, to host abusive and offense rhetoric, and to be sued for being forced to do so because no safe harbor.</p><p>Can anyone find the story of how the GOP strongarmed and intimidated Facebook into \"equal time\" (and then we were all shoved full of apparently Russian conservative \"fake news\" propaganda) before the most recent election where the GOP won older radio, TV, and print voters and young people didn't vote because it appeared to be unnecessary?</p><p>Meanwhile, the current administration rolled back the \"burdensome regulation\" that was to prevent ISPs from selling complete internet usage history; regardless of age.</p>", 
+      "id": 18048081, 
+      "time": 1537651520, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18046191, 
     18028808, 
     17972636, 
     17893180, 
