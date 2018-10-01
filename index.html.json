@@ -12304,26 +12304,26 @@
         18046824, 
         18046817, 
         18046725, 
-        18047236, 
         18046867, 
         18046949, 
+        18047236, 
         18047310, 
-        18047186, 
-        18047014, 
         18047234, 
         18046967, 
-        18046951, 
-        18046406, 
         18046812, 
+        18046951, 
         18047670, 
+        18047014, 
+        18047186, 
+        18046859, 
         18047243, 
-        18046859
+        18046406
       ], 
-      "descendants": 118, 
+      "descendants": 121, 
       "url": "https://www.bloombergquint.com/business/2018/09/22/draft-order-for-trump-would-crack-down-on-google-facebook#gs.vJ6cFkE", 
       "title": "White House Drafts Order to Probe Google, Facebook Practices", 
       "by": "Jerry2", 
-      "score": 97, 
+      "score": 104, 
       "time": 1537627965, 
       "type": "story", 
       "id": 18046191
@@ -12331,12 +12331,12 @@
     "18046817": {
       "time_iso": "2018-09-22 13:09:42", 
       "kids": [
-        18047671, 
         18047039, 
         18046836, 
         18047003, 
-        18047309, 
-        18046881
+        18046881, 
+        18047671, 
+        18047309
       ], 
       "parent": 18046191, 
       "text": "This sounds like they want the equal representation policies that the Republican Party got rolled back in the 80s (ruled unconstitutional iirc). It\u2019s what allowed the rise of partisan \u201cnews\u201d. It seems like any \u201cequal exposure\u201d policies would hit the same issues.<p>That said the primary \u201cimbalanced exposure\u201d seems to be due to evicting people who simply spend their time attacking minorities, attack equal rights, and promoting violence towards anyone that they dislike. For whatever reason the Republican Party seems to have decided that those people represent \u201cconservative\u201d views that private companies should have to support.</p>", 
@@ -12362,9 +12362,9 @@
     "18046991": {
       "time_iso": "2018-09-22 13:45:12", 
       "kids": [
-        18047696, 
         18047037, 
         18047116, 
+        18047696, 
         18047408
       ], 
       "parent": 18046881, 
@@ -12406,9 +12406,69 @@
       "time": 1537654428, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18109559": {
+      "time_iso": "2018-09-30 22:11:07", 
+      "kids": [
+        18109861, 
+        18109790, 
+        18109878, 
+        18109697, 
+        18109658, 
+        18109934, 
+        18109816
+      ], 
+      "descendants": 30, 
+      "url": "https://www.nytimes.com/2018/09/30/technology/net-neutrality-california.html", 
+      "title": "Justice Department Sues to Stop California Net Neutrality Law", 
+      "by": "jonburs", 
+      "score": 77, 
+      "time": 1538359867, 
+      "type": "story", 
+      "id": 18109559
+    }, 
+    "18109697": {
+      "time_iso": "2018-09-30 22:50:34", 
+      "kids": [
+        18109808, 
+        18109795, 
+        18109718, 
+        18109742, 
+        18109721
+      ], 
+      "parent": 18109559, 
+      "text": "Sorry if I get some basic understanding of the law wrong but...<p>Isn't this the same thing as regulating car emissions?  Doesn't 822 only apply to providers in the state itself?  Wouldn't it be that the telecoms are welcome to engage in another method of end-customer billing in other states?</p><p>What am I missing?</p>", 
+      "id": 18109697, 
+      "time": 1538362234, 
+      "type": "comment", 
+      "by": "zwerdlds"
+    }, 
+    "18109808": {
+      "time_iso": "2018-09-30 23:24:24", 
+      "kids": [
+        18109974, 
+        18109837, 
+        18109961
+      ], 
+      "parent": 18109697, 
+      "text": "&gt; Like California\u2019s auto emissions laws that forced automakers to adopt the standards for all production, the state\u2019s new net neutrality rules could push broadband providers to apply the same rules to other states.<p>I think you're right, the motives are very similar.</p><p>&gt; Attorney General Jeff Sessions said that California\u2019s net neutrality law was illegal because Congress granted the federal government, through the F.C.C., the sole authority to create rules for broadband internet providers. \u201cStates do not regulate interstate commerce \u2014 the federal government does,\u201d Mr. Sessions said in a statement.</p><p>I thought Republicans were pro-states rights and limited government? How does their position on this jive with their ideology?</p>", 
+      "id": 18109808, 
+      "time": 1538364264, 
+      "type": "comment", 
+      "by": "everdev"
+    }, 
+    "18109974": {
+      "time_iso": "2018-10-01 00:08:33", 
+      "parent": 18109808, 
+      "text": "Expansion of federal jurisdiction under the Commerce Clause is an egregious violation of Constitutional law.<p>Does the federal government have the enumerated right under the Commerce Clause to, for example, ban football for anyone that doesn't have a disability? No!</p><p>Was the Commerce Clause sufficient authorization for Federal prohibition of alcohol? No! An Amendment to the Constitution was necessary. And, Federal Alcohol and the unequal necessary State Alcohol prohibitions miserably failed to achieve the intended outcomes.</p><p>Where is the limit? How can they claim to support a states' rights, limited government position while expanding jurisdiction under the <i>Interstate</i> Commerce Clause? \"Substantially affecting\" interstate commerce is a very slippery slope.</p><p>Furthermore, de-classification from Title II did effectively - as the current administration's FCC very clearly argued (in favor of special interests over those of the majority) - relieve the FCC of authority to regulate ISPs: they claimed that it's FTC's job and now they're claiming it's their job.</p><p>Without Title II classification, FCC has no authority to preempt state net neutrality regulation. California and Washington have the right to regulate ISPs within their respective states.</p><p>Outrageous!</p><p>Limited government: <a href=\"https://en.wikipedia.org/wiki/Limited_government\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Limited_government</a></p><p>States' rights: <a href=\"https://en.wikipedia.org/wiki/States%27_rights\" rel=\"nofollow\">https://en.wikipedia.org/wiki/States%27_rights</a></p><p>[Interstate] Commerce Clause:\n<a href=\"https://en.wikipedia.org/wiki/Commerce_Clause\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Commerce_Clause</a></p><p>Net neutrality in the United States &gt; Repeal of net neutrality policy: <a href=\"https://en.m.wikipedia.org/wiki/Net_neutrality_in_the_United_States#Repeal_of_net_neutrality_policy\" rel=\"nofollow\">https://en.m.wikipedia.org/wiki/Net_neutrality_in_the_United...</a></p>", 
+      "id": 18109974, 
+      "time": 1538366913, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18109559, 
     18046191, 
     18028808, 
     17972636, 
