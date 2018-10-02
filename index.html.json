@@ -12323,7 +12323,7 @@
       "url": "https://www.bloombergquint.com/business/2018/09/22/draft-order-for-trump-would-crack-down-on-google-facebook#gs.vJ6cFkE", 
       "title": "White House Drafts Order to Probe Google, Facebook Practices", 
       "by": "Jerry2", 
-      "score": 104, 
+      "score": 105, 
       "time": 1537627965, 
       "type": "story", 
       "id": 18046191
@@ -12411,18 +12411,22 @@
       "time_iso": "2018-09-30 22:11:07", 
       "kids": [
         18109861, 
-        18109790, 
+        18110044, 
         18109878, 
+        18109790, 
         18109697, 
         18109658, 
         18109934, 
-        18109816
+        18110045, 
+        18109816, 
+        18110355, 
+        18110922
       ], 
-      "descendants": 30, 
+      "descendants": 116, 
       "url": "https://www.nytimes.com/2018/09/30/technology/net-neutrality-california.html", 
       "title": "Justice Department Sues to Stop California Net Neutrality Law", 
       "by": "jonburs", 
-      "score": 77, 
+      "score": 196, 
       "time": 1538359867, 
       "type": "story", 
       "id": 18109559
@@ -12447,8 +12451,8 @@
       "time_iso": "2018-09-30 23:24:24", 
       "kids": [
         18109974, 
-        18109837, 
-        18109961
+        18109961, 
+        18109837
       ], 
       "parent": 18109697, 
       "text": "&gt; Like California\u2019s auto emissions laws that forced automakers to adopt the standards for all production, the state\u2019s new net neutrality rules could push broadband providers to apply the same rules to other states.<p>I think you're right, the motives are very similar.</p><p>&gt; Attorney General Jeff Sessions said that California\u2019s net neutrality law was illegal because Congress granted the federal government, through the F.C.C., the sole authority to create rules for broadband internet providers. \u201cStates do not regulate interstate commerce \u2014 the federal government does,\u201d Mr. Sessions said in a statement.</p><p>I thought Republicans were pro-states rights and limited government? How does their position on this jive with their ideology?</p>", 
@@ -12459,10 +12463,47 @@
     }, 
     "18109974": {
       "time_iso": "2018-10-01 00:08:33", 
+      "kids": [
+        18118941
+      ], 
       "parent": 18109808, 
       "text": "Expansion of federal jurisdiction under the Commerce Clause is an egregious violation of Constitutional law.<p>Does the federal government have the enumerated right under the Commerce Clause to, for example, ban football for anyone that doesn't have a disability? No!</p><p>Was the Commerce Clause sufficient authorization for Federal prohibition of alcohol? No! An Amendment to the Constitution was necessary. And, Federal Alcohol and the unequal necessary State Alcohol prohibitions miserably failed to achieve the intended outcomes.</p><p>Where is the limit? How can they claim to support a states' rights, limited government position while expanding jurisdiction under the <i>Interstate</i> Commerce Clause? \"Substantially affecting\" interstate commerce is a very slippery slope.</p><p>Furthermore, de-classification from Title II did effectively - as the current administration's FCC very clearly argued (in favor of special interests over those of the majority) - relieve the FCC of authority to regulate ISPs: they claimed that it's FTC's job and now they're claiming it's their job.</p><p>Without Title II classification, FCC has no authority to preempt state net neutrality regulation. California and Washington have the right to regulate ISPs within their respective states.</p><p>Outrageous!</p><p>Limited government: <a href=\"https://en.wikipedia.org/wiki/Limited_government\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Limited_government</a></p><p>States' rights: <a href=\"https://en.wikipedia.org/wiki/States%27_rights\" rel=\"nofollow\">https://en.wikipedia.org/wiki/States%27_rights</a></p><p>[Interstate] Commerce Clause:\n<a href=\"https://en.wikipedia.org/wiki/Commerce_Clause\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Commerce_Clause</a></p><p>Net neutrality in the United States &gt; Repeal of net neutrality policy: <a href=\"https://en.m.wikipedia.org/wiki/Net_neutrality_in_the_United_States#Repeal_of_net_neutrality_policy\" rel=\"nofollow\">https://en.m.wikipedia.org/wiki/Net_neutrality_in_the_United...</a></p>", 
       "id": 18109974, 
       "time": 1538366913, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18118941": {
+      "time_iso": "2018-10-02 01:04:06", 
+      "kids": [
+        18119192
+      ], 
+      "parent": 18109974, 
+      "text": "The limit is established, and constantly reevaulated by the Supreme Court. For example it was held that gun control cannot be done through the Commerce Clause.<p>Car emissions and ISPs are different. As ISPs are very much perfect examples of truly local things (they need to reach your devices with EM signals either via cables or air radio), the Federal government might try to argue that the net neutrality regulation of California affects the whole economy substantially, because it allows too much interstate competition due to the lack of bundling/throttling by ISPs.</p><p>Similarly, the problem with car emissions might be that requiring thing at the time of sale affects what kind of cars are sold to CA.</p><p>Is the Commerce Clause too vague? Yes. Is there a quick and sane way to fix it? I see none. Is it at least applied consistently? Well, sort of. But we shall see.</p>", 
+      "id": 18118941, 
+      "time": 1538456646, 
+      "type": "comment", 
+      "by": "pas"
+    }, 
+    "18119192": {
+      "time_iso": "2018-10-02 02:14:32", 
+      "kids": [
+        18126281, 
+        18119670
+      ], 
+      "parent": 18118941, 
+      "text": "ISPs are the very opposite of local, as the only reason I have an ISP is to deliver bits from the rest of the world.  Of course, the FCC doesn't seem to understand that...", 
+      "id": 18119192, 
+      "time": 1538460872, 
+      "type": "comment", 
+      "by": "Vendan"
+    }, 
+    "18126281": {
+      "time_iso": "2018-10-02 18:33:35", 
+      "parent": 18119192, 
+      "text": "To summarize the points made in [1]: products can be sold across state lines, internet service sold in one state cannot be sold across state lines.<p>[1] <a href=\"https://news.ycombinator.com/item?id=18111651\" rel=\"nofollow\">https://news.ycombinator.com/item?id=18111651</a></p><p>In my opinion, the court has significantly erred in redefining interstate commerce to include (1) intrastate-only-commerce; and (2) non-commerce (i.e. locally grown and unsold wheat)</p><p>Furthermore - and this is a bit off topic - <i>unalienable</i> natural rights (Equality, Life, Liberty, and pursuit of Happiness) are of higher precedence. I mention this because this is yet another case where the court will be interpreting the boundary between State and Federal rights; and it's very clear that the founders intended for the powers of the federal government to be limited -- certainly not something that the Commerce Clause should be interpreted to supersede.</p><p>What penalties and civil fines are appropriate for States or executive branch departments that violate the Constitution; for failure to uphold Oaths to uphold the Constitution?</p>", 
+      "id": 18126281, 
+      "time": 1538519615, 
       "type": "comment", 
       "by": "westurner"
     }
