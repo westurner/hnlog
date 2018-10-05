@@ -12545,8 +12545,8 @@
         18144897, 
         18144134, 
         18144011, 
-        18145851, 
         18143669, 
+        18145851, 
         18142906, 
         18141194, 
         18144600, 
@@ -12609,7 +12609,7 @@
     "18146896": {
       "time_iso": "2018-10-05 05:56:36", 
       "parent": 18146854, 
-      "text": "\"Thin film converts heat from electronics into energy\" (2018)\n<a href=\"http://news.berkeley.edu/2018/04/16/thin-film-converts-heat-from-electronics-into-energy/\" rel=\"nofollow\">http://news.berkeley.edu/2018/04/16/thin-film-converts-heat-...</a><p>&gt; <i>This study reports new records for pyroelectric energy conversion energy density (1.06 Joules per cubic centimeter), power density (526 Watts per cubic centimeter) and efficiency (19 percent of Carnot efficiency, which is the standard unit of measurement for the efficiency of a heat engine).</i></p><p>\"Pyroelectric energy conversion with large energy and power density in relaxor ferroelectric thin films\" (2018)\n<a href=\"https://www.nature.com/articles/s41563-018-0059-8\" rel=\"nofollow\">https://www.nature.com/articles/s41563-018-0059-8</a></p>", 
+      "text": "\"Thin film converts heat from electronics into energy\" (2018)\n<a href=\"http://news.berkeley.edu/2018/04/16/thin-film-converts-heat-from-electronics-into-energy/\" rel=\"nofollow\">http://news.berkeley.edu/2018/04/16/thin-film-converts-heat-...</a><p>&gt; <i>This study reports new records for pyroelectric energy conversion energy density (1.06 Joules per cubic centimeter), power density (526 Watts per cubic centimeter) and efficiency (19 percent of Carnot efficiency, which is the standard unit of measurement for the efficiency of a heat engine).</i></p><p>\"Pyroelectric energy conversion with large energy and power density in relaxor ferroelectric thin films\" (2018)\n<a href=\"https://www.nature.com/articles/s41563-018-0059-8\" rel=\"nofollow\">https://www.nature.com/articles/s41563-018-0059-8</a></p><p>Carnot heat engine &gt; Carnot cycle, Carnot's theorem, \"Real heat engines\":\n<a href=\"https://en.wikipedia.org/wiki/Carnot_heat_engine\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Carnot_heat_engine</a></p>", 
       "id": 18146896, 
       "time": 1538733396, 
       "type": "comment", 
@@ -12618,7 +12618,7 @@
     "18146920": {
       "time_iso": "2018-10-05 06:01:04", 
       "parent": 18146854, 
-      "text": "\"Quantum knowledge cools computers: New understanding of entropy\" (2011)\n<a href=\"https://www.sciencedaily.com/releases/2011/06/110601134300.htm\" rel=\"nofollow\">https://www.sciencedaily.com/releases/2011/06/110601134300.h...</a><p>&gt; <i>The new study revisits Landauer's principle for cases when the values of the bits to be deleted may be known. When the memory content is known, it should be possible to delete the bits in such a manner that it is theoretically possible to re-create them. It has previously been shown that such reversible deletion would generate no heat. In the new paper, the researchers go a step further. They show that when the bits to be deleted are quantum-mechanically entangled with the state of an observer, then the observer could even withdraw heat from the system while deleting the bits. Entanglement links the observer's state to that of the computer in such a way that they know more about the memory than is possible in classical physics.</i></p><p>\"The thermodynamic meaning of negative entropy\" (2011)\n<a href=\"https://www.nature.com/articles/nature10123\" rel=\"nofollow\">https://www.nature.com/articles/nature10123</a></p>", 
+      "text": "\"Quantum knowledge cools computers: New understanding of entropy\" (2011)\n<a href=\"https://www.sciencedaily.com/releases/2011/06/110601134300.htm\" rel=\"nofollow\">https://www.sciencedaily.com/releases/2011/06/110601134300.h...</a><p>&gt; <i>The new study revisits Landauer's principle for cases when the values of the bits to be deleted may be known. When the memory content is known, it should be possible to delete the bits in such a manner that it is theoretically possible to re-create them. It has previously been shown that such reversible deletion would generate no heat. In the new paper, the researchers go a step further. They show that when the bits to be deleted are quantum-mechanically entangled with the state of an observer, then the observer could even withdraw heat from the system while deleting the bits. Entanglement links the observer's state to that of the computer in such a way that they know more about the memory than is possible in classical physics.</i></p><p>\"The thermodynamic meaning of negative entropy\" (2011)\n<a href=\"https://www.nature.com/articles/nature10123\" rel=\"nofollow\">https://www.nature.com/articles/nature10123</a></p><p>Landauer's principle: <a href=\"https://en.wikipedia.org/wiki/Landauer%27s_principle\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Landauer%27s_principle</a></p>", 
       "id": 18146920, 
       "time": 1538733664, 
       "type": "comment", 
