@@ -12422,11 +12422,11 @@
         18110355, 
         18110922
       ], 
-      "descendants": 116, 
+      "descendants": 122, 
       "url": "https://www.nytimes.com/2018/09/30/technology/net-neutrality-california.html", 
       "title": "Justice Department Sues to Stop California Net Neutrality Law", 
       "by": "jonburs", 
-      "score": 196, 
+      "score": 201, 
       "time": 1538359867, 
       "type": "story", 
       "id": 18109559
@@ -12450,8 +12450,8 @@
     "18109808": {
       "time_iso": "2018-09-30 23:24:24", 
       "kids": [
-        18109974, 
         18109961, 
+        18109974, 
         18109837
       ], 
       "parent": 18109697, 
@@ -12500,15 +12500,130 @@
     }, 
     "18126281": {
       "time_iso": "2018-10-02 18:33:35", 
+      "kids": [
+        18129043
+      ], 
       "parent": 18119192, 
       "text": "To summarize the points made in [1]: products can be sold across state lines, internet service sold in one state cannot be sold across state lines.<p>[1] <a href=\"https://news.ycombinator.com/item?id=18111651\" rel=\"nofollow\">https://news.ycombinator.com/item?id=18111651</a></p><p>In my opinion, the court has significantly erred in redefining interstate commerce to include (1) intrastate-only-commerce; and (2) non-commerce (i.e. locally grown and unsold wheat)</p><p>Furthermore - and this is a bit off topic - <i>unalienable</i> natural rights (Equality, Life, Liberty, and pursuit of Happiness) are of higher precedence. I mention this because this is yet another case where the court will be interpreting the boundary between State and Federal rights; and it's very clear that the founders intended for the powers of the federal government to be limited -- certainly not something that the Commerce Clause should be interpreted to supersede.</p><p>What penalties and civil fines are appropriate for States or executive branch departments that violate the Constitution; for failure to uphold Oaths to uphold the Constitution?</p>", 
       "id": 18126281, 
       "time": 1538519615, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18129043": {
+      "time_iso": "2018-10-03 06:43:51", 
+      "parent": 18126281, 
+      "text": "The problem is, someone has to interpret what kind of economy the Founders intended.<p>Is it okay if a State opts to withdraw from the interstate market for wheat? Because without power to meddle with intra-state production, consumption and transactions, it's entirely possible.</p>", 
+      "id": 18129043, 
+      "time": 1538563431, 
+      "type": "comment", 
+      "by": "pas"
+    }, 
+    "18139654": {
+      "time_iso": "2018-10-04 09:27:48", 
+      "kids": [
+        18139943, 
+        18146864, 
+        18140645, 
+        18140292, 
+        18140723, 
+        18139732, 
+        18141779, 
+        18145265, 
+        18141721, 
+        18141161, 
+        18144983, 
+        18140528, 
+        18143573, 
+        18143450, 
+        18144336, 
+        18140673, 
+        18140376, 
+        18141014, 
+        18140010, 
+        18144423, 
+        18144897, 
+        18144134, 
+        18144011, 
+        18145851, 
+        18143669, 
+        18142906, 
+        18141194, 
+        18144600, 
+        18145698, 
+        18139941, 
+        18139791, 
+        18142716, 
+        18141174, 
+        18139893, 
+        18142491, 
+        18140526, 
+        18140930
+      ], 
+      "descendants": 154, 
+      "url": "https://blogs.scientificamerican.com/observations/why-do-computers-use-so-much-energy/", 
+      "title": "Why Do Computers Use So Much Energy?", 
+      "by": "tshannon", 
+      "score": 203, 
+      "time": 1538659668, 
+      "type": "story", 
+      "id": 18139654
+    }, 
+    "18146854": {
+      "time_iso": "2018-10-05 05:47:19", 
+      "kids": [
+        18146920, 
+        18146896, 
+        18146881
+      ], 
+      "descendants": 3, 
+      "title": "Thermodynamics of Computation Wiki", 
+      "by": "westurner", 
+      "score": 1, 
+      "time": 1538732839, 
+      "type": "story", 
+      "id": 18146854
+    }, 
+    "18146864": {
+      "time_iso": "2018-10-05 05:50:00", 
+      "parent": 18139654, 
+      "text": "&gt; <i>Also, to foster research on this topic we have built a wiki, combining lists of papers, websites, events pages, etc. We highly encourage people to visit it, sign up, and start improving it; the more scientists get involved, from the more fields, the better!</i><p>Thermodynamics of Computation Wiki\n<a href=\"https://centre.santafe.edu/thermocomp/Santa_Fe_Institute_Collaboration_Platform:Thermodynamics_of_Computation_Wiki\" rel=\"nofollow\">https://centre.santafe.edu/thermocomp/Santa_Fe_Institute_Col...</a></p><p>HN: <a href=\"https://news.ycombinator.com/item?id=18146854\" rel=\"nofollow\">https://news.ycombinator.com/item?id=18146854</a></p>", 
+      "id": 18146864, 
+      "time": 1538733000, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18146881": {
+      "time_iso": "2018-10-05 05:53:23", 
+      "parent": 18146854, 
+      "text": "Is there enough heat energy from a datacenter to -- rather than heating oceans (which can result in tropical storms) -- turn a turbine (to convert heat energy back into electrical energy)?", 
+      "id": 18146881, 
+      "time": 1538733203, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18146896": {
+      "time_iso": "2018-10-05 05:56:36", 
+      "parent": 18146854, 
+      "text": "\"Thin film converts heat from electronics into energy\" (2018)\n<a href=\"http://news.berkeley.edu/2018/04/16/thin-film-converts-heat-from-electronics-into-energy/\" rel=\"nofollow\">http://news.berkeley.edu/2018/04/16/thin-film-converts-heat-...</a><p>&gt; <i>This study reports new records for pyroelectric energy conversion energy density (1.06 Joules per cubic centimeter), power density (526 Watts per cubic centimeter) and efficiency (19 percent of Carnot efficiency, which is the standard unit of measurement for the efficiency of a heat engine).</i></p><p>\"Pyroelectric energy conversion with large energy and power density in relaxor ferroelectric thin films\" (2018)\n<a href=\"https://www.nature.com/articles/s41563-018-0059-8\" rel=\"nofollow\">https://www.nature.com/articles/s41563-018-0059-8</a></p>", 
+      "id": 18146896, 
+      "time": 1538733396, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18146920": {
+      "time_iso": "2018-10-05 06:01:04", 
+      "parent": 18146854, 
+      "text": "\"Quantum knowledge cools computers: New understanding of entropy\" (2011)\n<a href=\"https://www.sciencedaily.com/releases/2011/06/110601134300.htm\" rel=\"nofollow\">https://www.sciencedaily.com/releases/2011/06/110601134300.h...</a><p>&gt; <i>The new study revisits Landauer's principle for cases when the values of the bits to be deleted may be known. When the memory content is known, it should be possible to delete the bits in such a manner that it is theoretically possible to re-create them. It has previously been shown that such reversible deletion would generate no heat. In the new paper, the researchers go a step further. They show that when the bits to be deleted are quantum-mechanically entangled with the state of an observer, then the observer could even withdraw heat from the system while deleting the bits. Entanglement links the observer's state to that of the computer in such a way that they know more about the memory than is possible in classical physics.</i></p><p>\"The thermodynamic meaning of negative entropy\" (2011)\n<a href=\"https://www.nature.com/articles/nature10123\" rel=\"nofollow\">https://www.nature.com/articles/nature10123</a></p>", 
+      "id": 18146920, 
+      "time": 1538733664, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18146854, 
+    18139654, 
     18109559, 
     18046191, 
     18028808, 
