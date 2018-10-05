@@ -12572,11 +12572,12 @@
     "18146854": {
       "time_iso": "2018-10-05 05:47:19", 
       "kids": [
+        18146977, 
         18146920, 
         18146896, 
         18146881
       ], 
-      "descendants": 3, 
+      "descendants": 4, 
       "title": "Thermodynamics of Computation Wiki", 
       "by": "westurner", 
       "score": 1, 
@@ -12595,6 +12596,9 @@
     }, 
     "18146881": {
       "time_iso": "2018-10-05 05:53:23", 
+      "kids": [
+        18146980
+      ], 
       "parent": 18146854, 
       "text": "Is there enough heat energy from a datacenter to -- rather than heating oceans (which can result in tropical storms) -- turn a turbine (to convert heat energy back into electrical energy)?", 
       "id": 18146881, 
@@ -12617,6 +12621,23 @@
       "text": "\"Quantum knowledge cools computers: New understanding of entropy\" (2011)\n<a href=\"https://www.sciencedaily.com/releases/2011/06/110601134300.htm\" rel=\"nofollow\">https://www.sciencedaily.com/releases/2011/06/110601134300.h...</a><p>&gt; <i>The new study revisits Landauer's principle for cases when the values of the bits to be deleted may be known. When the memory content is known, it should be possible to delete the bits in such a manner that it is theoretically possible to re-create them. It has previously been shown that such reversible deletion would generate no heat. In the new paper, the researchers go a step further. They show that when the bits to be deleted are quantum-mechanically entangled with the state of an observer, then the observer could even withdraw heat from the system while deleting the bits. Entanglement links the observer's state to that of the computer in such a way that they know more about the memory than is possible in classical physics.</i></p><p>\"The thermodynamic meaning of negative entropy\" (2011)\n<a href=\"https://www.nature.com/articles/nature10123\" rel=\"nofollow\">https://www.nature.com/articles/nature10123</a></p>", 
       "id": 18146920, 
       "time": 1538733664, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18146977": {
+      "time_iso": "2018-10-05 06:19:04", 
+      "parent": 18146854, 
+      "deleted": true, 
+      "time": 1538734744, 
+      "type": "comment", 
+      "id": 18146977
+    }, 
+    "18146980": {
+      "time_iso": "2018-10-05 06:19:22", 
+      "parent": 18146881, 
+      "text": "Is there a statistic which captures the amount of heat energy discharged into ocean/river/lake water? \"100% clean energy with PPAs (Power Purchase Agreements)\" while bleeding energy into the oceans isn't quite representative of the total system.<p>\"How to Reuse Waste Heat from Data Centers Intelligently\" (2016)\n<a href=\"https://www.datacenterknowledge.com/archives/2016/05/10/how-to-reuse-waste-heat-from-data-centers-intelligently\" rel=\"nofollow\">https://www.datacenterknowledge.com/archives/2016/05/10/how-...</a></p><p>\"Data Centers That Recycle Waste Heat\"\n<a href=\"https://www.datacenterknowledge.com/data-centers-that-recycle-waste-heat/\" rel=\"nofollow\">https://www.datacenterknowledge.com/data-centers-that-recycl...</a></p>", 
+      "id": 18146980, 
+      "time": 1538734762, 
       "type": "comment", 
       "by": "westurner"
     }
