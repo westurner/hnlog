@@ -13030,21 +13030,33 @@
         18217529, 
         18215384
       ], 
-      "descendants": 52, 
+      "descendants": 53, 
       "url": "https://www.nytimes.com/2018/10/14/technology/jeff-hawkins-brain-research.html", 
       "title": "Jeff Hawkins Is Finally Ready to Explain His Brain Research", 
       "by": "tysone", 
-      "score": 395, 
+      "score": 400, 
       "time": 1539545429, 
       "type": "story", 
       "id": 18214707
     }, 
     "18218504": {
       "time_iso": "2018-10-15 05:50:05", 
+      "kids": [
+        18218657
+      ], 
       "parent": 18214707, 
       "text": "Cortical column: <a href=\"https://en.wikipedia.org/wiki/Cortical_column\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Cortical_column</a><p>&gt; <i>In the neocortex 6 layers can be recognized although many regions lack one or more layers, fewer layers are present in the archipallium and the paleopallium.</i></p><p>What this means in terms of optimal artificial neural network architecture and parameters will be interesting to learn about; in regards to logic, reasoning, and inference.</p><p>According to \"Cliques of Neurons Bound into Cavities Provide a Missing Link between Structure and Function\"\n<a href=\"https://www.frontiersin.org/articles/10.3389/fncom.2017.00048/full\" rel=\"nofollow\">https://www.frontiersin.org/articles/10.3389/fncom.2017.0004...</a> , the human brain appears to be [at most] 11-dimensional (11D); in terms of algebraic topology <a href=\"https://en.wikipedia.org/wiki/Algebraic_topology\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Algebraic_topology</a></p><p>Relatedly,</p><p>\"Study shows how memories ripple through the brain\" <a href=\"https://www.ninds.nih.gov/News-Events/News-and-Press-Releases/Press-Releases/Study-shows-how-memories-ripple-through-brain\" rel=\"nofollow\">https://www.ninds.nih.gov/News-Events/News-and-Press-Release...</a></p><p>&gt; <i>The [NeuroGrid] team was also surprised to find that the ripples in the association neocortex and hippocampus occurred at the same time, suggesting the two regions were communicating as the rats slept. Because the association neocortex is thought to be a storage location for memories, the researchers theorized that this neural dialogue could help the brain retain information.</i></p>", 
       "id": 18218504, 
       "time": 1539597005, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18218657": {
+      "time_iso": "2018-10-15 06:31:43", 
+      "parent": 18218504, 
+      "text": "Re: Topological graph theory [1],\nis it possible to embed a graph on a space filling curve [2] (such as a Hilbert R-tree [3])?<p>[1] <a href=\"https://en.wikipedia.org/wiki/Topological_graph_theory\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Topological_graph_theory</a></p><p>[2] <a href=\"https://en.wikipedia.org/wiki/Space-filling_curve\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Space-filling_curve</a></p><p>[3] <a href=\"https://en.wikipedia.org/wiki/Hilbert_R-tree\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Hilbert_R-tree</a></p><p>[4] <a href=\"https://github.com/bup/bup\" rel=\"nofollow\">https://github.com/bup/bup</a> (git packfiles)</p>", 
+      "id": 18218657, 
+      "time": 1539599503, 
       "type": "comment", 
       "by": "westurner"
     }
