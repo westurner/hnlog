@@ -12725,7 +12725,7 @@
       "url": "https://www.quantamagazine.org/graduate-student-solves-quantum-verification-problem-20181008/", 
       "title": "Graduate Student Solves Quantum Verification Problem", 
       "by": "digital55", 
-      "score": 265, 
+      "score": 267, 
       "time": 1539008618, 
       "type": "story", 
       "id": 18167690
@@ -12746,8 +12746,8 @@
         18192623, 
         18199065, 
         18191887, 
-        18199845, 
         18191544, 
+        18199845, 
         18195152, 
         18198833, 
         18199582, 
@@ -12757,8 +12757,8 @@
         18199410, 
         18199810, 
         18200046, 
-        18201158, 
         18191735, 
+        18201158, 
         18199622, 
         18198979, 
         18200099, 
@@ -12814,14 +12814,14 @@
         18192736, 
         18193892, 
         18192473, 
-        18204533, 
         18192703, 
         18193753, 
         18192809, 
+        18204533, 
         18195196, 
         18192855, 
-        18198288, 
         18192535, 
+        18198288, 
         18192901, 
         18192694, 
         18192910, 
@@ -12864,8 +12864,8 @@
       "time_iso": "2018-10-12 02:15:03", 
       "kids": [
         18200165, 
-        18202154, 
         18201583, 
+        18202154, 
         18201160
       ], 
       "descendants": 9, 
@@ -12893,7 +12893,7 @@
         18200155, 
         18200190
       ], 
-      "descendants": 113, 
+      "descendants": 114, 
       "url": "https://www.quantamagazine.org/interstellar-comet-oumuamua-might-not-actually-be-a-comet-20181010/", 
       "title": "Interstellar Visitor Found to Be Unlike a Comet or an Asteroid", 
       "by": "Bootvis", 
@@ -13009,9 +13009,9 @@
       "time_iso": "2018-10-14 15:30:29", 
       "kids": [
         18215016, 
-        18220631, 
         18215035, 
         18215139, 
+        18220631, 
         18215980, 
         18214967, 
         18215005, 
@@ -13022,21 +13022,21 @@
         18215032, 
         18218504, 
         18214959, 
-        18217694, 
+        18217529, 
         18215593, 
-        18220288, 
+        18217694, 
         18215009, 
+        18220288, 
         18216982, 
         18217945, 
-        18217529, 
         18216192, 
         18215384
       ], 
-      "descendants": 67, 
+      "descendants": 69, 
       "url": "https://www.nytimes.com/2018/10/14/technology/jeff-hawkins-brain-research.html", 
       "title": "Jeff Hawkins Is Finally Ready to Explain His Brain Research", 
       "by": "tysone", 
-      "score": 476, 
+      "score": 489, 
       "time": 1539545429, 
       "type": "story", 
       "id": 18214707
@@ -13088,15 +13088,27 @@
     "18225197": {
       "time_iso": "2018-10-15 19:55:06", 
       "kids": [
+        18227212, 
+        18227411, 
         18226105, 
         18225670, 
-        18225523
+        18237543, 
+        18225523, 
+        18227801, 
+        18226992, 
+        18229436, 
+        18226724, 
+        18229497, 
+        18230039, 
+        18229348, 
+        18227037, 
+        18229008
       ], 
-      "descendants": 4, 
+      "descendants": 25, 
       "url": "https://pdfs.semanticscholar.org/441f/ac7c2020e1c8f0d32adffca697bbb8a198a1.pdf", 
       "title": "How to Write a Technical Paper [pdf]", 
       "by": "boricensis", 
-      "score": 91, 
+      "score": 360, 
       "time": 1539647706, 
       "type": "story", 
       "id": 18225197
@@ -13104,7 +13116,8 @@
     "18225523": {
       "time_iso": "2018-10-15 20:55:37", 
       "kids": [
-        18226543
+        18226543, 
+        18226875
       ], 
       "parent": 18225197, 
       "text": "A few years ago i found a great version of a similar piece that proposed something like a 'sandwich' model for each section, and the work as a whole.  A sandwich layer was a hook (something interesting), the meat (what you actually did), and a summary.<p>I failed to save it and i haven't been able to dig it up again, but I liked the idea.  The paper was written in the style it described, as well.</p>", 
@@ -13115,15 +13128,113 @@
     }, 
     "18226543": {
       "time_iso": "2018-10-16 00:36:38", 
+      "kids": [
+        18229981
+      ], 
       "parent": 18225523, 
       "text": "5 paragraph essay?\n<a href=\"https://en.wikipedia.org/wiki/Five-paragraph_essay\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Five-paragraph_essay</a><p>&gt; <i>The five-paragraph essay is a format of essay having five paragraphs: one introductory paragraph, three body paragraphs with support and development, and one concluding paragraph. Because of this structure, it is also known as a hamburger essay, one three one, or a three-tier essay.</i></p><p>The digraph presented in the OP really is a great approach, IMHO:</p><p>## Introduction</p><p>## Related Work, System Model, Problem Statement</p><p>## Your Solution</p><p>## Analysis</p><p>## Simulation, Experimentation</p><p>## Conclusion</p><p>... \"Elements of the scientific method\" <a href=\"https://en.wikipedia.org/wiki/Scientific_method#Elements_of_the_scientific_method\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Scientific_method#Elements_of_...</a></p>", 
       "id": 18226543, 
       "time": 1539664598, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18229981": {
+      "time_iso": "2018-10-16 11:08:08", 
+      "parent": 18226543, 
+      "text": "no, it was on arxiv somewhere.  It was written as a journal article.<p>edit: AH!  it was linked upthread on bioarxiv.</p>", 
+      "id": 18229981, 
+      "time": 1539702488, 
+      "type": "comment", 
+      "by": "hprotagonist"
+    }, 
+    "18252582": {
+      "time_iso": "2018-10-18 18:07:59", 
+      "kids": [
+        18252825, 
+        18252879, 
+        18253142, 
+        18252629, 
+        18253148, 
+        18253273, 
+        18252710, 
+        18252988, 
+        18252837, 
+        18252972, 
+        18253323, 
+        18253122, 
+        18252651
+      ], 
+      "descendants": 117, 
+      "url": "https://www.recode.net/2018/10/16/17940120/opportunity-zones-sean-parker-silicon-valley-wealth-taxes", 
+      "title": "New law lets you defer capital gains taxes by investing in opportunity zones", 
+      "by": "rmason", 
+      "score": 88, 
+      "time": 1539900479, 
+      "type": "story", 
+      "id": 18252582
+    }, 
+    "18252825": {
+      "time_iso": "2018-10-18 18:38:52", 
+      "kids": [
+        18252925, 
+        18252838, 
+        18253263
+      ], 
+      "parent": 18252582, 
+      "text": "I believe the way that the program works is you can <i>defer</i> taxes from your original capital gains (and the cost basis gets increased so your deferred taxes are less than you would pay otherwise), reinvest them in an \"opportunity zone\", and not pay capital gains on <i>your investment on the opportunity zone</i>, if you hold it long enough<p>e.g. Bob bought Apple stock for $50 a share back in the day, and sells it for $200/share. He defers his taxes until 2026. Instead of paying capital gains tax on $150/share, the cost basis is adjusted by 15% so in addition to benefiting from the time value of money, future Bob will only be taxed on $142.50 of capital gains. Bob can buy a house in an \"opportunity zone\" (from scrolling around the embedded map, there's plenty of million dollar+ houses in these areas. There's also lots of sports teams and stadiums in these areas, so maybe Bob buys an NFL team or a parking lot next to their stadium), rent it out for 10 years, sell it, and not have to pay any capital gains tax on the appreciation. Definitely not a bad deal for him!</p>", 
+      "id": 18252825, 
+      "time": 1539902332, 
+      "type": "comment", 
+      "by": "Rebelgecko"
+    }, 
+    "18252838": {
+      "time_iso": "2018-10-18 18:40:23", 
+      "kids": [
+        18253505
+      ], 
+      "parent": 18252825, 
+      "text": "Yes its more akin to a 1031 exchange, but opened up so that non-real estate capital gains are eligible.", 
+      "id": 18252838, 
+      "time": 1539902423, 
+      "type": "comment", 
+      "by": "ethagknight"
+    }, 
+    "18253505": {
+      "time_iso": "2018-10-18 20:34:38", 
+      "kids": [
+        18253651
+      ], 
+      "parent": 18252838, 
+      "text": "Is it just capital gains?  Wondering if it applies to any other forms of active or passive income.<p>How are profits from these investments treated?</p><p>Can you \"swap til you drop\" like with a 1031 exchange?</p>", 
+      "id": 18253505, 
+      "time": 1539909278, 
+      "type": "comment", 
+      "by": "bcheung"
+    }, 
+    "18253651": {
+      "time_iso": "2018-10-18 21:17:54", 
+      "kids": [
+        18253740
+      ], 
+      "parent": 18253505, 
+      "text": "&gt; <i>Is it just capital gains? Wondering if it applies to any other forms of active or passive income.</i><p>I would also like some information about this.</p><p>+1 for investing in distressed areas; self-nominated with intent or otherwise.</p><p>If it's capital gains only, -1 on requiring sale of capital assets in order to be sufficiently incentivized. (Because then the opportunity to tax-advantagedly invest in Opportunity Zones is denied to persons without assets to liquidate; i.e. unequal opportunity).</p>", 
+      "id": 18253651, 
+      "time": 1539911874, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18253740": {
+      "time_iso": "2018-10-18 21:40:18", 
+      "parent": 18253651, 
+      "text": "Q: \"Why don't I get the same tax-advantage for investing in a/my opportunity zone community?\"<p>A [AFAIU]: \"Because you don't have capital gains; only regular income\" (~=\"Because you're not an accredited investor\")</p>", 
+      "id": 18253740, 
+      "time": 1539913218, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18252582, 
     18225197, 
     18222790, 
     18214707, 
