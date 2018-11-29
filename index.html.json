@@ -13264,25 +13264,25 @@
         18511115, 
         18512406, 
         18511281, 
-        18513562, 
         18510854, 
+        18513562, 
         18511256, 
         18512822, 
-        18511889, 
-        18513545, 
         18510918, 
-        18511244, 
-        18513680, 
+        18511889, 
         18510698, 
+        18511244, 
+        18513545, 
         18511139, 
+        18513680, 
         18511890, 
         18513819, 
         18510834, 
         18511800, 
         18511109, 
         18512881, 
-        18514620, 
         18511107, 
+        18514620, 
         18512106, 
         18512436, 
         18511164, 
@@ -13295,11 +13295,11 @@
         18511634, 
         18512011
       ], 
-      "descendants": 134, 
+      "descendants": 136, 
       "text": "There are a lot of fields I'm interested in, such as machine learning, but I struggle to understand how they work as most resources I come across are full of complex mathematical notation that I never learned how to read in school or University.<p>How do you learn to read this stuff? I'm frequently stumped by an academic paper or book that I just can't understand due to mathematical notation that I simply cannot read.</p>", 
       "title": "Ask HN: How can I learn to read mathematical notation?", 
       "by": "cursorial", 
-      "score": 205, 
+      "score": 211, 
       "time": 1542900747, 
       "type": "story", 
       "id": 18510528
@@ -13329,23 +13329,41 @@
     "18523847": {
       "time_iso": "2018-11-24 15:33:08", 
       "kids": [
-        18529772, 
+        18530977, 
         18529175, 
-        18530172, 
-        18530176, 
-        18530104, 
-        18530145, 
-        18530072, 
-        18529124, 
-        18530029, 
+        18529772, 
+        18532122, 
         18529969, 
-        18528906
+        18531020, 
+        18529124, 
+        18530104, 
+        18530407, 
+        18530518, 
+        18532190, 
+        18531156, 
+        18532455, 
+        18530072, 
+        18530145, 
+        18530384, 
+        18530172, 
+        18531916, 
+        18528906, 
+        18530029, 
+        18531659, 
+        18530524, 
+        18531815, 
+        18530176, 
+        18531183, 
+        18536958, 
+        18530710, 
+        18530503, 
+        18530816
       ], 
-      "descendants": 61, 
+      "descendants": 299, 
       "url": "https://www.newscientist.com/article/mg24032052-900-time-to-break-academic-publishings-stranglehold-on-research/", 
       "title": "Time to break academic publishing's stranglehold on research", 
       "by": "joeyespo", 
-      "score": 165, 
+      "score": 692, 
       "time": 1543091588, 
       "type": "story", 
       "id": 18523847
@@ -13353,6 +13371,7 @@
     "18529772": {
       "time_iso": "2018-11-25 18:30:42", 
       "kids": [
+        18532089, 
         18529809
       ], 
       "parent": 18523847, 
@@ -13365,12 +13384,17 @@
     "18529809": {
       "time_iso": "2018-11-25 18:39:26", 
       "kids": [
-        18530190, 
         18529852, 
-        18529854, 
-        18530180, 
         18529925, 
+        18529854, 
+        18533803, 
+        18530410, 
+        18530569, 
+        18530180, 
+        18530190, 
+        18530420, 
         18529862, 
+        18530484, 
         18529869
       ], 
       "parent": 18529772, 
@@ -13396,6 +13420,7 @@
       "time_iso": "2018-11-25 18:58:59", 
       "kids": [
         18530198, 
+        18531311, 
         18530045
       ], 
       "parent": 18529854, 
@@ -13426,9 +13451,74 @@
       "time": 1543194202, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18547598": {
+      "time_iso": "2018-11-27 17:48:54", 
+      "kids": [
+        18555600, 
+        18557900, 
+        18549276, 
+        18558440, 
+        18556785
+      ], 
+      "descendants": 10, 
+      "url": "https://geoffreylitt.com/margin-notes/", 
+      "title": "Margin Notes: Automatic code documentation with recorded examples from runtime", 
+      "by": "mpweiher", 
+      "score": 67, 
+      "time": 1543358934, 
+      "type": "story", 
+      "id": 18547598
+    }, 
+    "18549276": {
+      "time_iso": "2018-11-27 23:24:51", 
+      "kids": [
+        18556353, 
+        18556934
+      ], 
+      "parent": 18547598, 
+      "text": "Slightly related are Go examples - they're tests, and documentation at the same time. It'd be nice if someone hooks in a listener to automatically collect examples tho", 
+      "id": 18549276, 
+      "time": 1543379091, 
+      "type": "comment", 
+      "by": "chewxy"
+    }, 
+    "18556353": {
+      "time_iso": "2018-11-28 17:39:24", 
+      "kids": [
+        18556415
+      ], 
+      "parent": 18549276, 
+      "text": "And Elixir's doctests <a href=\"https://elixir-lang.org/getting-started/mix-otp/docs-tests-and-with.html\" rel=\"nofollow\">https://elixir-lang.org/getting-started/mix-otp/docs-tests-a...</a>", 
+      "id": 18556353, 
+      "time": 1543444764, 
+      "type": "comment", 
+      "by": "pmontra"
+    }, 
+    "18556415": {
+      "time_iso": "2018-11-28 17:47:51", 
+      "kids": [
+        18559384
+      ], 
+      "parent": 18556353, 
+      "text": "And Python's Axe!<p>I mean doctest: <a href=\"https://docs.python.org/3/library/doctest.html\" rel=\"nofollow\">https://docs.python.org/3/library/doctest.html</a></p>", 
+      "id": 18556415, 
+      "time": 1543445271, 
+      "type": "comment", 
+      "by": "merlincorey"
+    }, 
+    "18559384": {
+      "time_iso": "2018-11-29 06:03:12", 
+      "parent": 18556415, 
+      "text": "1. sys.settrace() for {call, return, exception, c_call, c_return, and c_exception}<p>2. Serialize as/to doctests. Is there a good way to serialize Python objects as Python code?</p><p>3. Add doctests to callables' docstrings with AST</p><p>Mutation testing tools may have already implemented serialization to doctests but IDK about docstring modification.</p><p>... MOSES is an evolutionary algorithm that mutates and simplifies a combo tree until it has built a function with less error for the given input/output pairs.</p>", 
+      "id": 18559384, 
+      "time": 1543489392, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18547598, 
     18523847, 
     18510528, 
     18252582, 
