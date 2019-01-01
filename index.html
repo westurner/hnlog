@@ -114,6 +114,41 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2018-12-31 15:43:54</td>
+        <td><a href="#story-18796884">Ask HN: Data analysis workflow?</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=tucaz">tucaz</a></td>
+        <td>1</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2018-12-28 16:25:15</td>
+        <td><a href="#story-18779544">The U.S. is spending millions to solve mystery sonic attacks on diplomats</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=johnshades">johnshades</a></td>
+        <td>5</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2018-12-27 10:00:38</td>
+        <td><a href="#story-18769761">Ask HN: What is your favorite open-source job scheduler</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=bohinjc">bohinjc</a></td>
+        <td>6</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2018-12-22 06:53:46</td>
+        <td><a href="#story-18740197">How to Version-Control Jupyter Notebooks</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=tosh">tosh</a></td>
+        <td>164</td>
+    </tr>
+    
+    <tr scope="row"  class="bold">
+        <td>2018-12-04 10:25:47</td>
+        <td><a href="#story-18600199">Teaching and Learning with Jupyter (A book by Jupyter for Education)</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=westurner">westurner</a></td>
+        <td>5</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2018-11-27 17:48:54</td>
         <td><a href="#story-18547598">Margin Notes: Automatic code documentation with recorded examples from runtime</a></td>
         <td><a href="https://news.ycombinator.com/user?id=mpweiher">mpweiher</a></td>
@@ -1749,6 +1784,245 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-18796884">
+    <div class="card-block">
+      <a class="collapser" href="#story-18796884-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18796884-collapse">
+        <h4 class="card-title"><a href="#story-18796884">Ask HN: Data analysis workflow?</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=tucaz">tucaz</a> |
+          <a href="https://news.ycombinator.com/item?id=18796884"
+          
+          >2018-12-31 15:43:54</a> | 1  | <a href="#story-18796884">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">What kind of workflow do you employ when designing a data-flow or analyzing data?<p>Let me give a concrete example. For the past year, I have been selling stuff on the interwebs through two payment processors one of them being PayPal.</p><p>The selling process was put together with a bunch of SaaS hooking everything together through webhooks and notifications.</p><p>Now I need to step it that control and produce a proper flow to handle sign up, subscription and payment.</p><p>Before doing that I'm analyzing and trying to conciliate all transactions to make sure the books are OK and nothing went unseen. There lies the problem. I have data coming from different sources such as databases, excel files, CSV exports and some JSON files.</p><p>At first, I started dealing with it by having all the data in CSV files and trying to make sense of them using code and running queries within the code.</p><p>As I found holes in the data I had to dig up more data from different sources and it became a pain to continue with code. I now imported everything into Postgres and have been "debugging" with SQL.</p><p>As I advanced through the process I had to generate a lot of routines to collect and match data. I also have to keep all the data files around and organized which is very hard to do because I'm all over the place trying to find where the problem is.</p><p>How do you handle with it? What kind of workflow? Any best practices or recommendations from people who do this for a living?</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-18798244">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18798244-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18798244-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18798244"
+          id="comment-18798244"
+          >2018-12-31 20:09:15</a> | <a href="#comment-18798244">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Pachyderm may be basically what you're looking for. It does data version control with/for language-agnostic pipelines that don't need to always redo the ETL phase.
+<a href="https://www.pachyderm.io" rel="nofollow">https://www.pachyderm.io</a><p>Dask-ML works with {scikit-learn, xgboost, tensorflow, TPOT,}. ETL is your responsibility. Loading things into parquet format affords a lot of flexibility in terms of (non-SQL) datastores or just efficiently packed files on disk that need to be paged into/over in RAM.
+<a href="http://ml.dask.org/examples/scale-scikit-learn.html" rel="nofollow">http://ml.dask.org/examples/scale-scikit-learn.html</a></p><p>Sklearn.pipeline.Pipeline API: {fit(), transform(), predict(), score(),} <a href="https://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html#sklearn.pipeline.Pipeline" rel="nofollow">https://scikit-learn.org/stable/modules/generated/sklearn.pi...</a></p><p><a href="https://docs.featuretools.com" rel="nofollow">https://docs.featuretools.com</a> can also minimize ad-hoc boilerplate ETL / feature engineering :</p><p>&gt; <i>Featuretools is a framework to perform automated feature engineering. It excels at transforming temporal and relational datasets into feature matrices for machine learning.</i></p><p>The PLoS 10 Simple Rules papers distill a number of best practices:</p><p>"Ten Simple Rules for Reproducible Computational Research" <a href="http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fjournal.pcbi.1003285" rel="nofollow">http://www.ploscompbiol.org/article/info%3Adoi%2F10.1371%2Fj...</a></p><p>“Ten Simple Rules for Creating a Good Data Management Plan”
+<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525" rel="nofollow">http://journals.plos.org/ploscompbiol/article?id=10.1371/jou...</a></p><p>In terms of the scientific method, a null hypothesis like "there is no significant relation between the [independent and dependent] variables" may be dangerously unprofessional p-hacking and data dredging; and may result in an overfit model that seems to predict or classify the training and test data (when split with e.g. sklearn.model_selection.train_test_split and a given random seed).</p><p>One of these days (in the happy new year!) I'll get around to updating these notes with the aforementioned tools and docs: <a href="https://wrdrd.github.io/docs/consulting/data-science#scientific-method" rel="nofollow">https://wrdrd.github.io/docs/consulting/data-science#scienti...</a></p><p>IDK what <a href="https://kaggle.com/learn" rel="nofollow">https://kaggle.com/learn</a> has specifically in terms of analysis workflow? Their docker containers have very many tools configured in a reproducible way:
+<a href="https://github.com/Kaggle/docker-python/blob/master/Dockerfile" rel="nofollow">https://github.com/Kaggle/docker-python/blob/master/Dockerfi...</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-18779544">
+    <div class="card-block">
+      <a class="collapser" href="#story-18779544-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18779544-collapse">
+        <h4 class="card-title"><a href="#story-18779544">The U.S. is spending millions to solve mystery sonic attacks on diplomats</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=johnshades">johnshades</a> |
+          <a href="https://news.ycombinator.com/item?id=18779544"
+          
+          >2018-12-28 16:25:15</a> | 5  | <a href="#story-18779544">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://www.fastcompany.com/90286767/the-u-s-is-spending-millions-to-solve-mystery-sonic-attacks-on-diplomats" rel="nofollow">https://www.fastcompany.com/90286767/the-u-s-is-spending-millions-to-solve-mystery-sonic-attacks-on-diplomats</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18781341">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18781341-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18781341-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id="></a> |
+          <a href="https://news.ycombinator.com/item?id=18781341"
+          id="comment-18781341"
+          >2018-12-28 21:22:22</a> | <a href="#comment-18781341">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <p class="card-text">[deleted]</p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-18769761">
+    <div class="card-block">
+      <a class="collapser" href="#story-18769761-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18769761-collapse">
+        <h4 class="card-title"><a href="#story-18769761">Ask HN: What is your favorite open-source job scheduler</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=bohinjc">bohinjc</a> |
+          <a href="https://news.ycombinator.com/item?id=18769761"
+          
+          >2018-12-27 10:00:38</a> | 6  | <a href="#story-18769761">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Too many business scripts rely on cron(8) to run.
+Classic cron cannot handle task duration, fail (only with email), same-task piling, linting, ...<p>So what is your favorite open-source, easy to bundle/deploy job scheduler, that is easy to use, has logging capacity, config file linting, and can handle common use-cases : kill if longer than, limit resources, prevent launching when previous one is nor finished, ...</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-18770424">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18770424-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18770424-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18770424"
+          id="comment-18770424"
+          >2018-12-27 11:27:07</a> | <a href="#comment-18770424">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">systemd-crontab-generator may be usable for something like linting classic crontabs?
+<a href="https://github.com/systemd-cron/systemd-cron" rel="nofollow">https://github.com/systemd-cron/systemd-cron</a><p>Systemd/Timers as a cron replacement:
+<a href="https://wiki.archlinux.org/index.php/Systemd/Timers#As_a_cron_replacement" rel="nofollow">https://wiki.archlinux.org/index.php/Systemd/Timers#As_a_cro...</a></p><p>Celery supports periodic tasks:</p><p>&gt; <i>Like with cron, the tasks may overlap if the first task doesn’t complete before the next. If that’s a concern you should use a locking strategy to ensure only one instance can run at a time (see for example </i>Ensuring a task is only executed one at a time<i>).</i></p><p><a href="http://docs.celeryproject.org/en/latest/userguide/periodic-tasks.html" rel="nofollow">http://docs.celeryproject.org/en/latest/userguide/periodic-t...</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-18740197">
+    <div class="card-block">
+      <a class="collapser" href="#story-18740197-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18740197-collapse">
+        <h4 class="card-title"><a href="#story-18740197">How to Version-Control Jupyter Notebooks</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=tosh">tosh</a> |
+          <a href="https://news.ycombinator.com/item?id=18740197"
+          
+          >2018-12-22 06:53:46</a> | 164  | <a href="#story-18740197">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://nextjournal.com/schmudde/how-to-version-control-jupyter" rel="nofollow">https://nextjournal.com/schmudde/how-to-version-control-jupyter</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18741599">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18741599-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18741599-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18741599"
+          id="comment-18741599"
+          >2018-12-22 12:49:11</a> | <a href="#comment-18741599">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Mentioned in the article: manual nbconvert, nbdime, ReviewNB (currently GitHub only), jupytext.<p>Jupytext includes a bit of YAML in the e.g. Python/R/Julia/Markdown header.
+<a href="https://github.com/mwouts/jupytext" rel="nofollow">https://github.com/mwouts/jupytext</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-18741833">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18741833-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18741833-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=nerdponx">nerdponx</a> |
+          <a href="https://news.ycombinator.com/item?id=18741833"
+          id="comment-18741833"
+          >2018-12-22 13:40:33</a> | <a href="#comment-18741833">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Huge +1s for both nbdime and jupytext. Excellent tools both.</p></div></div>
+    </div>
+  </div>
+  <div class="item card comment" id="comment-18742153">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18742153-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18742153-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=mharrison">mharrison</a> |
+          <a href="https://news.ycombinator.com/item?id=18742153"
+          id="comment-18742153"
+          >2018-12-22 14:56:52</a> | <a href="#comment-18742153">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Really enjoying jupytext. I do a bunch of my training from Jupyter and it has made my workflow better.</p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-18600199">
+    <div class="card-block">
+      <a class="collapser" href="#story-18600199-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="story-18600199-collapse">
+        <h4 class="card-title bold"><a href="#story-18600199">Teaching and Learning with Jupyter (A book by Jupyter for Education)</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18600199"
+          
+          >2018-12-04 10:25:47</a> | 5  | <a href="#story-18600199">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://jupyter4edu.github.io/jupyter-edu-book/" rel="nofollow">https://jupyter4edu.github.io/jupyter-edu-book/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18618248">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18618248-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18618248-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=dsblank">dsblank</a> |
+          <a href="https://news.ycombinator.com/item?id=18618248"
+          id="comment-18618248"
+          >2018-12-06 09:24:40</a> | <a href="#comment-18618248">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Still under heavy development, but already useful. Add we accept Pull Requests to add items or fix issues. Join us!</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-18652049">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18652049-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18652049-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=ontouchstart">ontouchstart</a> |
+          <a href="https://news.ycombinator.com/item?id=18652049"
+          id="comment-18652049"
+          >2018-12-10 18:25:48</a> | <a href="#comment-18652049">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">A small suggestion.<p>Since Jupyter Notebook can be used for both programming and documentation, why don't you use Jupyter Notebook itself as the source of your document?</p><p>It is actually very easy to setup a Jupyter Notebook driven .ipynb -&gt; .html publishing pipeline with github + a local Jupyter instance</p><p>Here is a toy example (for my own github page)</p><p><a href="https://ontouchstart.github.io/" rel="nofollow">https://ontouchstart.github.io/</a></p><p><a href="https://github.com/ontouchstart/ontouchstart.github.io" rel="nofollow">https://github.com/ontouchstart/ontouchstart.github.io</a></p><p>The convert script is here (also a Jupyter Notebook)</p><p><a href="https://github.com/ontouchstart/ontouchstart.github.io/blob/master/convert.ipynb" rel="nofollow">https://github.com/ontouchstart/ontouchstart.github.io/blob/...</a></p><p>You got the ideas.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-18652105">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18652105-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18652105-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=ontouchstart">ontouchstart</a> |
+          <a href="https://news.ycombinator.com/item?id=18652105"
+          id="comment-18652105"
+          >2018-12-10 18:35:07</a> | <a href="#comment-18652105">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">BTW, to make the system fully replicable, I use docker for the local Jupyter instance, which can be launched via the Makefile<p><a href="https://github.com/ontouchstart/ontouchstart.github.io/blob/master/Makefile" rel="nofollow">https://github.com/ontouchstart/ontouchstart.github.io/blob/...</a></p><p>Here is the custom Dockerfile:</p><p><a href="https://github.com/ontouchstart/ontouchstart.github.io/blob/conda/Dockerfile" rel="nofollow">https://github.com/ontouchstart/ontouchstart.github.io/blob/...</a></p></p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-18547598">
     <div class="card-block">
       <a class="collapser" href="#story-18547598-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
