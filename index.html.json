@@ -13690,9 +13690,33 @@
       "time": 1546304955, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18832900": {
+      "time_iso": "2019-01-05 12:30:30", 
+      "kids": [
+        18833730
+      ], 
+      "descendants": 1, 
+      "url": "https://academia.stackexchange.com/q/64834/746", 
+      "title": "Why attend predatory colleges in the US?", 
+      "by": "azhenley", 
+      "score": 2, 
+      "time": 1546709430, 
+      "type": "story", 
+      "id": 18832900
+    }, 
+    "18833730": {
+      "time_iso": "2019-01-05 14:40:21", 
+      "parent": 18832900, 
+      "text": "&gt; <i>Why would people attend predatory colleges?</i><p>Why would people make an investment with insufficient ROI (Return on Investment)?</p><p>Insufficient information.</p><p>College Scorecard [1] is a database with a web interface for finding and comparing schools according to a number of objective criteria. CollegeScorecard launched in 2015. It lists \"Average Annual Cost\", \"Graduation Rate\", and \"Salary After Attending\" on the search results pages. When you review a detail page for an institution, there are many additional statistics; things like: \"Typical Total Debt After Graduation\" and \"Typical Monthly Loan Payment\".</p><p>The raw data behind CollegeScorecard can be downloaded from [2]. The \"data_dictionary\" tab of the \"Data Dictionary\" spreadsheet describes the data schema.</p><p>[1] <a href=\"https://collegescorecard.ed.gov\" rel=\"nofollow\">https://collegescorecard.ed.gov</a></p><p>[2] <a href=\"https://collegescorecard.ed.gov/data/\" rel=\"nofollow\">https://collegescorecard.ed.gov/data/</a></p><p>Khan Academy &gt; \"College, careers, and more\" [3] may be a helpful supplement for funding a full-time college admissions counselor in a secondary education institution</p><p>[3] <a href=\"https://www.khanacademy.org/college-careers-more\" rel=\"nofollow\">https://www.khanacademy.org/college-careers-more</a></p><p>(I haven't the time to earn 10 <i>academia.stackexchange</i> points in order to earn the prestigious opportunity to contribute this answer to such a forum with threaded comments. In the academic journal system, journals sell academics' work (i.e. schema.org/ScholarlyArticle PDFs, mobile-compatible responsive HTML 5, RDFa, JSON-LD structured data) and keep all of the revenue).</p><p>\"Because I need money for school! Next question. Textbook costs over time <i>t</i>?!\"</p>", 
+      "id": 18833730, 
+      "time": 1546717221, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18832900, 
     18796884, 
     18779544, 
     18769761, 
