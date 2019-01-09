@@ -13700,7 +13700,7 @@
       "url": "https://academia.stackexchange.com/q/64834/746", 
       "title": "Why attend predatory colleges in the US?", 
       "by": "azhenley", 
-      "score": 2, 
+      "score": 3, 
       "time": 1546709430, 
       "type": "story", 
       "id": 18832900
@@ -13713,9 +13713,92 @@
       "time": 1546717221, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18855820": {
+      "time_iso": "2019-01-08 09:51:20", 
+      "kids": [
+        18856278
+      ], 
+      "descendants": 1, 
+      "url": "https://pv-magazine-usa.com/2019/01/07/california-power-grid-data-is-live-solar-developers-take-note/", 
+      "title": "California grid data is live \u2013 solar developers take note", 
+      "by": "Osiris30", 
+      "score": 2, 
+      "time": 1546959080, 
+      "type": "story", 
+      "id": 18855820
+    }, 
+    "18856278": {
+      "time_iso": "2019-01-08 10:42:42", 
+      "parent": 18855820, 
+      "text": "&gt; <i>It looks like California is at least two generations of technology ahead of other states. Let\u2019s hope the rest of us catch up, so that we have a grid that can make an asset out of every building, every battery, and every solar system.</i><p>+1. Are there any other states with similar grid data available for optimization; or any plans to require or voluntarily offer such a useful capability?</p>", 
+      "id": 18856278, 
+      "time": 1546962162, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18866353": {
+      "time_iso": "2019-01-09 12:00:44", 
+      "kids": [
+        18866758, 
+        18867038, 
+        18867490, 
+        18866686, 
+        18868344, 
+        18866893, 
+        18866971, 
+        18866887, 
+        18866610, 
+        18866685, 
+        18867609
+      ], 
+      "descendants": 14, 
+      "url": "https://github.com/Remmeauth/remme-core/tree/dev", 
+      "title": "REMME \u2013 A blockchain-based protocol for issuing X.509 client certificates", 
+      "by": "fedotovcorp", 
+      "score": 26, 
+      "time": 1547053244, 
+      "type": "story", 
+      "id": 18866353
+    }, 
+    "18866685": {
+      "time_iso": "2019-01-09 12:31:25", 
+      "kids": [
+        18867068, 
+        18866914
+      ], 
+      "parent": 18866353, 
+      "text": "pity it's blockchain based", 
+      "id": 18866685, 
+      "time": 1547055085, 
+      "type": "comment", 
+      "by": "lclarkmichalek"
+    }, 
+    "18866914": {
+      "time_iso": "2019-01-09 12:54:01", 
+      "kids": [
+        18868540
+      ], 
+      "parent": 18866685, 
+      "text": "It's unclear to me why you would want a distributed PKI to authenticate a centralized app. Or maybe it's only for dapps?", 
+      "id": 18866914, 
+      "time": 1547056441, 
+      "type": "comment", 
+      "by": "kenforthewin"
+    }, 
+    "18868540": {
+      "time_iso": "2019-01-09 15:32:45", 
+      "parent": 18866914, 
+      "text": "In no particular order, there are a number of blockchain PKI (and DNS (!)) proposals and proofs of concept.<p>\"CertLedger: A New PKI Model with Certificate Transparency Based on Blockchain\" (2018) <a href=\"https://arxiv.org/pdf/1806.03914\" rel=\"nofollow\">https://arxiv.org/pdf/1806.03914</a> \n<a href=\"https://scholar.google.com/scholar?q=related:LF9PMeqNOLsJ:scholar.google.com/&amp;scioq=&amp;hl=en&amp;as_sdt=0,43&amp;scilib=1\" rel=\"nofollow\">https://scholar.google.com/scholar?q=related:LF9PMeqNOLsJ:sc...</a></p><p><i>\"TABLE 1: Security comparison of Log Based Approaches to Certificate Management\"</i> (p.12) lists a number of criteria for blockchain-based PKI implementations:</p><p>- Resilient to split-world/MITM attack</p><p>- Provides revocation transparency</p><p>- Eliminates client certificate validation process</p><p>- Eliminates trusted key management</p><p>- Preserves client privacy</p><p>- Require external auditing</p><p>- Monitoring promptness</p><p>... These papers also clarify why a highly-replicated decentralized trustless datastore \u2014 such as a blockchain \u2014 is advantageous for PKI. WoT is not mentioned.</p><p>\"Blockchain-based Certificate Transparency and Revocation Transparency\" (2018)\n<a href=\"https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final29.pdf\" rel=\"nofollow\">https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final29.pdf</a></p><p><a href=\"https://scholar.google.com/scholar?q=related:oEsKmJvdn-MJ:scholar.google.com/&amp;scioq=&amp;hl=en&amp;as_sdt=0,43&amp;scilib=1\" rel=\"nofollow\">https://scholar.google.com/scholar?q=related:oEsKmJvdn-MJ:sc...</a></p><p>Who can update and revoke which records in a permissioned blockchain (or a plain old database, for that matter)?</p><p>Letsencrypt has a model for proving domain control with ACME; which AFAIU depends upon DNS, too.</p>", 
+      "id": 18868540, 
+      "time": 1547065965, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18866353, 
+    18855820, 
     18832900, 
     18796884, 
     18779544, 

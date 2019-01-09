@@ -114,10 +114,24 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-01-09 12:00:44</td>
+        <td><a href="#story-18866353">REMME – A blockchain-based protocol for issuing X.509 client certificates</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=fedotovcorp">fedotovcorp</a></td>
+        <td>26</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-01-08 09:51:20</td>
+        <td><a href="#story-18855820">California grid data is live – solar developers take note</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=Osiris30">Osiris30</a></td>
+        <td>2</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-01-05 12:30:30</td>
         <td><a href="#story-18832900">Why attend predatory colleges in the US?</a></td>
         <td><a href="https://news.ycombinator.com/user?id=azhenley">azhenley</a></td>
-        <td>2</td>
+        <td>3</td>
     </tr>
     
     <tr scope="row" >
@@ -1791,6 +1805,110 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-18866353">
+    <div class="card-block">
+      <a class="collapser" href="#story-18866353-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18866353-collapse">
+        <h4 class="card-title"><a href="#story-18866353">REMME – A blockchain-based protocol for issuing X.509 client certificates</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=fedotovcorp">fedotovcorp</a> |
+          <a href="https://news.ycombinator.com/item?id=18866353"
+          
+          >2019-01-09 12:00:44</a> | 26  | <a href="#story-18866353">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://github.com/Remmeauth/remme-core/tree/dev" rel="nofollow">https://github.com/Remmeauth/remme-core/tree/dev</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18866685">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18866685-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18866685-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=lclarkmichalek">lclarkmichalek</a> |
+          <a href="https://news.ycombinator.com/item?id=18866685"
+          id="comment-18866685"
+          >2019-01-09 12:31:25</a> | <a href="#comment-18866685">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">pity it's blockchain based</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-18866914">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18866914-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18866914-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=kenforthewin">kenforthewin</a> |
+          <a href="https://news.ycombinator.com/item?id=18866914"
+          id="comment-18866914"
+          >2019-01-09 12:54:01</a> | <a href="#comment-18866914">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">It's unclear to me why you would want a distributed PKI to authenticate a centralized app. Or maybe it's only for dapps?</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-18868540">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18868540-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18868540-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18868540"
+          id="comment-18868540"
+          >2019-01-09 15:32:45</a> | <a href="#comment-18868540">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">In no particular order, there are a number of blockchain PKI (and DNS (!)) proposals and proofs of concept.<p>"CertLedger: A New PKI Model with Certificate Transparency Based on Blockchain" (2018) <a href="https://arxiv.org/pdf/1806.03914" rel="nofollow">https://arxiv.org/pdf/1806.03914</a> 
+<a href="https://scholar.google.com/scholar?q=related:LF9PMeqNOLsJ:scholar.google.com/&amp;scioq=&amp;hl=en&amp;as_sdt=0,43&amp;scilib=1" rel="nofollow">https://scholar.google.com/scholar?q=related:LF9PMeqNOLsJ:sc...</a></p><p><i>"TABLE 1: Security comparison of Log Based Approaches to Certificate Management"</i> (p.12) lists a number of criteria for blockchain-based PKI implementations:</p><p>- Resilient to split-world/MITM attack</p><p>- Provides revocation transparency</p><p>- Eliminates client certificate validation process</p><p>- Eliminates trusted key management</p><p>- Preserves client privacy</p><p>- Require external auditing</p><p>- Monitoring promptness</p><p>... These papers also clarify why a highly-replicated decentralized trustless datastore — such as a blockchain — is advantageous for PKI. WoT is not mentioned.</p><p>"Blockchain-based Certificate Transparency and Revocation Transparency" (2018)
+<a href="https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final29.pdf" rel="nofollow">https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final29.pdf</a></p><p><a href="https://scholar.google.com/scholar?q=related:oEsKmJvdn-MJ:scholar.google.com/&amp;scioq=&amp;hl=en&amp;as_sdt=0,43&amp;scilib=1" rel="nofollow">https://scholar.google.com/scholar?q=related:oEsKmJvdn-MJ:sc...</a></p><p>Who can update and revoke which records in a permissioned blockchain (or a plain old database, for that matter)?</p><p>Letsencrypt has a model for proving domain control with ACME; which AFAIU depends upon DNS, too.</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-18855820">
+    <div class="card-block">
+      <a class="collapser" href="#story-18855820-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18855820-collapse">
+        <h4 class="card-title"><a href="#story-18855820">California grid data is live – solar developers take note</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=Osiris30">Osiris30</a> |
+          <a href="https://news.ycombinator.com/item?id=18855820"
+          
+          >2019-01-08 09:51:20</a> | 2  | <a href="#story-18855820">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://pv-magazine-usa.com/2019/01/07/california-power-grid-data-is-live-solar-developers-take-note/" rel="nofollow">https://pv-magazine-usa.com/2019/01/07/california-power-grid-data-is-live-solar-developers-take-note/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18856278">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18856278-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18856278-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18856278"
+          id="comment-18856278"
+          >2019-01-08 10:42:42</a> | <a href="#comment-18856278">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>It looks like California is at least two generations of technology ahead of other states. Let’s hope the rest of us catch up, so that we have a grid that can make an asset out of every building, every battery, and every solar system.</i><p>+1. Are there any other states with similar grid data available for optimization; or any plans to require or voluntarily offer such a useful capability?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-18832900">
     <div class="card-block">
       <a class="collapser" href="#story-18832900-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -1800,7 +1918,7 @@
           <a href="https://news.ycombinator.com/user?id=azhenley">azhenley</a> |
           <a href="https://news.ycombinator.com/item?id=18832900"
           
-          >2019-01-05 12:30:30</a> | 2  | <a href="#story-18832900">#</a> | <a href="#" class="toplink">^</a>
+          >2019-01-05 12:30:30</a> | 3  | <a href="#story-18832900">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://academia.stackexchange.com/q/64834/746" rel="nofollow">https://academia.stackexchange.com/q/64834/746</a></span>
