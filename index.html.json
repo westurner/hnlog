@@ -13845,17 +13845,41 @@
       "type": "comment", 
       "by": "westurner"
     }, 
+    "18871455": {
+      "time_iso": "2019-01-09 23:09:59", 
+      "kids": [
+        18871560
+      ], 
+      "descendants": 1, 
+      "url": "https://github.com/sindresorhus/doge-seed-cli", 
+      "title": "Show HN: Generate dank mnemonic seed phrases in the terminal", 
+      "by": "mofle", 
+      "score": 2, 
+      "time": 1547093399, 
+      "type": "story", 
+      "id": 18871455
+    }, 
     "18871472": {
       "time_iso": "2019-01-09 23:13:57", 
       "parent": 18859331, 
-      "text": "&gt; <i>Abstract. Cryptography with quantum states exhibits a number of surprising and counterintuitive\nfeatures. In a 2002 work, Barnum et al. argued informally that these strange features should imply that\ndigital signatures for quantum states are impossible [6].</i><p>&gt; <i>In this work, we perform the first rigorous study of the problem of signing quantum states. We first show\nthat the intuition of [6] was correct, by proving an impossibility result which rules out even very weak\nforms of signing quantum states. Essentially, we show that any non-trivial combination of correctness\nand security requirements results in negligible security.</i></p><p>&gt; <i>This rules out all quantum signature schemes\nexcept those which simply measure the state and then sign the outcome using a classical scheme. In\nother words, only classical signature schemes exist.</i></p><p>&gt; <i>We then show a positive result: it is possible to sign quantum states, provided that they are also encrypted\nwith the public key of the intended recipient. Following classical nomenclature, we call this notion\nquantum signcryption. Classically, signcryption is only interesting if it provides superior efficiency to\nsimultaneous encryption and signing. Our results imply that, quantumly, it is far more interesting: by\nthe laws of quantum mechanics, it is the only signing method available.</i></p><p>&gt; <i>We develop security definitions for quantum signcryption, ranging from a simple one-time two-user\nsetting, to a chosen-ciphertext-secure many-time multi-user setting. We also give secure constructions\nbased on post-quantum public-key primitives. Along the way, we show that a natural hybrid method\nof combining classical and quantum schemes can be used to \u201cupgrade\u201d a secure classical scheme to the\nfully-quantum setting, in a wide range of cryptographic settings including signcryption, authenticated\nencryption, and chosen-ciphertext security.</i></p>", 
+      "text": "&gt; <i>Abstract. Cryptography with quantum states exhibits a number of surprising and counterintuitive\nfeatures. In a 2002 work, Barnum et al. argued informally that these strange features should imply that\ndigital signatures for quantum states are impossible [6].</i><p>&gt; <i>In this work, we perform the first rigorous study of the problem of signing quantum states. We first show\nthat the intuition of [6] was correct, by proving an impossibility result which rules out even very weak\nforms of signing quantum states. Essentially, we show that any non-trivial combination of correctness\nand security requirements results in negligible security.</i></p><p>&gt; <i>This rules out all quantum signature schemes\nexcept those which simply measure the state and then sign the outcome using a classical scheme. In\nother words, only classical signature schemes exist.</i></p><p>&gt; <i>We then show a positive result: it is possible to sign quantum states, provided that they are also encrypted\nwith the public key of the intended recipient. Following classical nomenclature, we call this notion\nquantum signcryption. Classically, signcryption is only interesting if it provides superior efficiency to\nsimultaneous encryption and signing. Our results imply that, quantumly, it is far more interesting: by\nthe laws of quantum mechanics, it is the only signing method available.</i></p><p>&gt; <i>We develop security definitions for quantum signcryption, ranging from a simple one-time two-user\nsetting, to a chosen-ciphertext-secure many-time multi-user setting. We also give secure constructions\nbased on post-quantum public-key primitives. Along the way, we show that a natural hybrid method\nof combining classical and quantum schemes can be used to \u201cupgrade\u201d a secure classical scheme to the\nfully-quantum setting, in a wide range of cryptographic settings including signcryption, authenticated\nencryption, and chosen-ciphertext security.</i></p><p>\"Quantum signcryption\"</p>", 
       "id": 18871472, 
       "time": 1547093637, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "18871560": {
+      "time_iso": "2019-01-09 23:37:42", 
+      "parent": 18871455, 
+      "text": "From <a href=\"https://github.com/lukechilds/doge-seed\" rel=\"nofollow\">https://github.com/lukechilds/doge-seed</a> :<p>&gt; <i>The first four words will be a randomly generated Doge-like sentence.</i></p><p><i>The seed phrases are fully valid checksummed BIP39 seeds. They can be used with any cryptocurrency and can be imported into any BIP39 compliant wallet.</i></p><p>&gt; [\u2026] <i>However there is a slight reduction in entropy due to the introduction of the doge-isms. A doge seed has about 19.415 fewer bits of entropy than a standard BIP39 seed of equivalent length.</i></p>", 
+      "id": 18871560, 
+      "time": 1547095062, 
       "type": "comment", 
       "by": "westurner"
     }
   }, 
   "roots": [
+    18871455, 
     18859331, 
     18869924, 
     18866353, 
