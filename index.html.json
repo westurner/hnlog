@@ -13760,14 +13760,14 @@
         18867490, 
         18869142, 
         18866893, 
-        18868344, 
         18866971, 
+        18868344, 
         18866887, 
         18866610, 
         18866685, 
         18867609
       ], 
-      "descendants": 22, 
+      "descendants": 34, 
       "url": "https://github.com/Remmeauth/remme-core/tree/dev", 
       "title": "REMME \u2013 A blockchain-based protocol for issuing X.509 client certificates", 
       "by": "fedotovcorp", 
@@ -13792,7 +13792,8 @@
     "18866914": {
       "time_iso": "2019-01-09 12:54:01", 
       "kids": [
-        18868540
+        18868540, 
+        18873211
       ], 
       "parent": 18866685, 
       "text": "It's unclear to me why you would want a distributed PKI to authenticate a centralized app. Or maybe it's only for dapps?", 
@@ -13819,7 +13820,7 @@
       "url": "https://eprint.iacr.org/2019/023.pdf", 
       "title": "Lattice Attacks Against Weak ECDSA Signatures in Cryptocurrencies [pdf]", 
       "by": "soohyung", 
-      "score": 8, 
+      "score": 11, 
       "time": 1547075081, 
       "type": "story", 
       "id": 18869924
@@ -13848,13 +13849,14 @@
     "18871455": {
       "time_iso": "2019-01-09 23:09:59", 
       "kids": [
+        18875639, 
         18871560
       ], 
-      "descendants": 1, 
+      "descendants": 2, 
       "url": "https://github.com/sindresorhus/doge-seed-cli", 
       "title": "Show HN: Generate dank mnemonic seed phrases in the terminal", 
       "by": "mofle", 
-      "score": 2, 
+      "score": 3, 
       "time": 1547093399, 
       "type": "story", 
       "id": 18871455
@@ -13876,9 +13878,56 @@
       "time": 1547095062, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18886266": {
+      "time_iso": "2019-01-11 14:46:52", 
+      "kids": [
+        18886645, 
+        18887588, 
+        18887163, 
+        18888576, 
+        18886971, 
+        18887533, 
+        18886774, 
+        18886678, 
+        18887752, 
+        18886663, 
+        18886953
+      ], 
+      "descendants": 39, 
+      "url": "https://arstechnica.com/information-technology/2019/01/a-dns-hijacking-wave-is-targeting-companies-at-an-almost-unprecedented-scale/", 
+      "title": "A DNS hijacking wave is targeting companies at an almost unprecedented scale", 
+      "by": "Elof", 
+      "score": 60, 
+      "time": 1547236012, 
+      "type": "story", 
+      "id": 18886266
+    }, 
+    "18887163": {
+      "time_iso": "2019-01-11 16:20:29", 
+      "kids": [
+        18889219, 
+        18887846
+      ], 
+      "parent": 18886266, 
+      "text": "Source link: <a href=\"https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html\" rel=\"nofollow\">https://www.fireeye.com/blog/threat-research/2019/01/global-...</a>", 
+      "id": 18887163, 
+      "time": 1547241629, 
+      "type": "comment", 
+      "by": "throwaway5752"
+    }, 
+    "18889219": {
+      "time_iso": "2019-01-11 21:41:41", 
+      "parent": 18887163, 
+      "text": "&gt; <i>The National Cybersecurity and Communications Integration Center issued a statement [1] that encouraged administrators to read the FireEye report.</i> [2]<p>[1] <a href=\"https://www.us-cert.gov/ncas/current-activity/2019/01/10/DNS-Infrastructure-Hijacking-Campaign\" rel=\"nofollow\">https://www.us-cert.gov/ncas/current-activity/2019/01/10/DNS...</a></p><p>[2] <a href=\"https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html\" rel=\"nofollow\">https://www.fireeye.com/blog/threat-research/2019/01/global-...</a></p>", 
+      "id": 18889219, 
+      "time": 1547260901, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18886266, 
     18871455, 
     18859331, 
     18869924, 
