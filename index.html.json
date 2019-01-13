@@ -13884,21 +13884,22 @@
       "kids": [
         18886645, 
         18887588, 
-        18887163, 
-        18888576, 
         18886971, 
-        18887533, 
         18886774, 
+        18887163, 
+        18887533, 
         18886678, 
-        18887752, 
+        18889636, 
         18886663, 
+        18888576, 
+        18887752, 
         18886953
       ], 
-      "descendants": 39, 
+      "descendants": 98, 
       "url": "https://arstechnica.com/information-technology/2019/01/a-dns-hijacking-wave-is-targeting-companies-at-an-almost-unprecedented-scale/", 
       "title": "A DNS hijacking wave is targeting companies at an almost unprecedented scale", 
       "by": "Elof", 
-      "score": 60, 
+      "score": 110, 
       "time": 1547236012, 
       "type": "story", 
       "id": 18886266
@@ -13924,9 +13925,36 @@
       "time": 1547260901, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18894290": {
+      "time_iso": "2019-01-12 19:56:20", 
+      "kids": [
+        18894582, 
+        18894337, 
+        18894437, 
+        18894364
+      ], 
+      "descendants": 5, 
+      "text": "I freelance remotely, making roughly $1200 a month as a programmer because I only work 10 hours maximum each week (limited by my contract). I share the apartment with my mom, and It's a section 8 so our rent contributions are based on the income we make. My contribution towards rent is $400 a month.<p>Although I make more money than my mom (she's of retirement age and only works 1-2 days a week), while I'm looking for more work I want to figure out how to move out and live more independently on only $1200 a month.</p><p>I need to live frugally and want to know what I can cut more easily. I own a used car (already paid in full), and pay my own car insurance, electricity, phone and internet. After all that I have about $400 left each month which can be eaten up by going out or some emergency funds.</p><p>More recently I had to pay for my new city parking sticker so that's $100 more in expenses this particular month. I would be satisfied just living in a far off town paying the same $400 a month, I feel my dollars would stretch further since I now get 100% more privacy for the same price.</p><p>On top of that this job is a contract job so I need to put money aside to pay my own taxes. This $1200 is basically living on poverty level. Any ideas to make saving work? Is it very possible for people in the US to still save while on poverty?</p>", 
+      "title": "Ask HN: How can you save money while living on poverty level?", 
+      "by": "ccdev", 
+      "score": 5, 
+      "time": 1547340980, 
+      "type": "story", 
+      "id": 18894290
+    }, 
+    "18894582": {
+      "time_iso": "2019-01-12 21:05:24", 
+      "parent": 18894290, 
+      "text": "That's not a living wage (or a full time job). There are lots of job search sites.<p>Spending some time on a good resume / CV / portfolio would probably be a good investment with positive ROI.</p><p>Is there a nonprofit that you could volunteer with to increase your hireability during the other 158 hours of the week?</p><p>Or an online course with a credential that may or may not have positive ROI as a resume item?</p><p>Is there a code school in your city with a \"you don't pay unless you land a full time job with a living wage and benefits\" guarantee?</p><p>What is your strategy for business and career networking?</p><p>From <a href=\"https://westurner.github.io/hnlog/#comment-17894632\" rel=\"nofollow\">https://westurner.github.io/hnlog/#comment-17894632</a> :</p><p>&gt; <i>Personal Finance (budgets, interest, growth, inflation, retirement)</i></p><p><i>Personal Finance <a href=\"https://en.wikipedia.org/wiki/Personal_finance\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Personal_finance</a></i></p><p><i>Khan Academy &gt; College, careers, and more &gt; Personal finance <a href=\"https://www.khanacademy.org/college-careers-more/personal-finance\" rel=\"nofollow\">https://www.khanacademy.org/college-careers-more/personal-fi...</a></i></p><p><i>\"CS 007: Personal Finance For Engineers\" <a href=\"https://cs007.blog\" rel=\"nofollow\">https://cs007.blog</a></i></p><p><i><a href=\"https://reddit.com/r/personalfinance/wiki\" rel=\"nofollow\">https://reddit.com/r/personalfinance/wiki</a> </i></p>", 
+      "id": 18894582, 
+      "time": 1547345124, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18894290, 
     18886266, 
     18871455, 
     18859331, 
