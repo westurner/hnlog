@@ -13767,7 +13767,7 @@
         18866685, 
         18867609
       ], 
-      "descendants": 34, 
+      "descendants": 40, 
       "url": "https://github.com/Remmeauth/remme-core/tree/dev", 
       "title": "REMME \u2013 A blockchain-based protocol for issuing X.509 client certificates", 
       "by": "fedotovcorp", 
@@ -13889,17 +13889,17 @@
         18887163, 
         18887533, 
         18886678, 
-        18889636, 
         18886663, 
+        18889636, 
         18888576, 
         18887752, 
         18886953
       ], 
-      "descendants": 98, 
+      "descendants": 101, 
       "url": "https://arstechnica.com/information-technology/2019/01/a-dns-hijacking-wave-is-targeting-companies-at-an-almost-unprecedented-scale/", 
       "title": "A DNS hijacking wave is targeting companies at an almost unprecedented scale", 
       "by": "Elof", 
-      "score": 110, 
+      "score": 112, 
       "time": 1547236012, 
       "type": "story", 
       "id": 18886266
@@ -13931,14 +13931,16 @@
       "kids": [
         18894582, 
         18894337, 
+        18895235, 
+        18894720, 
         18894437, 
         18894364
       ], 
-      "descendants": 5, 
+      "descendants": 9, 
       "text": "I freelance remotely, making roughly $1200 a month as a programmer because I only work 10 hours maximum each week (limited by my contract). I share the apartment with my mom, and It's a section 8 so our rent contributions are based on the income we make. My contribution towards rent is $400 a month.<p>Although I make more money than my mom (she's of retirement age and only works 1-2 days a week), while I'm looking for more work I want to figure out how to move out and live more independently on only $1200 a month.</p><p>I need to live frugally and want to know what I can cut more easily. I own a used car (already paid in full), and pay my own car insurance, electricity, phone and internet. After all that I have about $400 left each month which can be eaten up by going out or some emergency funds.</p><p>More recently I had to pay for my new city parking sticker so that's $100 more in expenses this particular month. I would be satisfied just living in a far off town paying the same $400 a month, I feel my dollars would stretch further since I now get 100% more privacy for the same price.</p><p>On top of that this job is a contract job so I need to put money aside to pay my own taxes. This $1200 is basically living on poverty level. Any ideas to make saving work? Is it very possible for people in the US to still save while on poverty?</p>", 
       "title": "Ask HN: How can you save money while living on poverty level?", 
       "by": "ccdev", 
-      "score": 5, 
+      "score": 8, 
       "time": 1547340980, 
       "type": "story", 
       "id": 18894290
@@ -13951,9 +13953,71 @@
       "time": 1547345124, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18950202": {
+      "time_iso": "2019-01-19 19:38:48", 
+      "kids": [
+        18951276, 
+        18950934, 
+        18950795, 
+        18950959, 
+        18950684, 
+        18950732, 
+        18950839, 
+        18950811, 
+        18950721, 
+        18950689, 
+        18950756, 
+        18950726, 
+        18950747
+      ], 
+      "descendants": 39, 
+      "url": "https://www.reahl.org/", 
+      "title": "Reahl \u2013 A Python-only web framework", 
+      "by": "kim0", 
+      "score": 71, 
+      "time": 1547944728, 
+      "type": "story", 
+      "id": 18950202
+    }, 
+    "18950934": {
+      "time_iso": "2019-01-19 23:00:16", 
+      "kids": [
+        18951083, 
+        18951138
+      ], 
+      "parent": 18950202, 
+      "text": "I feel bad about projects like these, I really do. I'm sure a lot of effort have been put in and it probably satisfies what OP wants to do. But in the end, no one serious would ever  consider using it.", 
+      "id": 18950934, 
+      "time": 1547956816, 
+      "type": "comment", 
+      "by": "jaequery"
+    }, 
+    "18951138": {
+      "time_iso": "2019-01-19 23:38:55", 
+      "kids": [
+        18951268, 
+        18951243
+      ], 
+      "parent": 18950934, 
+      "text": "&gt;But in the end, no one serious would ever consider using it.<p>Why not?</p><p>I would say it is the other way around. For any web application project of decent size there is almost always a transpilation step that converts whatever programming language your source code is in, into JavaScript (usually ES5). We also had very successful and widely used projects like GWT for years (GWT was first released in 2006!!!).</p>", 
+      "id": 18951138, 
+      "time": 1547959135, 
+      "type": "comment", 
+      "by": "macspoofing"
+    }, 
+    "18951268": {
+      "time_iso": "2019-01-20 00:09:15", 
+      "parent": 18951138, 
+      "text": "Before GWT, there was Wt framework (C++); and then JWt (Java), which do the server and clientsides (with widgets in a tree).<p>Wt: <a href=\"https://en.wikipedia.org/wiki/Wt_(web_toolkit)\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Wt_(web_toolkit)</a></p><p>JWt: <a href=\"https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)\" rel=\"nofollow\">https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)</a></p><p>GWT: <a href=\"https://en.wikipedia.org/wiki/Google_Web_Toolkit\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Google_Web_Toolkit</a></p><p>Now we have Babel, ES YYYY, and faster browser release cycles.</p>", 
+      "id": 18951268, 
+      "time": 1547960955, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18950202, 
     18894290, 
     18886266, 
     18871455, 
