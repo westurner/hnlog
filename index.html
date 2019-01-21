@@ -114,10 +114,17 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-01-20 20:29:25</td>
+        <td><a href="#story-18956836">Steps to a clean dataset with Pandas</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=NicoJuicy">NicoJuicy</a></td>
+        <td>2</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-01-19 19:38:48</td>
         <td><a href="#story-18950202">Reahl – A Python-only web framework</a></td>
         <td><a href="https://news.ycombinator.com/user?id=kim0">kim0</a></td>
-        <td>71</td>
+        <td>156</td>
     </tr>
     
     <tr scope="row" >
@@ -1847,6 +1854,48 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-18956836">
+    <div class="card-block">
+      <a class="collapser" href="#story-18956836-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18956836-collapse">
+        <h4 class="card-title"><a href="#story-18956836">Steps to a clean dataset with Pandas</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=NicoJuicy">NicoJuicy</a> |
+          <a href="https://news.ycombinator.com/item?id=18956836"
+          
+          >2019-01-20 20:29:25</a> | 2  | <a href="#story-18956836">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://towardsdatascience.com/3-steps-to-a-clean-dataset-with-pandas-2b80ef0c81ae?source" rel="nofollow">https://towardsdatascience.com/3-steps-to-a-clean-dataset-with-pandas-2b80ef0c81ae?source</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18957269">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18957269-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18957269-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18957269"
+          id="comment-18957269"
+          >2019-01-20 21:53:39</a> | <a href="#comment-18957269">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">To add to the three points in the article:<p>Data quality
+<a href="https://en.wikipedia.org/wiki/Data_quality" rel="nofollow">https://en.wikipedia.org/wiki/Data_quality</a></p><p>Imputation
+<a href="https://en.wikipedia.org/wiki/Imputation_(statistics)" rel="nofollow">https://en.wikipedia.org/wiki/Imputation_(statistics)</a></p><p>Feature selection
+<a href="https://en.wikipedia.org/wiki/Feature_selection" rel="nofollow">https://en.wikipedia.org/wiki/Feature_selection</a></p><p>datacleaner can drop NaNs, do imputation with "<i>the mode (for categorical variables) or median (for continuous variables) on a column-by-column basis</i>", and encode "<i>non-numerical variables (e.g., categorical variables with strings) with numerical equivalents</i>" with Pandas DataFrames and scikit-learn.
+<a href="https://github.com/rhiever/datacleaner" rel="nofollow">https://github.com/rhiever/datacleaner</a></p><p>sklearn-pandas "<i>[maps] DataFrame columns to transformations, which are later recombined into features</i>", and provides "<i>A couple of special transformers that work well with pandas inputs: CategoricalImputer and FunctionTransformer</i>"
+<a href="https://github.com/scikit-learn-contrib/sklearn-pandas" rel="nofollow">https://github.com/scikit-learn-contrib/sklearn-pandas</a></p><p>Featuretools 
+<a href="https://github.com/Featuretools/featuretools" rel="nofollow">https://github.com/Featuretools/featuretools</a></p><p>&gt; <i>Featuretools is a python library for automated feature engineering.</i> [using DFS: Deep Feature Synthesis]</p><p>auto-sklearn does feature selection (with e.g. PCA) in a "preprocessing" step; as well as "<i>One-Hot encoding of categorical features, imputation of missing values and the normalization of features or samples</i>"
+<a href="https://automl.github.io/auto-sklearn/master/manual.html#turning-off-preprocessing" rel="nofollow">https://automl.github.io/auto-sklearn/master/manual.html#tur...</a></p><p>auto_ml uses "<i>Deep Learning [with Keras and TensorFlow] to learn features for us, and Gradient Boosting [with XGBoost] to turn those features into accurate predictions</i>"
+<a href="https://auto-ml.readthedocs.io/en/latest/deep_learning.html#feature-learning" rel="nofollow">https://auto-ml.readthedocs.io/en/latest/deep_learning.html#...</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-18950202">
     <div class="card-block">
       <a class="collapser" href="#story-18950202-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -1856,7 +1905,7 @@
           <a href="https://news.ycombinator.com/user?id=kim0">kim0</a> |
           <a href="https://news.ycombinator.com/item?id=18950202"
           
-          >2019-01-19 19:38:48</a> | 71  | <a href="#story-18950202">#</a> | <a href="#" class="toplink">^</a>
+          >2019-01-19 19:38:48</a> | 156  | <a href="#story-18950202">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.reahl.org/" rel="nofollow">https://www.reahl.org/</a></span>
@@ -1903,7 +1952,23 @@
           >2019-01-20 00:09:15</a> | <a href="#comment-18951268">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Before GWT, there was Wt framework (C++); and then JWt (Java), which do the server and clientsides (with widgets in a tree).<p>Wt: <a href="https://en.wikipedia.org/wiki/Wt_(web_toolkit)" rel="nofollow">https://en.wikipedia.org/wiki/Wt_(web_toolkit)</a></p><p>JWt: <a href="https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)" rel="nofollow">https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)</a></p><p>GWT: <a href="https://en.wikipedia.org/wiki/Google_Web_Toolkit" rel="nofollow">https://en.wikipedia.org/wiki/Google_Web_Toolkit</a></p><p>Now we have Babel, ES YYYY, and faster browser release cycles.</p></p></div>
+        <p class="card-text">Before GWT, there was Wt framework (C++); and then JWt (Java), which do the server and clientsides (with widgets in a tree).<p>Wt: <a href="https://en.wikipedia.org/wiki/Wt_(web_toolkit)" rel="nofollow">https://en.wikipedia.org/wiki/Wt_(web_toolkit)</a></p><p>JWt: <a href="https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)" rel="nofollow">https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)</a></p><p>GWT: <a href="https://en.wikipedia.org/wiki/Google_Web_Toolkit" rel="nofollow">https://en.wikipedia.org/wiki/Google_Web_Toolkit</a></p><p>Now we have Babel, ES YYYY, and faster browser release cycles.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-18951534">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18951534-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18951534-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id="></a> |
+          <a href="https://news.ycombinator.com/item?id=18951534"
+          id="comment-18951534"
+          >2019-01-20 01:36:12</a> | <a href="#comment-18951534">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <p class="card-text">[deleted]</p></div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>

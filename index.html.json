@@ -13957,25 +13957,32 @@
     "18950202": {
       "time_iso": "2019-01-19 19:38:48", 
       "kids": [
+        18950959, 
+        18952379, 
+        18951424, 
+        18950684, 
+        18954149, 
+        18950732, 
+        18952824, 
+        18950795, 
+        18952775, 
+        18950839, 
         18951276, 
         18950934, 
-        18950795, 
-        18950959, 
-        18950684, 
-        18950732, 
-        18950839, 
+        18952203, 
         18950811, 
         18950721, 
         18950689, 
         18950756, 
         18950726, 
+        18955892, 
         18950747
       ], 
-      "descendants": 39, 
+      "descendants": 97, 
       "url": "https://www.reahl.org/", 
       "title": "Reahl \u2013 A Python-only web framework", 
       "by": "kim0", 
-      "score": 71, 
+      "score": 156, 
       "time": 1547944728, 
       "type": "story", 
       "id": 18950202
@@ -13983,8 +13990,12 @@
     "18950934": {
       "time_iso": "2019-01-19 23:00:16", 
       "kids": [
+        18953282, 
+        18953368, 
         18951083, 
-        18951138
+        18951549, 
+        18951138, 
+        18952141
       ], 
       "parent": 18950202, 
       "text": "I feel bad about projects like these, I really do. I'm sure a lot of effort have been put in and it probably satisfies what OP wants to do. But in the end, no one serious would ever  consider using it.", 
@@ -14008,15 +14019,50 @@
     }, 
     "18951268": {
       "time_iso": "2019-01-20 00:09:15", 
+      "kids": [
+        18951534
+      ], 
       "parent": 18951138, 
       "text": "Before GWT, there was Wt framework (C++); and then JWt (Java), which do the server and clientsides (with widgets in a tree).<p>Wt: <a href=\"https://en.wikipedia.org/wiki/Wt_(web_toolkit)\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Wt_(web_toolkit)</a></p><p>JWt: <a href=\"https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)\" rel=\"nofollow\">https://en.m.wikipedia.org/wiki/JWt_(Java_web_toolkit)</a></p><p>GWT: <a href=\"https://en.wikipedia.org/wiki/Google_Web_Toolkit\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Google_Web_Toolkit</a></p><p>Now we have Babel, ES YYYY, and faster browser release cycles.</p>", 
       "id": 18951268, 
       "time": 1547960955, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "18951534": {
+      "time_iso": "2019-01-20 01:36:12", 
+      "parent": 18951268, 
+      "deleted": true, 
+      "time": 1547966172, 
+      "type": "comment", 
+      "id": 18951534
+    }, 
+    "18956836": {
+      "time_iso": "2019-01-20 20:29:25", 
+      "kids": [
+        18957269
+      ], 
+      "descendants": 1, 
+      "url": "https://towardsdatascience.com/3-steps-to-a-clean-dataset-with-pandas-2b80ef0c81ae?source", 
+      "title": "Steps to a clean dataset with Pandas", 
+      "by": "NicoJuicy", 
+      "score": 2, 
+      "time": 1548034165, 
+      "type": "story", 
+      "id": 18956836
+    }, 
+    "18957269": {
+      "time_iso": "2019-01-20 21:53:39", 
+      "parent": 18956836, 
+      "text": "To add to the three points in the article:<p>Data quality\n<a href=\"https://en.wikipedia.org/wiki/Data_quality\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Data_quality</a></p><p>Imputation\n<a href=\"https://en.wikipedia.org/wiki/Imputation_(statistics)\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Imputation_(statistics)</a></p><p>Feature selection\n<a href=\"https://en.wikipedia.org/wiki/Feature_selection\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Feature_selection</a></p><p>datacleaner can drop NaNs, do imputation with \"<i>the mode (for categorical variables) or median (for continuous variables) on a column-by-column basis</i>\", and encode \"<i>non-numerical variables (e.g., categorical variables with strings) with numerical equivalents</i>\" with Pandas DataFrames and scikit-learn.\n<a href=\"https://github.com/rhiever/datacleaner\" rel=\"nofollow\">https://github.com/rhiever/datacleaner</a></p><p>sklearn-pandas \"<i>[maps] DataFrame columns to transformations, which are later recombined into features</i>\", and provides \"<i>A couple of special transformers that work well with pandas inputs: CategoricalImputer and FunctionTransformer</i>\"\n<a href=\"https://github.com/scikit-learn-contrib/sklearn-pandas\" rel=\"nofollow\">https://github.com/scikit-learn-contrib/sklearn-pandas</a></p><p>Featuretools \n<a href=\"https://github.com/Featuretools/featuretools\" rel=\"nofollow\">https://github.com/Featuretools/featuretools</a></p><p>&gt; <i>Featuretools is a python library for automated feature engineering.</i> [using DFS: Deep Feature Synthesis]</p><p>auto-sklearn does feature selection (with e.g. PCA) in a \"preprocessing\" step; as well as \"<i>One-Hot encoding of categorical features, imputation of missing values and the normalization of features or samples</i>\"\n<a href=\"https://automl.github.io/auto-sklearn/master/manual.html#turning-off-preprocessing\" rel=\"nofollow\">https://automl.github.io/auto-sklearn/master/manual.html#tur...</a></p><p>auto_ml uses \"<i>Deep Learning [with Keras and TensorFlow] to learn features for us, and Gradient Boosting [with XGBoost] to turn those features into accurate predictions</i>\"\n<a href=\"https://auto-ml.readthedocs.io/en/latest/deep_learning.html#feature-learning\" rel=\"nofollow\">https://auto-ml.readthedocs.io/en/latest/deep_learning.html#...</a></p>", 
+      "id": 18957269, 
+      "time": 1548039219, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    18956836, 
     18950202, 
     18894290, 
     18886266, 
