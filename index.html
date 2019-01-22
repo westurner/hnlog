@@ -114,17 +114,17 @@
     <tbody>
     
     <tr scope="row" >
-        <td>2019-01-21 20:38:23</td>
-        <td><a href="#story-18965274">Why Don't People Use Formal Methods?</a></td>
-        <td><a href="https://news.ycombinator.com/user?id=pplonski86">pplonski86</a></td>
-        <td>76</td>
-    </tr>
-    
-    <tr scope="row" >
         <td>2019-01-21 12:10:37</td>
         <td><a href="#story-18961724">Can we merge Certificate Transparency with blockchain?</a></td>
         <td><a href="https://news.ycombinator.com/user?id=fedotovcorp">fedotovcorp</a></td>
         <td>3</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-01-21 20:38:23</td>
+        <td><a href="#story-18965274">Why Don't People Use Formal Methods?</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=pplonski86">pplonski86</a></td>
+        <td>386</td>
     </tr>
     
     <tr scope="row" >
@@ -1868,40 +1868,6 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
-  <div class="item card story" id="story-18965274">
-    <div class="card-block">
-      <a class="collapser" href="#story-18965274-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
-      <div class="collapsable" id="story-18965274-collapse">
-        <h4 class="card-title"><a href="#story-18965274">Why Don't People Use Formal Methods?</a></h4>
-        <div class="card-subtitle text-muted">
-          <a href="https://news.ycombinator.com/user?id=pplonski86">pplonski86</a> |
-          <a href="https://news.ycombinator.com/item?id=18965274"
-          
-          >2019-01-21 20:38:23</a> | 76  | <a href="#story-18965274">#</a> | <a href="#" class="toplink">^</a>
-        </div>
-        <div class="card-subtitle text-muted">
-            <span><a href="https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/" rel="nofollow">https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/</a></span>
-        </div>
-        <div class="kids">
-          
-  <div class="item card comment" id="comment-18965964">
-    <div class="card-block">
-      <a class="collapser" href="#comment-18965964-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
-      <div class="" id="comment-18965964-collapse">
-        <h4 class="card-title bold"></h4>
-        <div class="card-subtitle text-muted">
-          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
-          <a href="https://news.ycombinator.com/item?id=18965964"
-          id="comment-18965964"
-          >2019-01-21 23:17:38</a> | <a href="#comment-18965964">#</a> | <a href="#" class="toplink">^</a>
-        </div>
-        
-        <p class="card-text">Which universities teach formal methods?<p>- q=formal+verification <a href="https://www.class-central.com/search?q=formal+verification" rel="nofollow">https://www.class-central.com/search?q=formal+verification</a></p><p>- q=formal-methods <a href="https://www.class-central.com/search?q=formal+methods" rel="nofollow">https://www.class-central.com/search?q=formal+methods</a></p><p>Is formal verification a required course or curriculum competency for any Computer Science or Computer Engineering degree programs?</p><p>Is there a certification for formal methods? Something like for engineer-status in other industries?</p><p>What are some examples of tools and [OER] resources for teaching and learning formal methods?</p><p>- JsCoq</p><p>- Jupyter kernel for Coq + nbgrader</p><p>- "Inconsistencies, rolling back edits, and keeping track of the document's global state (#333)" <a href="https://github.com/jupyter/jupyter/issues/333" rel="nofollow">https://github.com/jupyter/jupyter/issues/333</a> (jsCoq + hott [+ IJavascript Jupyter kernel], STLC: Simply-Typed Lambda Calculus])</p><p>- TDD tests that run FV tools on the spec and the implementation</p><p>What are some examples of open source tools for formal verification (that can be integrated with CI to verify the spec <i>AND</i> the implementation)?</p><p>What are some examples of formally-proven open source projects?</p><p>- "Quark : A Web Browser with a Formally Verified Kernel" (2012) (Coq, Haskell) <a href="http://goto.ucsd.edu/quark/" rel="nofollow">http://goto.ucsd.edu/quark/</a></p><p>What are some examples of projects using narrow and strong AI to generate perfectly verified software from bad specs that make the customers and stakeholders happy?</p><p>From reading though comments here, people don't use formal methods because: cost-prohibitive, inflexibile, perceived as incompatible with agile / iterative methods that are more likely to keep customers who don't know what formal methods are happy, lack of industry-appropriate regulation, and cognitive burden of often-incompatible shorthand notations.</p></p></div>
-    </div>
-  </div>
-        </div></div>
-    </div>
-  </div>
   <div class="item card story" id="story-18961724">
     <div class="card-block">
       <a class="collapser" href="#story-18961724-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -1935,7 +1901,92 @@
 In no particular order, there are a number of blockchain PKI (and DNS (!)) proposals and proofs of concept.</p><p>"CertLedger: A New PKI Model with Certificate Transparency Based on Blockchain" (2018) <a href="https://arxiv.org/pdf/1806.03914" rel="nofollow">https://arxiv.org/pdf/1806.03914</a> <a href="https://scholar.google.com/scholar?q=related:LF9PMeqNOLsJ:scholar.google.com/&amp;scioq=&amp;hl=en&amp;as_sdt=0,43&amp;scilib=1" rel="nofollow">https://scholar.google.com/scholar?q=related:LF9PMeqNOLsJ:sc...</a></p><p>"<i>TABLE 1: Security comparison of Log Based Approaches to Certificate Management</i>" (p.12) lists a number of criteria for blockchain-based PKI implementations:</p><p>- Resilient to split-world/MITM attack</p><p>- Provides revocation transparency</p><p>- Eliminates client certificate validation process</p><p>- Eliminates trusted key management</p><p>- Preserves client privacy</p><p>- Require external auditing</p><p>- Monitoring promptness</p><p>... These papers also clarify why a highly-replicated decentralized trustless datastore — such as a blockchain — is advantageous for PKI. WoT is not mentioned.</p><p>"Blockchain-based Certificate Transparency and Revocation Transparency" (2018) <a href="https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final29.pdf" rel="nofollow">https://fc18.ifca.ai/bitcoin/papers/bitcoin18-final29.pdf</a></p><p><a href="https://scholar.google.com/scholar?q=related:oEsKmJvdn-MJ:scholar.google.com/&amp;scioq=&amp;hl=en&amp;as_sdt=0,43&amp;scilib=1" rel="nofollow">https://scholar.google.com/scholar?q=related:oEsKmJvdn-MJ:sc...</a></p><p>Who can update and revoke which records in a permissioned blockchain (or a plain old database, for that matter)?</p><p>Letsencrypt has a model for proving domain control with ACME; which AFAIU depends upon DNS, too.
 """</p><p>TLA references "Certificate Transparency Using Blockchain" (2018)
 <a href="https://eprint.iacr.org/2018/1232.pdf" rel="nofollow">https://eprint.iacr.org/2018/1232.pdf</a>
-<a href="https://scholar.google.com/scholar?q=" rel="nofollow">https://scholar.google.com/scholar?q="Certificate+Transparen...</a></p></p></div>
+<a href="https://scholar.google.com/scholar?q=" rel="nofollow">https://scholar.google.com/scholar?q="Certificate+Transparen...</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-18967634">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18967634-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18967634-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=fedotovcorp">fedotovcorp</a> |
+          <a href="https://news.ycombinator.com/item?id=18967634"
+          id="comment-18967634"
+          >2019-01-22 06:57:17</a> | <a href="#comment-18967634">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Thanks for the references! The main issue isn't the support and maintenance of a such distributed network, but its integration with current solutions and avoiding centralized middleware services that will weaken the schema described in the documents.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-18973952">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18973952-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18973952-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18973952"
+          id="comment-18973952"
+          >2019-01-22 18:35:08</a> | <a href="#comment-18973952">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>The main issue isn't the support and maintenance of a such distributed network,</i><p>Running a permissioned blockchain is nontrivial. "Just fork XYZ and call it a day" doesn't quite describe the amount of work involved. There's read latency at scale. There's merging things to maintain vendor strings,</p><p>&gt; <i>but its integration with current solutions</i></p><p>- Verify issuee identity</p><p>- Update (domain/CN/subjectAltName, date) index</p><p>- Update cached cert and CRL bundles</p><p>- Propagate changes to all clients</p><p>&gt; <i>and avoiding centralized middleware services that will weaken the schema described in the documents.</i></p><p>Eventually, a CDN will look desireable. IPFS may fit the bill, IDK?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-18965274">
+    <div class="card-block">
+      <a class="collapser" href="#story-18965274-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-18965274-collapse">
+        <h4 class="card-title"><a href="#story-18965274">Why Don't People Use Formal Methods?</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=pplonski86">pplonski86</a> |
+          <a href="https://news.ycombinator.com/item?id=18965274"
+          
+          >2019-01-21 20:38:23</a> | 386  | <a href="#story-18965274">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/" rel="nofollow">https://www.hillelwayne.com/post/why-dont-people-use-formal-methods/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-18965964">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18965964-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-18965964-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=18965964"
+          id="comment-18965964"
+          >2019-01-21 23:17:38</a> | <a href="#comment-18965964">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Which universities teach formal methods?<p>- q=formal+verification <a href="https://www.class-central.com/search?q=formal+verification" rel="nofollow">https://www.class-central.com/search?q=formal+verification</a></p><p>- q=formal-methods <a href="https://www.class-central.com/search?q=formal+methods" rel="nofollow">https://www.class-central.com/search?q=formal+methods</a></p><p>Is formal verification a required course or curriculum competency for any Computer Science or Software Engineering / Computer Engineering degree programs?</p><p>Is there a certification for formal methods? Something like for engineer-status in other industries?</p><p>What are some examples of tools and [OER] resources for teaching and learning formal methods?</p><p>- JsCoq</p><p>- Jupyter kernel for Coq + nbgrader</p><p>- "Inconsistencies, rolling back edits, and keeping track of the document's global state" <a href="https://github.com/jupyter/jupyter/issues/333" rel="nofollow">https://github.com/jupyter/jupyter/issues/333</a> (jsCoq + hott [+ IJavascript Jupyter kernel], STLC: Simply-Typed Lambda Calculus)</p><p>- TDD tests that run FV tools on the spec and the implementation</p><p>What are some examples of open source tools for formal verification (that can be integrated with CI to verify the spec <i>AND</i> the implementation)?</p><p>What are some examples of formally-proven open source projects?</p><p>- "Quark : A Web Browser with a Formally Verified Kernel" (2012) (Coq, Haskell) <a href="http://goto.ucsd.edu/quark/" rel="nofollow">http://goto.ucsd.edu/quark/</a></p><p>What are some examples of projects using narrow and strong AI to generate perfectly verified software from bad specs that make the customers and stakeholders happy?</p><p>From reading though comments here, people don't use formal methods because: cost-prohibitive, inflexibile, perceived as incompatible with agile / iterative methods that are more likely to keep customers who don't know what formal methods are happy, lack of industry-appropriate regulation, and cognitive burden of often-incompatible shorthand notations.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-18966160">
+    <div class="card-block">
+      <a class="collapser" href="#comment-18966160-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-18966160-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=tdonovic">tdonovic</a> |
+          <a href="https://news.ycombinator.com/item?id=18966160"
+          id="comment-18966160"
+          >2019-01-22 00:20:45</a> | <a href="#comment-18966160">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Almost University of New South Wales (Sydney, Australia) alum, and it's the biggest difference between the Software Engineering course and Comp Sci. There are two mandatory formal methods and more additional ones to take. They are really hard, and mean a lot of the SENG cohort ends up graduating as COMPSCI, since they can't hack it and don't want to repeat formal methods.</p></div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
