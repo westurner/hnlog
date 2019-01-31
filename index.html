@@ -114,10 +114,17 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-01-30 12:42:06</td>
+        <td><a href="#story-19037286">Post Quantum Crypto Standardization Process – Second Round Candidates Announced</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=dlgeek">dlgeek</a></td>
+        <td>2</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-01-30 13:59:56</td>
         <td><a href="#story-19038094">Ask HN: How do you evaluate security of OSS before importing?</a></td>
         <td><a href="https://news.ycombinator.com/user?id=riyakhanna1983">riyakhanna1983</a></td>
-        <td>3</td>
+        <td>4</td>
     </tr>
     
     <tr scope="row" >
@@ -1896,6 +1903,40 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-19037286">
+    <div class="card-block">
+      <a class="collapser" href="#story-19037286-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-19037286-collapse">
+        <h4 class="card-title"><a href="#story-19037286">Post Quantum Crypto Standardization Process – Second Round Candidates Announced</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=dlgeek">dlgeek</a> |
+          <a href="https://news.ycombinator.com/item?id=19037286"
+          
+          >2019-01-30 12:42:06</a> | 2  | <a href="#story-19037286">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://csrc.nist.gov/News/2019/pqc-standardization-process-2nd-round-candidates" rel="nofollow">https://csrc.nist.gov/News/2019/pqc-standardization-process-2nd-round-candidates</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-19042321">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19042321-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19042321-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19042321"
+          id="comment-19042321"
+          >2019-01-30 23:26:21</a> | <a href="#comment-19042321">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>As the latest step in its program to develop effective defenses, the National Institute of Standards and Technology (NIST) has winnowed the group of potential encryption tools—known as cryptographic algorithms—down to a bracket of 26. These algorithms are the ones NIST mathematicians and computer scientists consider to be the strongest candidates submitted to its Post-Quantum Cryptography Standardization project, whose goal is to create a set of standards for protecting electronic information from attack by the computers of both tomorrow and today. </i><p>&gt; <i>“These 26 algorithms are the ones we are considering for potential standardization, and for the next 12 months we are requesting that the cryptography community focus on analyzing their performance,”</i></p><p>Links to the 17 public-key encryption and key-establishment algorithms and 9 digital signature algorithms are here: "Round 2 Submissions" <a href="https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Round-2-Submissions" rel="nofollow">https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Rou...</a></p><p>"Quantum Algorithm Zoo" has moved to <a href="https://quantumalgorithmzoo.org" rel="nofollow">https://quantumalgorithmzoo.org</a> .</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-19038094">
     <div class="card-block">
       <a class="collapser" href="#story-19038094-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -1905,7 +1946,7 @@
           <a href="https://news.ycombinator.com/user?id=riyakhanna1983">riyakhanna1983</a> |
           <a href="https://news.ycombinator.com/item?id=19038094"
           
-          >2019-01-30 13:59:56</a> | 3  | <a href="#story-19038094">#</a> | <a href="#" class="toplink">^</a>
+          >2019-01-30 13:59:56</a> | 4  | <a href="#story-19038094">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
         <p class="card-text">What tools can I use to evaluate the security posture of an OSS project before I approve its usage with high confidence?</p><div class="kids">
@@ -1925,7 +1966,7 @@
         <p class="card-text">Oddly, whether a project has at least one CVE reported could be interpreted in favor of the project.
 <a href="https://www.cvedetails.com" rel="nofollow">https://www.cvedetails.com</a><p>Do they have a security disclosure policy? A dedicated security mailing list?</p><p>Do they pay bounties or participate in e.g Pwn2own?</p><p>Do they cryptographically sign releases?</p><p>Do they cryptographically sign VCS tags (~releases)? commits? `git tag -s` / `git commit/merge -S`
 <a href="https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work" rel="nofollow">https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work</a></p><p>Downstream packagers do sometimes/often apply additional patches and then sign <i>their</i> release with the repo (and thus system global) GPG key.</p><p>Whether they require "Signed-off-by" may indicate that the project has mature controls and possibly a formal code review process requirement.
-(Look for "Signed-off-by:" in the release branch (`git commit/merge -s/--signoff`)</p><p>How have they integrated security review into their [iterative] release workflow?</p><p>Is the software formally verified? Are parts of the software implementation or spec formally verified?</p><p>Does the system trust the channel? The host? Is it a 'trustless' system?</p><p>What are the single points of failure?</p><p>How is logging configured? To syslog?</p><p>Do they run the app as root in a Docker container? Does it require privileged containers?</p><p>If it has to run as root, does it drop privileges at startup?</p><p>Does the package have an SELinux or AppArmor policy? (Or does it say e.g. "just set SELinux to permissive mode)</p><p>Is there someone you can pay to support the software in an enterprise environment? Open or closed, such contacts basically never accept liability; but if there is an SLA, do you get a pro-rated bill?</p><p>As far as indicators of actual software quality:</p><p>How much test coverage is there? Line coverage or statement coverage?</p><p>Do they run static analysis tools for all pull requests and releases? Dynamic analysis? Fuzzing?</p><p>Of course, closed or open source projects may do none of all of these and still be totally secure, insecure, or unsecure.</p></p></div>
+(Look for "Signed-off-by:" in the release branch (`git commit/merge -s/--signoff`)</p><p>How have they integrated security review into their [iterative] release workflow?</p><p>Is the software formally verified? Are parts of the software implementation or spec formally verified?</p><p>Does the system trust the channel? The host? Is it a 'trustless' system?</p><p>What are the single points of failure?</p><p>How is logging configured? To syslog?</p><p>Do they run the app as root in a Docker container? Does it require privileged containers?</p><p>If it has to run as root, does it drop privileges at startup?</p><p>Does the package have an SELinux or AppArmor policy? (Or does it say e.g. "just set SELinux to permissive mode)</p><p>Is there someone you can pay to support the software in an enterprise environment? Open or closed, such contacts basically never accept liability; but if there is an SLA, do you get a pro-rated bill?</p><p>As far as indicators of actual software quality:</p><p>How much test coverage is there? Line coverage or statement coverage?</p><p>Do they run static analysis tools for all pull requests and releases? Dynamic analysis? Fuzzing?</p><p>Of course, closed or open source projects may do none or all of these and still be totally secure, insecure, or unsecure.</p></p></div>
     </div>
   </div>
         </div></div>
