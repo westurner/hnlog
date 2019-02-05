@@ -14410,9 +14410,9 @@
         19079248, 
         19083284, 
         19080925, 
-        19084468, 
         19079631, 
         19082741, 
+        19084468, 
         19079061, 
         19080380, 
         19082727, 
@@ -14448,11 +14448,11 @@
         19079143, 
         19079180
       ], 
-      "descendants": 241, 
+      "descendants": 242, 
       "url": "https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source", 
       "title": "If Software Is Funded from a Public Source, Its Code Should Be Open Source", 
       "by": "jrepinc", 
-      "score": 1031, 
+      "score": 1033, 
       "time": 1549299350, 
       "type": "story", 
       "id": 19077913
@@ -14548,7 +14548,7 @@
       "url": "https://lectures.quantecon.org/", 
       "title": "Lectures in Quantitative Economics as Python and Julia Notebooks", 
       "by": "westurner", 
-      "score": 62, 
+      "score": 68, 
       "time": 1549349790, 
       "type": "story", 
       "id": 19083479
@@ -14580,7 +14580,7 @@
     "19084622": {
       "time_iso": "2019-02-05 07:19:25", 
       "parent": 19084374, 
-      "text": "pandas-datareader can pull data from e.g. FRED, Eurostat, Quandl, World Bank:\n<a href=\"https://pandas-datareader.readthedocs.io/en/latest/remote_data.html\" rel=\"nofollow\">https://pandas-datareader.readthedocs.io/en/latest/remote_da...</a><p>pandaSDMX can pull SDMX data from e.g. ECB, Eurostat, ILO, IMF, OECD, UNSD, UNESCO, World Bank; with requests-cache for caching data requests:\n<a href=\"https://pandasdmx.readthedocs.io/en/latest/#supported-data-providers\" rel=\"nofollow\">https://pandasdmx.readthedocs.io/en/latest/#supported-data-p...</a></p><p>The scikit-learn estimator interface includes a .score() method. \"3.3. Model evaluation: quantifying the quality of predictions\" <a href=\"https://scikit-learn.org/stable/modules/model_evaluation.html\" rel=\"nofollow\">https://scikit-learn.org/stable/modules/model_evaluation.htm...</a></p><p>statsmodels also has various functions for statistically testing models:\n<a href=\"https://www.statsmodels.org/stable/\" rel=\"nofollow\">https://www.statsmodels.org/stable/</a></p><p><i>\"latex2sympy parses LaTeX math expressions and converts it into the equivalent SymPy form.\"</i> <a href=\"https://github.com/augustt198/latex2sympy\" rel=\"nofollow\">https://github.com/augustt198/latex2sympy</a></p><p>IDK what Julia has for economic data retrieval and model scoring / cost functions?</p>", 
+      "text": "pandas-datareader can pull data from e.g. FRED, Eurostat, Quandl, World Bank:\n<a href=\"https://pandas-datareader.readthedocs.io/en/latest/remote_data.html\" rel=\"nofollow\">https://pandas-datareader.readthedocs.io/en/latest/remote_da...</a><p>pandaSDMX can pull SDMX data from e.g. ECB, Eurostat, ILO, IMF, OECD, UNSD, UNESCO, World Bank; with requests-cache for caching data requests:\n<a href=\"https://pandasdmx.readthedocs.io/en/latest/#supported-data-providers\" rel=\"nofollow\">https://pandasdmx.readthedocs.io/en/latest/#supported-data-p...</a></p><p>The scikit-learn estimator interface includes a .score() method. \"3.3. Model evaluation: quantifying the quality of predictions\" <a href=\"https://scikit-learn.org/stable/modules/model_evaluation.html\" rel=\"nofollow\">https://scikit-learn.org/stable/modules/model_evaluation.htm...</a></p><p>statsmodels also has various functions for statistically testing models:\n<a href=\"https://www.statsmodels.org/stable/\" rel=\"nofollow\">https://www.statsmodels.org/stable/</a></p><p><i>\"latex2sympy parses LaTeX math expressions and converts it into the equivalent SymPy form.\"</i> which is now merged into SymPy master and callable from sympy.parsing.latex.parse_latex(). It requires antlr-python-runtime to be installed.\n<a href=\"https://github.com/augustt198/latex2sympy\" rel=\"nofollow\">https://github.com/augustt198/latex2sympy</a>\n<a href=\"https://github.com/sympy/sympy/pull/13706\" rel=\"nofollow\">https://github.com/sympy/sympy/pull/13706</a></p><p>IDK what Julia has for economic data retrieval and model scoring / cost functions?</p>", 
       "id": 19084622, 
       "time": 1549369165, 
       "type": "comment", 
