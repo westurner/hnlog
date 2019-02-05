@@ -14246,11 +14246,49 @@
       "type": "comment", 
       "by": "westurner"
     }, 
+    "19028855": {
+      "time_iso": "2019-01-29 13:48:48", 
+      "kids": [
+        19029528, 
+        19029338, 
+        19030686, 
+        19029424, 
+        19031766, 
+        19030586, 
+        19029223, 
+        19029392, 
+        19030321, 
+        19033156, 
+        19033817, 
+        19032478, 
+        19029597, 
+        19031918, 
+        19030932, 
+        19033685
+      ], 
+      "descendants": 30, 
+      "url": "https://functionalcs.github.io/curriculum/", 
+      "title": "A Self-Learning, Modern Computer Science Curriculum", 
+      "by": "hacknrk", 
+      "score": 393, 
+      "time": 1548787728, 
+      "type": "story", 
+      "id": 19028855
+    }, 
+    "19030321": {
+      "time_iso": "2019-01-29 17:10:33", 
+      "parent": 19028855, 
+      "text": "Outstanding resource.<p>jwasham/coding-interview-university also links to a number of also helpful OER resources:\n<a href=\"https://github.com/jwasham/coding-interview-university\" rel=\"nofollow\">https://github.com/jwasham/coding-interview-university</a></p>", 
+      "id": 19030321, 
+      "time": 1548799833, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
     "19031470": {
       "time_iso": "2019-01-29 19:43:16", 
       "kids": [
-        19040566, 
         19032850, 
+        19040566, 
         19031690, 
         19031826
       ], 
@@ -14333,7 +14371,7 @@
       "text": "What tools can I use to evaluate the security posture of an OSS project before I approve its usage with high confidence?", 
       "title": "Ask HN: How do you evaluate security of OSS before importing?", 
       "by": "riyakhanna1983", 
-      "score": 4, 
+      "score": 5, 
       "time": 1548874796, 
       "type": "story", 
       "id": 19038094
@@ -14355,13 +14393,88 @@
       "time": 1548908781, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "19082268": {
+      "time_iso": "2019-02-04 20:03:28", 
+      "kids": [
+        19083085, 
+        19082636, 
+        19082655
+      ], 
+      "descendants": 4, 
+      "url": "https://www.btcnn.com/bitcoin-news/u-s-federal-district-court-declared-bitcoin-as-legal-money/", 
+      "title": "U.S. Federal District Court Declared Bitcoin as Legal Money", 
+      "by": "obilgic", 
+      "score": 12, 
+      "time": 1549328608, 
+      "type": "story", 
+      "id": 19082268
+    }, 
+    "19083085": {
+      "time_iso": "2019-02-04 23:47:05", 
+      "parent": 19082268, 
+      "text": "\"Application of FinCEN's Regulations to Persons Administering, Exchanging, or Using Virtual Currencies\" (2013)\n<a href=\"https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering\" rel=\"nofollow\">https://www.fincen.gov/resources/statutes-regulations/guidan...</a><p>\"Legality of bitcoin by country or territory\"\n<a href=\"https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country_or_territory\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Legality_of_bitcoin_by_country...</a></p><p>\"Know your customer\"\n<a href=\"https://en.wikipedia.org/wiki/Know_your_customer\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Know_your_customer</a></p><p>\"Anti-money-laundering measures by region\"\n<a href=\"https://en.wikipedia.org/wiki/Money_laundering#Anti-money-laundering_measures_by_region\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Money_laundering#Anti-money-la...</a></p><p>\"Anti-money-laundering measures by region &gt; United States\"\n<a href=\"https://en.wikipedia.org/wiki/Money_laundering#United_States\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Money_laundering#United_States</a></p>", 
+      "id": 19083085, 
+      "time": 1549342025, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19083099": {
+      "time_iso": "2019-02-04 23:51:34", 
+      "kids": [
+        19083102
+      ], 
+      "descendants": 1, 
+      "url": "https://www.sec.gov/news/public-statement/tm-status-consolidated-audit-trail", 
+      "title": "Statement on Status of the Consolidated Audit Trail (2018)", 
+      "by": "westurner", 
+      "score": 1, 
+      "time": 1549342294, 
+      "type": "story", 
+      "id": 19083099
+    }, 
+    "19083102": {
+      "time_iso": "2019-02-04 23:52:13", 
+      "parent": 19083099, 
+      "text": "&gt; <i>Put simply, the CAT is intended to enable regulators to oversee the securities markets on a consolidated basis\u2014and in so doing, better protect these markets and investors.</i>", 
+      "id": 19083102, 
+      "time": 1549342333, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19083111": {
+      "time_iso": "2019-02-04 23:55:48", 
+      "kids": [
+        19083112
+      ], 
+      "descendants": 1, 
+      "url": "https://arrow.apache.org/release/0.12.0.html", 
+      "title": "Apache Arrow 0.12.0", 
+      "by": "westurner", 
+      "score": 1, 
+      "time": 1549342548, 
+      "type": "story", 
+      "id": 19083111
+    }, 
+    "19083112": {
+      "time_iso": "2019-02-04 23:56:43", 
+      "parent": 19083111, 
+      "text": "&gt; <i>Apache Arrow is a cross-language development platform for in-memory data. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware. It also provides computational libraries and zero-copy streaming messaging and interprocess communication. Languages currently supported include C, C++, C#, Go, Java, JavaScript, MATLAB, Python, R, Ruby, and Rust.</i>", 
+      "id": 19083112, 
+      "time": 1549342603, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    19083111, 
+    19083099, 
+    19082268, 
     19037286, 
     19038094, 
     19035306, 
     19031470, 
+    19028855, 
     18986250, 
     18961724, 
     18965274, 
