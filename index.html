@@ -117,14 +117,14 @@
         <td>2019-02-05 01:56:30</td>
         <td><a href="#story-19083479">Lectures in Quantitative Economics as Python and Julia Notebooks</a></td>
         <td><a href="https://news.ycombinator.com/user?id=westurner">westurner</a></td>
-        <td>68</td>
+        <td>290</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-02-04 11:55:50</td>
         <td><a href="#story-19077913">If Software Is Funded from a Public Source, Its Code Should Be Open Source</a></td>
         <td><a href="https://news.ycombinator.com/user?id=jrepinc">jrepinc</a></td>
-        <td>1033</td>
+        <td>1097</td>
     </tr>
     
     <tr scope="row"  class="bold">
@@ -1954,13 +1954,123 @@
           <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
           <a href="https://news.ycombinator.com/item?id=19083479"
           
-          >2019-02-05 01:56:30</a> | 68  | <a href="#story-19083479">#</a> | <a href="#" class="toplink">^</a>
+          >2019-02-05 01:56:30</a> | 290  | <a href="#story-19083479">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://lectures.quantecon.org/" rel="nofollow">https://lectures.quantecon.org/</a></span>
         </div>
         <div class="kids">
           
+  <div class="item card comment" id="comment-19085069">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19085069-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19085069-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=evrydayhustling">evrydayhustling</a> |
+          <a href="https://news.ycombinator.com/item?id=19085069"
+          id="comment-19085069"
+          >2019-02-05 08:31:07</a> | <a href="#comment-19085069">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">It's amazing how we are watching use cases for notebooks and spreadsheets converging.  I wonder what the killer feature will be to bring a bigger chunk of the Excel world into a programmatic mindset... Or alternatively, whether we will see notebook UIs embedded in Excel in the future in place of e.g. VBA.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19085139">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19085139-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19085139-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=b_tterc_p">b_tterc_p</a> |
+          <a href="https://news.ycombinator.com/item?id=19085139"
+          id="comment-19085139"
+          >2019-02-05 08:41:11</a> | <a href="#comment-19085139">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">That’s not a bad idea. Spreadsheets are pure functional languages built that use literal spaces instead of namespaces.<p>Notebooks are cells of logic. You could conceivably change the idea of notebook cells to be an instance of a function that points to raw data and returns raw data.</p><p>Perhaps this just Alteryx though</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19085625">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19085625-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19085625-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=20190205">20190205</a> |
+          <a href="https://news.ycombinator.com/item?id=19085625"
+          id="comment-19085625"
+          >2019-02-05 09:42:19</a> | <a href="#comment-19085625">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">This is brilliant.<p>I'm picturing the ability to write a Python function with the parameters being just like the parameters in an Excel function. You can drag the cell and have it duplicated throughout a row, updating the parameters to correspond to the rows next to it.</p><p>It would exponentially expand the power of excel. I wouldn't be limited to horribly unmaintainable little Excel functions.</p><p>VBA can't be used to do that, can it? As far as I  understand (and I haven't investigated VBA too much) VBA works on entire spreadsheets.</p><p>Essentially, replace the excel formula `=B3-B4` with a Python function `subtract(b3, b4)` where Subtract is defined somewhere more conveniently (in a worksheet wide function definition list?).</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19085926">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19085926-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19085926-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=afiori">afiori</a> |
+          <a href="https://news.ycombinator.com/item?id=19085926"
+          id="comment-19085926"
+          >2019-02-05 10:11:30</a> | <a href="#comment-19085926">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">This would require a reactive recomputing of cells to be anything like a spreadsheet.
+&gt; Essentially, replace the excel formula `=B3-B4` with a Python function `subtract(b3, b4)`<p>as of now jupyter/ipython would not recompute `subtract(b3, b4)` if you change b3 or b4, this has positive and negative (reliance on hidden state and order of execution) effects.</p><p>I too would really like something like this, but I think it is pretty far away from where jupiter is now.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19087358">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19087358-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19087358-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19087358"
+          id="comment-19087358"
+          >2019-02-05 12:24:09</a> | <a href="#comment-19087358">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">You can build something like this with Jupyter today.<p>&gt; <i>Traitlets is a framework that lets Python classes have attributes with type checking, dynamically calculated default values, and ‘on change’ callbacks.</i>
+<a href="https://traitlets.readthedocs.io/en/stable/" rel="nofollow">https://traitlets.readthedocs.io/en/stable/</a></p><p>&gt; <i>Traitlet events.
+Widget properties are IPython traitlets and traitlets are eventful. To handle changes, the observe method of the widget can be used to register a callback</i>
+<a href="https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20Events.html#Traitlet-events" rel="nofollow">https://ipywidgets.readthedocs.io/en/stable/examples/Widget%...</a></p><p>You can definitely build interactive notebooks with Jupyter Notebook and JupyterLab (and ipywidgets or Altair or HoloViews and Bokeh or Plotly for interactive data visualization).</p><p>&gt; <i>Qgrid is a Jupyter notebook widget which uses SlickGrid to render pandas DataFrames within a Jupyter notebook. This allows you to explore your DataFrames with intuitive scrolling, sorting, and filtering controls, as well as edit your DataFrames by double clicking cells.</i>
+<a href="https://github.com/quantopian/qgrid" rel="nofollow">https://github.com/quantopian/qgrid</a></p><p>Qgrid's API includes event handler registration:
+<a href="https://qgrid.readthedocs.io/en/latest/" rel="nofollow">https://qgrid.readthedocs.io/en/latest/</a></p><p>&gt; <i>neuron is a robust application that seamlessly combines the power of Visual Studio Code with the interactivity of Jupyter Notebook.</i>
+<a href="https://marketplace.visualstudio.com/items?itemName=neuron.neuron-IPE" rel="nofollow">https://marketplace.visualstudio.com/items?itemName=neuron.n...</a></p><p>"Excel team considering Python as scripting language: asking for feedback" (2017)
+<a href="https://news.ycombinator.com/item?id=15927132" rel="nofollow">https://news.ycombinator.com/item?id=15927132</a></p><p>OpenOffice Calc ships with Python 2.7 support: 
+<a href="https://wiki.openoffice.org/wiki/Python" rel="nofollow">https://wiki.openoffice.org/wiki/Python</a></p><p>Procedural scripts written in a general purpose language with named variables  (with no UI input except for chart design and <i>persisted</i> parameter changes) are reproducible.</p><p>What's a good way to review all of the formulas and VBA and/or Python and data ETL in a spreadsheet?</p><p>Is there a way to record a reproducible data transformation script from a sequence of GUI interactions in e.g. OpenRefine or similar?</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-19087446">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19087446-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19087446-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19087446"
+          id="comment-19087446"
+          >2019-02-05 12:34:32</a> | <a href="#comment-19087446">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">OpenRefine/OpenRefine/wiki/Jupyter<p><i>"Within the Python context, a Python OpenRefine client allows a user to script interactions within a Jupyter notebook against an OpenRefine application instance, essentially as a headless service (although workflows are possible where both notebook-scripted and live interactions take place.</i>
+<a href="https://github.com/OpenRefine/OpenRefine/wiki/Jupyter" rel="nofollow">https://github.com/OpenRefine/OpenRefine/wiki/Jupyter</a></p><p>Are there data wrangling workflows that are supported by OpenRefine but not Pandas, Dask, or Vaex?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card comment" id="comment-19083484">
     <div class="card-block">
       <a class="collapser" href="#comment-19083484-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
@@ -2007,7 +2117,7 @@
         <p class="card-text">pandas-datareader can pull data from e.g. FRED, Eurostat, Quandl, World Bank:
 <a href="https://pandas-datareader.readthedocs.io/en/latest/remote_data.html" rel="nofollow">https://pandas-datareader.readthedocs.io/en/latest/remote_da...</a><p>pandaSDMX can pull SDMX data from e.g. ECB, Eurostat, ILO, IMF, OECD, UNSD, UNESCO, World Bank; with requests-cache for caching data requests:
 <a href="https://pandasdmx.readthedocs.io/en/latest/#supported-data-providers" rel="nofollow">https://pandasdmx.readthedocs.io/en/latest/#supported-data-p...</a></p><p>The scikit-learn estimator interface includes a .score() method. "3.3. Model evaluation: quantifying the quality of predictions" <a href="https://scikit-learn.org/stable/modules/model_evaluation.html" rel="nofollow">https://scikit-learn.org/stable/modules/model_evaluation.htm...</a></p><p>statsmodels also has various functions for statistically testing models:
-<a href="https://www.statsmodels.org/stable/" rel="nofollow">https://www.statsmodels.org/stable/</a></p><p><i>"latex2sympy parses LaTeX math expressions and converts it into the equivalent SymPy form."</i> which is now merged into SymPy master and callable from sympy.parsing.latex.parse_latex(). It requires antlr-python-runtime to be installed.
+<a href="https://www.statsmodels.org/stable/" rel="nofollow">https://www.statsmodels.org/stable/</a></p><p><i>"latex2sympy parses LaTeX math expressions and converts it into the equivalent SymPy form"</i> and is now merged into SymPy master and callable with sympy.parsing.latex.parse_latex(). It requires antlr-python-runtime to be installed.
 <a href="https://github.com/augustt198/latex2sympy" rel="nofollow">https://github.com/augustt198/latex2sympy</a>
 <a href="https://github.com/sympy/sympy/pull/13706" rel="nofollow">https://github.com/sympy/sympy/pull/13706</a></p><p>IDK what Julia has for economic data retrieval and model scoring / cost functions?</p></p></div>
     </div>
@@ -2027,7 +2137,7 @@
           <a href="https://news.ycombinator.com/user?id=jrepinc">jrepinc</a> |
           <a href="https://news.ycombinator.com/item?id=19077913"
           
-          >2019-02-04 11:55:50</a> | 1033  | <a href="#story-19077913">#</a> | <a href="#" class="toplink">^</a>
+          >2019-02-04 11:55:50</a> | 1097  | <a href="#story-19077913">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source" rel="nofollow">https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source</a></span>

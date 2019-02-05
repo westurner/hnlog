@@ -14404,36 +14404,38 @@
         19080198, 
         19079482, 
         19081636, 
-        19083451, 
-        19083981, 
+        19086560, 
         19079531, 
         19079248, 
-        19083284, 
-        19080925, 
-        19079631, 
+        19083451, 
         19082741, 
-        19084468, 
+        19080925, 
+        19083284, 
+        19079631, 
+        19083981, 
         19079061, 
         19080380, 
-        19082727, 
-        19082422, 
         19079848, 
         19080527, 
+        19082727, 
+        19082422, 
         19080119, 
         19078583, 
-        19083109, 
-        19080471, 
         19079433, 
+        19080471, 
         19079428, 
+        19085380, 
         19079551, 
         19079888, 
+        19083109, 
         19079730, 
-        19083930, 
         19079732, 
-        19081854, 
         19081234, 
+        19081854, 
         19079082, 
+        19084468, 
         19082296, 
+        19083930, 
         19080620, 
         19079406, 
         19082400, 
@@ -14448,11 +14450,11 @@
         19079143, 
         19079180
       ], 
-      "descendants": 242, 
+      "descendants": 253, 
       "url": "https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source", 
       "title": "If Software Is Funded from a Public Source, Its Code Should Be Open Source", 
       "by": "jrepinc", 
-      "score": 1033, 
+      "score": 1097, 
       "time": 1549299350, 
       "type": "story", 
       "id": 19077913
@@ -14540,15 +14542,20 @@
     "19083479": {
       "time_iso": "2019-02-05 01:56:30", 
       "kids": [
+        19085069, 
+        19085085, 
         19083484, 
+        19088106, 
         19084374, 
-        19083856
+        19083856, 
+        19085480, 
+        19085203
       ], 
-      "descendants": 8, 
+      "descendants": 35, 
       "url": "https://lectures.quantecon.org/", 
       "title": "Lectures in Quantitative Economics as Python and Julia Notebooks", 
       "by": "westurner", 
-      "score": 68, 
+      "score": 290, 
       "time": 1549349790, 
       "type": "story", 
       "id": 19083479
@@ -14567,8 +14574,13 @@
       "kids": [
         19084389, 
         19084622, 
-        19084439, 
-        19084555
+        19085555, 
+        19084857, 
+        19084555, 
+        19084833, 
+        19087421, 
+        19086632, 
+        19084439
       ], 
       "parent": 19083479, 
       "text": "Does anyone else find it strange that there is no real-world data in these notebooks? It's all simulations or abstract problems.<p>This gives me the sense, personally, that economists aren't interested in making accurate predictions about the world. Other fields would, I think, test their theories against observations.</p>", 
@@ -14580,9 +14592,84 @@
     "19084622": {
       "time_iso": "2019-02-05 07:19:25", 
       "parent": 19084374, 
-      "text": "pandas-datareader can pull data from e.g. FRED, Eurostat, Quandl, World Bank:\n<a href=\"https://pandas-datareader.readthedocs.io/en/latest/remote_data.html\" rel=\"nofollow\">https://pandas-datareader.readthedocs.io/en/latest/remote_da...</a><p>pandaSDMX can pull SDMX data from e.g. ECB, Eurostat, ILO, IMF, OECD, UNSD, UNESCO, World Bank; with requests-cache for caching data requests:\n<a href=\"https://pandasdmx.readthedocs.io/en/latest/#supported-data-providers\" rel=\"nofollow\">https://pandasdmx.readthedocs.io/en/latest/#supported-data-p...</a></p><p>The scikit-learn estimator interface includes a .score() method. \"3.3. Model evaluation: quantifying the quality of predictions\" <a href=\"https://scikit-learn.org/stable/modules/model_evaluation.html\" rel=\"nofollow\">https://scikit-learn.org/stable/modules/model_evaluation.htm...</a></p><p>statsmodels also has various functions for statistically testing models:\n<a href=\"https://www.statsmodels.org/stable/\" rel=\"nofollow\">https://www.statsmodels.org/stable/</a></p><p><i>\"latex2sympy parses LaTeX math expressions and converts it into the equivalent SymPy form.\"</i> which is now merged into SymPy master and callable from sympy.parsing.latex.parse_latex(). It requires antlr-python-runtime to be installed.\n<a href=\"https://github.com/augustt198/latex2sympy\" rel=\"nofollow\">https://github.com/augustt198/latex2sympy</a>\n<a href=\"https://github.com/sympy/sympy/pull/13706\" rel=\"nofollow\">https://github.com/sympy/sympy/pull/13706</a></p><p>IDK what Julia has for economic data retrieval and model scoring / cost functions?</p>", 
+      "text": "pandas-datareader can pull data from e.g. FRED, Eurostat, Quandl, World Bank:\n<a href=\"https://pandas-datareader.readthedocs.io/en/latest/remote_data.html\" rel=\"nofollow\">https://pandas-datareader.readthedocs.io/en/latest/remote_da...</a><p>pandaSDMX can pull SDMX data from e.g. ECB, Eurostat, ILO, IMF, OECD, UNSD, UNESCO, World Bank; with requests-cache for caching data requests:\n<a href=\"https://pandasdmx.readthedocs.io/en/latest/#supported-data-providers\" rel=\"nofollow\">https://pandasdmx.readthedocs.io/en/latest/#supported-data-p...</a></p><p>The scikit-learn estimator interface includes a .score() method. \"3.3. Model evaluation: quantifying the quality of predictions\" <a href=\"https://scikit-learn.org/stable/modules/model_evaluation.html\" rel=\"nofollow\">https://scikit-learn.org/stable/modules/model_evaluation.htm...</a></p><p>statsmodels also has various functions for statistically testing models:\n<a href=\"https://www.statsmodels.org/stable/\" rel=\"nofollow\">https://www.statsmodels.org/stable/</a></p><p><i>\"latex2sympy parses LaTeX math expressions and converts it into the equivalent SymPy form\"</i> and is now merged into SymPy master and callable with sympy.parsing.latex.parse_latex(). It requires antlr-python-runtime to be installed.\n<a href=\"https://github.com/augustt198/latex2sympy\" rel=\"nofollow\">https://github.com/augustt198/latex2sympy</a>\n<a href=\"https://github.com/sympy/sympy/pull/13706\" rel=\"nofollow\">https://github.com/sympy/sympy/pull/13706</a></p><p>IDK what Julia has for economic data retrieval and model scoring / cost functions?</p>", 
       "id": 19084622, 
       "time": 1549369165, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19085069": {
+      "time_iso": "2019-02-05 08:31:07", 
+      "kids": [
+        19085630, 
+        19086181, 
+        19085139, 
+        19085619
+      ], 
+      "parent": 19083479, 
+      "text": "It's amazing how we are watching use cases for notebooks and spreadsheets converging.  I wonder what the killer feature will be to bring a bigger chunk of the Excel world into a programmatic mindset... Or alternatively, whether we will see notebook UIs embedded in Excel in the future in place of e.g. VBA.", 
+      "id": 19085069, 
+      "time": 1549373467, 
+      "type": "comment", 
+      "by": "evrydayhustling"
+    }, 
+    "19085139": {
+      "time_iso": "2019-02-05 08:41:11", 
+      "kids": [
+        19085394, 
+        19085625
+      ], 
+      "parent": 19085069, 
+      "text": "That\u2019s not a bad idea. Spreadsheets are pure functional languages built that use literal spaces instead of namespaces.<p>Notebooks are cells of logic. You could conceivably change the idea of notebook cells to be an instance of a function that points to raw data and returns raw data.</p><p>Perhaps this just Alteryx though</p>", 
+      "id": 19085139, 
+      "time": 1549374071, 
+      "type": "comment", 
+      "by": "b_tterc_p"
+    }, 
+    "19085625": {
+      "time_iso": "2019-02-05 09:42:19", 
+      "kids": [
+        19085926, 
+        19085898, 
+        19085638
+      ], 
+      "parent": 19085139, 
+      "text": "This is brilliant.<p>I'm picturing the ability to write a Python function with the parameters being just like the parameters in an Excel function. You can drag the cell and have it duplicated throughout a row, updating the parameters to correspond to the rows next to it.</p><p>It would exponentially expand the power of excel. I wouldn't be limited to horribly unmaintainable little Excel functions.</p><p>VBA can't be used to do that, can it? As far as I  understand (and I haven't investigated VBA too much) VBA works on entire spreadsheets.</p><p>Essentially, replace the excel formula `=B3-B4` with a Python function `subtract(b3, b4)` where Subtract is defined somewhere more conveniently (in a worksheet wide function definition list?).</p>", 
+      "id": 19085625, 
+      "time": 1549377739, 
+      "type": "comment", 
+      "by": "20190205"
+    }, 
+    "19085926": {
+      "time_iso": "2019-02-05 10:11:30", 
+      "kids": [
+        19087358
+      ], 
+      "parent": 19085625, 
+      "text": "This would require a reactive recomputing of cells to be anything like a spreadsheet.\n&gt; Essentially, replace the excel formula `=B3-B4` with a Python function `subtract(b3, b4)`<p>as of now jupyter/ipython would not recompute `subtract(b3, b4)` if you change b3 or b4, this has positive and negative (reliance on hidden state and order of execution) effects.</p><p>I too would really like something like this, but I think it is pretty far away from where jupiter is now.</p>", 
+      "id": 19085926, 
+      "time": 1549379490, 
+      "type": "comment", 
+      "by": "afiori"
+    }, 
+    "19087358": {
+      "time_iso": "2019-02-05 12:24:09", 
+      "kids": [
+        19087446
+      ], 
+      "parent": 19085926, 
+      "text": "You can build something like this with Jupyter today.<p>&gt; <i>Traitlets is a framework that lets Python classes have attributes with type checking, dynamically calculated default values, and \u2018on change\u2019 callbacks.</i>\n<a href=\"https://traitlets.readthedocs.io/en/stable/\" rel=\"nofollow\">https://traitlets.readthedocs.io/en/stable/</a></p><p>&gt; <i>Traitlet events.\nWidget properties are IPython traitlets and traitlets are eventful. To handle changes, the observe method of the widget can be used to register a callback</i>\n<a href=\"https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20Events.html#Traitlet-events\" rel=\"nofollow\">https://ipywidgets.readthedocs.io/en/stable/examples/Widget%...</a></p><p>You can definitely build interactive notebooks with Jupyter Notebook and JupyterLab (and ipywidgets or Altair or HoloViews and Bokeh or Plotly for interactive data visualization).</p><p>&gt; <i>Qgrid is a Jupyter notebook widget which uses SlickGrid to render pandas DataFrames within a Jupyter notebook. This allows you to explore your DataFrames with intuitive scrolling, sorting, and filtering controls, as well as edit your DataFrames by double clicking cells.</i>\n<a href=\"https://github.com/quantopian/qgrid\" rel=\"nofollow\">https://github.com/quantopian/qgrid</a></p><p>Qgrid's API includes event handler registration:\n<a href=\"https://qgrid.readthedocs.io/en/latest/\" rel=\"nofollow\">https://qgrid.readthedocs.io/en/latest/</a></p><p>&gt; <i>neuron is a robust application that seamlessly combines the power of Visual Studio Code with the interactivity of Jupyter Notebook.</i>\n<a href=\"https://marketplace.visualstudio.com/items?itemName=neuron.neuron-IPE\" rel=\"nofollow\">https://marketplace.visualstudio.com/items?itemName=neuron.n...</a></p><p>\"Excel team considering Python as scripting language: asking for feedback\" (2017)\n<a href=\"https://news.ycombinator.com/item?id=15927132\" rel=\"nofollow\">https://news.ycombinator.com/item?id=15927132</a></p><p>OpenOffice Calc ships with Python 2.7 support: \n<a href=\"https://wiki.openoffice.org/wiki/Python\" rel=\"nofollow\">https://wiki.openoffice.org/wiki/Python</a></p><p>Procedural scripts written in a general purpose language with named variables  (with no UI input except for chart design and <i>persisted</i> parameter changes) are reproducible.</p><p>What's a good way to review all of the formulas and VBA and/or Python and data ETL in a spreadsheet?</p><p>Is there a way to record a reproducible data transformation script from a sequence of GUI interactions in e.g. OpenRefine or similar?</p>", 
+      "id": 19087358, 
+      "time": 1549387449, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19087446": {
+      "time_iso": "2019-02-05 12:34:32", 
+      "parent": 19087358, 
+      "text": "OpenRefine/OpenRefine/wiki/Jupyter<p><i>\"Within the Python context, a Python OpenRefine client allows a user to script interactions within a Jupyter notebook against an OpenRefine application instance, essentially as a headless service (although workflows are possible where both notebook-scripted and live interactions take place.</i>\n<a href=\"https://github.com/OpenRefine/OpenRefine/wiki/Jupyter\" rel=\"nofollow\">https://github.com/OpenRefine/OpenRefine/wiki/Jupyter</a></p><p>Are there data wrangling workflows that are supported by OpenRefine but not Pandas, Dask, or Vaex?</p>", 
+      "id": 19087446, 
+      "time": 1549388072, 
       "type": "comment", 
       "by": "westurner"
     }
