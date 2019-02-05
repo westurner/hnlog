@@ -14397,13 +14397,13 @@
     "19077913": {
       "time_iso": "2019-02-04 11:55:50", 
       "kids": [
-        19083451, 
         19079726, 
+        19083451, 
         19079380, 
         19079917, 
         19078935, 
-        19083284, 
         19080198, 
+        19083284, 
         19079482, 
         19081636, 
         19079248, 
@@ -14444,11 +14444,11 @@
         19079143, 
         19079180
       ], 
-      "descendants": 228, 
+      "descendants": 229, 
       "url": "https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source", 
       "title": "If Software Is Funded from a Public Source, Its Code Should Be Open Source", 
       "by": "jrepinc", 
-      "score": 885, 
+      "score": 889, 
       "time": 1549299350, 
       "type": "story", 
       "id": 19077913
@@ -14527,14 +14527,38 @@
     "19083451": {
       "time_iso": "2019-02-05 01:47:19", 
       "parent": 19077913, 
-      "text": "From the US Digital Services Playbook [1]:<p>&gt; <i>PLAY 13</i></p><p>&gt; <i>Default to open</i></p><p>&gt; <i>When we collaborate in the open and publish our data publicly, we can improve Government together. By building services more openly and publishing open data, we simplify the public\u2019s access to government services and information, allow the public to contribute easily, and enable reuse by entrepreneurs, nonprofits, other agencies, and the public.</i></p><p>&gt; <i>- Offer users a mechanism to report bugs and issues, and be responsive to these reports</i></p><p>&gt; [...]</p><p>&gt; <i>- Ensure that we maintain contractual rights to all custom software developed by third parties in a manner that is publishable and reusable at no cost</i></p><p>&gt; [...]</p><p>&gt; <i>- When appropriate, publish source code of projects or components online</i></p><p>&gt; [...]</p><p>[1] <a href=\"https://playbook.cio.gov/#play13\" rel=\"nofollow\">https://playbook.cio.gov/#play13</a></p>", 
+      "text": "From the US Digital Services Playbook [1]:<p>&gt; <i>PLAY 13</i></p><p>&gt; <i>Default to open</i></p><p>&gt; <i>When we collaborate in the open and publish our data publicly, we can improve Government together. By building services more openly and publishing open data, we simplify the public\u2019s access to government services and information, allow the public to contribute easily, and enable reuse by entrepreneurs, nonprofits, other agencies, and the public.</i></p><p>&gt; <i>Checklist</i></p><p>&gt; <i>- Offer users a mechanism to report bugs and issues, and be responsive to these reports</i></p><p>&gt; [...]</p><p>&gt; <i>- Ensure that we maintain contractual rights to all custom software developed by third parties in a manner that is publishable and reusable at no cost</i></p><p>&gt; [...]</p><p>&gt; <i>- When appropriate, publish source code of projects or components online</i></p><p>&gt; [...]</p><p>&gt; <i>Key Questions</i></p><p>&gt; [...]</p><p>&gt; <i>- If the codebase has not been released under an open source license, explain why.</i></p><p>&gt; <i>- What components are made available to the public as open source?</i></p><p>&gt; [...]</p><p>[1] <a href=\"https://playbook.cio.gov/#play13\" rel=\"nofollow\">https://playbook.cio.gov/#play13</a></p>", 
       "id": 19083451, 
       "time": 1549349239, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19083479": {
+      "time_iso": "2019-02-05 01:56:30", 
+      "kids": [
+        19083484
+      ], 
+      "descendants": 1, 
+      "url": "https://lectures.quantecon.org/", 
+      "title": "Lectures in Quantitative Economics as Python and Julia Notebooks", 
+      "by": "westurner", 
+      "score": 1, 
+      "time": 1549349790, 
+      "type": "story", 
+      "id": 19083479
+    }, 
+    "19083484": {
+      "time_iso": "2019-02-05 01:57:56", 
+      "parent": 19083479, 
+      "text": "There are undergraduate and graduate courses in each language:<p>Python version:\n<a href=\"https://lectures.quantecon.org/py/\" rel=\"nofollow\">https://lectures.quantecon.org/py/</a></p><p>Julia version:\n<a href=\"https://lectures.quantecon.org/jl/\" rel=\"nofollow\">https://lectures.quantecon.org/jl/</a></p>", 
+      "id": 19083484, 
+      "time": 1549349876, 
       "type": "comment", 
       "by": "westurner"
     }
   }, 
   "roots": [
+    19083479, 
     19077913, 
     19083111, 
     19083099, 
