@@ -14270,7 +14270,7 @@
       "url": "https://functionalcs.github.io/curriculum/", 
       "title": "A Self-Learning, Modern Computer Science Curriculum", 
       "by": "hacknrk", 
-      "score": 393, 
+      "score": 394, 
       "time": 1548787728, 
       "type": "story", 
       "id": 19028855
@@ -14367,7 +14367,7 @@
         19038387, 
         19038714
       ], 
-      "descendants": 4, 
+      "descendants": 5, 
       "text": "What tools can I use to evaluate the security posture of an OSS project before I approve its usage with high confidence?", 
       "title": "Ask HN: How do you evaluate security of OSS before importing?", 
       "by": "riyakhanna1983", 
@@ -14378,6 +14378,9 @@
     }, 
     "19038714": {
       "time_iso": "2019-01-30 14:53:08", 
+      "kids": [
+        19092916
+      ], 
       "parent": 19038094, 
       "text": "Oddly, whether a project has at least one CVE reported could be interpreted in favor of the project.\n<a href=\"https://www.cvedetails.com\" rel=\"nofollow\">https://www.cvedetails.com</a><p>Do they have a security disclosure policy? A dedicated security mailing list?</p><p>Do they pay bounties or participate in e.g Pwn2own?</p><p>Do they cryptographically sign releases?</p><p>Do they cryptographically sign VCS tags (~releases)? commits? `git tag -s` / `git commit/merge -S`\n<a href=\"https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work\" rel=\"nofollow\">https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work</a></p><p>Downstream packagers do sometimes/often apply additional patches and then sign <i>their</i> release with the repo (and thus system global) GPG key.</p><p>Whether they require \"Signed-off-by\" may indicate that the project has mature controls and possibly a formal code review process requirement.\n(Look for \"Signed-off-by:\" in the release branch (`git commit/merge -s/--signoff`)</p><p>How have they integrated security review into their [iterative] release workflow?</p><p>Is the software formally verified? Are parts of the software implementation or spec formally verified?</p><p>Does the system trust the channel? The host? Is it a 'trustless' system?</p><p>What are the single points of failure?</p><p>How is logging configured? To syslog?</p><p>Do they run the app as root in a Docker container? Does it require privileged containers?</p><p>If it has to run as root, does it drop privileges at startup?</p><p>Does the package have an SELinux or AppArmor policy? (Or does it say e.g. \"just set SELinux to permissive mode)</p><p>Is there someone you can pay to support the software in an enterprise environment? Open or closed, such contacts basically never accept liability; but if there is an SLA, do you get a pro-rated bill?</p><p>As far as indicators of actual software quality:</p><p>How much test coverage is there? Line coverage or statement coverage?</p><p>Do they run static analysis tools for all pull requests and releases? Dynamic analysis? Fuzzing?</p><p>Of course, closed or open source projects may do none or all of these and still be totally secure, insecure, or unsecure.</p>", 
       "id": 19038714, 
@@ -14404,57 +14407,57 @@
         19080198, 
         19079482, 
         19081636, 
-        19086560, 
         19079531, 
         19079248, 
-        19083451, 
         19082741, 
+        19079406, 
         19080925, 
-        19083284, 
+        19083451, 
         19079631, 
-        19083981, 
+        19080547, 
         19079061, 
+        19083284, 
+        19086560, 
         19080380, 
         19079848, 
+        19083981, 
         19080527, 
-        19082727, 
-        19082422, 
         19080119, 
+        19079556, 
+        19080620, 
+        19081234, 
+        19082422, 
+        19082727, 
         19078583, 
+        19079082, 
         19079433, 
-        19080471, 
         19079428, 
-        19085380, 
+        19080471, 
         19079551, 
         19079888, 
-        19083109, 
         19079730, 
         19079732, 
-        19081234, 
-        19081854, 
-        19079082, 
-        19084468, 
-        19082296, 
-        19083930, 
-        19080620, 
-        19079406, 
-        19082400, 
-        19080547, 
-        19080121, 
+        19083109, 
         19080726, 
-        19079556, 
+        19081854, 
+        19080963, 
+        19085380, 
+        19082296, 
+        19084468, 
+        19083930, 
+        19082400, 
+        19080121, 
         19084577, 
         19079028, 
-        19080963, 
         19078651, 
         19079143, 
         19079180
       ], 
-      "descendants": 253, 
+      "descendants": 258, 
       "url": "https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source", 
       "title": "If Software Is Funded from a Public Source, Its Code Should Be Open Source", 
       "by": "jrepinc", 
-      "score": 1097, 
+      "score": 1131, 
       "time": 1549299350, 
       "type": "story", 
       "id": 19077913
@@ -14545,17 +14548,18 @@
         19085069, 
         19085085, 
         19083484, 
-        19088106, 
         19084374, 
+        19091422, 
+        19088106, 
         19083856, 
         19085480, 
         19085203
       ], 
-      "descendants": 35, 
+      "descendants": 47, 
       "url": "https://lectures.quantecon.org/", 
       "title": "Lectures in Quantitative Economics as Python and Julia Notebooks", 
       "by": "westurner", 
-      "score": 290, 
+      "score": 340, 
       "time": 1549349790, 
       "type": "story", 
       "id": 19083479
@@ -14575,8 +14579,8 @@
         19084389, 
         19084622, 
         19085555, 
-        19084857, 
         19084555, 
+        19084857, 
         19084833, 
         19087421, 
         19086632, 
@@ -14603,8 +14607,9 @@
       "kids": [
         19085630, 
         19086181, 
+        19085619, 
         19085139, 
-        19085619
+        19089999
       ], 
       "parent": 19083479, 
       "text": "It's amazing how we are watching use cases for notebooks and spreadsheets converging.  I wonder what the killer feature will be to bring a bigger chunk of the Excel world into a programmatic mindset... Or alternatively, whether we will see notebook UIs embedded in Excel in the future in place of e.g. VBA.", 
@@ -14616,8 +14621,8 @@
     "19085139": {
       "time_iso": "2019-02-05 08:41:11", 
       "kids": [
-        19085394, 
-        19085625
+        19085625, 
+        19085394
       ], 
       "parent": 19085069, 
       "text": "That\u2019s not a bad idea. Spreadsheets are pure functional languages built that use literal spaces instead of namespaces.<p>Notebooks are cells of logic. You could conceivably change the idea of notebook cells to be an instance of a function that points to raw data and returns raw data.</p><p>Perhaps this just Alteryx though</p>", 
@@ -14629,8 +14634,8 @@
     "19085625": {
       "time_iso": "2019-02-05 09:42:19", 
       "kids": [
-        19085926, 
         19085898, 
+        19085926, 
         19085638
       ], 
       "parent": 19085139, 
@@ -14666,15 +14671,216 @@
     }, 
     "19087446": {
       "time_iso": "2019-02-05 12:34:32", 
+      "kids": [
+        19091484
+      ], 
       "parent": 19087358, 
       "text": "OpenRefine/OpenRefine/wiki/Jupyter<p><i>\"Within the Python context, a Python OpenRefine client allows a user to script interactions within a Jupyter notebook against an OpenRefine application instance, essentially as a headless service (although workflows are possible where both notebook-scripted and live interactions take place.</i>\n<a href=\"https://github.com/OpenRefine/OpenRefine/wiki/Jupyter\" rel=\"nofollow\">https://github.com/OpenRefine/OpenRefine/wiki/Jupyter</a></p><p>Are there data wrangling workflows that are supported by OpenRefine but not Pandas, Dask, or Vaex?</p>", 
       "id": 19087446, 
       "time": 1549388072, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "19091484": {
+      "time_iso": "2019-02-05 19:20:08", 
+      "parent": 19087446, 
+      "text": "This interesting need to have a closer look, possibly refine can be more efficient? But haven't used it enough to know, just payed around with it a bit. Didn't realise you could combine it with jupyter.", 
+      "id": 19091484, 
+      "time": 1549412408, 
+      "type": "comment", 
+      "by": "rmbeard"
+    }, 
+    "19092916": {
+      "time_iso": "2019-02-06 00:23:04", 
+      "parent": 19038714, 
+      "text": "This is a pretty extensive list. Thanks for sharing!", 
+      "id": 19092916, 
+      "time": 1549430584, 
+      "type": "comment", 
+      "by": "riyakhanna1983"
+    }, 
+    "19094502": {
+      "time_iso": "2019-02-06 07:15:56", 
+      "kids": [
+        19094986, 
+        19101316, 
+        19094694, 
+        19097203, 
+        19095137, 
+        19094612, 
+        19094672, 
+        19095005, 
+        19100056, 
+        19095080, 
+        19100505, 
+        19100993, 
+        19096075, 
+        19094895, 
+        19095104, 
+        19096344, 
+        19095847, 
+        19094681, 
+        19095170, 
+        19095681, 
+        19095958
+      ], 
+      "descendants": 135, 
+      "url": "https://fs.blog/2019/02/compounding-knowledge/", 
+      "title": "Compounding Knowledge", 
+      "by": "golyi", 
+      "score": 351, 
+      "time": 1549455356, 
+      "type": "story", 
+      "id": 19094502
+    }, 
+    "19099091": {
+      "time_iso": "2019-02-06 14:50:35", 
+      "kids": [
+        19099105
+      ], 
+      "descendants": 5, 
+      "url": "https://github.com/google/react-schemaorg", 
+      "title": "Show HN: React-Schemaorg: Strongly-Typed Schema.org JSON-LD for React", 
+      "by": "Eyas", 
+      "score": 9, 
+      "time": 1549482635, 
+      "type": "story", 
+      "id": 19099091
+    }, 
+    "19099105": {
+      "time_iso": "2019-02-06 14:51:23", 
+      "kids": [
+        19099331
+      ], 
+      "parent": 19099091, 
+      "text": "I have a slightly longer post describing this work and the reasoning behind it on dev.to[1].<p></p><pre><code>    [1]: https://dev.to/eyassh/react-schemaorg-strongly-typed-schemaorg-json-ld-for-react-4lhd</code></pre>", 
+      "id": 19099105, 
+      "time": 1549482683, 
+      "type": "comment", 
+      "by": "Eyas"
+    }, 
+    "19099331": {
+      "time_iso": "2019-02-06 15:12:12", 
+      "kids": [
+        19099591
+      ], 
+      "parent": 19099105, 
+      "text": "<a href=\"https://dev.to/eyassh/react-schemaorg-strongly-typed-schemaorg-json-ld-for-react-4lhd\" rel=\"nofollow\">https://dev.to/eyassh/react-schemaorg-strongly-typed-schemao...</a><p>Is there a good way to generate JSONschema and thus forms from schema.org RDFS classes and (nested, repeatable) properties?</p>", 
+      "id": 19099331, 
+      "time": 1549483932, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19099591": {
+      "time_iso": "2019-02-06 15:34:46", 
+      "kids": [
+        19101039
+      ], 
+      "parent": 19099331, 
+      "text": "By JSONschema do you mean [this standard](<a href=\"https://json-schema.org/\" rel=\"nofollow\">https://json-schema.org/</a>)? I don't know of a tool that does that yet, the JSON Schema is general enough with allOf/anyOf that it should express schema.org schema as well.<p>Depends on the purpose here. With this, my goal was to speed up the Write-Update-Debug development loop. Depends on the use case, simply using Google's Structured Data Testing Tool [1] might be a better way to verify schema than JSON-schema?</p><p></p><pre><code>  [1]: https://search.google.com/structured-data/testing-tool</code></pre>", 
+      "id": 19099591, 
+      "time": 1549485286, 
+      "type": "comment", 
+      "by": "Eyas"
+    }, 
+    "19100050": {
+      "time_iso": "2019-02-06 16:15:33", 
+      "kids": [
+        19100594, 
+        19100775, 
+        19100356, 
+        19100957, 
+        19100272, 
+        19101148, 
+        19100823, 
+        19100959, 
+        19100537, 
+        19101277, 
+        19100454, 
+        19101174, 
+        19100589, 
+        19100655, 
+        19100747, 
+        19100879, 
+        19100674, 
+        19100474, 
+        19100401
+      ], 
+      "descendants": 190, 
+      "url": "https://www.npr.org/2019/02/06/691944789/consumer-protection-bureau-aims-to-roll-back-rules-for-payday-lending", 
+      "title": "Consumer Protection Bureau Aims to Roll Back Rules for Payday Lending", 
+      "by": "pseudolus", 
+      "score": 157, 
+      "time": 1549487733, 
+      "type": "story", 
+      "id": 19100050
+    }, 
+    "19100957": {
+      "time_iso": "2019-02-06 17:51:45", 
+      "kids": [
+        19101030, 
+        19101066
+      ], 
+      "parent": 19100050, 
+      "text": "From the article:<p>&gt; <i>The way payday loans work is that payday lenders typically offer small loans to borrowers who promise to pay the loans back by their next paycheck. Interest on the loans can have an annual percentage rate of 390 percent or more, according to a 2013 report by the CFPB. Another bureau report from the following year found that most payday loans \u2014 as many as 80 percent \u2014 are rolled over into another loan within two weeks. Borrowers often take out eight or more loans a year.</i></p><p>390%</p><p>From <a href=\"https://www.npr.org/2019/02/06/691944789/consumer-protection-bureau-aims-to-roll-back-rules-for-payday-lending\" rel=\"nofollow\">https://www.npr.org/2019/02/06/691944789/consumer-protection...</a> :</p><p>&gt; <i>TARP recovered funds totalling $441.7 billion from $426.4 billion invested, earning a $15.3 billion profit or an annualized rate of return of 0.6% and perhaps a loss when adjusted for inflation.[2][3]</i></p><p>0.6%</p>", 
+      "id": 19100957, 
+      "time": 1549493505, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19100993": {
+      "time_iso": "2019-02-06 17:56:00", 
+      "parent": 19094502, 
+      "text": "&gt; <i>This is why it\u2019s commonly telling you what happened, not why it happened or under what conditions it might happen again.</i>", 
+      "id": 19100993, 
+      "time": 1549493760, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19101030": {
+      "time_iso": "2019-02-06 18:01:02", 
+      "parent": 19100957, 
+      "text": "Is your point that the US government should get into the payday lending business?", 
+      "id": 19101030, 
+      "time": 1549494062, 
+      "type": "comment", 
+      "by": "0xffff2"
+    }, 
+    "19101039": {
+      "time_iso": "2019-02-06 18:01:21", 
+      "kids": [
+        19101163
+      ], 
+      "parent": 19099591, 
+      "text": "There are a number of tools for generating forms and requisite client and serverside data validations from JSONschema; but I'm not aware of any for RDFS (and thus the schema.org schema [1]). A different use case, for certain.<p><a href=\"https://schema.org/docs/developers.html#defs\" rel=\"nofollow\">https://schema.org/docs/developers.html#defs</a></p>", 
+      "id": 19101039, 
+      "time": 1549494081, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19101066": {
+      "time_iso": "2019-02-06 18:04:28", 
+      "parent": 19100957, 
+      "text": "They are ultra short term loans, so the rate is going to be outrageous when expressed as an APR...", 
+      "id": 19101066, 
+      "time": 1549494268, 
+      "type": "comment", 
+      "by": "milesdyson_phd"
+    }, 
+    "19101163": {
+      "time_iso": "2019-02-06 18:15:36", 
+      "parent": 19101039, 
+      "text": "Definitely a cool area for exploration. I'm not aware of JSON Schema generators from RDFS either.<p>It should be possible to model the basics (nested structure, repeated structure, defining the \"domain\" and \"range\" of a value).</p><p>Schema.org definitions however have no conception of \"required\" values[<i>], however, so some of the cool form validation we see in some of these tools might not apply here.</i></p><p></p><pre><i><code>  [*] _Consumers_ of Schema.org JSON-LD or microdata, however, might define their own data requirements. E.g. Google has some concept of required fields, which you can see when using the Structured Data Testing Tool.</code></i></pre>", 
+      "id": 19101163, 
+      "time": 1549494936, 
+      "type": "comment", 
+      "by": "Eyas"
     }
   }, 
   "roots": [
+    19099091, 
+    19094502, 
+    19100050, 
     19083479, 
     19077913, 
     19083111, 
