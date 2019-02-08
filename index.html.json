@@ -14453,7 +14453,7 @@
         19079143, 
         19079180
       ], 
-      "descendants": 258, 
+      "descendants": 259, 
       "url": "https://www.linuxjournal.com/content/if-software-funded-public-source-its-code-should-be-open-source", 
       "title": "If Software Is Funded from a Public Source, Its Code Should Be Open Source", 
       "by": "jrepinc", 
@@ -14559,7 +14559,7 @@
       "url": "https://lectures.quantecon.org/", 
       "title": "Lectures in Quantitative Economics as Python and Julia Notebooks", 
       "by": "westurner", 
-      "score": 350, 
+      "score": 351, 
       "time": 1549349790, 
       "type": "story", 
       "id": 19083479
@@ -14710,8 +14710,8 @@
         19094672, 
         19095080, 
         19095005, 
-        19100505, 
         19096075, 
+        19100505, 
         19100056, 
         19101316, 
         19096344, 
@@ -14730,7 +14730,7 @@
       "url": "https://fs.blog/2019/02/compounding-knowledge/", 
       "title": "Compounding Knowledge", 
       "by": "golyi", 
-      "score": 448, 
+      "score": 453, 
       "time": 1549455356, 
       "type": "story", 
       "id": 19094502
@@ -14810,11 +14810,11 @@
         19100474, 
         19100401
       ], 
-      "descendants": 285, 
+      "descendants": 288, 
       "url": "https://www.npr.org/2019/02/06/691944789/consumer-protection-bureau-aims-to-roll-back-rules-for-payday-lending", 
       "title": "Consumer Protection Bureau Aims to Roll Back Rules for Payday Lending", 
       "by": "pseudolus", 
-      "score": 194, 
+      "score": 195, 
       "time": 1549487733, 
       "type": "story", 
       "id": 19100050
@@ -14897,7 +14897,7 @@
       "kids": [
         19109333
       ], 
-      "descendants": 3, 
+      "descendants": 5, 
       "url": "https://hackernoon.com/superalgos-part-one-the-trading-singularity-6f66f419982f", 
       "title": "Superalgos and the Trading Singularity", 
       "by": "ciencias", 
@@ -14910,23 +14910,24 @@
       "time_iso": "2019-02-07 12:23:44", 
       "kids": [
         19107237, 
-        19106941, 
-        19108727, 
-        19108123, 
         19108905, 
-        19108940, 
+        19106941, 
+        19108123, 
+        19108727, 
         19108257, 
-        19108003, 
+        19108940, 
+        19111151, 
         19109227, 
+        19108003, 
         19107600, 
         19107533, 
         19106928
       ], 
-      "descendants": 81, 
+      "descendants": 99, 
       "url": "https://www.bloomberg.com/opinion/articles/2019-02-07/eternal-market-patience-offers-eternal-rewards", 
       "title": "Crunching 200 years of stock, bond, currency and commodity data", 
       "by": "chollida1", 
-      "score": 183, 
+      "score": 227, 
       "time": 1549560224, 
       "type": "story", 
       "id": 19106658
@@ -14935,10 +14936,12 @@
       "time_iso": "2019-02-07 13:33:41", 
       "kids": [
         19107991, 
+        19111422, 
         19108863, 
         19108431, 
-        19107530, 
         19109178, 
+        19107530, 
+        19110684, 
         19107645
       ], 
       "parent": 19106658, 
@@ -14963,6 +14966,7 @@
     "19108272": {
       "time_iso": "2019-02-07 15:29:46", 
       "kids": [
+        19110687, 
         19109289
       ], 
       "parent": 19107991, 
@@ -15007,10 +15011,34 @@
     }, 
     "19110481": {
       "time_iso": "2019-02-07 20:22:03", 
+      "kids": [
+        19110606
+      ], 
       "parent": 19110257, 
       "text": "I think part of the value of sharing knowledge and algorithmic implementations comes from getting feedback from other experts; like peer review and open science and teaching.<p>Case in point: the first algorithm on this list [1] of community contributed algorithms that were migrated to their new platform is \"minimum variance w/ constraint\" [2]. Said algorithm showed returns of over 200% as compared with 77% returns from the SPY S&amp;P 500 ETF over the same period, ceteris paribus. In the 69 replies, there are modifications by community members and the original author that exceed 300%.</p><p>Working together on open algorithms has positive returns that may exceed advantages of closed algorithmic development without peer review.</p><p>[1] <a href=\"https://www.quantopian.com/posts/community-algorithms-migrated-to-quantopian-2\" rel=\"nofollow\">https://www.quantopian.com/posts/community-algorithms-migrat...</a></p><p>[2] <a href=\"https://www.quantopian.com/posts/56b6021b3f3b36b519000924\" rel=\"nofollow\">https://www.quantopian.com/posts/56b6021b3f3b36b519000924</a></p>", 
       "id": 19110481, 
       "time": 1549588923, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19110606": {
+      "time_iso": "2019-02-07 20:39:57", 
+      "kids": [
+        19111911
+      ], 
+      "parent": 19110481, 
+      "text": "How well does it do in production though and what happens when multiple algos execute the same trades? Does it cause the rest of the algos to adapt and change results? It makes sense to back-test together and work on it, but if it's proven to work, someone will create something to monitor volume on those trades and work against it. I'd be curious to see the same algo do 300% in production, and if so, then my bias would be uncalled for.", 
+      "id": 19110606, 
+      "time": 1549589997, 
+      "type": "comment", 
+      "by": "marketgod"
+    }, 
+    "19111911": {
+      "time_iso": "2019-02-08 00:57:37", 
+      "parent": 19110606, 
+      "text": "&gt; <i>How well does it do in production though and what happens when multiple algos execute the same trades?</i><p>Price inflation.</p><p>&gt; <i>Does it cause the rest of the algos to adapt and change results?</i></p><p>Trading index ETFs? IDK</p><p>&gt; <i>It makes sense to back-test together and work on it, but if it's proven to work, someone will create something to monitor volume on those trades and work against it.</i></p><p>Why does it need to do lots of trades? Is it possible for anyone other than e.g. SEC to review trades by buyer or seller?</p><p>&gt; <i>I'd be curious to see the same algo do 300% in production, and if so, then my bias would be uncalled for.</i></p><p>pyfolio does tear sheets with Zipline algos: pyfolio/examples/zipline_algo_example.ipynb\n<a href=\"https://nbviewer.jupyter.org/github/quantopian/pyfolio/blob/master/pyfolio/examples/zipline_algo_example.ipynb\" rel=\"nofollow\">https://nbviewer.jupyter.org/github/quantopian/pyfolio/blob/...</a></p><p>alphalens does performance analysis of predictive factors:\nalphalens/examples/pyfolio_integration.ipynb\n<a href=\"https://nbviewer.jupyter.org/github/quantopian/alphalens/blob/master/alphalens/examples/pyfolio_integration.ipynb\" rel=\"nofollow\">https://nbviewer.jupyter.org/github/quantopian/alphalens/blo...</a></p><p>awesome-quant lists a bunch of other tools for algos and superalgos:\n<a href=\"https://github.com/wilsonfreitas/awesome-quant\" rel=\"nofollow\">https://github.com/wilsonfreitas/awesome-quant</a></p><p>What's a good platform for paper trading (with e.g. zipline or moonshot algorithms)?</p>", 
+      "id": 19111911, 
+      "time": 1549605457, 
       "type": "comment", 
       "by": "westurner"
     }
