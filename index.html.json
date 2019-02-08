@@ -14417,8 +14417,8 @@
         19080527, 
         19082400, 
         19080547, 
-        19084468, 
         19079061, 
+        19084468, 
         19083284, 
         19080380, 
         19086560, 
@@ -14549,8 +14549,8 @@
         19085085, 
         19083484, 
         19084374, 
-        19088106, 
         19083856, 
+        19088106, 
         19091422, 
         19085480, 
         19085203
@@ -14707,17 +14707,17 @@
         19097203, 
         19094612, 
         19095137, 
-        19095080, 
         19094672, 
+        19095080, 
         19095005, 
         19100505, 
         19096075, 
         19100056, 
         19101316, 
         19096344, 
-        19105067, 
         19094895, 
         19095104, 
+        19105067, 
         19103996, 
         19095847, 
         19100993, 
@@ -14810,7 +14810,7 @@
         19100474, 
         19100401
       ], 
-      "descendants": 282, 
+      "descendants": 285, 
       "url": "https://www.npr.org/2019/02/06/691944789/consumer-protection-bureau-aims-to-roll-back-rules-for-payday-lending", 
       "title": "Consumer Protection Bureau Aims to Roll Back Rules for Payday Lending", 
       "by": "pseudolus", 
@@ -14897,7 +14897,7 @@
       "kids": [
         19109333
       ], 
-      "descendants": 1, 
+      "descendants": 3, 
       "url": "https://hackernoon.com/superalgos-part-one-the-trading-singularity-6f66f419982f", 
       "title": "Superalgos and the Trading Singularity", 
       "by": "ciencias", 
@@ -14910,23 +14910,23 @@
       "time_iso": "2019-02-07 12:23:44", 
       "kids": [
         19107237, 
-        19108727, 
-        19108905, 
         19106941, 
+        19108727, 
         19108123, 
+        19108905, 
         19108940, 
         19108257, 
-        19109227, 
         19108003, 
+        19109227, 
         19107600, 
         19107533, 
         19106928
       ], 
-      "descendants": 75, 
+      "descendants": 81, 
       "url": "https://www.bloomberg.com/opinion/articles/2019-02-07/eternal-market-patience-offers-eternal-rewards", 
       "title": "Crunching 200 years of stock, bond, currency and commodity data", 
       "by": "chollida1", 
-      "score": 152, 
+      "score": 183, 
       "time": 1549560224, 
       "type": "story", 
       "id": 19106658
@@ -14934,11 +14934,11 @@
     "19107237": {
       "time_iso": "2019-02-07 13:33:41", 
       "kids": [
-        19108863, 
         19107991, 
-        19109178, 
+        19108863, 
         19108431, 
         19107530, 
+        19109178, 
         19107645
       ], 
       "parent": 19106658, 
@@ -14983,10 +14983,34 @@
     }, 
     "19109333": {
       "time_iso": "2019-02-07 17:37:33", 
+      "kids": [
+        19110257
+      ], 
       "parent": 19106512, 
       "text": "Though others didn't, you might find this interesting:\n\"Ask HN: Why would anyone share trading algorithms and compare by performance?\" \n<a href=\"https://news.ycombinator.com/item?id=15802785\" rel=\"nofollow\">https://news.ycombinator.com/item?id=15802785</a> ( <a href=\"https://westurner.github.io/hnlog/#story-15802785\" rel=\"nofollow\">https://westurner.github.io/hnlog/#story-15802785</a> )", 
       "id": 19109333, 
       "time": 1549579053, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19110257": {
+      "time_iso": "2019-02-07 19:52:14", 
+      "kids": [
+        19110481
+      ], 
+      "parent": 19109333, 
+      "text": "I think there is value in a back-testing module, however, sharing an algo doesn't make sense to me, until unless someone wants to buy mine for an absurd amount.", 
+      "id": 19110257, 
+      "time": 1549587134, 
+      "type": "comment", 
+      "by": "marketgod"
+    }, 
+    "19110481": {
+      "time_iso": "2019-02-07 20:22:03", 
+      "parent": 19110257, 
+      "text": "I think part of the value of sharing knowledge and algorithmic implementations comes from getting feedback from other experts; like peer review and open science and teaching.<p>Case in point: the first algorithm on this list [1] of community contributed algorithms that were migrated to their new platform is \"minimum variance w/ constraint\" [2]. Said algorithm showed returns of over 200% as compared with 77% returns from the SPY S&amp;P 500 ETF over the same period, ceteris paribus. In the 69 replies, there are modifications by community members and the original author that exceed 300%.</p><p>Working together on open algorithms has positive returns that may exceed advantages of closed algorithmic development without peer review.</p><p>[1] <a href=\"https://www.quantopian.com/posts/community-algorithms-migrated-to-quantopian-2\" rel=\"nofollow\">https://www.quantopian.com/posts/community-algorithms-migrat...</a></p><p>[2] <a href=\"https://www.quantopian.com/posts/56b6021b3f3b36b519000924\" rel=\"nofollow\">https://www.quantopian.com/posts/56b6021b3f3b36b519000924</a></p>", 
+      "id": 19110481, 
+      "time": 1549588923, 
       "type": "comment", 
       "by": "westurner"
     }
