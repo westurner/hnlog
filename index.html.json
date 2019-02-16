@@ -14727,7 +14727,7 @@
         19095681, 
         19095958
       ], 
-      "descendants": 172, 
+      "descendants": 173, 
       "url": "https://fs.blog/2019/02/compounding-knowledge/", 
       "title": "Compounding Knowledge", 
       "by": "golyi", 
@@ -15200,6 +15200,9 @@
     }, 
     "19124722": {
       "time_iso": "2019-02-09 16:22:27", 
+      "kids": [
+        19181453
+      ], 
       "parent": 19096382, 
       "text": "BTW, AQR funded the initial development of pandas; which now powers tools like alphalens (predictive factor analysis) and pyfolio.<p>There's your 'compounding knowledge'.</p>", 
       "id": 19124722, 
@@ -15324,15 +15327,17 @@
         19180817, 
         19180739, 
         19180946, 
-        19181362, 
         19180935, 
-        19180758
+        19181362, 
+        19180758, 
+        19181407, 
+        19181415
       ], 
       "descendants": 25, 
       "url": "https://cyber.dhs.gov/blog/#why-cisa-issued-our-first-emergency-directive", 
       "title": "Why CISA Issued Our First Emergency Directive", 
       "by": "ca98am79", 
-      "score": 93, 
+      "score": 97, 
       "time": 1550346570, 
       "type": "story", 
       "id": 19180567
@@ -15340,18 +15345,27 @@
     "19181362": {
       "time_iso": "2019-02-16 17:33:43", 
       "parent": 19180567, 
-      "text": "There are a number of efforts to secure DNS (and SSL/TLS which generally depends upon DNS; and upon which DNS-over-HTTPS depends) and the identity-proof systems which are used for record-change authentication and authorization.<p>Domain registrars can and SHOULD implement multi-factor authentication.\n<a href=\"https://en.wikipedia.org/wiki/Multi-factor_authentication\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Multi-factor_authentication</a></p><p>Are there domain registrars that support FIDO/U2F or the new W3C WebAuthn spec?\n<a href=\"https://en.wikipedia.org/wiki/WebAuthn\" rel=\"nofollow\">https://en.wikipedia.org/wiki/WebAuthn</a></p><p>Credentials and blockchains (and biometrics): <a href=\"https://gist.github.com/westurner/4345987bb29fca700f52163c339a270f\" rel=\"nofollow\">https://gist.github.com/westurner/4345987bb29fca700f52163c33...</a></p><p>DNSSEC: <a href=\"https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Domain_Name_System_Security_Ex...</a></p><p>ACME / LetsEncrypt certs expire after 3 months (*) and require various proofs of domain ownership:\n<a href=\"https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Automated_Certificate_Manageme...</a></p><p>Certificate Transparency:\n<a href=\"https://en.wikipedia.org/wiki/Certificate_Transparency\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Certificate_Transparency</a></p><p>Certs on the Blockchain:\n\"Can we merge Certificate Transparency with blockchain?\" <a href=\"https://news.ycombinator.com/item?id=18961724\" rel=\"nofollow\">https://news.ycombinator.com/item?id=18961724</a></p><p>Namecoin (decentralized blockchain DNS): <a href=\"https://en.wikipedia.org/wiki/Namecoin\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Namecoin</a></p><p>DNSCrypt:\n<a href=\"https://en.wikipedia.org/wiki/DNSCrypt\" rel=\"nofollow\">https://en.wikipedia.org/wiki/DNSCrypt</a></p><p>DNS over HTTPS:\n<a href=\"https://en.wikipedia.org/wiki/DNS_over_HTTPS\" rel=\"nofollow\">https://en.wikipedia.org/wiki/DNS_over_HTTPS</a></p><p>DNS over TLS:\n<a href=\"https://en.wikipedia.org/wiki/DNS_over_TLS\" rel=\"nofollow\">https://en.wikipedia.org/wiki/DNS_over_TLS</a></p><p>DNS:\n<a href=\"https://en.wikipedia.org/wiki/Domain_Name_System\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Domain_Name_System</a></p>", 
+      "text": "There are a number of efforts to secure DNS (and SSL/TLS which generally depends upon DNS; and upon which DNS-over-HTTPS depends) and the <i>identity proof</i> systems which are used for record-change authentication and authorization.<p>Domain registrars can and SHOULD implement multi-factor authentication.\n<a href=\"https://en.wikipedia.org/wiki/Multi-factor_authentication\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Multi-factor_authentication</a></p><p>Are there domain registrars that support FIDO/U2F or the new W3C WebAuthn spec?\n<a href=\"https://en.wikipedia.org/wiki/WebAuthn\" rel=\"nofollow\">https://en.wikipedia.org/wiki/WebAuthn</a></p><p>Credentials and blockchains (and biometrics): <a href=\"https://gist.github.com/westurner/4345987bb29fca700f52163c339a270f\" rel=\"nofollow\">https://gist.github.com/westurner/4345987bb29fca700f52163c33...</a></p><p>DNSSEC: <a href=\"https://en.wikipedia.org/wiki/Domain_Name_System_Security_Extensions\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Domain_Name_System_Security_Ex...</a></p><p>ACME / LetsEncrypt certs expire after 3 months (*) and require various proofs of domain ownership:\n<a href=\"https://en.wikipedia.org/wiki/Automated_Certificate_Management_Environment\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Automated_Certificate_Manageme...</a></p><p>Certificate Transparency:\n<a href=\"https://en.wikipedia.org/wiki/Certificate_Transparency\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Certificate_Transparency</a></p><p>Certs on the Blockchain:\n\"Can we merge Certificate Transparency with blockchain?\" <a href=\"https://news.ycombinator.com/item?id=18961724\" rel=\"nofollow\">https://news.ycombinator.com/item?id=18961724</a></p><p>Namecoin (decentralized blockchain DNS): <a href=\"https://en.wikipedia.org/wiki/Namecoin\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Namecoin</a></p><p>DNSCrypt:\n<a href=\"https://en.wikipedia.org/wiki/DNSCrypt\" rel=\"nofollow\">https://en.wikipedia.org/wiki/DNSCrypt</a></p><p>DNS over HTTPS:\n<a href=\"https://en.wikipedia.org/wiki/DNS_over_HTTPS\" rel=\"nofollow\">https://en.wikipedia.org/wiki/DNS_over_HTTPS</a></p><p>DNS over TLS:\n<a href=\"https://en.wikipedia.org/wiki/DNS_over_TLS\" rel=\"nofollow\">https://en.wikipedia.org/wiki/DNS_over_TLS</a></p><p>DNS:\n<a href=\"https://en.wikipedia.org/wiki/Domain_Name_System\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Domain_Name_System</a></p>", 
       "id": 19181362, 
       "time": 1550356423, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19181453": {
+      "time_iso": "2019-02-16 17:54:39", 
+      "parent": 19124722, 
+      "text": "(Days later)<p>\"7 Best Community-Built Value Investing Algorithms Using Fundamentals\" <a href=\"https://blog.quantopian.com/fundamentals-contest-winners/\" rel=\"nofollow\">https://blog.quantopian.com/fundamentals-contest-winners/</a></p><p>(The Zipline backtesting library also builds upon Pandas)</p><p>How can we factor ESG/sustainability reporting into these fundamentals-driven algorithms in order to save the world?</p>", 
+      "id": 19181453, 
+      "time": 1550357679, 
       "type": "comment", 
       "by": "westurner"
     }
   }, 
   "roots": [
+    19094502, 
     19180567, 
     19168442, 
     19123430, 
-    19094502, 
     19106512, 
     19106658, 
     19099091, 
