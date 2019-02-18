@@ -117,7 +117,7 @@
         <td>2019-02-18 10:13:02</td>
         <td><a href="#story-19191178">A faster, more efficient cryptocurrency</a></td>
         <td><a href="https://news.ycombinator.com/user?id=salvadormon">salvadormon</a></td>
-        <td>226</td>
+        <td>369</td>
     </tr>
     
     <tr scope="row" >
@@ -2031,7 +2031,7 @@
           <a href="https://news.ycombinator.com/user?id=salvadormon">salvadormon</a> |
           <a href="https://news.ycombinator.com/item?id=19191178"
           
-          >2019-02-18 10:13:02</a> | 226  | <a href="#story-19191178">#</a> | <a href="#" class="toplink">^</a>
+          >2019-02-18 10:13:02</a> | 369  | <a href="#story-19191178">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="http://news.mit.edu/2019/vault-faster-more-efficient-cryptocurrency-0124" rel="nofollow">http://news.mit.edu/2019/vault-faster-more-efficient-cryptocurrency-0124</a></span>
@@ -2094,7 +2094,42 @@ Some context may be helpful first, though. This paper is an innovation about one
         </div>
         
         <p class="card-text">And what of decentralized premined chains (with no PoW, no PoS, and far less energy use) that release coins with escrow smart contracts over time such as Ripple and Stellar (and close a new ledger every few seconds)?<p>&gt; <i>Algorand has a very fast consensus mechanism and can add blocks as quickly as the network can deliver them. We become a victim of our success. The blockchain will grow very rapidly. A terabyte a month is possible. The storage issue associated with our performance can quickly become an issue. The Vault paper is focused on solving this and other storage scaling problems.</i></p><p>What prevents a person from using a chain like IPFS?</p><p>Ethereum Casper PoS has been under review for quite some time.</p><p>Why isn't all Bitcoin on Lightning Network?</p><p>Bitcoin <i>could</i> make bootstrapping faster by choosing a considered-good blockhash and balances, but
-AFAIU, re-verifying transactions like Bitcoin and derivatives do prevents hash collision attacks that are currently considered infeasible for SHA-256 (especially given a low block size).</p><p>There was an analysis somewhere where they calculated the cloud server instance costs of mounting a ~51% attack (which applies to PoW chains) for various blockchains.</p><p>Bitcoin is not profitable to mine in places without heavily subsidized dirty/clean energy anymore: energy and Bitcoin commodity costs and prices have intersected. They'll need any of: inexpensive <i>clean energy</i>, more efficient chips, higher speculative value.</p><p>Energy arbitrage (grid-scale energy storage) may be more profitable now. We need energy storage in order to reach 100% renewable energy (regardless of floundering policy support).</p></p></div>
+AFAIU, re-verifying transactions like Bitcoin and derivatives do prevents hash collision attacks that are currently considered infeasible for SHA-256 (especially given a low block size).</p><p>There was an analysis somewhere where they calculated the cloud server instance costs of mounting a ~51% attack (which applies to PoW chains) for various blockchains.</p><p>Bitcoin is not profitable to mine in places without heavily subsidized dirty/clean energy anymore: energy and Bitcoin commodity costs and prices have intersected. They'll need any of: inexpensive <i>clean energy</i>, more efficient chips, higher speculative value.</p><p>Energy arbitrage (grid-scale energy storage) may be more profitable now. We need energy storage in order to reach 100% renewable energy (regardless of floundering policy support).</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-19194588">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19194588-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19194588-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=identity_zero">identity_zero</a> |
+          <a href="https://news.ycombinator.com/item?id=19194588"
+          id="comment-19194588"
+          >2019-02-18 16:24:15</a> | <a href="#comment-19194588">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Ripple is not decentralized. I don't know enough about Stellar to answer.<p>Bitcoin is software and can easily implement these features but the community is divided and can't reach consensus on anything. Lightning Network as layer two solution is pretty good from what I know.</p><p>Ethereum improvements are coming along very slowly and that's good. They're the only blockchain with active engagement by thousands of multiple parties.</p><p>Aragaon and Vault's papers might sound good, but who knows how they'll turn out in production.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19195050">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19195050-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19195050-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19195050"
+          id="comment-19195050"
+          >2019-02-18 17:24:59</a> | <a href="#comment-19195050">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">People argue this all day. There's a lot of FUD.<p>Ripple only runs ~7% of validator nodes; which is far less centralized control than major Bitcoin mining pools and businesses (who do the deciding in regards to the many Bitcoin hard forks); that's one form of decentralization.</p><p>Ripple clients can use their own UNL or use the Ripple-approved UNL.</p><p>Ripple is traded on a number of exchanges (though fewer than Bitcoin for certain); that's another form of decentralization.</p><p>As an open standard, ILP will further reduce vendor lock in (and increase interoperability between) networks that choose to implement it.</p><p>There are forks of Ripple (e.g. Stellar) just like there are forks of Bitcoin and Ethereum.</p><p>From 
+<a href="https://ripple.com/insights/the-inherently-decentralized-nature-of-xrp-ledger/" rel="nofollow">https://ripple.com/insights/the-inherently-decentralized-nat...</a> :</p><p>&gt; <i>In contrast, the XRP Ledger requires 80 percent of validators on the entire network, over a two-week period, to continuously support a change before it is applied. Of the approximately 150 validators today, Ripple runs only 10. Unlike Bitcoin and Ethereum — where one miner could have 51 percent of the hashing power — each Ripple validator only has one vote in support of an exchange or ordering a transaction.</i></p><p>How does your definition of 'decentralized' differ?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
