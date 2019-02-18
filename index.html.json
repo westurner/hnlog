@@ -15250,25 +15250,26 @@
         19169175, 
         19169951, 
         19170808, 
-        19181068, 
         19169366, 
         19169808, 
+        19188231, 
         19169243, 
+        19181068, 
         19171240, 
         19168717, 
         19172772, 
         19169720, 
-        19172528, 
-        19170058, 
         19169176, 
+        19170058, 
+        19172528, 
         19170902, 
         19169544, 
         19168661, 
         19172241, 
         19170069, 
         19168759, 
-        19174048, 
         19171106, 
+        19174048, 
         19169848, 
         19169493, 
         19168836, 
@@ -15286,11 +15287,11 @@
         19169970, 
         19168616
       ], 
-      "descendants": 315, 
+      "descendants": 317, 
       "url": "https://www.chromestory.com/2019/02/chrome-scroll-to-text/", 
       "title": "Chrome will Soon Let You Share Links to a Specific Word or Sentence on a Page", 
       "by": "kumaranvpl", 
-      "score": 353, 
+      "score": 358, 
       "time": 1550204531, 
       "type": "story", 
       "id": 19168442
@@ -15320,6 +15321,27 @@
       "type": "comment", 
       "by": "westurner"
     }, 
+    "19178231": {
+      "time_iso": "2019-02-16 06:55:28", 
+      "kids": [
+        19182772, 
+        19183965, 
+        19183605, 
+        19187234, 
+        19186333, 
+        19181986, 
+        19184472, 
+        19184641
+      ], 
+      "descendants": 27, 
+      "url": "https://phys.org/news/2019-02-reverse-cool-future.html", 
+      "title": "Running an LED in reverse could cool future computers", 
+      "by": "ChrisGranger", 
+      "score": 45, 
+      "time": 1550318128, 
+      "type": "story", 
+      "id": 19178231
+    }, 
     "19180567": {
       "time_iso": "2019-02-16 14:49:30", 
       "kids": [
@@ -15330,16 +15352,16 @@
         19180739, 
         19180758, 
         19180935, 
-        19182632, 
         19181362, 
         19181407, 
-        19181415
+        19181415, 
+        19182632
       ], 
-      "descendants": 57, 
+      "descendants": 61, 
       "url": "https://cyber.dhs.gov/blog/#why-cisa-issued-our-first-emergency-directive", 
       "title": "Why CISA Issued Our First Emergency Directive", 
       "by": "ca98am79", 
-      "score": 201, 
+      "score": 207, 
       "time": 1550346570, 
       "type": "story", 
       "id": 19180567
@@ -15369,11 +15391,11 @@
         19184690, 
         19185311
       ], 
-      "descendants": 10, 
+      "descendants": 14, 
       "url": "https://github.com/hashbang/git-signatures", 
       "title": "Git-signatures \u2013 Multiple PGP signatures for your commits", 
       "by": "Couto", 
-      "score": 41, 
+      "score": 73, 
       "time": 1550400731, 
       "type": "story", 
       "id": 19183803
@@ -15396,6 +15418,7 @@
       "time_iso": "2019-02-17 12:39:19", 
       "kids": [
         19186012, 
+        19188024, 
         19185843
       ], 
       "parent": 19185311, 
@@ -15429,16 +15452,50 @@
     }, 
     "19186012": {
       "time_iso": "2019-02-17 13:41:54", 
+      "kids": [
+        19190372
+      ], 
       "parent": 19185648, 
       "text": "&gt; <i>I think it is probably in the class of problems where there are no great foolproof solutions. However, I can imagine that techniques like certificate transparency (all signed x509 certificates pushed to a shared log) would be quite useful.</i><p>Securing DNS: \"<a href=\"https://news.ycombinator.com/item?id=19181362\" rel=\"nofollow\">https://news.ycombinator.com/item?id=19181362\"</a></p><p>&gt; <i>Certs on the Blockchain: \"Can we merge Certificate Transparency with blockchain?\" <a href=\"https://news.ycombinator.com/item?id=18961724\" rel=\"nofollow\">https://news.ycombinator.com/item?id=18961724</a> </i></p><p>&gt; <i>Namecoin (decentralized blockchain DNS): <a href=\"https://en.wikipedia.org/wiki/Namecoin\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Namecoin</a> </i></p>", 
       "id": 19186012, 
       "time": 1550428914, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "19186333": {
+      "time_iso": "2019-02-17 14:33:06", 
+      "parent": 19178231, 
+      "text": "\"Near-field photonic cooling through control of the chemical potential of photons\" (2019) <a href=\"https://www.nature.com/articles/s41586-019-0918-8\" rel=\"nofollow\">https://www.nature.com/articles/s41586-019-0918-8</a>", 
+      "id": 19186333, 
+      "time": 1550431986, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19190372": {
+      "time_iso": "2019-02-18 08:08:54", 
+      "kids": [
+        19191794
+      ], 
+      "parent": 19186012, 
+      "text": "(Your first link is broken.)<p>My main problem with blockchain is the excessive energy consumption of PoW. I know there are PoS efforts, but they seem problematical.</p><p>I like the recent CertLedger paper:\n<a href=\"https://eprint.iacr.org/2018/1071.pdf\" rel=\"nofollow\">https://eprint.iacr.org/2018/1071.pdf</a></p>", 
+      "id": 19190372, 
+      "time": 1550495334, 
+      "type": "comment", 
+      "by": "angry_octet"
+    }, 
+    "19191794": {
+      "time_iso": "2019-02-18 11:25:59", 
+      "parent": 19190372, 
+      "text": "My mistake. How ironic. Everything depends upon the red wheelbarrow. Here's that link without the trailing \":\n<a href=\"https://news.ycombinator.com/item?id=19181362\" rel=\"nofollow\">https://news.ycombinator.com/item?id=19181362</a><p>&gt; <i>My main problem with blockchain is the excessive energy consumption of PoW. I know there are PoS efforts, but they seem problematical.</i></p><p>One report said that 78% of Bitcoin energy usage is from renewable sources (many of which would otherwise be curtailed and otherwise unfunded due to flat-to-falling demand for electricity). But PoW really is expensive and hopefully the market will choose less energy-inefficient solutions from the existing and future blockchain solutions while keeping equal or better security assurances.</p><p>&gt;&gt; <i>Proof of Work (Bitcoin, ...), Proof of Stake (Ethereum Casper), Proof of Space, Proof of Research (GridCoin, CureCoin,)</i></p><p>The spec should be: DOS resistant, no one entity with control over API and/or database credentials and database backups and the clock, and immutable.</p><p>Immutability really cannot be ensured with hashed records that incorporate the previous record's hash as a salt in a blocking centralized database because someone ultimately has root and the clock and all the backups and code vulnerable to e.g. [No]SQL injection; though distributed 'replication' and detection of record modification could be implemented. git push -f may be detected if it's on an already-replicated branch; but git depends upon local timestamps. google/trillian does Merkle trees in a centralized database (for Certificate Transparency).</p><p>In quickly reading the git-signatures shell script sources, I wasn't certain whether the git-notes branch with the .gitsigners that are fetched from all n keyservers (with DNS) is also signed?</p><p>I also like the \"Table 1: Security comparison of Log Based Approaches to Certificate\nManagement\" in the CertLedger paper. Others are far more qualified to compare implementations.</p>", 
+      "id": 19191794, 
+      "time": 1550507159, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
     19183803, 
+    19178231, 
     19094502, 
     19180567, 
     19168442, 
