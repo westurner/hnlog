@@ -15518,8 +15518,8 @@
         19191278, 
         19192889, 
         19194013, 
-        19195075, 
         19191890, 
+        19195075, 
         19196079, 
         19194675, 
         19195443, 
@@ -15647,19 +15647,20 @@
     "19210941": {
       "time_iso": "2019-02-20 14:08:47", 
       "kids": [
-        19214650, 
         19214013, 
         19213976, 
         19213997, 
         19214435, 
+        19214650, 
+        19215110, 
         19214130, 
         19213645
       ], 
-      "descendants": 9, 
+      "descendants": 11, 
       "url": "https://phys.org/news/2019-02-central-ideas-economics.html", 
       "title": "When does the concept of equilibrium work in economics?", 
       "by": "dnetesn", 
-      "score": 32, 
+      "score": 34, 
       "time": 1550689727, 
       "type": "story", 
       "id": 19210941
@@ -15667,25 +15668,33 @@
     "19214387": {
       "time_iso": "2019-02-20 22:53:23", 
       "kids": [
-        19214661, 
         19214577, 
-        19214673, 
+        19214731, 
+        19214894, 
+        19214661, 
         19214617, 
+        19214673, 
+        19214924, 
+        19214873, 
         19214626, 
         19214556, 
-        19214580
+        19214580, 
+        19214774
       ], 
-      "descendants": 12, 
+      "descendants": 75, 
       "url": "https://github.com/lemire/simdjson", 
       "title": "Simdjson \u2013 Parsing Gigabytes of JSON per Second", 
       "by": "cmsimike", 
-      "score": 50, 
+      "score": 204, 
       "time": 1550721203, 
       "type": "story", 
       "id": 19214387
     }, 
     "19214650": {
       "time_iso": "2019-02-20 23:54:11", 
+      "kids": [
+        19215197
+      ], 
       "parent": 19210941, 
       "text": "\"Modeling stock return distributions with a quantum harmonic oscillator\" (2018)\n<a href=\"https://iopscience.iop.org/article/10.1209/0295-5075/120/38003\" rel=\"nofollow\">https://iopscience.iop.org/article/10.1209/0295-5075/120/380...</a><p>&gt; <i>We propose a quantum harmonic oscillator as a model for the market force which draws a stock return from short-run fluctuations to the long-run equilibrium. The stochastic equation governing our model is transformed into a Schr\u00f6dinger equation, the solution of which features \"quantized\" eigenfunctions. Consequently, stock returns follow a mixed \u03c7 distribution, which describes Gaussian and non-Gaussian features. Analyzing the Financial Times Stock Exchange (FTSE) All Share Index, we demonstrate that our model outperforms traditional stochastic process models, e.g., the geometric Brownian motion and the Heston model, with smaller fitting errors and better goodness-of-fit statistics. In addition, making use of analogy, we provide an economic rationale of the physics concepts such as the eigenstate, eigenenergy, and angular frequency, which sheds light on the relationship between finance and econophysics literature.</i></p><p>\"Quantum harmonic oscillator\"\n<a href=\"https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Quantum_harmonic_oscillator</a></p>", 
       "id": 19214650, 
@@ -15695,17 +15704,72 @@
     }, 
     "19214673": {
       "time_iso": "2019-02-20 23:59:25", 
+      "kids": [
+        19214714
+      ], 
       "parent": 19214387, 
       "text": "&gt; <i>Requirements: [\u2026] A processor with AVX2 (i.e., Intel processors starting with the Haswell microarchitecture released 2013, and processors from AMD starting with the Rizen)</i>", 
       "id": 19214673, 
       "time": 1550725165, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "19214714": {
+      "time_iso": "2019-02-21 00:09:35", 
+      "kids": [
+        19214769
+      ], 
+      "parent": 19214673, 
+      "text": "Also noteworthy that on Intel at least, using AVX/AVX2 reduces the frequency of the CPU for a while. It can even go below base clock.", 
+      "id": 19214714, 
+      "time": 1550725775, 
+      "type": "comment", 
+      "by": "aristidb"
+    }, 
+    "19214769": {
+      "time_iso": "2019-02-21 00:29:19", 
+      "kids": [
+        19214991, 
+        19214919
+      ], 
+      "parent": 19214714, 
+      "text": "iirc, it's complicated. Some instructions don't reduce the frequency; some reduce it a little; some reduce it a lot.<p>I'm not sure AVX2 is as ubiquitous as the README says: \"We assume AVX2 support which is available in all recent mainstream x86 processors produced by AMD and Intel.\"</p><p>I guess \"mainstream\" is somewhat subjective, but some recent Chromebooks have Celeron processors with no AVX2:</p><p><a href=\"https://us-store.acer.com/chromebook-14-cb3-431-c5fm\" rel=\"nofollow\">https://us-store.acer.com/chromebook-14-cb3-431-c5fm</a></p><p><a href=\"https://ark.intel.com/products/91831/Intel-Celeron-Processor-N3160-2M-Cache-up-to-2_24-GHz\" rel=\"nofollow\">https://ark.intel.com/products/91831/Intel-Celeron-Processor...</a></p>", 
+      "id": 19214769, 
+      "time": 1550726959, 
+      "type": "comment", 
+      "by": "scottlamb"
+    }, 
+    "19214919": {
+      "time_iso": "2019-02-21 01:10:36", 
+      "parent": 19214769, 
+      "text": "Because someone wanting 2.2GB/s JSON parsing is deploying to a chromebook...", 
+      "id": 19214919, 
+      "time": 1550729436, 
+      "type": "comment", 
+      "by": "Ultimatt"
+    }, 
+    "19214991": {
+      "time_iso": "2019-02-21 01:36:11", 
+      "parent": 19214769, 
+      "text": "AVX2 also incurs some pretty large penalties for switching between SSE and AVX2. Depending on the amount of time taken in the library between calls, it could be problematic.<p>This looks mostly applicable to server scenarios where the runtime environment is highly controlled.</p>", 
+      "id": 19214991, 
+      "time": 1550730971, 
+      "type": "comment", 
+      "by": "sitkack"
+    }, 
+    "19215197": {
+      "time_iso": "2019-02-21 02:33:23", 
+      "parent": 19214650, 
+      "text": "\"Econophysics\" <a href=\"https://en.wikipedia.org/wiki/Econophysics\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Econophysics</a><p>&gt; <i>Indeed, as shown by Bruna Ingrao and Giorgio Israel, general equilibrium theory in economics is based on the physical concept of mechanical equilibrium.</i></p>", 
+      "id": 19215197, 
+      "time": 1550734403, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
-    19214387, 
     19210941, 
+    19214387, 
     19191178, 
     19183803, 
     19178231, 
