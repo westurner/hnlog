@@ -15842,12 +15842,12 @@
       "kids": [
         19256347, 
         19256225, 
-        19259330, 
         19256624, 
         19255949, 
         19258647, 
         19258760, 
         19257029, 
+        19259330, 
         19258509, 
         19255973, 
         19255913, 
@@ -15861,11 +15861,11 @@
         19256588, 
         19256094
       ], 
-      "descendants": 101, 
+      "descendants": 102, 
       "url": "https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/", 
       "title": "Top ten most popular docker images each contain at least 30 vulnerabilities", 
       "by": "vinnyglennon", 
-      "score": 405, 
+      "score": 411, 
       "time": 1551198281, 
       "type": "story", 
       "id": 19255603
@@ -15951,10 +15951,22 @@
     }, 
     "19259299": {
       "time_iso": "2019-02-26 18:11:21", 
+      "kids": [
+        19259459
+      ], 
       "parent": 19258117, 
       "text": "I don't think this is a tooling problem at all.<p>\"The tooling makes it too easy to do it wrong.\" Compared to shell scripts with package manager invocations?\nNobody configures a system with just packages: there are always scripts to call, chroots to create, users and groups to create, passwords to set, firewall policies to update, etc.</p><p>There are a bunch of ways to create LXC containers: shell scripts, Docker, ansible. Shell scripts preceded Docker: you can write a function to stop, create an intermediate tarball, and then proceed (so that you don't have to run e.g. debootstrap without a mirror every time you manually test your system build script; so that you can cache build steps that completed successfully).</p><p>With Docker images, the correct thing to do is to extend FROM the image you want to use, build the whole thing yourself, and then tag and store your image in a container repository. Neither should you rely upon months-old liveCD images.</p><p>\"You should just build containers on busybox.\" So, no package management? A whole ensemble of custom builds to manually maintain (with no AppArmor or SELinux labels)? Maintainers may prefer for distros to field bug reports for their own common build configurations and known-good package sets. Please don't run as root in a container (\"because it's only a container that'll get restarted someday\"). Busybox is not a sufficient OS distribution.</p><p>It's not the tools, it's how people are choosing to use them. They can, could, and should try and use idempotent package management tasks within their container build scripts; but they don't and that's not Bash/Ash/POSIX's fault either.</p>", 
       "id": 19259299, 
       "time": 1551222681, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19259459": {
+      "time_iso": "2019-02-26 18:35:43", 
+      "parent": 19259299, 
+      "text": "&gt; <i>With Docker images, the correct thing to do is to extend FROM the image you want to use, build the whole thing yourself, and then tag and store your image in a container repository. Neither should you rely upon months-old liveCD images.</i><p>This should rebuild all.\nThere should be an e.g. `apt-get upgrade -y  &amp;&amp; rm -rf /var/lib/apt/lists` in there somewhere (because base images are usually not totally current (and neither are install ISOs)).</p><p>`docker build --no-cache --pull`</p><p>You should check that each Dockerfile extends FROM `tag:latest` or the latest version of the tag that you support. Its' not magical, you do have to work it.</p><p>Also, IMHO, Docker SHOULD NOT create another Linux distribution.</p>", 
+      "id": 19259459, 
+      "time": 1551224143, 
       "type": "comment", 
       "by": "westurner"
     }

@@ -117,7 +117,7 @@
         <td>2019-02-26 11:24:41</td>
         <td><a href="#story-19255603">Top ten most popular docker images each contain at least 30 vulnerabilities</a></td>
         <td><a href="https://news.ycombinator.com/user?id=vinnyglennon">vinnyglennon</a></td>
-        <td>405</td>
+        <td>411</td>
     </tr>
     
     <tr scope="row" >
@@ -2059,7 +2059,7 @@
           <a href="https://news.ycombinator.com/user?id=vinnyglennon">vinnyglennon</a> |
           <a href="https://news.ycombinator.com/item?id=19255603"
           
-          >2019-02-26 11:24:41</a> | 405  | <a href="#story-19255603">#</a> | <a href="#" class="toplink">^</a>
+          >2019-02-26 11:24:41</a> | 411  | <a href="#story-19255603">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/" rel="nofollow">https://snyk.io/blog/top-ten-most-popular-docker-images-each-contain-at-least-30-vulnerabilities/</a></span>
@@ -2149,7 +2149,25 @@
         </div>
         
         <p class="card-text">I don't think this is a tooling problem at all.<p>"The tooling makes it too easy to do it wrong." Compared to shell scripts with package manager invocations?
-Nobody configures a system with just packages: there are always scripts to call, chroots to create, users and groups to create, passwords to set, firewall policies to update, etc.</p><p>There are a bunch of ways to create LXC containers: shell scripts, Docker, ansible. Shell scripts preceded Docker: you can write a function to stop, create an intermediate tarball, and then proceed (so that you don't have to run e.g. debootstrap without a mirror every time you manually test your system build script; so that you can cache build steps that completed successfully).</p><p>With Docker images, the correct thing to do is to extend FROM the image you want to use, build the whole thing yourself, and then tag and store your image in a container repository. Neither should you rely upon months-old liveCD images.</p><p>"You should just build containers on busybox." So, no package management? A whole ensemble of custom builds to manually maintain (with no AppArmor or SELinux labels)? Maintainers may prefer for distros to field bug reports for their own common build configurations and known-good package sets. Please don't run as root in a container ("because it's only a container that'll get restarted someday"). Busybox is not a sufficient OS distribution.</p><p>It's not the tools, it's how people are choosing to use them. They can, could, and should try and use idempotent package management tasks within their container build scripts; but they don't and that's not Bash/Ash/POSIX's fault either.</p></p></div>
+Nobody configures a system with just packages: there are always scripts to call, chroots to create, users and groups to create, passwords to set, firewall policies to update, etc.</p><p>There are a bunch of ways to create LXC containers: shell scripts, Docker, ansible. Shell scripts preceded Docker: you can write a function to stop, create an intermediate tarball, and then proceed (so that you don't have to run e.g. debootstrap without a mirror every time you manually test your system build script; so that you can cache build steps that completed successfully).</p><p>With Docker images, the correct thing to do is to extend FROM the image you want to use, build the whole thing yourself, and then tag and store your image in a container repository. Neither should you rely upon months-old liveCD images.</p><p>"You should just build containers on busybox." So, no package management? A whole ensemble of custom builds to manually maintain (with no AppArmor or SELinux labels)? Maintainers may prefer for distros to field bug reports for their own common build configurations and known-good package sets. Please don't run as root in a container ("because it's only a container that'll get restarted someday"). Busybox is not a sufficient OS distribution.</p><p>It's not the tools, it's how people are choosing to use them. They can, could, and should try and use idempotent package management tasks within their container build scripts; but they don't and that's not Bash/Ash/POSIX's fault either.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-19259459">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19259459-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19259459-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19259459"
+          id="comment-19259459"
+          >2019-02-26 18:35:43</a> | <a href="#comment-19259459">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>With Docker images, the correct thing to do is to extend FROM the image you want to use, build the whole thing yourself, and then tag and store your image in a container repository. Neither should you rely upon months-old liveCD images.</i><p>This should rebuild all.
+There should be an e.g. `apt-get upgrade -y  &amp;&amp; rm -rf /var/lib/apt/lists` in there somewhere (because base images are usually not totally current (and neither are install ISOs)).</p><p>`docker build --no-cache --pull`</p><p>You should check that each Dockerfile extends FROM `tag:latest` or the latest version of the tag that you support. Its' not magical, you do have to work it.</p><p>Also, IMHO, Docker SHOULD NOT create another Linux distribution.</p></p></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
