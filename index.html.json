@@ -16146,22 +16146,83 @@
       "type": "comment", 
       "by": "photon_lines"
     }, 
+    "19448678": {
+      "time_iso": "2019-03-20 21:56:26", 
+      "kids": [
+        19452757, 
+        19450366, 
+        19449441, 
+        19451630, 
+        19452058, 
+        19449658, 
+        19450089, 
+        19449344, 
+        19452236, 
+        19451587, 
+        19450296, 
+        19450617, 
+        19449851, 
+        19451120, 
+        19449415, 
+        19450109, 
+        19449549, 
+        19450112, 
+        19451095, 
+        19449519, 
+        19450370, 
+        19450832, 
+        19449574, 
+        19450748, 
+        19449464, 
+        19450995, 
+        19450223, 
+        19449666, 
+        19450672, 
+        19449434, 
+        19449716, 
+        19449633, 
+        19450388, 
+        19449663, 
+        19450784, 
+        19450407, 
+        19449752, 
+        19449474, 
+        19449456, 
+        19449704, 
+        19449659, 
+        19449938, 
+        19449559, 
+        19449675, 
+        19449424, 
+        19449418, 
+        19449945
+      ], 
+      "descendants": 164, 
+      "url": "https://castel.dev/post/lecture-notes-1/", 
+      "title": "How I'm able to take notes in mathematics lectures using LaTeX and Vim", 
+      "by": "tambourine_man", 
+      "score": 497, 
+      "time": 1553133386, 
+      "type": "story", 
+      "id": 19448678
+    }, 
     "19449279": {
       "time_iso": "2019-03-21 00:22:37", 
       "kids": [
         19449517, 
+        19452163, 
         19449330, 
         19450429, 
         19449383, 
         19449524, 
-        19451119, 
+        19451037, 
         19449494, 
         19449507, 
         19449934, 
-        19451037, 
+        19449976, 
         19450155, 
         19449607, 
-        19449976, 
+        19451119, 
         19449496, 
         19449414, 
         19449564, 
@@ -16169,24 +16230,48 @@
         19450252, 
         19449360
       ], 
-      "descendants": 60, 
+      "descendants": 72, 
       "url": "https://reacttraining.com/blog/react-router-v5/", 
       "title": "React Router v5", 
       "by": "jsdev93", 
-      "score": 109, 
+      "score": 129, 
       "time": 1553142157, 
       "type": "story", 
       "id": 19449279
     }, 
+    "19449441": {
+      "time_iso": "2019-03-21 01:22:54", 
+      "kids": [
+        19449648, 
+        19449490, 
+        19450256, 
+        19449565, 
+        19449719, 
+        19451402, 
+        19451078, 
+        19449626, 
+        19450901, 
+        19450267, 
+        19449664
+      ], 
+      "parent": 19448678, 
+      "text": "As a feat in itself this is definitely very impressive, but I wonder if it's really worth anyone's time to spend precious lecture time with your mind fully occupied in the mechanical task of taking notes rather than actually absorbing and engaging with the content. Especially for an extremely content-dense subject like Mathematics, where you need all your concentration just to process what you are reading and follow along the logic.<p>There is absolutely no dearth of study material on the internet. It's one thing to take notes as part of your study process. There it helps solidify your understanding. But surely taking notes on the fly when you have been barely introduced to the subject isn't going to help with that.</p>", 
+      "id": 19449441, 
+      "time": 1553145774, 
+      "type": "comment", 
+      "by": "kinkrtyavimoodh"
+    }, 
     "19449517": {
       "time_iso": "2019-03-21 01:48:14", 
       "kids": [
+        19452744, 
+        19452173, 
         19449597, 
         19449545, 
         19450770, 
         19449603, 
-        19449581, 
-        19449563
+        19449563, 
+        19449581
       ], 
       "parent": 19449279, 
       "text": "Using react router on one of my personal projects (~ 30k loc) was probably one of my largest regrets. At every turn it seemed designed to do the thing I wouldn\u2019t expect, or have arbitrary restrictions that made my life tougher.<p>Some examples:</p><p>* there's no relative routes <a href=\"https://github.com/ReactTraining/react-router/issues/2172\" rel=\"nofollow\">https://github.com/ReactTraining/react-router/issues/2172</a></p><p>* there's no way to refresh the page <a href=\"https://github.com/ReactTraining/react-router/issues/1982\" rel=\"nofollow\">https://github.com/ReactTraining/react-router/issues/1982</a> (\"that's your responsibility, not ours\")</p><p>* The scroll position will stick when you navigate to a new route, causing you to need to create a custom component wrapper to manage scrolling <a href=\"https://github.com/ReactTraining/react-router/issues/3950\" rel=\"nofollow\">https://github.com/ReactTraining/react-router/issues/3950</a></p><p>* React router's &lt;link&gt; do not allow you to link outside of the current site <a href=\"https://github.com/ReactTraining/react-router/issues/1147\" rel=\"nofollow\">https://github.com/ReactTraining/react-router/issues/1147</a> so you have to make an <a> in those cases. This doesn\u2019t sound bad, but it\u2019s particularly frustrating when dealing with dynamic or user generated content. Why can\u2019t they handle this simple case?</a></p><p><a>* Navigating to the same page would not actually reload the page, it would just trigger a componentDidMount() on all components in the page again, which led me to have a lot of bugs when I did some initialization in my constructor</a></p>", 
@@ -16207,11 +16292,27 @@
       "type": "comment", 
       "by": "lopatin"
     }, 
+    "19449648": {
+      "time_iso": "2019-03-21 02:32:43", 
+      "kids": [
+        19452752, 
+        19449809, 
+        19450592, 
+        19450032, 
+        19450512
+      ], 
+      "parent": 19449441, 
+      "text": "&gt; mechanical task of taking notes rather than actually absorbing and engaging with the content<p>The mechanical task of taking notes is one of the most important parts of actually absorbing the material. It is not an either-or. Hearing/seeing the information, processing it in a way that makes sense to you individually, and then mechanically writing it down in a legible manner is one of the main methods that your brain learns. It's one of the primary reasons that taking notes is important in the first place. This is referred to as the \"encoding hypothesis\" [1].</p><p>There are actually even studies [2] that show that tools that assist in more efficient note taking, such as taking notes via typing rather than by hand, are actually detrimental to absorbing information, as it makes it easier for you to effectively pass the information directly from your ears to your computer without actually doing the processing that is required when writing notes by hand. This is why many universities prefer (or even require) notes to be taken by hand, and disallow laptops in class.</p><p>1: <a href=\"https://www.sciencedirect.com/science/article/pii/0361476X78900206\" rel=\"nofollow\">https://www.sciencedirect.com/science/article/pii/0361476X78...</a></p><p>2: <a href=\"https://www.npr.org/2016/04/17/474525392/attention-students-put-your-laptops-away\" rel=\"nofollow\">https://www.npr.org/2016/04/17/474525392/attention-students-...</a></p>", 
+      "id": 19449648, 
+      "time": 1553149963, 
+      "type": "comment", 
+      "by": "txcwpalpha"
+    }, 
     "19449759": {
       "time_iso": "2019-03-21 03:07:36", 
       "kids": [
-        19449807, 
-        19449866
+        19449866, 
+        19449807
       ], 
       "parent": 19449597, 
       "text": "&gt; The solution to the external links issue is a one-liner.<p>It is most definitely not a one-liner.</p><p>&gt; Making the page scroll to the top when navigating to a new page is trivial.</p><p>So do it for me. There\u2019s no reason a routing library should break default behavior.</p><p>&gt; That's exactly what it's supposed to do. It's a client side routing solution. (I'm also pretty sure that it doesn't remount)</p><p>Then it\u2019s \u201csupposed\u201d to have inconsistent behavior. Navigating anywhere else in my site will call constructors to all my components. Navigating to the same page won\u2019t.</p><p>&gt; From the issues that you've had with the library, it seems like client side routing is not actually what you're looking for.</p><p>My site was a music site. I wanted clientside routing so I could keep music playing while you navigated between links. Seemed like a slam dunk for clientside routing to me.</p><p>&gt; may I ask what the alternative would be?</p><p>Quite honestly I would go onto GitHub and look for any routing solution that didn\u2019t have multiple closed unfixed issues with hundreds of thumbs up.</p>", 
@@ -16223,6 +16324,7 @@
     "19449866": {
       "time_iso": "2019-03-21 03:32:38", 
       "kids": [
+        19452252, 
         19451370
       ], 
       "parent": 19449759, 
@@ -16235,19 +16337,22 @@
     "19450315": {
       "time_iso": "2019-03-21 05:18:51", 
       "kids": [
-        19451414, 
         19450789, 
+        19452469, 
         19450810, 
         19450848, 
         19450644, 
+        19452461, 
         19450759, 
-        19450655
+        19451414, 
+        19450655, 
+        19451704
       ], 
-      "descendants": 12, 
+      "descendants": 31, 
       "url": "https://www.symmetrymagazine.org/article/lhcb-discovers-matter-antimatter-asymmetry-in-charm-quarks", 
       "title": "LHCb discovers matter-antimatter asymmetry in charm quarks", 
       "by": "rbanffy", 
-      "score": 101, 
+      "score": 166, 
       "time": 1553159931, 
       "type": "story", 
       "id": 19450315
@@ -16263,15 +16368,49 @@
     }, 
     "19451414": {
       "time_iso": "2019-03-21 08:16:31", 
+      "kids": [
+        19451446
+      ], 
       "parent": 19450315, 
       "text": "So, does this disprove all of supersymmetry? <a href=\"https://en.wikipedia.org/wiki/Supersymmetry\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Supersymmetry</a>", 
       "id": 19451414, 
       "time": 1553170591, 
       "type": "comment", 
       "by": "westurner"
+    }, 
+    "19451446": {
+      "time_iso": "2019-03-21 08:20:20", 
+      "kids": [
+        19451736
+      ], 
+      "parent": 19451414, 
+      "text": "No, supersymmetry and charge-parity symmetry are different.", 
+      "id": 19451446, 
+      "time": 1553170820, 
+      "type": "comment", 
+      "by": "whatshisface"
+    }, 
+    "19451736": {
+      "time_iso": "2019-03-21 08:57:12", 
+      "parent": 19451446, 
+      "text": "Ah, thanks.<p>\"CPT Symmetry\" <a href=\"https://en.wikipedia.org/wiki/CPT_symmetry\" rel=\"nofollow\">https://en.wikipedia.org/wiki/CPT_symmetry</a></p><p>\"CP Violations\" <a href=\"https://en.wikipedia.org/wiki/CP_violation\" rel=\"nofollow\">https://en.wikipedia.org/wiki/CP_violation</a></p><p>\"Charm quark\" <a href=\"https://en.wikipedia.org/wiki/Charm_quark\" rel=\"nofollow\">https://en.wikipedia.org/wiki/Charm_quark</a> :</p><p>&gt; <i>The antiparticle of the charm quark is the charm antiquark (sometimes called anticharm quark or simply anticharm), which differs from it only in that some of its properties have equal magnitude but opposite sign.</i></p>", 
+      "id": 19451736, 
+      "time": 1553173032, 
+      "type": "comment", 
+      "by": "westurner"
+    }, 
+    "19452752": {
+      "time_iso": "2019-03-21 10:32:19", 
+      "parent": 19449648, 
+      "text": "&gt; <i>The mechanical task of taking notes is one of the most important parts of actually absorbing the material. It is not an either-or. Hearing/seeing the information, processing it in a way that makes sense to you individually, and then mechanically writing it down in a legible manner is one of the main methods that your brain learns. It's one of the primary reasons that taking notes is important in the first place. This is referred to as the \"encoding hypothesis\" [1].</i><p>There's almost certainly an advantage to learning to think about math using a publishable symbol set like LaTeX.</p><p>We learn by reinforcement; with feedback loops that may take until weeks later in a typical university course.</p><p>&gt; <i>There are actually even studies [2] that show that tools that assist in more efficient note taking, such as taking notes via typing rather than by hand, are actually detrimental to absorbing information, as it makes it easier for you to effectively pass the information directly from your ears to your computer without actually doing the processing that is required when writing notes by hand.</i></p><p>Handwriting notes is impractical for some people due to e.g. injury and illegibility.</p><p>The linked study regarding retention and handwritten versus typed notes has been debunked with references that are referenced elsewhere in comments on this post. There have been a few studies with insufficient controls (lack of randomization, for one) which have been widely repeated by educators who want to be given attention.</p><p>Doodling has been shown to increase information retention. Maybe doodling as a control really would be appropriate.</p><p>Banning laptops from lectures is not respectful of students with injury and illegible handwriting. Asking people to put their phones on silent (so they can still make and take emergency calls) and refrain from distracting other students with irrelevant content on their computers is reasonable and considerate.</p><p>(What a cool approach to math note-taking. I feel a bit inferior because I haven't committed to learning that valuable, helpful skill and so that's stupid and you're just wasting your time because that's not even necessary when all you need to do is retain the information you've paid for for the next few months at most. If course, once you get on the job, you'll never always be using that tool and e.g. latex2sympy to actually apply that theory to solving a problem that people are willing to pay for. So, thanks for the tips and kudos, idiot)</p>", 
+      "id": 19452752, 
+      "time": 1553178739, 
+      "type": "comment", 
+      "by": "westurner"
     }
   }, 
   "roots": [
+    19448678, 
     19450315, 
     19449279, 
     19404873, 
