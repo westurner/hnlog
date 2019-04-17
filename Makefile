@@ -6,8 +6,7 @@ _SRC:= '..'
 default: backup
 
 install:
-	cd '$(_SRC)' && git clone https://github.com/westurner/dlhn
-	conda env update -f '$(_SRC)/environment.yml'
+	pip install -e git+https://github.com/westurner/dlhn#egg=dlhn
 
 backup:
 	@# items with a cachetime newer than 14d ago may need to be pulled again
