@@ -1,7 +1,7 @@
 
 # hnlog Makefile
 
-_SRC:= '..'
+USERNAME:=westurner
 
 default: backup
 
@@ -11,10 +11,10 @@ install:
 backup:
 	@# items with a cachetime newer than 14d ago may need to be pulled again
 	@# because they may not be locked yet (cachetime != item_time)
-	dlhn -u westurner -o index.html --expire-newerthan 14d
+	dlhn -u '$(USERNAME)' -o index.html --expire-newerthan 14d
 
 backup-nocache:
-	dlhn -u westurner -o index.html
+	dlhn -u '$(USERNAME)' -o index.html
 
 commit:
 	git add ./index.html ./index.html.json ./dlhn.sqlite && \
