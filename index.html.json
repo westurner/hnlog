@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -16832,7 +16832,7 @@
     },
     "19682451": {
       "by": "fanf2",
-      "descendants": 365,
+      "descendants": 366,
       "id": 19682451,
       "kids": [
         19682871,
@@ -16874,8 +16874,8 @@
         19683488,
         19691559,
         19684207,
-        19689073,
         19683570,
+        19689073,
         19687128,
         19683652,
         19690218,
@@ -16906,7 +16906,7 @@
         19685122,
         19685362
       ],
-      "score": 1035,
+      "score": 1036,
       "time": 1555508584,
       "title": "Post-surgical deaths in Scotland drop by a third, attributed to a checklist",
       "type": "story",
@@ -16931,9 +16931,9 @@
         19683086,
         19686065,
         19683512,
-        19687973,
         19684948,
         19685121,
+        19687973,
         19682997,
         19690757,
         19690330,
@@ -17169,22 +17169,23 @@
     },
     "19768796": {
       "by": "zdw",
-      "descendants": 43,
+      "descendants": 50,
       "id": 19768796,
       "kids": [
-        19773008,
         19768831,
-        19772918,
         19771219,
         19770223,
         19770548,
-        19769298,
         19771227,
+        19769298,
+        19773008,
+        19772918,
+        19771649,
         19771019,
-        19770004,
-        19771649
+        19773271,
+        19770004
       ],
-      "score": 60,
+      "score": 67,
       "time": 1556416258,
       "title": "Rare and strange ICD-10 codes",
       "type": "story",
@@ -17197,8 +17198,8 @@
       "kids": [
         19769016,
         19771618,
-        19772885,
-        19770189
+        19770189,
+        19772885
       ],
       "parent": 19768796,
       "text": "These are too funny: <a href=\"https://www.empr.com/home/features/the-strangest-and-most-obscure-icd-10-codes/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.empr.com/home/features/the-strangest-and-most-ob...</a><p>Choice selection:</p><p>V91.07X - Burn Due to Water Skis on Fire(?!)</p><p>W61.42XA. Struck By Turkey, initial encounter. If a duck is involved, there's a code for that too. (W61.62X)</p><p>R46.1. Bizarre Personal Appearance.</p>",
@@ -17234,24 +17235,25 @@
     },
     "19770527": {
       "by": "rohmanhakim",
-      "descendants": 53,
+      "descendants": 101,
       "id": 19770527,
       "kids": [
-        19772765,
         19771122,
-        19773078,
+        19772765,
         19771806,
         19771372,
-        19771760,
-        19772137,
         19771599,
-        19772864,
+        19772137,
         19772003,
         19772113,
+        19775307,
+        19771760,
+        19772864,
+        19773078,
         19771354,
         19770740
       ],
-      "score": 111,
+      "score": 156,
       "time": 1556450797,
       "title": "How do we know when we\u2019ve fallen in love? (2016)",
       "type": "story",
@@ -17260,30 +17262,34 @@
     },
     "19770575": {
       "by": "gpvos",
-      "descendants": 67,
+      "descendants": 130,
       "id": 19770575,
       "kids": [
         19771593,
-        19773010,
         19771233,
         19772017,
+        19773010,
         19771318,
-        19773096,
-        19772811,
-        19772962,
+        19773447,
         19771811,
         19772409,
-        19772051,
+        19773196,
         19771874,
+        19773389,
         19771955,
+        19772962,
+        19772051,
+        19772811,
         19771841,
+        19773096,
         19771616,
+        19771325,
+        19773285,
         19771636,
         19771409,
-        19771325,
         19771596
       ],
-      "score": 176,
+      "score": 270,
       "time": 1556451687,
       "title": "Why isn't 1 a prime number?",
       "type": "story",
@@ -17295,9 +17301,12 @@
       "id": 19771593,
       "kids": [
         19772413,
-        19772669,
-        19772189,
         19771673,
+        19772189,
+        19773697,
+        19772669,
+        19777151,
+        19776923,
         19771714
       ],
       "parent": 19770575,
@@ -17310,8 +17319,9 @@
       "by": "speg",
       "id": 19772189,
       "kids": [
+        19772840,
         19773104,
-        19772840
+        19773167
       ],
       "parent": 19771593,
       "text": "You can also dial emergency contacts without unlocking the phone. They are accessible from the medical ID page on iOS, I assume Android has similar.",
@@ -17321,19 +17331,31 @@
     },
     "19772495": {
       "by": "georgecmu",
-      "descendants": 4,
+      "descendants": 45,
       "id": 19772495,
       "kids": [
         19773112,
+        19775957,
+        19773385,
         19772707,
+        19774243,
+        19773379,
+        19776039,
+        19783210,
+        19773634,
+        19775447,
         19772742,
+        19777967,
         19772651,
+        19774185,
+        19775721,
+        19777563,
         19773110,
         19772741
       ],
-      "score": 42,
+      "score": 204,
       "time": 1556473608,
-      "title": "CMU Computer Systems: Self-Grading Lab Assignments",
+      "title": "CMU Computer Systems: Self-Grading Lab Assignments (2018)",
       "type": "story",
       "url": "http://csapp.cs.cmu.edu/3e/labs.html",
       "time_iso": "2019-04-28 13:46:48"
@@ -17341,11 +17363,34 @@
     "19772742": {
       "by": "westurner",
       "id": 19772742,
+      "kids": [
+        19775902
+      ],
       "parent": 19772495,
       "text": "These look fun; in particular the \"Attack Lab\".<p>Dockerfiles  might be helpful and easy to keep updated. Alpine Linux or just busybox are probably sufficient?</p><p>The instructor set could extend FROM the assignment image and run a few tests with e.g. testinfra (pytest)</p><p>You can also test code written in C with gtest.</p><p>I haven't read through all of the materials: are there suggested (automated) fuzzing tools? Does OSS-Fuzz solve?</p><p>Are there references to CWE and/or the SEI CERT C Coding Standard rules?\n<a href=\"https://wiki.sei.cmu.edu/confluence/plugins/servlet/mobile?contentId=87152044#content/view/87152044\" rel=\"nofollow noopener\" target=\"_blank\">https://wiki.sei.cmu.edu/confluence/plugins/servlet/mobile?c...</a></p><p>\"How could we have changed our development process to catch these bugs/vulns before release?\"</p><p>\"If we have 100% [...] test coverage, would that mean we've prevented these vulns?\"</p><p>What about 200%?</p>",
       "time": 1556475836,
       "type": "comment",
       "time_iso": "2019-04-28 14:23:56"
+    },
+    "19772902": {
+      "by": "cknd",
+      "descendants": 12,
+      "id": 19772902,
+      "kids": [
+        19773354,
+        19773484,
+        19773337,
+        19775421,
+        19774041,
+        19775715,
+        19776565
+      ],
+      "score": 119,
+      "time": 1556477429,
+      "title": "Show HN: Debugging-Friendly Tracebacks for Python",
+      "type": "story",
+      "url": "https://github.com/cknd/stackprinter/",
+      "time_iso": "2019-04-28 14:50:29"
     },
     "19772918": {
       "by": "westurner",
@@ -17359,6 +17404,9 @@
     "19772941": {
       "by": "westurner",
       "id": 19772941,
+      "kids": [
+        19773316
+      ],
       "parent": 19770345,
       "text": "&gt; <i>No, you misunderstand the terminology. \"Subsequent encounter\" means with the doctor not with the rattlesnake</i><p>You can reference ICD codes with the <a href=\"http://schema.org/code\" rel=\"nofollow noopener\" target=\"_blank\">schema.org/code</a> property of <a href=\"http://schema.org/MedicalEntity\" rel=\"nofollow noopener\" target=\"_blank\">schema.org/MedicalEntity</a> and subclasses.  <a href=\"https://schema.org/docs/meddocs.html\" rel=\"nofollow noopener\" target=\"_blank\">https://schema.org/docs/meddocs.html</a></p><p>\"Subsequent encounter\" is poorly defined. IMHO, there should be a code for this.</p>",
       "time": 1556477766,
@@ -17378,17 +17426,95 @@
       "by": "westurner",
       "id": 19773104,
       "parent": 19772189,
-      "text": "You can set a Lock Screen Message by searching for \"Lock Screen Message\" in the Android Settings.<p>You can also create an \"ICE (In Case of Emergency)\" contact.</p>",
+      "text": "&gt; <i>You can also dial emergency contacts without unlocking the phone. They are accessible from the medical ID page on iOS, I assume Android has similar.</i><p>You can set a Lock Screen Message by searching for \"Lock Screen Message\" in the Android Settings.</p><p>You can also create an \"ICE (In Case of Emergency)\" contact.</p>",
       "time": 1556479188,
       "type": "comment",
       "time_iso": "2019-04-28 15:19:48"
+    },
+    "19773316": {
+      "by": "ebg13",
+      "id": 19773316,
+      "parent": 19772941,
+      "text": "&gt; <i>\"Subsequent encounter\" is poorly defined.</i><p>\"Poorly defined\" is poorly defined. Explanations of when to use the D make perfect sense to me.</p><p>\"The 7th character for \u201csubsequent encounter\u201d is to be used for all encounters after the patient has received active treatment of the condition and is receiving routine care for the condition during the healing or recovery phase. Examples of subsequent encounters include cast change or removal, x-ray to check healing status of a fracture, removal of external or internal fixation device, medication adjustments, and other aftercare and follow-up visits following active treatment of the injury or condition. Encounters for rehabilitation, such as physical and occupational therapy, are another example of the use of the \u201csubsequent encounter\u201d 7th character. For aftercare following an injury, the acute injury code should be assigned with the 7th character for subsequent encounter.\"</p>",
+      "time": 1556481495,
+      "type": "comment",
+      "time_iso": "2019-04-28 15:58:15"
+    },
+    "19773337": {
+      "by": "westurner",
+      "id": 19773337,
+      "parent": 19772902,
+      "text": "pytest also has helpful tracebacks; though only for test runs.<p>With nose-progressive, you can specify --progressive-editor or update the .noserc so that traceback filepaths are prefixed with your preferred editor command.</p><p>vim-unstack parses paths from stack traces / tracebacks (for a number of languages including Python) and opens each in a split at that line number.\n<a href=\"https://github.com/mattboehm/vim-unstack\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/mattboehm/vim-unstack</a></p><p>Here's the Python regex from my hackish <a href=\"http://pytb2paths.sh\" rel=\"nofollow noopener\" target=\"_blank\">pytb2paths.sh</a> script:</p><p></p><pre><code>  '\\s+File \"(?P&lt;file&gt;.*)\", line (?P&lt;lineno&gt;\\d+), in (?P&lt;modulestr&gt;.*)$'\n</code></pre>\n<a href=\"https://github.com/westurner/dotfiles/blob/develop/scripts/pytb2paths.sh\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/westurner/dotfiles/blob/develop/scripts/p...</a>",
+      "time": 1556481688,
+      "type": "comment",
+      "time_iso": "2019-04-28 16:01:28"
+    },
+    "19775902": {
+      "by": "yjftsjthsd-h",
+      "id": 19775902,
+      "kids": [
+        19776934
+      ],
+      "parent": 19772742,
+      "text": "What on earth would 200% test coverage mean?",
+      "time": 1556513109,
+      "type": "comment",
+      "time_iso": "2019-04-29 00:45:09"
+    },
+    "19776934": {
+      "by": "sk0g",
+      "id": 19776934,
+      "kids": [
+        19777342
+      ],
+      "parent": 19775902,
+      "text": "Coverage for all the code that was written, and all the code that has yet to be typed, of course.<p>All thanks to quantum computing :)</p>",
+      "time": 1556529983,
+      "type": "comment",
+      "time_iso": "2019-04-29 05:26:23"
+    },
+    "19777342": {
+      "by": "westurner",
+      "id": 19777342,
+      "parent": 19776934,
+      "text": "\u27e8100%| + |100%\u27e9 = 200%!<p>(Even code with 100% branch coverage may have common weaknesses like those that these (great) labs have students exploit)</p>",
+      "time": 1556536584,
+      "type": "comment",
+      "time_iso": "2019-04-29 07:16:24"
+    },
+    "19789564": {
+      "by": "cdeveloper",
+      "descendants": 3,
+      "id": 19789564,
+      "kids": [
+        19789754,
+        19789648,
+        19789785
+      ],
+      "score": 2,
+      "text": "I got an offer from a US start-up (well +25 employees) which has an office in EU where I would join them.<p>The offer's base salary is good (ie. higher than average  for senior positions for that location) but I intend to negotiate it further, as I have possible other options. patio11's negotiation guide was a great read in that regard.</p><p>However, I'm relocating from a non-EU/US country, and I don't have a single idea about the financial systems, stock markets, and how to evaluate \"15k shares of stock-options\" or what \"Stock Option and Grant Plan\" means, I'm asking you fellow HNers about this part.</p><p>Do I just treat them as worthless and focus on base salary (as some internet sources suggest) or is there a formula to evaluate what they would be worth in say 2 years for instance ?</p>",
+      "time": 1556642738,
+      "title": "Ask HN: Value of \u201cShares of Stock options\u201d when joining a startup",
+      "type": "story",
+      "time_iso": "2019-04-30 12:45:38"
+    },
+    "19789785": {
+      "by": "westurner",
+      "id": 19789785,
+      "parent": 19789564,
+      "text": "There are a number of options/equity calculators:<p><a href=\"https://tldroptions.io/\" rel=\"nofollow noopener\" target=\"_blank\">https://tldroptions.io/</a> (\"~65% of companies will never exit\", \"~15% of companies will have low exits*\", \"~20% of companies will make you money\")</p><p><a href=\"https://comp.data.frontapp.com/\" rel=\"nofollow noopener\" target=\"_blank\">https://comp.data.frontapp.com/</a> \"Compensation and Equity Calculator\"</p><p><a href=\"http://optionsworth.com/\" rel=\"nofollow noopener\" target=\"_blank\">http://optionsworth.com/</a> \"What are my options worth?\"</p><p><a href=\"http://foundrs.com/\" rel=\"nofollow noopener\" target=\"_blank\">http://foundrs.com/</a> \"Co-Founder Equity Calculator\"</p>",
+      "time": 1556644062,
+      "type": "comment",
+      "time_iso": "2019-04-30 13:07:42"
     }
   },
   "roots": [
+    19789564,
+    19772495,
+    19772902,
     19770575,
     19770527,
     19768796,
-    19772495,
     19708319,
     19682451,
     19686010,
