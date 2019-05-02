@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -17185,7 +17185,7 @@
         19773271,
         19770004
       ],
-      "score": 67,
+      "score": 68,
       "time": 1556416258,
       "title": "Rare and strange ICD-10 codes",
       "type": "story",
@@ -17235,7 +17235,7 @@
     },
     "19770527": {
       "by": "rohmanhakim",
-      "descendants": 101,
+      "descendants": 102,
       "id": 19770527,
       "kids": [
         19771122,
@@ -17253,7 +17253,7 @@
         19771354,
         19770740
       ],
-      "score": 156,
+      "score": 157,
       "time": 1556450797,
       "title": "How do we know when we\u2019ve fallen in love? (2016)",
       "type": "story",
@@ -17262,7 +17262,7 @@
     },
     "19770575": {
       "by": "gpvos",
-      "descendants": 130,
+      "descendants": 131,
       "id": 19770575,
       "kids": [
         19771593,
@@ -17277,19 +17277,19 @@
         19771874,
         19773389,
         19771955,
-        19772962,
         19772051,
+        19772962,
         19772811,
         19771841,
         19773096,
         19771616,
         19771325,
-        19773285,
         19771636,
+        19773285,
         19771409,
         19771596
       ],
-      "score": 270,
+      "score": 272,
       "time": 1556451687,
       "title": "Why isn't 1 a prime number?",
       "type": "story",
@@ -17306,8 +17306,8 @@
         19773697,
         19772669,
         19777151,
-        19776923,
-        19771714
+        19771714,
+        19776923
       ],
       "parent": 19770575,
       "text": "Funny true story about this: \nOne time a man came up to me and handed me his phone, and asked me to call his mom. He was about to pass out and he asked me not call an ambulance (God bless America) , he appeared to have a concussion. \nBy this time there was about 10-15 people around him and he could barely talk. I asked him what his phone code was and instead of just giving it to me he said \"it's the first four prime numbers\". \nImmediately, about five people shout \"1,2,3,5\". I am no longer holding the phone, because I handed to someone else to make sure it was okay. \nSure enough, I was in a mathematical proofs class and we had just discussed this topic. So, I say \"one is not a prime number\".\nOf course, we get the phone unlocked in the second try with \"2,3,5,7\" and the guys mom is on the way. Everyone thought I was a genius a hero.",
@@ -17331,29 +17331,29 @@
     },
     "19772495": {
       "by": "georgecmu",
-      "descendants": 45,
+      "descendants": 46,
       "id": 19772495,
       "kids": [
         19773112,
-        19775957,
         19773385,
+        19775957,
         19772707,
         19774243,
         19773379,
-        19776039,
-        19783210,
         19773634,
+        19776039,
         19775447,
+        19783210,
+        19777563,
         19772742,
-        19777967,
         19772651,
+        19777967,
         19774185,
         19775721,
-        19777563,
         19773110,
         19772741
       ],
-      "score": 204,
+      "score": 205,
       "time": 1556473608,
       "title": "CMU Computer Systems: Self-Grading Lab Assignments (2018)",
       "type": "story",
@@ -17385,7 +17385,7 @@
         19775715,
         19776565
       ],
-      "score": 119,
+      "score": 121,
       "time": 1556477429,
       "title": "Show HN: Debugging-Friendly Tracebacks for Python",
       "type": "story",
@@ -17491,7 +17491,7 @@
         19789648,
         19789785
       ],
-      "score": 2,
+      "score": 5,
       "text": "I got an offer from a US start-up (well +25 employees) which has an office in EU where I would join them.<p>The offer's base salary is good (ie. higher than average  for senior positions for that location) but I intend to negotiate it further, as I have possible other options. patio11's negotiation guide was a great read in that regard.</p><p>However, I'm relocating from a non-EU/US country, and I don't have a single idea about the financial systems, stock markets, and how to evaluate \"15k shares of stock-options\" or what \"Stock Option and Grant Plan\" means, I'm asking you fellow HNers about this part.</p><p>Do I just treat them as worthless and focus on base salary (as some internet sources suggest) or is there a formula to evaluate what they would be worth in say 2 years for instance ?</p>",
       "time": 1556642738,
       "title": "Ask HN: Value of \u201cShares of Stock options\u201d when joining a startup",
@@ -17506,9 +17506,33 @@
       "time": 1556644062,
       "type": "comment",
       "time_iso": "2019-04-30 13:07:42"
+    },
+    "19812277": {
+      "by": "ivoras",
+      "descendants": 1,
+      "id": 19812277,
+      "kids": [
+        19813340
+      ],
+      "score": 1,
+      "time": 1556827914,
+      "title": "Blockchain's present opportunity: data interchange standardization",
+      "type": "story",
+      "url": "https://steemit.com/blockchain/@ivoras/blockchain-s-present-opportunity-data-interchange-standardisation",
+      "time_iso": "2019-05-02 16:11:54"
+    },
+    "19813340": {
+      "by": "westurner",
+      "id": 19813340,
+      "parent": 19812277,
+      "text": "What are the current standards efforts for blockchain data interchange?<p>W3C JSON-LD, ld-signatures + lds-merkleproof2017 (normalize the data before signing it so that the signature is representation-independent (JSONLD, RDFa, RDF, n-triples)), W3C DID Decentralized Identifiers, W3C Verifiable Claims, <a href=\"http://Blockcerts.org\" rel=\"nofollow noopener\" target=\"_blank\">Blockcerts.org</a></p><p>W3C Credentials Community Group: <a href=\"https://w3c-ccg.github.io/community/work_items.html#draft-specifications-and-reports\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c-ccg.github.io/community/work_items.html#draft-sp...</a> (DID, Multihash (IETF), [...])</p><p>\"Blockchain Credential Resources; a gist\" <a href=\"https://gist.github.com/westurner/4345987bb29fca700f52163c339a270f\" rel=\"nofollow noopener\" target=\"_blank\">https://gist.github.com/westurner/4345987bb29fca700f52163c33...</a></p><p>Specifically for payments:</p><p><a href=\"https://www.w3.org/TR/?title=payment\" rel=\"nofollow noopener\" target=\"_blank\">https://www.w3.org/TR/?title=payment</a> (the W3C Payment Request API standardizes browser UI payment/checkout workflows)</p><p>ILP: Interledger Protocol\n<a href=\"https://interledger.org/rfcs/0027-interledger-protocol-4/\" rel=\"nofollow noopener\" target=\"_blank\">https://interledger.org/rfcs/0027-interledger-protocol-4/</a></p>",
+      "time": 1556833926,
+      "type": "comment",
+      "time_iso": "2019-05-02 17:52:06"
     }
   },
   "roots": [
+    19812277,
     19789564,
     19772495,
     19772902,
