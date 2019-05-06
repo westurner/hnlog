@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -17289,7 +17289,7 @@
         19771409,
         19771596
       ],
-      "score": 272,
+      "score": 273,
       "time": 1556451687,
       "title": "Why isn't 1 a prime number?",
       "type": "story",
@@ -17347,8 +17347,8 @@
         19777563,
         19772742,
         19772651,
-        19777967,
         19774185,
+        19777967,
         19775721,
         19773110,
         19772741
@@ -17509,12 +17509,12 @@
     },
     "19812277": {
       "by": "ivoras",
-      "descendants": 1,
+      "descendants": 2,
       "id": 19812277,
       "kids": [
         19813340
       ],
-      "score": 1,
+      "score": 2,
       "time": 1556827914,
       "title": "Blockchain's present opportunity: data interchange standardization",
       "type": "story",
@@ -17524,15 +17524,58 @@
     "19813340": {
       "by": "westurner",
       "id": 19813340,
+      "kids": [
+        19843095
+      ],
       "parent": 19812277,
       "text": "What are the current standards efforts for blockchain data interchange?<p>W3C JSON-LD, ld-signatures + lds-merkleproof2017 (normalize the data before signing it so that the signature is representation-independent (JSONLD, RDFa, RDF, n-triples)), W3C DID Decentralized Identifiers, W3C Verifiable Claims, <a href=\"http://Blockcerts.org\" rel=\"nofollow noopener\" target=\"_blank\">Blockcerts.org</a></p><p>W3C Credentials Community Group: <a href=\"https://w3c-ccg.github.io/community/work_items.html#draft-specifications-and-reports\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c-ccg.github.io/community/work_items.html#draft-sp...</a> (DID, Multihash (IETF), [...])</p><p>\"Blockchain Credential Resources; a gist\" <a href=\"https://gist.github.com/westurner/4345987bb29fca700f52163c339a270f\" rel=\"nofollow noopener\" target=\"_blank\">https://gist.github.com/westurner/4345987bb29fca700f52163c33...</a></p><p>Specifically for payments:</p><p><a href=\"https://www.w3.org/TR/?title=payment\" rel=\"nofollow noopener\" target=\"_blank\">https://www.w3.org/TR/?title=payment</a> (the W3C Payment Request API standardizes browser UI payment/checkout workflows)</p><p>ILP: Interledger Protocol\n<a href=\"https://interledger.org/rfcs/0027-interledger-protocol-4/\" rel=\"nofollow noopener\" target=\"_blank\">https://interledger.org/rfcs/0027-interledger-protocol-4/</a></p>",
       "time": 1556833926,
       "type": "comment",
       "time_iso": "2019-05-02 17:52:06"
+    },
+    "19839104": {
+      "by": "okket",
+      "descendants": 31,
+      "id": 19839104,
+      "kids": [
+        19842564,
+        19842539,
+        19842920,
+        19841730,
+        19842211,
+        19842949,
+        19842676,
+        19842090
+      ],
+      "score": 76,
+      "time": 1557148607,
+      "title": "JMAP: A modern, open email protocol",
+      "type": "story",
+      "url": "https://www.ietf.org/blog/jmap/",
+      "time_iso": "2019-05-06 09:16:47"
+    },
+    "19842920": {
+      "by": "westurner",
+      "id": 19842920,
+      "parent": 19839104,
+      "text": "What are the optimizations in JMAP that make it faster than, say, Solid? Solid is built on a bunch of W3C Web, Security, and Linked Data Standards; LDP: Linked Data Protocol, JSON-LD: JSON Linked Data, WebID-TLS, REST, WebSockets, LDN: Linked Data Notifications. [1][2] Different worlds, I suppose.<p>There's no reason you couldn't represent RFC5322 data with RDF as JSONLD. There's now a way to do streaming JSON-LD.</p><p>LDP does paging and querying.</p><p>Solid supports pubsub with WebSockets and LDN. It may or may not (yet?) be as efficient for synchronization as JMAP, but it's definitely designed for all types of objects with linked data web standards; and client APIs can just parse JSON-LD.</p><p>[1] <a href=\"https://github.com/solid/information#solid-specifications\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/solid/information#solid-specifications</a></p><p>[2] <a href=\"https://github.com/solid/solid-spec/issues/123\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/solid/solid-spec/issues/123</a> \"WebSockets and HTTP/2\" SSE (Server-Side Events)</p><p><a href=\"https://jmap.io/\" rel=\"nofollow noopener\" target=\"_blank\">https://jmap.io/</a></p><p>JMAP: JSON Meta Application Protocol\n<a href=\"https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol</a></p><p>Is there a OpenAPI Specification for JMAP?\nThere are a bunch of tools for Swagger / OpenAPIs: DRY interactive API docs, server implementations, code generators:\n<a href=\"https://swagger.io/tools/open-source/\" rel=\"nofollow noopener\" target=\"_blank\">https://swagger.io/tools/open-source/</a> <a href=\"https://openapi.tools/\" rel=\"nofollow noopener\" target=\"_blank\">https://openapi.tools/</a></p><p>Does JMAP support labels; such that I don't need to download a message and an attachment and mark it as read twice like labels over IMAP?</p><p>How does this integrate with webauthn; is that a different layer?</p><p>(edit) Other email things: openpgpjs; Web Key Directory /.well-known/openpgpkey/*; if there's no webserver on the MX domain, you can use the ACME DNS challenge to get free 3-month certs from LetsEncrypt.</p><p><a href=\"https://wiki.gnupg.org/WKD\" rel=\"nofollow noopener\" target=\"_blank\">https://wiki.gnupg.org/WKD</a></p>",
+      "time": 1557171191,
+      "type": "comment",
+      "time_iso": "2019-05-06 15:33:11"
+    },
+    "19843095": {
+      "by": "westurner",
+      "id": 19843095,
+      "parent": 19813340,
+      "text": "&gt; <i>W3C JSON-LD</i><p><a href=\"https://www.w3.org/TR/json-ld/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.w3.org/TR/json-ld/</a> (JSON-LD 1.0)</p><p><a href=\"https://www.w3.org/TR/json-ld11/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.w3.org/TR/json-ld11/</a> (JSON-LD 1.1)</p><p>&gt; <i>ld-signatures + lds-merkleproof2017 (normalize the data before signing it so that the signature is representation-independent (JSONLD, RDFa, RDF, n-triples))</i></p><p><a href=\"https://w3c-dvcg.github.io/ld-signatures/\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c-dvcg.github.io/ld-signatures/</a></p><p><a href=\"https://w3c-dvcg.github.io/lds-merkleproof2017/\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c-dvcg.github.io/lds-merkleproof2017/</a> (2017 Merkle Proof Linked Data Signature Suite)</p><p>&gt; <i>W3C DID Decentralized Identifiers</i></p><p><a href=\"https://w3c-ccg.github.io/did-primer/\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c-ccg.github.io/did-primer/</a></p><p>&gt;&gt; <i>A Decentralized Identifier (DID) is a new type of identifier that is globally unique, resolveable with high availability, and cryptographically verifiable. DIDs are typically associated with cryptographic material, such as public keys, and service endpoints, for establishing secure communication channels. DIDs are useful for any application that benefits from self-administered, cryptographically verifiable identifiers such as personal identifiers, organizational identifiers, and identifiers for Internet of Things scenarios. For example, current commercial deployments of W3C Verifiable Credentials heavily utilize Decentralized Identifiers to identify people, organizations, and things and to achieve a number of security and privacy-protecting guarantees. </i></p><p>&gt; <i>W3C Verifiable Claims</i></p><p><a href=\"https://github.com/w3c/verifiable-claims\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/verifiable-claims</a></p><p><a href=\"https://w3c.github.io/vc-data-model/\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c.github.io/vc-data-model/</a> (Data Model)</p><p><a href=\"https://w3c.github.io/vc-use-cases/\" rel=\"nofollow noopener\" target=\"_blank\">https://w3c.github.io/vc-use-cases/</a> (Use Cases: Education, Healthcare, Professional Credentials, Legal Identity,)</p><p>&gt; <i><a href=\"http://Blockcerts.org\" rel=\"nofollow noopener\" target=\"_blank\">Blockcerts.org</a></i></p><p><a href=\"https://blockcerts.org/\" rel=\"nofollow noopener\" target=\"_blank\">https://blockcerts.org/</a></p>",
+      "time": 1557172308,
+      "type": "comment",
+      "time_iso": "2019-05-06 15:51:48"
     }
   },
   "roots": [
     19812277,
+    19839104,
     19789564,
     19772495,
     19772902,
