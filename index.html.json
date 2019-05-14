@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -17535,19 +17535,27 @@
     },
     "19839104": {
       "by": "okket",
-      "descendants": 31,
+      "descendants": 115,
       "id": 19839104,
       "kids": [
         19842564,
         19842539,
         19842920,
-        19841730,
         19842211,
+        19841730,
+        19844025,
+        19844484,
+        19850631,
+        19845298,
+        19846974,
+        19845704,
+        19862696,
+        19844984,
         19842949,
         19842676,
         19842090
       ],
-      "score": 76,
+      "score": 307,
       "time": 1557148607,
       "title": "JMAP: A modern, open email protocol",
       "type": "story",
@@ -17557,6 +17565,10 @@
     "19842920": {
       "by": "westurner",
       "id": 19842920,
+      "kids": [
+        19844425,
+        19843645
+      ],
       "parent": 19839104,
       "text": "What are the optimizations in JMAP that make it faster than, say, Solid? Solid is built on a bunch of W3C Web, Security, and Linked Data Standards; LDP: Linked Data Protocol, JSON-LD: JSON Linked Data, WebID-TLS, REST, WebSockets, LDN: Linked Data Notifications. [1][2] Different worlds, I suppose.<p>There's no reason you couldn't represent RFC5322 data with RDF as JSONLD. There's now a way to do streaming JSON-LD.</p><p>LDP does paging and querying.</p><p>Solid supports pubsub with WebSockets and LDN. It may or may not (yet?) be as efficient for synchronization as JMAP, but it's definitely designed for all types of objects with linked data web standards; and client APIs can just parse JSON-LD.</p><p>[1] <a href=\"https://github.com/solid/information#solid-specifications\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/solid/information#solid-specifications</a></p><p>[2] <a href=\"https://github.com/solid/solid-spec/issues/123\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/solid/solid-spec/issues/123</a> \"WebSockets and HTTP/2\" SSE (Server-Side Events)</p><p><a href=\"https://jmap.io/\" rel=\"nofollow noopener\" target=\"_blank\">https://jmap.io/</a></p><p>JMAP: JSON Meta Application Protocol\n<a href=\"https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/JSON_Meta_Application_Protocol</a></p><p>Is there a OpenAPI Specification for JMAP?\nThere are a bunch of tools for Swagger / OpenAPIs: DRY interactive API docs, server implementations, code generators:\n<a href=\"https://swagger.io/tools/open-source/\" rel=\"nofollow noopener\" target=\"_blank\">https://swagger.io/tools/open-source/</a> <a href=\"https://openapi.tools/\" rel=\"nofollow noopener\" target=\"_blank\">https://openapi.tools/</a></p><p>Does JMAP support labels; such that I don't need to download a message and an attachment and mark it as read twice like labels over IMAP?</p><p>How does this integrate with webauthn; is that a different layer?</p><p>(edit) Other email things: openpgpjs; Web Key Directory /.well-known/openpgpkey/*; if there's no webserver on the MX domain, you can use the ACME DNS challenge to get free 3-month certs from LetsEncrypt.</p><p><a href=\"https://wiki.gnupg.org/WKD\" rel=\"nofollow noopener\" target=\"_blank\">https://wiki.gnupg.org/WKD</a></p>",
       "time": 1557171191,
@@ -17571,11 +17583,257 @@
       "time": 1557172308,
       "type": "comment",
       "time_iso": "2019-05-06 15:51:48"
+    },
+    "19843645": {
+      "by": "dragonne",
+      "id": 19843645,
+      "kids": [
+        19843884,
+        19871763
+      ],
+      "parent": 19842920,
+      "text": "&gt; There's no reason you couldn't represent RFC5322 data with RDF as JSONLD. There's now a way to do streaming JSON-LD.<p>Is there a reason you'd want to? I clicked all your links but I still have no idea what Solid is.</p>",
+      "time": 1557175448,
+      "type": "comment",
+      "time_iso": "2019-05-06 16:44:08"
+    },
+    "19844425": {
+      "by": "lucideer",
+      "id": 19844425,
+      "kids": [
+        19871709
+      ],
+      "parent": 19842920,
+      "text": "I would say your comment, and the first reply, both demonstrate quite effectively why JMAP is probably a better choice for email.<p>&gt; <i>It may or may not (yet?) be as efficient for synchronization as JMAP, but it's definitely designed for all types of objects</i></p><p>If we hypothetically allow for equal adoption &amp; mindshare of both, and assume both are non-terrible designs, I'd guess the one designed for \"all types of objects\" is less likely to ever be as efficient as the one designed with a single use-case in mind.</p><p>And narrow focus is not only good for optimising specific use-cases, it's also good for adoption as people immediately understand what your protocol is for and how to use it when it has a single purpose and a single source of truth for reference spec, rather than a series of disparate links and vague all-encompassing use-cases.</p><p>Solid has brilliant people behind it, but it's too broad, too ambitious, and very much lacks focus, and that will impair adoption because it isn't the \"one solution\" for anyone's \"one problem\".</p><p>--</p><p>To take another perspective on this, there are other commenters in this thread bemoaning the loss of non-HTTP-based protocols. Funnily enough, HTTP itself is a broadly used, broadly useful protocol than can be used for pretty much anything (and had TBL behind it also). The big difference was that Tim wasn't proposing that HTTP be the solution to all our internet problems and needs in 1989\u2014it was just for hypertext documents. It's only now, post-adoption, that it is used for so much more than that.</p>",
+      "time": 1557180475,
+      "type": "comment",
+      "time_iso": "2019-05-06 18:07:55"
+    },
+    "19871036": {
+      "by": "zeristor",
+      "descendants": 2,
+      "id": 19871036,
+      "kids": [
+        19871647,
+        19871078
+      ],
+      "score": 2,
+      "time": 1557427893,
+      "title": "Grid Optimization Competition",
+      "type": "story",
+      "url": "https://gocompetition.energy.gov/",
+      "time_iso": "2019-05-09 14:51:33"
+    },
+    "19871647": {
+      "by": "westurner",
+      "id": 19871647,
+      "parent": 19871036,
+      "text": "From \"California grid data is live \u2013 solar developers take note\"\n<a href=\"https://news.ycombinator.com/item?id=18855820\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=18855820</a> :<p>&gt;&gt; <i>It looks like California is at least two generations of technology ahead of other states. Let\u2019s hope the rest of us catch up, so that we have a grid that can make an asset out of every building, every battery, and every solar system.</i></p><p>&gt; <i>+1. Are there any other states with similar grid data available for optimization; or any plans to require or voluntarily offer such a useful capability?</i></p><p>How do these competitions and the live actual data from California-only (so far; AFAIU) compare?</p><p>Are there standards for this grid data yet?\nWithout standards, how generalizable are the competition solutions to real-world data?</p>",
+      "time": 1557431372,
+      "type": "comment",
+      "time_iso": "2019-05-09 15:49:32"
+    },
+    "19871709": {
+      "by": "westurner",
+      "id": 19871709,
+      "parent": 19844425,
+      "text": "&gt; <i>If we hypothetically allow for equal adoption &amp; mindshare of both, and assume both are non-terrible designs, I'd guess the one designed for \"all types of objects\" is less likely to ever be as efficient as the one designed with a single use-case in mind.</i><p>This is a generalization that is not supported by any data.</p><p>Standards enable competing solutions. Competing solutions often result in performance gains and efficiency.</p><p>Hopefully, there will be performant implementations and we won't need to reinvent the wheel in order to synchronize and send notifications for email, contacts, and calendars.</p>",
+      "time": 1557431666,
+      "type": "comment",
+      "time_iso": "2019-05-09 15:54:26"
+    },
+    "19871763": {
+      "by": "westurner",
+      "id": 19871763,
+      "parent": 19843645,
+      "text": "To eliminate the need for domain-specific parser implementations on both server and client, make it easy to index and search this structured data, and to link things with URIs and URLs like other web applications that also make lots of copies.<p>Solid is a platform for decentralized linked data storage and retrieval with access controls, notifications, WebID + OAuth/OpenID. The Wikipedia link and spec documents have a more complete description that <i>could</i> be retrieved and stored locally.</p>",
+      "time": 1557431957,
+      "type": "comment",
+      "time_iso": "2019-05-09 15:59:17"
+    },
+    "19874893": {
+      "by": "jandeboevrie",
+      "descendants": 6,
+      "id": 19874893,
+      "kids": [
+        19878344,
+        19880012,
+        19885519,
+        19883731,
+        19884711
+      ],
+      "score": 19,
+      "time": 1557460168,
+      "title": "No Python in Red Hat Linux 8?",
+      "type": "story",
+      "url": "https://developers.redhat.com/blog/2019/05/07/what-no-python-in-red-hat-enterprise-linux-8/",
+      "time_iso": "2019-05-09 23:49:28"
+    },
+    "19880012": {
+      "by": "westurner",
+      "id": 19880012,
+      "parent": 19874893,
+      "text": "/usr/bin/python can point to either /usr/bin/python3 or (as PEP 394 currently recommends) /usr/bin/python2<p></p><pre><code>  $ alternatives --config python\n</code></pre>\nFWIU, there are ubi8/python-27 and ubi8/python-36 docker images. IDK if they set /usr/bin/python out of the box? Changing existing shebangs may not be practical for some applications (which will need to specify 'python4' whenever that occurs over the next 10 supported years of RHEL/CENTOS 8)",
+      "time": 1557508907,
+      "type": "comment",
+      "time_iso": "2019-05-10 13:21:47"
+    },
+    "19889775": {
+      "by": "sarego",
+      "descendants": 186,
+      "id": 19889775,
+      "kids": [
+        19890556,
+        19890369,
+        19890189,
+        19891014,
+        19890233,
+        19890198,
+        19890659,
+        19891141,
+        19890746,
+        19893641,
+        19890383,
+        19892861,
+        19890264,
+        19895712,
+        19890718,
+        19890365,
+        19891492,
+        19890702,
+        19892282,
+        19890871,
+        19892714,
+        19892093,
+        19891313,
+        19890915,
+        19891571,
+        19890632,
+        19890935,
+        19890347,
+        19890765,
+        19890165,
+        19891217,
+        19890802,
+        19890830,
+        19891330,
+        19890909,
+        19892771,
+        19893743,
+        19892736,
+        19890754,
+        19890129
+      ],
+      "score": 338,
+      "time": 1557628652,
+      "title": "Use links not keys to represent relationships in APIs",
+      "type": "story",
+      "url": "https://cloudblog.withgoogle.com/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis/",
+      "time_iso": "2019-05-11 22:37:32"
+    },
+    "19890659": {
+      "by": "westurner",
+      "id": 19890659,
+      "kids": [
+        19890710
+      ],
+      "parent": 19889775,
+      "text": "A thing may be identified by a URI (/person/123) for which there are zero or more URL routes (/person/123, /v1/person/123). Each additional route complicates caching; redirects are cheap for the server but slower for clients.<p>JSONLD does define a standard way to indicate that a value is a link: @id (which can be specified in a/an @context)\n<a href=\"https://www.w3.org/TR/json-ld11/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.w3.org/TR/json-ld11/</a></p><p>One additional downside to storing URIs instead of bare references is that it's more complicated to validate a URI template than a simple regex like \\d+ or [abcdef\\=\\d+]+</p>",
+      "time": 1557646166,
+      "type": "comment",
+      "time_iso": "2019-05-12 03:29:26"
+    },
+    "19890710": {
+      "by": "Twisell",
+      "id": 19890710,
+      "parent": 19890659,
+      "text": "And on a more fundamental standpoint I get that disk space is cheap theses days. But you just doubled, if not worse, the storage space required for a key for a vague reason.<p>It may never make any difference on a small dataset, where storage was anyway unaware of differences between integer and text. But it would be hiding in the dark. And maybe in a few year a new recruit will have the outstanding  idea to convert text-link to bigint to save some space...</p>",
+      "time": 1557647251,
+      "type": "comment",
+      "time_iso": "2019-05-12 03:47:31"
+    },
+    "19909297": {
+      "by": "peter_retief",
+      "descendants": 120,
+      "id": 19909297,
+      "kids": [
+        19909505,
+        19909831,
+        19909663,
+        19909943,
+        19910351,
+        19909711,
+        19909375,
+        19909501,
+        19909661,
+        19909625,
+        19909799,
+        19909596,
+        19909597,
+        19909638,
+        19909603,
+        19909536
+      ],
+      "score": 104,
+      "time": 1557840981,
+      "title": "Death rates from energy production per TWh",
+      "type": "story",
+      "url": "https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh",
+      "time_iso": "2019-05-14 09:36:21"
+    },
+    "19910351": {
+      "by": "westurner",
+      "id": 19910351,
+      "kids": [
+        19910388
+      ],
+      "parent": 19909297,
+      "text": "Apparently the deaths are justified because energy.<p>Are the subsidies and taxes (incentives and penalties) rational in light of the relative harms of each form of energy?</p><p>\"Study: U.S. Fossil Fuel Subsidies Exceed Pentagon Spending\" <a href=\"https://www.rollingstone.com/politics/politics-news/fossil-fuel-subsidies-pentagon-spending-imf-report-833035/amp/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.rollingstone.com/politics/politics-news/fossil-f...</a></p><p>&gt; <i>The IMF found that direct and indirect subsidies for coal, oil and gas in the U.S. reached $649 billion in 2015. Pentagon spending that same year was $599 billion.</i></p><p>&gt; <i>The study defines \u201csubsidy\u201d very broadly, as many economists do. It accounts for the \u201cdifferences between actual consumer fuel prices and how much consumers would pay if prices fully reflected supply costs plus the taxes needed to reflect environmental costs\u201d and other damage, including premature deaths from air pollution.</i></p><p>IDK whether they've included the costs of responding to requests for help with natural disasters that are more probable due to climate change caused by these \"externalties\" / \"external costs\" of fossil fuels.</p>",
+      "time": 1557847102,
+      "type": "comment",
+      "time_iso": "2019-05-14 11:18:22"
+    },
+    "19910388": {
+      "by": "leereeves",
+      "id": 19910388,
+      "kids": [
+        19910432
+      ],
+      "parent": 19910351,
+      "text": "Energy saves lives so some risk probably is justified.",
+      "time": 1557847254,
+      "type": "comment",
+      "time_iso": "2019-05-14 11:20:54"
+    },
+    "19910432": {
+      "by": "westurner",
+      "id": 19910432,
+      "kids": [
+        19910466
+      ],
+      "parent": 19910388,
+      "text": "Why isn't the market choosing the least harmful, least lethal energy sources? Energy is for the most part entirely substitutable: switching costs for consumers like hospitals are basically zero.<p>(Everyone is free to invest in clean energy at any time)</p>",
+      "time": 1557847527,
+      "type": "comment",
+      "time_iso": "2019-05-14 11:25:27"
+    },
+    "19910466": {
+      "by": "leereeves",
+      "id": 19910466,
+      "parent": 19910432,
+      "text": "Switching costs for the entire society are far from zero.",
+      "time": 1557847791,
+      "type": "comment",
+      "time_iso": "2019-05-14 11:29:51"
     }
   },
   "roots": [
-    19812277,
+    19909297,
+    19889775,
+    19874893,
     19839104,
+    19871036,
+    19812277,
     19789564,
     19772495,
     19772902,
