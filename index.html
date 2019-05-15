@@ -117,7 +117,7 @@
         <td>2019-05-15 07:09:29</td>
         <td><a href="#story-19918227">Oak, a Free and Open Certificate Transparency Log</a></td>
         <td><a href="https://news.ycombinator.com/user?id=dankohn1">dankohn1</a></td>
-        <td>65</td>
+        <td>69</td>
     </tr>
     
     <tr scope="row" >
@@ -2276,7 +2276,7 @@
           <a href="https://news.ycombinator.com/user?id=dankohn1" target="_blank" rel="nofollow noopener">dankohn1</a> |
           <a href="https://news.ycombinator.com/item?id=19918227" target="_blank" rel="nofollow noopener"
           
-          >2019-05-15 07:09:29</a> | 65  | <a href="#story-19918227">#</a> | <a href="#" class="toplink">^</a>
+          >2019-05-15 07:09:29</a> | 69  | <a href="#story-19918227">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html" target="_blank" rel="nofollow noopener">https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html</a></span>
@@ -2323,7 +2323,41 @@
           >2019-05-15 10:56:05</a> | <a href="#comment-19920002">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">&gt; <i>Great use case for blockchain technology</i><p>&gt;&gt; <i>CT logs are already chained</i></p><p>Trillian is a centralized Merkle tree: it doesn't support native replication (AFAIU?) and there is a still a password that can delete or recreate the chain (though we can track for any such <i>inappropriate</i> or errant modifications (due to e.g. solar flares) by manually replicating and verifying every entry in the chain, or <i>trusting</i> that everything before whatever we consider to be a known hash (that could be colliding) is unmodified (since the last time we never verified those entries)).</p><p>According to the trillian README, trillian depends upon MySQL/MariaDB and thus <i>internal/private</i> replication is as good as the SQL replication model (which doesn't have a distributed consensus algorithm like e.g. paxos).</p><p>A Merkle tree alone is not a blockchain; though it provides more assurance of data integrity than a regular tree, verifying that the whole chain of hashes actually is good and distributed replication without configuring e.g. SSL certs are primary features of blockchains.</p></p></div>
+        <p class="card-text">&gt; <i>Great use case for blockchain technology</i><p>&gt;&gt; <i>CT logs are already chained</i></p><p>Trillian is a centralized Merkle tree: it doesn't support native replication (AFAIU?) and there is a still a password that can delete or recreate the chain (though we can track for any such <i>inappropriate</i> or errant modifications (due to e.g. solar flares) by manually replicating and verifying every entry in the chain, or <i>trusting</i> that everything before whatever we consider to be a known hash (that could be colliding) is unmodified (since the last time we never verified those entries)).</p><p>According to the trillian README, trillian depends upon MySQL/MariaDB and thus <i>internal/private</i> replication is as good as the SQL replication model (which doesn't have a distributed consensus algorithm like e.g. paxos).</p><p>A Merkle tree alone is not a blockchain; though it provides more assurance of data integrity than a regular tree, verifying that the whole chain of hashes actually is good and distributed replication without configuring e.g. SSL certs are primary features of blockchains.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-19920178">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19920178-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19920178-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=skybrian" target="_blank" rel="nofollow noopener">skybrian</a> |
+          <a href="https://news.ycombinator.com/item?id=19920178" target="_blank" rel="nofollow noopener"
+          id="comment-19920178"
+          >2019-05-15 11:13:22</a> | <a href="#comment-19920178">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">There are multiple certificate issuers, multiple logs, and multiple log verifiers. With no single point of failure, that doesn't sound centralized to me?</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19920280">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19920280-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19920280-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19920280" target="_blank" rel="nofollow noopener"
+          id="comment-19920280"
+          >2019-05-15 11:20:37</a> | <a href="#comment-19920280">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Which components of the system are we discussing?<p>PKI is necessarily centralized: certs depend upon CA certs which can depend upon CA certs. If any CA is compromised (e.g. by theft or brute force (which is inestimably infeasible given current ASIC resources' preference for legit income)) that CA can sign any CRL. A CT log and a CT log verifier can help us discover that a redundant and so possibly unauthorized cert has been issued for a given domain listed in an x.509 cert CN/SAN.</p><p>The CT log itself - trillian, for Google and now LetsEncrypt, too - though, runs on MySQL; which has one root password.</p><p>The system of multiple independent, redundant CT logs is built upon databases that depend upon presumably manually configured replication keys.</p><p>Does my browser call a remote log verifier API over (hopefully pinned with a better fingerprint than MD5) HTTPS?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
@@ -19021,7 +19055,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
