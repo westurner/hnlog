@@ -117,7 +117,7 @@
         <td>2019-05-15 07:09:29</td>
         <td><a href="#story-19918227">Oak, a Free and Open Certificate Transparency Log</a></td>
         <td><a href="https://news.ycombinator.com/user?id=dankohn1">dankohn1</a></td>
-        <td>69</td>
+        <td>87</td>
     </tr>
     
     <tr scope="row" >
@@ -2276,7 +2276,7 @@
           <a href="https://news.ycombinator.com/user?id=dankohn1" target="_blank" rel="nofollow noopener">dankohn1</a> |
           <a href="https://news.ycombinator.com/item?id=19918227" target="_blank" rel="nofollow noopener"
           
-          >2019-05-15 07:09:29</a> | 69  | <a href="#story-19918227">#</a> | <a href="#" class="toplink">^</a>
+          >2019-05-15 07:09:29</a> | 87  | <a href="#story-19918227">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html" target="_blank" rel="nofollow noopener">https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html</a></span>
@@ -2351,7 +2351,41 @@
           >2019-05-15 11:20:37</a> | <a href="#comment-19920280">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Which components of the system are we discussing?<p>PKI is necessarily centralized: certs depend upon CA certs which can depend upon CA certs. If any CA is compromised (e.g. by theft or brute force (which is inestimably infeasible given current ASIC resources' preference for legit income)) that CA can sign any CRL. A CT log and a CT log verifier can help us discover that a redundant and so possibly unauthorized cert has been issued for a given domain listed in an x.509 cert CN/SAN.</p><p>The CT log itself - trillian, for Google and now LetsEncrypt, too - though, runs on MySQL; which has one root password.</p><p>The system of multiple independent, redundant CT logs is built upon databases that depend upon presumably manually configured replication keys.</p><p>Does my browser call a remote log verifier API over (hopefully pinned with a better fingerprint than MD5) HTTPS?</p></p></div>
+        <p class="card-text">Which components of the system are we discussing?<p>PKI is necessarily centralized: certs depend upon CA certs which can depend upon CA certs. If any CA is compromised (e.g. by theft or brute force (which is inestimably infeasible given current ASIC resources' preference for legit income)) that CA can sign any CRL. A CT log and a CT log verifier can help us discover that a redundant and so possibly unauthorized cert has been issued for a given domain listed in an x.509 cert CN/SAN.</p><p>The CT log itself - trillian, for Google and now LetsEncrypt, too - though, runs on MySQL; which has one root password.</p><p>The system of multiple independent, redundant CT logs is built upon databases that depend upon presumably manually configured replication keys.</p><p>Does my browser call a remote log verifier API over (hopefully pinned with a better fingerprint than MD5) HTTPS?</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-19920426">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19920426-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19920426-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=skybrian" target="_blank" rel="nofollow noopener">skybrian</a> |
+          <a href="https://news.ycombinator.com/item?id=19920426" target="_blank" rel="nofollow noopener"
+          id="comment-19920426"
+          >2019-05-15 11:34:20</a> | <a href="#comment-19920426">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">There are multiple issuers, so from an availability point of view, if one is down, you could choose another. They submit to at least two logs, so if one log is unavailable you could read the other one. This is a form of decentralization.<p>Now, from a security point of view, it only takes breaking into one issuer to issue bad certificates. But maybe classifying everything as either centralized or decentralized is too simple?</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19920667">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19920667-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19920667-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19920667" target="_blank" rel="nofollow noopener"
+          id="comment-19920667"
+          >2019-05-15 11:56:28</a> | <a href="#comment-19920667">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Centralized and decentralized are overloaded terms. We could argue that every system that depends upon DNS is a centralized (and thus has a single point of failure).<p>We could describe replication models as centralized or decentralized. Master/master SQL replication is still not decentralized (regardless of whether there are multiple A records or multiple static IPs configured in the client).</p><p>With PKI, we choose the convenience of trusting a CA bundle over having to manually check every cert fingerprint.</p><p>Whether a particular chain is centralized or decentralized is often bandied about. When there are a few mining pools that effectively choose which changes are accepted, that's not decentralized either.</p><p>That there are multiple redundant independent CT logs is a good thing.</p><p>How do I, as a concerned user, securely download (and securely mirror?) one or all of the CT logs and verify that none of the record hashes don't depend upon the previous hash? If the browser relies upon a centralized API for checking hash fingerprints, how is that decentralized?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
@@ -19055,7 +19089,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
