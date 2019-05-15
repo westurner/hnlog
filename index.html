@@ -114,17 +114,24 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-05-15 07:09:29</td>
+        <td><a href="#story-19918227">Oak, a Free and Open Certificate Transparency Log</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=dankohn1">dankohn1</a></td>
+        <td>65</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-05-14 09:36:21</td>
         <td><a href="#story-19909297">Death rates from energy production per TWh</a></td>
         <td><a href="https://news.ycombinator.com/user?id=peter_retief">peter_retief</a></td>
-        <td>109</td>
+        <td>121</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-05-11 22:37:32</td>
         <td><a href="#story-19889775">Use links not keys to represent relationships in APIs</a></td>
         <td><a href="https://news.ycombinator.com/user?id=sarego">sarego</a></td>
-        <td>338</td>
+        <td>341</td>
     </tr>
     
     <tr scope="row" >
@@ -2260,6 +2267,74 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-19918227">
+    <div class="card-block">
+      <a class="collapser" href="#story-19918227-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-19918227-collapse">
+        <h4 class="card-title"><a href="#story-19918227">Oak, a Free and Open Certificate Transparency Log</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=dankohn1" target="_blank" rel="nofollow noopener">dankohn1</a> |
+          <a href="https://news.ycombinator.com/item?id=19918227" target="_blank" rel="nofollow noopener"
+          
+          >2019-05-15 07:09:29</a> | 65  | <a href="#story-19918227">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html" target="_blank" rel="nofollow noopener">https://letsencrypt.org/2019/05/15/introducing-oak-ct-log.html</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-19918867">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19918867-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19918867-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=toppy" target="_blank" rel="nofollow noopener">toppy</a> |
+          <a href="https://news.ycombinator.com/item?id=19918867" target="_blank" rel="nofollow noopener"
+          id="comment-19918867"
+          >2019-05-15 08:51:01</a> | <a href="#comment-19918867">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Great use case for blockchain technology</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19919079">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19919079-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-19919079-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=LeonM" target="_blank" rel="nofollow noopener">LeonM</a> |
+          <a href="https://news.ycombinator.com/item?id=19919079" target="_blank" rel="nofollow noopener"
+          id="comment-19919079"
+          >2019-05-15 09:19:14</a> | <a href="#comment-19919079">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">CT logs are already chained</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-19920002">
+    <div class="card-block">
+      <a class="collapser" href="#comment-19920002-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-19920002-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=19920002" target="_blank" rel="nofollow noopener"
+          id="comment-19920002"
+          >2019-05-15 10:56:05</a> | <a href="#comment-19920002">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>Great use case for blockchain technology</i><p>&gt;&gt; <i>CT logs are already chained</i></p><p>Trillian is a centralized Merkle tree: it doesn't support native replication (AFAIU?) and there is a still a password that can delete or recreate the chain (though we can track for any such <i>inappropriate</i> or errant modifications (due to e.g. solar flares) by manually replicating and verifying every entry in the chain, or <i>trusting</i> that everything before whatever we consider to be a known hash (that could be colliding) is unmodified (since the last time we never verified those entries)).</p><p>According to the trillian README, trillian depends upon MySQL/MariaDB and thus <i>internal/private</i> replication is as good as the SQL replication model (which doesn't have a distributed consensus algorithm like e.g. paxos).</p><p>A Merkle tree alone is not a blockchain; though it provides more assurance of data integrity than a regular tree, verifying that the whole chain of hashes actually is good and distributed replication without configuring e.g. SSL certs are primary features of blockchains.</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-19909297">
     <div class="card-block">
       <a class="collapser" href="#story-19909297-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -2269,7 +2344,7 @@
           <a href="https://news.ycombinator.com/user?id=peter_retief" target="_blank" rel="nofollow noopener">peter_retief</a> |
           <a href="https://news.ycombinator.com/item?id=19909297" target="_blank" rel="nofollow noopener"
           
-          >2019-05-14 09:36:21</a> | 109  | <a href="#story-19909297">#</a> | <a href="#" class="toplink">^</a>
+          >2019-05-14 09:36:21</a> | 121  | <a href="#story-19909297">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh" target="_blank" rel="nofollow noopener">https://ourworldindata.org/grapher/death-rates-from-energy-production-per-twh</a></span>
@@ -2372,7 +2447,7 @@
           <a href="https://news.ycombinator.com/user?id=sarego" target="_blank" rel="nofollow noopener">sarego</a> |
           <a href="https://news.ycombinator.com/item?id=19889775" target="_blank" rel="nofollow noopener"
           
-          >2019-05-11 22:37:32</a> | 338  | <a href="#story-19889775">#</a> | <a href="#" class="toplink">^</a>
+          >2019-05-11 22:37:32</a> | 341  | <a href="#story-19889775">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://cloudblog.withgoogle.com/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis/" target="_blank" rel="nofollow noopener">https://cloudblog.withgoogle.com/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis/</a></span>
@@ -18946,7 +19021,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
