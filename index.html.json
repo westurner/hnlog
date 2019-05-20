@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -17953,13 +17953,14 @@
     },
     "19955169": {
       "by": "rmason",
-      "descendants": 2,
+      "descendants": 3,
       "id": 19955169,
       "kids": [
-        19957637,
-        19957502
+        19957721,
+        19957502,
+        19957637
       ],
-      "score": 19,
+      "score": 20,
       "time": 1558296111,
       "title": "Congress should grow the Digital Services budget, it more than pays for itself",
       "type": "story",
@@ -17974,9 +17975,21 @@
       "time": 1558328023,
       "type": "comment",
       "time_iso": "2019-05-20 00:53:43"
+    },
+    "19957727": {
+      "by": "westurner",
+      "descendants": 0,
+      "id": 19957727,
+      "score": 1,
+      "time": 1558329605,
+      "title": "The Trillion-Dollar Annual Interest Payment",
+      "type": "story",
+      "url": "https://www.cpajournal.com/2019/04/26/the-trillion-dollar-annual-interest-payment/",
+      "time_iso": "2019-05-20 01:20:05"
     }
   },
   "roots": [
+    19957727,
     19955169,
     19918227,
     19909297,
