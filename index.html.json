@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -17680,7 +17680,7 @@
     },
     "19889775": {
       "by": "sarego",
-      "descendants": 188,
+      "descendants": 189,
       "id": 19889775,
       "kids": [
         19890556,
@@ -17695,21 +17695,21 @@
         19893641,
         19890383,
         19890264,
-        19892861,
         19890718,
+        19892861,
         19895712,
         19890365,
-        19892771,
         19890702,
+        19892771,
         19891492,
-        19892282,
         19890871,
+        19892282,
         19892714,
-        19892093,
         19891313,
+        19892093,
         19890915,
-        19891571,
         19890632,
+        19891571,
         19890347,
         19890935,
         19890765,
@@ -17719,12 +17719,12 @@
         19890830,
         19890909,
         19891330,
-        19893743,
         19892736,
+        19893743,
         19890754,
         19890129
       ],
-      "score": 341,
+      "score": 342,
       "time": 1557628652,
       "title": "Use links not keys to represent relationships in APIs",
       "type": "story",
@@ -17754,7 +17754,7 @@
     },
     "19909297": {
       "by": "peter_retief",
-      "descendants": 158,
+      "descendants": 159,
       "id": 19909297,
       "kids": [
         19909505,
@@ -17771,12 +17771,12 @@
         19909596,
         19911065,
         19909597,
-        19909638,
         19911383,
+        19909638,
         19909603,
         19909536
       ],
-      "score": 121,
+      "score": 122,
       "time": 1557840981,
       "title": "Death rates from energy production per TWh",
       "type": "story",
@@ -17842,13 +17842,14 @@
     },
     "19918227": {
       "by": "dankohn1",
-      "descendants": 14,
+      "descendants": 18,
       "id": 19918227,
       "kids": [
         19918814,
+        19923202,
         19918867
       ],
-      "score": 87,
+      "score": 143,
       "time": 1557918569,
       "title": "Oak, a Free and Open Certificate Transparency Log",
       "type": "story",
@@ -17932,14 +17933,51 @@
     "19920667": {
       "by": "westurner",
       "id": 19920667,
+      "kids": [
+        19923194
+      ],
       "parent": 19920426,
       "text": "Centralized and decentralized are overloaded terms. We could argue that every system that depends upon DNS is a centralized (and thus has a single point of failure).<p>We could describe replication models as centralized or decentralized. Master/master SQL replication is still not decentralized (regardless of whether there are multiple A records or multiple static IPs configured in the client).</p><p>With PKI, we choose the convenience of trusting a CA bundle over having to manually check every cert fingerprint.</p><p>Whether a particular chain is centralized or decentralized is often bandied about. When there are a few mining pools that effectively choose which changes are accepted, that's not decentralized either.</p><p>That there are multiple redundant independent CT logs is a good thing.</p><p>How do I, as a concerned user, securely download (and securely mirror?) one or all of the CT logs and verify that none of the record hashes don't depend upon the previous hash? If the browser relies upon a centralized API for checking hash fingerprints, how is that decentralized?</p>",
       "time": 1557935788,
       "type": "comment",
       "time_iso": "2019-05-15 11:56:28"
+    },
+    "19923194": {
+      "by": "skybrian",
+      "id": 19923194,
+      "parent": 19920667,
+      "text": "Looks like there is a bit here about how to get started:\n<a href=\"https://security.stackexchange.com/questions/167366/how-can-i-access-the-certificate-transparency-logs\" rel=\"nofollow noopener\" target=\"_blank\">https://security.stackexchange.com/questions/167366/how-can-...</a><p>Most people aren't going to do it, but I think that's not really the point, any more than every user needs to review Linux kernel patches. But I wonder if there are enough \"eyes\" on this and how would we check?</p>",
+      "time": 1557950769,
+      "type": "comment",
+      "time_iso": "2019-05-15 16:06:09"
+    },
+    "19955169": {
+      "by": "rmason",
+      "descendants": 2,
+      "id": 19955169,
+      "kids": [
+        19957637,
+        19957502
+      ],
+      "score": 19,
+      "time": 1558296111,
+      "title": "Congress should grow the Digital Services budget, it more than pays for itself",
+      "type": "story",
+      "url": "https://thehill.com/opinion/technology/444159-congress-should-grow-the-digital-services-budget-which-more-than-pays-for",
+      "time_iso": "2019-05-19 16:01:51"
+    },
+    "19957637": {
+      "by": "westurner",
+      "id": 19957637,
+      "parent": 19955169,
+      "text": "&gt; <i>The U.S. Digital Service isn\u2019t perfect, but it is clearly working. The team estimates that for every $1 million invested in USDS that the government will avoid spending $5 million and save thousands of labor hours. Over a five-year period, the team\u2019s efforts will save $1.1 billion, redirect almost 2,000 labor years towards higher value work, and generate over 400 percent return on investment. Most importantly, USDS will continue to deliver better government services for the American people, including Veterans who deserve better.</i><p>&gt; <i>In the private sector, these kinds of numbers would not lead to a 50 percent cut in budget. Instead, you\u2019d clearly invest further with that kind of return. Considering the ambitious goals set out in the President\u2019s Management Agenda, the Trump Administration should double down on better support for the public, our troops, and our veterans. The best way to do that is clearly through investments like USDS.</i></p><p>Why would you halve the budget of a team that's yielding a more than 400% ROI (in terms of <i>cost savings</i>)?</p><p><a href=\"https://en.wikipedia.org/wiki/United_States_Digital_Service\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/United_States_Digital_Service</a></p>",
+      "time": 1558328023,
+      "type": "comment",
+      "time_iso": "2019-05-20 00:53:43"
     }
   },
   "roots": [
+    19955169,
     19918227,
     19909297,
     19889775,
