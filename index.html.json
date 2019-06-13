@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -18258,7 +18258,7 @@
     },
     "20155636": {
       "by": "eugenegamma",
-      "descendants": 294,
+      "descendants": 297,
       "id": 20155636,
       "kids": [
         20157069,
@@ -18270,8 +18270,8 @@
         20156040,
         20156074,
         20157397,
-        20157735,
         20156278,
+        20157735,
         20156998,
         20156012,
         20156105,
@@ -18295,8 +18295,8 @@
         20160552,
         20156324,
         20156122,
-        20161226,
         20155904,
+        20161226,
         20157434,
         20157419,
         20156121,
@@ -18339,21 +18339,23 @@
     },
     "20163734": {
       "by": "carlosgg",
-      "descendants": 23,
+      "descendants": 37,
       "id": 20163734,
       "kids": [
         20171896,
+        20171955,
         20171405,
-        20171687,
         20171686,
         20171642,
+        20171687,
         20171545,
+        20172092,
         20171625,
+        20171593,
         20171447,
-        20163803,
-        20171593
+        20163803
       ],
-      "score": 40,
+      "score": 54,
       "time": 1560341777,
       "title": "A plan to change how Harvard teaches economics",
       "type": "story",
@@ -18376,6 +18378,7 @@
       "by": "westurner",
       "id": 20171815,
       "kids": [
+        20171999,
         20171868
       ],
       "parent": 20171687,
@@ -18399,11 +18402,44 @@
     "20171907": {
       "by": "westurner",
       "id": 20171907,
+      "kids": [
+        20172117
+      ],
       "parent": 20171868,
       "text": "How can you possibly be arguing that we should not be testing models with all available data?<p>All models are limited by the data they're trained from; regardless of whether they are derived through rigorous, standardized, unbiased analysis or though laudable divine inspiration.</p><p>From <a href=\"https://news.ycombinator.com/item?id=19084622\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=19084622</a> :</p><p>&gt; <i>pandas-datareader can pull data from e.g. FRED, Eurostat, Quandl, World Bank: <a href=\"https://pandas-datareader.readthedocs.io/en/latest/remote_data.html\" rel=\"nofollow noopener\" target=\"_blank\">https://pandas-datareader.readthedocs.io/en/latest/remote_da...</a> </i></p><p>&gt; <i>pandaSDMX can pull SDMX data from e.g. ECB, Eurostat, ILO, IMF, OECD, UNSD, UNESCO, World Bank; with requests-cache for caching data requests: <a href=\"https://pandasdmx.readthedocs.io/en/latest/#supported-data-providers\" rel=\"nofollow noopener\" target=\"_blank\">https://pandasdmx.readthedocs.io/en/latest/#supported-data-p...</a> </i></p>",
       "time": 1560401787,
       "type": "comment",
       "time_iso": "2019-06-13 00:56:27"
+    },
+    "20171999": {
+      "by": "em500",
+      "id": 20171999,
+      "kids": [
+        20172154
+      ],
+      "parent": 20171815,
+      "text": "Most of the interesting economic questions are inference problems, not prediction problems The question is not \"what is the best guess of y[i] given these values of x[i]'s\", but what would y[i] have been for this very individual i (or country in macro-economics) if we could have wound back the clock and change the values of x[i]'s for this individual. The methods that economists know and use may not be the best, but the standard ML prediction methods do not address the same questions, and data scientists without a social / economic / medical background are often not even aware of the distinction.<p>Economists and social scientists try to do non-experimental causal inference. Maybe they're not good at it, maybe the very problem is unsolvable, but it's not because they don't know how Random Forests or RNNs work. Economists already <i>know</i> that students from single parent families do worse at school than from married families. If the problem is just to predict individual student results, number of parents in the household is certainly a good predictor. The problem facing economists is, would encouraging marriage or discouraging diveroce improve student results? Nothing in PyTorch or Tensorflow will help with the answer..</p>",
+      "time": 1560403047,
+      "type": "comment",
+      "time_iso": "2019-06-13 01:17:27"
+    },
+    "20172117": {
+      "by": "AnthonyMouse",
+      "id": 20172117,
+      "parent": 20171907,
+      "text": "&gt; All models are limited by the data they're trained from; regardless of whether they are derived through rigorous, standardized, unbiased analysis or though laudable divine inspiration.<p>Some of the data we have isn't training data. Purely data-driven models tend to be ensnared by Goodhart's law.</p><p>For example, suppose we're issuing 30-year term loans and we have some data that shows that people with things like country club memberships and foie gras on their credit card statements have a higher tendency not to miss payments. So we use that information to make our determination.</p><p>But people are aware we're doing this and the same data is externally available, so now people start to waste resources on extravagant luxuries in order to qualify for a loan or a low interest rate, and that only makes it more likely that they ultimately default. However, that consequence doesn't become part of the data set until years have passed and the defaults actually occur, and in the meantime we're using flawed reasoning to issue loans. When we finally figure that out after ten years, the new data we use then will have some fresh different criteria for people to game, because the data is always from the past rather than the future.</p><p>We've already seen the kind of damage this can do. Politicians see data that college-educated people are better off so subsidize college loans, only to discover that the signal from having a degree that caused it to result in such gainful employment is diluted as it becomes more common, and subsidizing loans results in price inflation, and making a degree a prerequisite for jobs that shouldn't require it creates incentives for degree mills that pump out credentials but not real education.</p><p>To get out of this we have to consider not only what people have done in the past but how they are likely to respond to a given policy change, for which we have no historical data prior to when the policy is enacted, and so we need to make those predictions based on logic in addition to data or we go astray.</p>",
+      "time": 1560404634,
+      "type": "comment",
+      "time_iso": "2019-06-13 01:43:54"
+    },
+    "20172154": {
+      "by": "westurner",
+      "id": 20172154,
+      "parent": 20171999,
+      "text": "Backtesting algorithmic trading algorithms is fairly simple: what actions would the model have taken given the available data at that time, and how would those trading decisions have affected the single objective dependent variable. Backtesting, paper trading, live trading.<p>Medicine (and also social sciences) is indeed more complex; but classification and prediction are still the basis for making treatment recommendations, for example.</p><p>Still, the task really is the same. A NN (like those that Torch, Theano, TensorFlow, and PyTorch produce; now with the ONNX standard for neural network model interchange) learns complex relations and really doesn't care about causality: minimize the error term. Recent progress in reducing the size of NN models e.g. for offline natural language classification on mobile devices has centered around identifying redundant neuronal connections (from 100GB to just 0.5GB). Reversing a NN into a far less complex symbolic model (with variable names) is not a new objective. NNs are being applied for feature selection, XGBoost wins many Kaggle competitions, and combinations thereof appear to be promising.</p><p>Actually testing second-order effects of evidence-based economic policy recommendations is certainly a complex highly-multivariate task (with unfortunate ideological digression that presumes a higher-order understanding based upon seeming truisms that are not at all validated given, in many instances, <i>any</i> data). A causal model may not be necessary or even reasonably explainable; and what objective dependent variables should we optimize for? Short term growth or long-term prosperity with environmental sustainability?</p><p>...  \"Please highly weight <i>voluntary</i> sustainability reporting metrics along with fundamentals\" when making investments and policy decisions?</p><p>Were/are the World3 models causal? Many of their predictions have subsequently been validated. Are those policy recommendations (e.g. in \"The Limits to Growth\") even more applicable today, or do we need to add more labeled data and \"Restart and Run All\"?</p><p>...</p><p>From <a href=\"https://research.stlouisfed.org/useraccount/fredcast/faq/\" rel=\"nofollow noopener\" target=\"_blank\">https://research.stlouisfed.org/useraccount/fredcast/faq/</a> :</p><p>&gt; <i>FREDcast\u2122 is an interactive forecasting game in which players make forecasts for four economic releases: GDP, inflation, employment, and unemployment. All forecasts are for the current month\u2014or current quarter in the case of GDP. Forecasts must be submitted by the 20th of the current month. For real GDP growth, players submit a forecast for current-quarter GDP each month during the current quarter. Forecasts for each of the four variables are scored for accuracy, and a total monthly score is obtained from these scores. Scores for each monthly forecast are based on the magnitude of the forecast error. These monthly scores are weighted over time and accumulated to give an overall performance.</i></p><p>&gt; <i>Higher scores reflect greater accuracy over time. Past months' performances are downweighted so that more-recent performance plays a larger part in the scoring.</i></p><p>The #GobalGoals Targets and Indicators may be our best set of variables to optimize for from 2015 through 2030; I suppose all of them are economic.</p>",
+      "time": 1560405155,
+      "type": "comment",
+      "time_iso": "2019-06-13 01:52:35"
     }
   },
   "roots": [
