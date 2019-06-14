@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -18258,7 +18258,7 @@
     },
     "20155636": {
       "by": "eugenegamma",
-      "descendants": 299,
+      "descendants": 303,
       "id": 20155636,
       "kids": [
         20157069,
@@ -18271,8 +18271,8 @@
         20156074,
         20157397,
         20156278,
-        20157735,
         20156998,
+        20157735,
         20156012,
         20156105,
         20159365,
@@ -18287,41 +18287,41 @@
         20158912,
         20156212,
         20156554,
-        20165172,
         20158025,
         20158334,
+        20165172,
         20156382,
+        20157419,
+        20160022,
+        20159133,
         20158967,
-        20166065,
         20159027,
         20156324,
         20156122,
         20155904,
-        20160552,
         20157434,
+        20160552,
         20156121,
+        20166065,
         20161226,
-        20157419,
-        20159133,
         20155985,
         20157441,
         20157203,
+        20160152,
         20158977,
         20157942,
         20158060,
         20157064,
-        20159348,
         20157317,
+        20159348,
         20159182,
         20156645,
-        20160022,
         20159499,
-        20160152,
         20159030,
         20158953,
         20158243
       ],
-      "score": 729,
+      "score": 734,
       "time": 1560262919,
       "title": "No Kings: How Do You Make Good Decisions Efficiently in a Flat Organization?",
       "type": "story",
@@ -18339,16 +18339,16 @@
     },
     "20163734": {
       "by": "carlosgg",
-      "descendants": 146,
+      "descendants": 163,
       "id": 20163734,
       "kids": [
         20171896,
         20172726,
-        20171686,
         20171955,
-        20173789,
+        20171686,
         20171405,
         20172985,
+        20173789,
         20171642,
         20171687,
         20171545,
@@ -18361,7 +18361,7 @@
         20171593,
         20172092
       ],
-      "score": 113,
+      "score": 114,
       "time": 1560341777,
       "title": "A plan to change how Harvard teaches economics",
       "type": "story",
@@ -18370,23 +18370,23 @@
     },
     "20169635": {
       "by": "espeed",
-      "descendants": 80,
+      "descendants": 82,
       "id": 20169635,
       "kids": [
         20171553,
         20173228,
         20169788,
-        20172901,
         20172855,
-        20174268,
+        20172901,
         20170436,
+        20174268,
         20171709,
         20172707,
         20170024,
         20171244,
         20170061
       ],
-      "score": 394,
+      "score": 404,
       "time": 1560375718,
       "title": "The New York Times course to teach its reporters data skills is now open-source",
       "type": "story",
@@ -18398,7 +18398,8 @@
       "id": 20171687,
       "kids": [
         20171815,
-        20172882
+        20172882,
+        20178563
       ],
       "parent": 20163734,
       "text": "The difference big data/data science/empirical study and 'classical' economics (by which I'd include any system of economics that seeks to explain human behavior via an underlying metatheory) is that a primarily empirical approach obscures the necessary underlying theory present in any experiment where you're trying to fit data to a curve.<p>For example, when you run a science experiment and you plot the data, you may find that you're looking at a line. While this is an interesting finding, it has zero predictive value for anything other than the exact situation you've collected data for. In order to formulate scientific law, you first must (a) believe that such a thing exists and (b) have some theory as to what shape the curve ought to fit. For example, a naive look at physics using an 'empirical' approach might incorrectly conclude that force is mass times acceleration. While moderately useful for many problems, this offers little predictive power in the general case. In order to actually formulate a law that can be of predictive value, you have to first consider various other laws and axioms (such as the constant speed of light for force), at which point -- by deduction, without any need of empirism -- you determine that this is wrong, and you need another kind of equation to fit your data to.</p><p>I don't know if the simplistic demand curves drawn in the original text book are correct or not. However, at least those are based on a particular set of assumptions that can be validated or not. The kind of empiricism put forth by Mr Chetty does not offer this at all.</p><p>All this is to say that, while data is useful for validation, it is not useful for prediction. The last thing we need is a black-box machine learning model to make major economic decisions off of. What we do need is proper models that are then validated, which don't necessarily need 'big data.'</p>",
@@ -18631,6 +18632,10 @@
     "20178068": {
       "by": "westurner",
       "id": 20178068,
+      "kids": [
+        20179657,
+        20178535
+      ],
       "parent": 20175980,
       "text": "A causal model is a predictive model. We must validate the error of a causal model.<p>Why are theoretic models hand-wavy? \"That's just because noise, the model is correct.\" No, such a model is insufficient to predict changes in dependent variables when in the presence of noise; which is always the case. How does validating a causal model differ from validating a predictive model with historical and future data?</p><p>Yield-curve inversion as a signal can be learned by human and artificial NNs. Period. There are a few false positives in historical data: indeed, describe the variance due to \"noise\" by searching for additional causal and correlative relations in additional datasets.</p><p>I searched for \"python causal inference\" and found a few resources on the first page of search results:\n<a href=\"https://www.google.com/search?q=python+causal+inference\" rel=\"nofollow noopener\" target=\"_blank\">https://www.google.com/search?q=python+causal+inference</a></p><p>CausalInference:\n<a href=\"https://pypi.org/project/CausalInference/\" rel=\"nofollow noopener\" target=\"_blank\">https://pypi.org/project/CausalInference/</a></p><p>DoWhy:\n<a href=\"https://github.com/microsoft/dowhy\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/microsoft/dowhy</a></p><p>CausalImpact (Python port of the R package):\n<a href=\"https://github.com/dafiti/causalimpact\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/dafiti/causalimpact</a></p><p>\"What is the best Python package for causal inference?\"\n<a href=\"https://www.quora.com/What-is-the-best-Python-package-for-causal-inference\" rel=\"nofollow noopener\" target=\"_blank\">https://www.quora.com/What-is-the-best-Python-package-for-ca...</a></p><p>Search: graphical model \"information theory\" [causal]\n<a href=\"https://www.google.com/search?q=graphical+model+%22information+theory%22\" rel=\"nofollow noopener\" target=\"_blank\">https://www.google.com/search?q=graphical+model+%22informati...</a></p><p>Search: opencog causal inference\n<a href=\"https://www.google.com/search?q=opencog+causal+inference\" rel=\"nofollow noopener\" target=\"_blank\">https://www.google.com/search?q=opencog+causal+inference</a> (MOSES, PLN,)</p><p>If you were to write a pseudocode algorithm for an econometric researcher's process of causal inference (and also their cognitive processes (as executed in a NN with a topology)), how would that read?</p><p>(Edit) Something about the sufficiency of RL (Reinforcement Learning) for controlling cybernetic systems.\n<a href=\"https://en.wikipedia.org/wiki/Cybernetics\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/Cybernetics</a></p>",
       "time": 1560455685,
@@ -18650,10 +18655,64 @@
       "by": "westurner",
       "id": 20178239,
       "parent": 20172548,
-      "text": "&gt; <i>apologists for the continuation of rent-seeking policies that entrench the rich and mighty.</i><p>This.</p><p>\"THE IMF CONFIRMS THAT 'TRICKLE-DOWN' ECONOMICS IS, INDEED, A JOKE\"\n<a href=\"https://psmag.com/economics/trickle-down-economics-is-indeed-a-joke\" rel=\"nofollow noopener\" target=\"_blank\">https://psmag.com/economics/trickle-down-economics-is-indeed...</a></p><p>&gt; <i>INCREASING THE INCOME SHARE TO THE BOTTOM 20 PERCENT OF CITIZENS BY A MERE ONE PERCENT RESULTS IN A 0.38 PERCENTAGE POINT JUMP IN GDP GROWTH.</i></p><p>&gt; <i>The IMF report, authored by five economists, presents a scathing rejection of the trickle-down approach, arguing that the monetary philosophy has been used as a justification for growing income inequality over the past several decades. \"Income distribution matters for growth,\" they write. \"Specifically, if the income share of the top 20 percent increases, then GDP growth actually declined over the medium term, suggesting that the benefits do not trickle down.\"</i></p><p>\"Causes and Consequences of Income Inequality: A Global Perspective\" (2015)\n<a href=\"https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C43&amp;q=%22Causes+and+Consequences+of+Income+Inequality%3A+A+Global+Perspective%22\" rel=\"nofollow noopener\" target=\"_blank\">https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C43&amp;q=%22...</a></p><p>I'll add that we tend to overlook the level of government spending during periods trickle-down economics and confound. Change in government spending (somewhat unfortunately regardless of revenues) is a relevant factor.</p><p>Let's make this economy great again? How about you identify the decade(s) you're referring to you and I'll show you the tax revenue (on income and now capital gains), federal debt per capital, and the growth in GDP.</p>",
+      "text": "&gt; <i>apologists for the continuation of rent-seeking policies that entrench the rich and mighty.</i><p>This.</p><p>\"THE IMF CONFIRMS THAT 'TRICKLE-DOWN' ECONOMICS IS, INDEED, A JOKE\"\n<a href=\"https://psmag.com/economics/trickle-down-economics-is-indeed-a-joke\" rel=\"nofollow noopener\" target=\"_blank\">https://psmag.com/economics/trickle-down-economics-is-indeed...</a></p><p>&gt; <i>INCREASING THE INCOME SHARE TO THE BOTTOM 20 PERCENT OF CITIZENS BY A MERE ONE PERCENT RESULTS IN A 0.38 PERCENTAGE POINT JUMP IN GDP GROWTH.</i></p><p>&gt; <i>The IMF report, authored by five economists, presents a scathing rejection of the trickle-down approach, arguing that the monetary philosophy has been used as a justification for growing income inequality over the past several decades. \"Income distribution matters for growth,\" they write. \"Specifically, if the income share of the top 20 percent increases, then GDP growth actually declined over the medium term, suggesting that the benefits do not trickle down.\"</i></p><p>\"Causes and Consequences of Income Inequality: A Global Perspective\" (2015)\n<a href=\"https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C43&amp;q=%22Causes+and+Consequences+of+Income+Inequality%3A+A+Global+Perspective%22\" rel=\"nofollow noopener\" target=\"_blank\">https://scholar.google.com/scholar?hl=en&amp;as_sdt=0%2C43&amp;q=%22...</a></p><p>I'll add that we tend to overlook the level of government spending during periods trickle-down economics and confound. Change in government spending (somewhat unfortunately regardless of revenues) is a relevant factor.</p><p>Let's make this economy great again? How about you identify the decade(s) you're referring to and I'll show you the tax revenue (on income and now capital gains), federal debt per capital, and the growth in GDP.</p>",
       "time": 1560457285,
       "type": "comment",
       "time_iso": "2019-06-13 16:21:25"
+    },
+    "20178535": {
+      "by": "zwaps",
+      "id": 20178535,
+      "kids": [
+        20178661
+      ],
+      "parent": 20178068,
+      "text": "I am at loss at what you want to say to me, but let me reiterate:<p>Any learning model by itself is a statistical model. Statistical models are never automatically causal models, albeit causal models are statistical models.</p><p>Several causal models can be observationally equivalent to a single statistical model, but the substantive (inferential) implications on doing \"an intervention\" on the DGP differ.</p><p>It is therefore not enough to validate and run on a model on data. Several causal models WILL validate on the same data, but their implications are drastically different. The data ALONE provides you no way to differentiate (we say, identify) the correct causal model without any further restrictions.</p><p>By extension, it is impossible for any ML mechanism to predict unobserved interventions without being a causal model.</p><p>ML and AI models CAN be causal models, which is the case if they are based on further assumptions about the DGP. For example, they may be graphical models, SCM/SEM etc. These restrictions can be derived algorithmically, based on all sorts of data, tuning, coding and whatever. It really doesn't change the distinction between causal and statistical analysis.</p><p>The way these models become causal is based on assumptions that constitute a theory in the scientific sense. These theories can then of course also be validated. But this is not based on learning from historical data alone. You always have to impose sufficient restrictions on your model (e.g. the DGP) to make such causal inference.</p><p>This is not new, but for your benefit, I basically transferred the above from an AI/ML book on causal analysis.</p><p>AI/ML can do causal analysis, because its statistics. AI/ML are not separate from these issues, do not solve these issues ex-ante, are not \"better\" than other techniques except on the dimensions that they are better as statistical techniques, AND, most importantly, causal application necessarily implies a theory.</p><p>Whether this is implicit or explicit is up to the researcher, but there are dangers associated with implicit causal reasoning.</p><p>And as Pearl wrote (who is not a fan of econometrics by any means!), the issue of causal inference was FIRST raised by econometricians BASED on combining the structure of economic models with statistical inference. In the 1940's.</p><p>I mean I get the appeal to trash talk social sciences, but when it comes to causal inference, you probably picked exactly the wrong one.</p><p>You are free to disregard economic theory. But you can not claim to do causal analysis without any theory. Doing so implicitly is dangerous.\nFurthermore, you are wrong in the sense that economic theory has put causal inference issues at the forefront of econometric research, and is therefore good for science even if you dislike those theories.</p>",
+      "time": 1560459673,
+      "type": "comment",
+      "time_iso": "2019-06-13 17:01:13"
+    },
+    "20178661": {
+      "by": "zwaps",
+      "id": 20178661,
+      "kids": [
+        20186332
+      ],
+      "parent": 20178535,
+      "text": "And by the way, I can come up with a good number of (drastic, hypothetical) policy interventions that would break your inference about a market crash - an inference you only were able to make once you saw such a market crash at least once.<p>If this dependence is broken, your non-causal model will no longer work, because the relationship between yield curve and market crash is not a physical constant fact. What you did to make it a causal inference is implicitly assume a theory about how markets work (e.g. - as they do right now -) and that it will stay this way.\nActually, you did a lot more, but that's enough.</p><p>Now, you and me, we can both agree that your model with yield curves is good enough. We could even agree that you would have found it before the financial crashes, and are a billionaire.\nBut the commonality we agree upon is a context that defines a theory.</p><p>Some alien that has been analyzing financial systems all across the universe may disagree, saying that your statistical model is in fact highly sensitive to Earth's political, societal and natural context.</p><p>Such is the difficulty of causal analysis.</p>",
+      "time": 1560460743,
+      "type": "comment",
+      "time_iso": "2019-06-13 17:19:03"
+    },
+    "20179657": {
+      "by": "em500",
+      "id": 20179657,
+      "kids": [
+        20186190
+      ],
+      "parent": 20178068,
+      "text": "What's the point of dumping a bunch of Google results here? At least half the results are about implementations of pretty traditional etatistical / econometric inference techniques. The Rudin causal inference framework requires either randomized controlled trials or for propensity score models an essentially unverifiable separate model step.<p>Google's CausalImpact model, despite having been featured on Google's AI blog, is a statistical/econometric model (essentially the same as <a href=\"https://www.jstor.org/stable/2981553\" rel=\"nofollow noopener\" target=\"_blank\">https://www.jstor.org/stable/2981553</a>). It leaves it <i>up to the user</i> to find and designate a set of control variables, which has to be <i>designated by the user</i> to be unaffected by the treatment. This is not done algorithmically, and has very little to do  with RNNs, Random Forests or regression regularization.</p><p>&gt; If you were to write a pseudocode algorithm for an econometric researcher's process of causal inference (and also their cognitive processes (as executed in a NN with a topology)), how would that read?</p><p>[1] Set up a proper RCT, that is randomly assign the treatment to different subjects\n[2] Calculate the outcome diffences between the treated and untreated</p><p>For A/B testing your website, the work division between [1] and [2] might be 50-50, or at least at similar order of magnitudes.</p><p>For the questions that academic economists wrstle with, say, estimate the effect of increasing school funding / decreasing class size, the effect of shifts between tax deductions vs tax credits vs changing tax rates or bands, or of the different outcome on GDP growth and unemployment of monetary vs fiscal expansion  [1] would be 99.9999% of the work, or completely impossible.</p><p>Faced with the impracticallity/impossiblility of proper experiments, academic micro-economists have typically resorted to Instrumental Variable regressions. AFAICT finding (or rather, convincing the audience that you have) a proper instrument is not very amendable to automation or data mining.</p><p>In academic macro-economics (and hence at Serious Institutions such as central banks and the IMF), the most popular approaches to building causal models in the last 3 or 4 decades have probably been \n1) making a bunch of unrealistic assumpsions of the behaviour individual agents (microfoundations/DSGE models)\n2) making a bunch of uninterpretable and unverifyable technical assumptions on the parameters in a generic dynamic stochastic vector process fitted to macro-aggregates (Structural VAR with \"identifying restrictions\") \n3) manually grouping different events in different countries from different periods in history as \"similar enough\" to support your pet theory: lowering interest rates can lead to a) high inflation, high unemployment (USA 1970s), b) high inflation, low unemployment (Japan 1970s), b) low inflation, high unemployment (EU 2010s) c) low inflation, low unemployment (USA, Japan past 2010s)</p><p>I really don't see how a RL would help with any of this. Care to come up with something concrete?</p>",
+      "time": 1560471170,
+      "type": "comment",
+      "time_iso": "2019-06-13 20:12:50"
+    },
+    "20186190": {
+      "by": "westurner",
+      "id": 20186190,
+      "parent": 20179657,
+      "text": "&gt; <i>What's the point of dumping a bunch of Google results here? At least half the results are about implementations of pretty traditional etatistical / econometric inference techniques.</i><p>Here are some tools for causal inference (and a process for finding projects to contribute to instead of arguing about insufficiency of AI/ML for our very special problem domain here). At least one AGI implementation doesn't need to do causal inference in order to predict the outcomes of actions in a noisy field.</p><p>Weather forecasting models don't / don't need to do causal inference.</p><p>&gt; <i>A/B testing</i></p><p>Is multi-armed bandit feasible for the domain? Or, in practice, are there too many concurrent changes in variables to have any sort of a controlled experiment. Then, aren't you trying to do causal inference with mostly observational data.</p><p>&gt; <i>I really don't see how a RL would help with any of this. Care to come up with something concrete?</i></p><p>The practice of developing models and continuing on with them when they seem to fit and citations or impact reinforce is very much entirely an exercise in RL. This is a control system with a feedback loop. A \"Cybernetic system\". It's not unique. It's not too hard for symbolic or neural AI/ML. Stronger AI <i>can</i> or <i>could</i> do [causal] inference.</p>",
+      "time": 1560542318,
+      "type": "comment",
+      "time_iso": "2019-06-14 15:58:38"
+    },
+    "20186332": {
+      "by": "westurner",
+      "id": 20186332,
+      "parent": 20178661,
+      "text": "&gt; <i>By extension, it is impossible for any ML mechanism to predict unobserved interventions without being a causal model.</i><p>In lieu of a causal model, when I ask an economist what they think is going to happen and they aren't aware of any historical data - there is no observational data collected following the given combination of variables we'd call an event or an intervention - is it causal inference that they're doing in their head? (With their NN)</p><p>&gt; <i>Now, you and me, we can both agree that your model with yield curves is good enough.</i></p><p>Yield curves alone are insufficient due to the rate of false positives. (See: ROC curves for model evalutation just like everyone else)</p><p>&gt; <i>We could even agree that you would have found it before the financial crashes,</i></p><p>The given signal was disregarded as a false positive by the appointed individuals at the time; why?</p><p>&gt; <i>Some alien that has been analyzing financial systems all across the universe may disagree, </i></p><p>You're going to run out of clean water and energy, and people will be willing to pay for unhealthy sugar water and energy-inefficient transaction networks with a perception of greater security.</p><p>That we need Martian scientist as an approach is, IMHO, necessary because of our learned biases; where we've inferred relations that have been reinforced which cloud our assessment of new and novel solutions.</p><p>&gt; <i>Such is the difficulty of causal analysis. </i></p><p>What a helpful discussion. Thanks for explaining all of this to me.</p>",
+      "time": 1560543491,
+      "type": "comment",
+      "time_iso": "2019-06-14 16:18:11"
     }
   },
   "roots": [
