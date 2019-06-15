@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -18289,22 +18289,22 @@
         20156554,
         20158025,
         20158334,
-        20165172,
         20156382,
         20157419,
+        20165172,
         20160022,
         20159133,
         20158967,
-        20159027,
         20156324,
         20156122,
+        20159027,
         20155904,
         20157434,
         20160552,
         20156121,
+        20155985,
         20166065,
         20161226,
-        20155985,
         20157441,
         20157203,
         20160152,
@@ -18321,7 +18321,7 @@
         20158953,
         20158243
       ],
-      "score": 734,
+      "score": 738,
       "time": 1560262919,
       "title": "No Kings: How Do You Make Good Decisions Efficiently in a Flat Organization?",
       "type": "story",
@@ -18339,21 +18339,21 @@
     },
     "20163734": {
       "by": "carlosgg",
-      "descendants": 163,
+      "descendants": 165,
       "id": 20163734,
       "kids": [
         20171896,
-        20172726,
         20171955,
         20171686,
+        20172726,
         20171405,
+        20171625,
         20172985,
         20173789,
         20171642,
         20171687,
-        20171545,
-        20171625,
         20173129,
+        20171545,
         20171447,
         20173993,
         20163803,
@@ -18361,7 +18361,7 @@
         20171593,
         20172092
       ],
-      "score": 114,
+      "score": 115,
       "time": 1560341777,
       "title": "A plan to change how Harvard teaches economics",
       "type": "story",
@@ -18374,8 +18374,8 @@
       "id": 20169635,
       "kids": [
         20171553,
-        20173228,
         20169788,
+        20173228,
         20172855,
         20172901,
         20170436,
@@ -18386,7 +18386,7 @@
         20171244,
         20170061
       ],
-      "score": 404,
+      "score": 410,
       "time": 1560375718,
       "title": "The New York Times course to teach its reporters data skills is now open-source",
       "type": "story",
@@ -18577,8 +18577,8 @@
       "id": 20172548,
       "kids": [
         20178239,
-        20175137,
-        20174564
+        20174564,
+        20175137
       ],
       "parent": 20172335,
       "text": "And he's made $42 <i>million</i> in royalties on the book. It's almost endearing how economists claim they are somehow immune to incentives, until you pause to consider they are primarily employed as apologists for the continuation of rent-seeking policies that entrench the rich and mighty.",
@@ -18684,6 +18684,36 @@
       "type": "comment",
       "time_iso": "2019-06-13 17:19:03"
     },
+    "20179529": {
+      "by": "mehrdadn",
+      "descendants": 79,
+      "id": 20179529,
+      "kids": [
+        20180128,
+        20179808,
+        20179931,
+        20182749,
+        20179941,
+        20180045,
+        20183190,
+        20180702,
+        20179880,
+        20180218,
+        20187685,
+        20183786,
+        20181650,
+        20182426,
+        20182772,
+        20179960,
+        20180055
+      ],
+      "score": 211,
+      "time": 1560469198,
+      "title": "NOAA upgrades the U.S. global weather forecast model",
+      "type": "story",
+      "url": "https://www.noaa.gov/media-release/noaa-upgrades-us-global-weather-forecast-model",
+      "time_iso": "2019-06-13 19:39:58"
+    },
     "20179657": {
       "by": "em500",
       "id": 20179657,
@@ -18708,14 +18738,46 @@
     "20186332": {
       "by": "westurner",
       "id": 20186332,
+      "kids": [
+        20189142,
+        20189184
+      ],
       "parent": 20178661,
-      "text": "&gt; <i>By extension, it is impossible for any ML mechanism to predict unobserved interventions without being a causal model.</i><p>In lieu of a causal model, when I ask an economist what they think is going to happen and they aren't aware of any historical data - there is no observational data collected following the given combination of variables we'd call an event or an intervention - is it causal inference that they're doing in their head? (With their NN)</p><p>&gt; <i>Now, you and me, we can both agree that your model with yield curves is good enough.</i></p><p>Yield curves alone are insufficient due to the rate of false positives. (See: ROC curves for model evalutation just like everyone else)</p><p>&gt; <i>We could even agree that you would have found it before the financial crashes,</i></p><p>The given signal was disregarded as a false positive by the appointed individuals at the time; why?</p><p>&gt; <i>Some alien that has been analyzing financial systems all across the universe may disagree, </i></p><p>You're going to run out of clean water and energy, and people will be willing to pay for unhealthy sugar water and energy-inefficient transaction networks with a perception of greater security.</p><p>That we need Martian scientist as an approach is, IMHO, necessary because of our learned biases; where we've inferred relations that have been reinforced which cloud our assessment of new and novel solutions.</p><p>&gt; <i>Such is the difficulty of causal analysis. </i></p><p>What a helpful discussion. Thanks for explaining all of this to me.</p>",
+      "text": "&gt; <i>By extension, it is impossible for any ML mechanism to predict unobserved interventions without being a causal model.</i><p>In lieu of a causal model, when I ask an economist what they think is going to happen and they aren't aware of any historical data - there is no observational data collected following the given combination of variables we'd call an event or an intervention - is it causal inference that they're doing in their head? (With their NN)</p><p>&gt; <i>Now, you and me, we can both agree that your model with yield curves is good enough.</i></p><p>Yield curves alone are insufficient due to the rate of false positives. (See: ROC curves for model evalutation just like everyone else)</p><p>&gt; <i>We could even agree that you would have found it before the financial crashes,</i></p><p>The given signal was disregarded as a false positive by the appointed individuals at the time; why?</p><p>&gt; <i>Some alien that has been analyzing financial systems all across the universe may disagree, </i></p><p>You're going to run out of clean water and energy, and people will be willing to pay for unhealthy sugar water and energy-inefficient transaction networks with a perception of greater security.</p><p>That we need Martian scientist as an approach is, IMHO, necessary because of our learned biases; where we've inferred relations that have been reinforced which cloud our assessment of new and novel solutions.</p><p>&gt; <i>Such is the difficulty of causal analysis. </i></p><p>What a helpful discussion. Thanks for explaining all of this to me.</p><p>Now, I need to go write my own definitions for <i>counterfactual</i> and <i>DGP</i> and include graphical models in there somewhere.</p>",
       "time": 1560543491,
       "type": "comment",
       "time_iso": "2019-06-14 16:18:11"
+    },
+    "20187685": {
+      "by": "westurner",
+      "id": 20187685,
+      "parent": 20179529,
+      "text": "&gt; <i>Working with other scientists, Lin developed a model to represent how flowing air carries these substances. The new model divided the atmosphere into cells or boxes and used computer code based on the laws of physics to simulate how air and chemical substances move through each cell and around the globe.</i><p>&gt; <i>The model paid close attention to conserving energy, mass and momentum in the atmosphere in each box. This precision resulted in dramatic improvements in the accuracy and realism of the atmospheric chemistry.</i></p><p>Global Forecast System &gt; Future\n<a href=\"https://en.wikipedia.org/wiki/Global_Forecast_System#Future\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/Global_Forecast_System#Future</a></p>",
+      "time": 1560557782,
+      "type": "comment",
+      "time_iso": "2019-06-14 20:16:22"
+    },
+    "20189142": {
+      "by": "zwaps",
+      "id": 20189142,
+      "parent": 20186332,
+      "text": "A further hint, here is a great book about causal analysis from a ML/AI perspective<p><a href=\"https://mitpress.mit.edu/books/elements-causal-inference\" rel=\"nofollow noopener\" target=\"_blank\">https://mitpress.mit.edu/books/elements-causal-inference</a></p><p>I feel like you will benefit from reading this!</p><p>It's free!</p>",
+      "time": 1560591359,
+      "type": "comment",
+      "time_iso": "2019-06-15 05:35:59"
+    },
+    "20189184": {
+      "by": "zwaps",
+      "id": 20189184,
+      "parent": 20186332,
+      "text": "&gt; In lieu of a causal model, when I ask an economist what they think is going to happen and they aren't aware of any historical data - there is no observational data collected following the given combination of variables we'd call an event or an intervention - is it causal inference that they're doing in their head? (With their NN)<p>It's up for debate if NN's represent what is going on in our heads. But let's for a moment assume it is so.</p><p>Then indeed, an economist leverages a big set of data and assumptions about causal connections to speculate how this intervention would change the DGP (the modules in the causal model) and therefore how the result would change.</p><p>An AI could potentially do the same (if that is really what we humans do), but so far, we certainly lack the ability to program such a general AI. The reason is, in part, because we have difficulty creating causal AI models even for specialized problems. In that sense, humans are much more sophisticated right now.</p><p>It is important to note that such a hypothetical AI would create a theory, based on all sorts of data, analogies, prior research and so forth, just like economists do.</p><p>It does not really matter if a scientist, or an AI, does the theorizing. The distinction is between causal and non-causal analysis.</p><p>The value of formal theory is to lay down assumptions and tautological statements that leave no doubt about what the theory is. \nIf we see that the theory is wrong, because we disagree on the assumptions, this is actually very good and speaks for the theory. Lot's of social sciences is plagued by \"general theories\" that can never really shown to be false ex ante. And given that theories can never be empirically \"proven\", only validated in the statistical sense, this leads to a many parallel theories of doubtful value.\nTake a gander into sociology if you want to see this in action.</p><p>Secondly, and this is very important, is that we learn from models. This is not often recognized. What we learn from writing down models is how mechanics or modules interact. These interactions, highly logical, are USUALLY much less doubtful than the prior assumptions.\nFor example, if price and revenues are equilibrium phenomena, we LEARN from the model that we CAN NOT estimate them with a standard regression model!</p><p>This is exactly what lead to causal analysis in this case, because earlier we would literally regress price on quantity or production on price etc. and be happy about it. But the results were often even in the entirely wrong direction!</p><p>Instead, looking at the theory, we understood the mechanical intricacies of the process we supposedly modeled, and saw that we estimated something completely different than what we interpreted. \nCausal analysis, among other things, tackles this issue by asking \"what it is really that we estimate here?\".</p>",
+      "time": 1560592069,
+      "type": "comment",
+      "time_iso": "2019-06-15 05:47:49"
     }
   },
   "roots": [
+    20179529,
     20163734,
     20169635,
     20155636,
