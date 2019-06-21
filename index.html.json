@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -18777,25 +18777,53 @@
     },
     "20236066": {
       "by": "reso",
-      "descendants": 41,
+      "descendants": 51,
       "id": 20236066,
       "kids": [
         20236730,
+        20239908,
+        20239507,
         20236463,
-        20239267,
         20236496,
-        20236898,
         20236571,
+        20236898,
+        20239267,
         20236489,
         20237047,
         20237195
       ],
-      "score": 164,
+      "score": 192,
       "time": 1561057016,
       "title": "Gryphon: An open-source framework for algorithmic trading in cryptocurrency",
       "type": "story",
       "url": "http://www.gryphonframework.org/",
       "time_iso": "2019-06-20 14:56:56"
+    },
+    "20236489": {
+      "by": "Havoc",
+      "id": 20236489,
+      "kids": [
+        20236578
+      ],
+      "parent": 20236066,
+      "text": "Wow. That\u2019s pretty cool.<p>Been toying with the idea of algo trading on stock market. Nice to have a reference work</p>",
+      "time": 1561059276,
+      "type": "comment",
+      "time_iso": "2019-06-20 15:34:36"
+    },
+    "20236578": {
+      "by": "markbnj",
+      "id": 20236578,
+      "kids": [
+        20237196,
+        20236807,
+        20237922
+      ],
+      "parent": 20236489,
+      "text": "I've been playing around with using lstm recurrent nets to find patterns in forex trades, with no real expectation of anything other than learning about recurrent nets (and td convolutional nets). I was able to access 15 years of historical tick data. I would imagine lack of historical pricing data would be an issue for any machine learning approach to crypto trading. Even with 15 years of daily prices I only have ~5500 samples per major currency pair. I've toyed with learning off hourly prices rather than daily, and I've also thought about creating more samples by shifting prices up or down, since perhaps the general patterns would be the same.",
+      "time": 1561059726,
+      "type": "comment",
+      "time_iso": "2019-06-20 15:42:06"
     },
     "20236730": {
       "by": "reso",
@@ -18824,6 +18852,20 @@
       "type": "comment",
       "time_iso": "2019-06-20 17:48:26"
     },
+    "20237922": {
+      "by": "short_sells_poo",
+      "id": 20237922,
+      "kids": [
+        20239907,
+        20239371,
+        20238228
+      ],
+      "parent": 20236578,
+      "text": "Ouch. Out of all the possible subjects to learn NNs on, you have picked by far the most difficult possible. Seriously. If you think of an analogue to rocketry, with the easiest being launching fireworks from a bottle and the other being a mission to Mars, you have picked a Moon landing.<p>I don\u2019t even know where to begin. Financial data has an extremely low signal to noise ratio and it is fraught with pitfalls. It is highly non-normal, heteroscedastic, non-stationary and frequently changes behavioural regimes. It is irregular, the information content is itself irregular and the prices sold by vendors often have difficult to detect issues that will taint your results until you actually start trading and realise that a fundamental assumption was wrong. You may train a model on one period, and find that the market behaviour has changed and your model is rubbish. Cross validation and backtesting on black box algorithms with heavy parameter tuning is a field of study on it\u2019s own with so many issues that endless papers have been written on each specific nuance.</p><p>Successfully building ML models for trading is an extremely difficult discipline that requires a deep understanding of the markets, the idiosyncrasies of market data, statistics and programming. Most quant shops who run successful ML Algos (they are quite rare) have dedicated data teams whose entire remit is to source and clean data. The saying of rubbish in, rubbish out is very true. Even data providers like Reuter\u2019s or Bloomberg frequently have crap data. We pay nearly 500k a year to Reuters, and find errors in their tick data every week. Data like spot forex is a special beast because the market is decentralized. There is no exchange which could provide an authoritative price feed. Trades have been rolled back in the past and if your data feed does not reflect this, you are effectively analysing junk data.</p><p>I don\u2019t even want to get started about the fact that trying to train an RNN on 5500 observations is folly. Did you treat the data in any way? The common way to regularise market data for ML is to resample it to information bars. This is not going to work on a daily basis, so you should start off with actual tick data.</p><p>Nearly every starry eyed junior quant goes in with the notion that you can just run some fancy ML models on some market data and you\u2019ll get a star trading algo. That a small handful of statistical tests will tell you whether your results are meaningful, whether your data has autocorrelation or mean reverting properties. In reality, ML models are very difficult to train on financial data. Most statistical forecasting tools fail to find relationships and blindly training models on past data very rarely results in more than spurious performance in a back test.</p><p>I don\u2019t want to discourage you by any means, but I\u2019d start off with something easier than what you are proposing. Finance firms have entire teams dedicated to what you are trying to do and even they often fail to find anything.</p>",
+      "time": 1561068816,
+      "type": "comment",
+      "time_iso": "2019-06-20 18:13:36"
+    },
     "20238005": {
       "by": "reso",
       "id": 20238005,
@@ -18840,8 +18882,8 @@
       "by": "short_sells_poo",
       "id": 20238073,
       "kids": [
-        20238452,
-        20238692
+        20238692,
+        20238452
       ],
       "parent": 20238005,
       "text": "Can you please explain to me how a tool written in python can be used for HFT or market making?<p>I\u2019m asking because we generally used ASICS and c++ in the past, or more recently rust. Even GPUs are often difficult because they introduce milliseconds of latency.</p>",
@@ -18866,7 +18908,8 @@
       "by": "reso",
       "id": 20238664,
       "kids": [
-        20239253
+        20239253,
+        20239426
       ],
       "parent": 20238240,
       "text": "Shouldn't be, you just need to write a wrapper for the exchange API with the interface defined in 'gryphon.lib.exchange.exchange_api_wrapper'. I'll add an article to the docs with more about that soon.",
@@ -18889,6 +18932,9 @@
     "20239253": {
       "by": "westurner",
       "id": 20239253,
+      "kids": [
+        20239897
+      ],
       "parent": 20238664,
       "text": "Would CCXT be useful here?\n<a href=\"https://github.com/ccxt/ccxt\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/ccxt/ccxt</a><p>&gt; <i>The ccxt library currently supports the following 135 cryptocurrency exchange markets and trading APIs:</i></p>",
       "time": 1561082656,
@@ -18912,9 +18958,63 @@
       "time": 1561083474,
       "type": "comment",
       "time_iso": "2019-06-20 22:17:54"
+    },
+    "20239371": {
+      "by": "markbnj",
+      "id": 20239371,
+      "kids": [
+        20240028
+      ],
+      "parent": 20237922,
+      "text": "Thanks for the great feedback. I have no expectations for this other than the learning, and it's already been successful on that front. Just seemed like a fun thing to poke at when most other hobbyists seem to be doing image analysis and language modeling. I've crawled a couple of forums and I get that there are a lot of people out there who think they can readily use these techniques to make money. I doubt very much that this will be the outcome in my case :).<p>Where I am now I am just trying to figure out how to treat the data, whether to normalize or stationarize and how to encode inputs, etc. The reason that I am working with daily prices is that the fantasy output of this would be a model that can inform a one day grid trading strategy. It may very well be that daily prices won't work for this.</p>",
+      "time": 1561084123,
+      "type": "comment",
+      "time_iso": "2019-06-20 22:28:43"
+    },
+    "20239844": {
+      "by": "J253",
+      "descendants": 1,
+      "id": 20239844,
+      "kids": [
+        20240060
+      ],
+      "score": 2,
+      "time": 1561090716,
+      "title": "Wind-Powered Car Travels Downwind Faster Than the Wind",
+      "type": "story",
+      "url": "https://www.wired.com/2010/06/downwind-faster-than-the-wind/",
+      "time_iso": "2019-06-21 00:18:36"
+    },
+    "20239897": {
+      "by": "reso",
+      "id": 20239897,
+      "parent": 20239253,
+      "text": "It's possible CCXT could be used to easily wrap other exchanges into gryphon. I'm not familiar with the library so hard to guess if it would be a net win or not.",
+      "time": 1561091540,
+      "type": "comment",
+      "time_iso": "2019-06-21 00:32:20"
+    },
+    "20240028": {
+      "by": "westurner",
+      "id": 20240028,
+      "parent": 20239371,
+      "text": "Whether there's anything like an equilibrium in cryptoasset markets where there are no underlying fundamentals is debatable. While there's no book price, PoW coin prices might be rationally describable in terms of (average_estimated cost of energy + cost per GH/s + 'speculative value')<p>A proxy for energy costs, chip costs, and speculative information</p><p>Are there standard symbols for this?</p><p>Can cryptoasset market returns be predicted with quantum harmonic oscillators as well?\nWhat NN topology can learn a quantum harmonic model?\n<a href=\"https://news.ycombinator.com/item?id=19214650\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=19214650</a></p>",
+      "time": 1561093895,
+      "type": "comment",
+      "time_iso": "2019-06-21 01:11:35"
+    },
+    "20240060": {
+      "by": "westurner",
+      "id": 20240060,
+      "parent": 20239844,
+      "text": "&gt; <i>The unusual wind-powered car hit a top speed 2.86 times faster than the wind during one recent run,</i><p>I can't even.</p>",
+      "time": 1561094310,
+      "type": "comment",
+      "time_iso": "2019-06-21 01:18:30"
     }
   },
   "roots": [
+    20239844,
     20236066,
     20179529,
     20163734,
