@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -18777,22 +18777,22 @@
     },
     "20236066": {
       "by": "reso",
-      "descendants": 52,
+      "descendants": 56,
       "id": 20236066,
       "kids": [
         20236730,
-        20239908,
         20239507,
         20236463,
         20236496,
         20236571,
+        20239908,
         20236898,
-        20239267,
         20236489,
-        20237047,
-        20237195
+        20239267,
+        20237195,
+        20237047
       ],
-      "score": 195,
+      "score": 236,
       "time": 1561057016,
       "title": "Gryphon: An open-source framework for algorithmic trading in cryptocurrency",
       "type": "story",
@@ -18832,7 +18832,8 @@
         20239293,
         20237235,
         20238240,
-        20237732
+        20237732,
+        20243322
       ],
       "parent": 20236066,
       "text": "Hey folks, I'm the primary maintainer of Gryphon. The backstory here is: I was one of the founders of Tinker, the trading company that built Gryphon as our in-house trading infrastructure. We operated 2014-18, starting with just a simple arbitrage bot, and slowly grew the operation until our trades were peaking above 20% of daily trading volume on the big exchanges.<p>The company has since wound down (founders moved on to other projects), but I always thought the code deserved to be shared, so we've open sourced it. Someone trying to do what we did will probably save 1.5 years of engineering effort if they build on Gryphon vs. make their own. As far as I know there isn't anything out there like this, in any market (not just cryptocurrencies).</p><p>Hope you guys like it!</p>",
@@ -18856,9 +18857,9 @@
       "by": "short_sells_poo",
       "id": 20237922,
       "kids": [
-        20239907,
+        20238228,
         20239371,
-        20238228
+        20239907
       ],
       "parent": 20236578,
       "text": "Ouch. Out of all the possible subjects to learn NNs on, you have picked by far the most difficult possible. Seriously. If you think of an analogue to rocketry, with the easiest being launching fireworks from a bottle and the other being a mission to Mars, you have picked a Moon landing.<p>I don\u2019t even know where to begin. Financial data has an extremely low signal to noise ratio and it is fraught with pitfalls. It is highly non-normal, heteroscedastic, non-stationary and frequently changes behavioural regimes. It is irregular, the information content is itself irregular and the prices sold by vendors often have difficult to detect issues that will taint your results until you actually start trading and realise that a fundamental assumption was wrong. You may train a model on one period, and find that the market behaviour has changed and your model is rubbish. Cross validation and backtesting on black box algorithms with heavy parameter tuning is a field of study on it\u2019s own with so many issues that endless papers have been written on each specific nuance.</p><p>Successfully building ML models for trading is an extremely difficult discipline that requires a deep understanding of the markets, the idiosyncrasies of market data, statistics and programming. Most quant shops who run successful ML Algos (they are quite rare) have dedicated data teams whose entire remit is to source and clean data. The saying of rubbish in, rubbish out is very true. Even data providers like Reuter\u2019s or Bloomberg frequently have crap data. We pay nearly 500k a year to Reuters, and find errors in their tick data every week. Data like spot forex is a special beast because the market is decentralized. There is no exchange which could provide an authoritative price feed. Trades have been rolled back in the past and if your data feed does not reflect this, you are effectively analysing junk data.</p><p>I don\u2019t even want to get started about the fact that trying to train an RNN on 5500 observations is folly. Did you treat the data in any way? The common way to regularise market data for ML is to resample it to information bars. This is not going to work on a daily basis, so you should start off with actual tick data.</p><p>Nearly every starry eyed junior quant goes in with the notion that you can just run some fancy ML models on some market data and you\u2019ll get a star trading algo. That a small handful of statistical tests will tell you whether your results are meaningful, whether your data has autocorrelation or mean reverting properties. In reality, ML models are very difficult to train on financial data. Most statistical forecasting tools fail to find relationships and blindly training models on past data very rarely results in more than spurious performance in a back test.</p><p>I don\u2019t want to discourage you by any means, but I\u2019d start off with something easier than what you are proposing. Finance firms have entire teams dedicated to what you are trying to do and even they often fail to find anything.</p>",
@@ -18963,7 +18964,8 @@
       "by": "markbnj",
       "id": 20239371,
       "kids": [
-        20240028
+        20240028,
+        20240893
       ],
       "parent": 20237922,
       "text": "Thanks for the great feedback. I have no expectations for this other than the learning, and it's already been successful on that front. Just seemed like a fun thing to poke at when most other hobbyists seem to be doing image analysis and language modeling. I've crawled a couple of forums and I get that there are a lot of people out there who think they can readily use these techniques to make money. I doubt very much that this will be the outcome in my case :).<p>Where I am now I am just trying to figure out how to treat the data, whether to normalize or stationarize and how to encode inputs, etc. The reason that I am working with daily prices is that the fantasy output of this would be a model that can inform a one day grid trading strategy. It may very well be that daily prices won't work for this.</p>",
@@ -18973,12 +18975,12 @@
     },
     "20239844": {
       "by": "J253",
-      "descendants": 1,
+      "descendants": 3,
       "id": 20239844,
       "kids": [
         20240060
       ],
-      "score": 3,
+      "score": 5,
       "time": 1561090716,
       "title": "Wind-Powered Car Travels Downwind Faster Than the Wind",
       "type": "story",
@@ -19009,6 +19011,10 @@
     "20240060": {
       "by": "westurner",
       "id": 20240060,
+      "kids": [
+        20241932,
+        20247493
+      ],
       "parent": 20239844,
       "text": "&gt; <i>The unusual wind-powered car hit a top speed 2.86 times faster than the wind during one recent run,</i><p>I can't even.</p>",
       "time": 1561094310,
@@ -19019,13 +19025,105 @@
       "by": "westurner",
       "id": 20240105,
       "parent": 20240028,
-      "text": "\"The Carbon Footprint of Bitcoin\" (2019) defines a number of symbols that could be standard in [crypto]economics texts. Figure 2 shows the \"profitable efficiency\" (which says nothing of investor confidence and speculative information and how we maybe overvalue security (in 2007-2009)). Figure 5 lists upper and lower estimates for the BTC network's electricity use.\n<a href=\"https://www.cell.com/joule/fulltext/S2542-4351(19)30255-7\" rel=\"nofollow noopener\" target=\"_blank\">https://www.cell.com/joule/fulltext/S2542-4351(19)30255-7</a><p>Here's a cautionary dialogue about correlative and causal models that may also be relevant to a cryptoasset price NN learning experiment:\n<a href=\"https://news.ycombinator.com/item?id=20163734\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=20163734</a></p>",
+      "text": "\"The Carbon Footprint of Bitcoin\" (2019) defines a number of symbols that could be standard in [crypto]economics texts. Figure 2 shows the \"profitable efficiency\" (which says nothing of investor confidence and speculative information and how we maybe overvalue teh security (in 2007-2009)). Figure 5 lists upper and lower estimates for the BTC network's electricity use.\n<a href=\"https://www.cell.com/joule/fulltext/S2542-4351(19)30255-7\" rel=\"nofollow noopener\" target=\"_blank\">https://www.cell.com/joule/fulltext/S2542-4351(19)30255-7</a><p>Here's a cautionary dialogue about correlative and causal models that may also be relevant to a cryptoasset price NN learning experiment:\n<a href=\"https://news.ycombinator.com/item?id=20163734\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=20163734</a></p>",
       "time": 1561095005,
       "type": "comment",
       "time_iso": "2019-06-21 01:30:05"
+    },
+    "20241932": {
+      "by": "karmakaze",
+      "id": 20241932,
+      "parent": 20240060,
+      "text": "We'll have to rewrite some Saturday morning cartoons (are they still a thing?)",
+      "time": 1561120590,
+      "type": "comment",
+      "time_iso": "2019-06-21 08:36:30"
+    },
+    "20247493": {
+      "by": "Fjolsvith",
+      "id": 20247493,
+      "parent": 20240060,
+      "text": "Must have been heading downhill.",
+      "time": 1561167138,
+      "type": "comment",
+      "time_iso": "2019-06-21 21:32:18"
+    },
+    "20307347": {
+      "by": "WCityMike",
+      "descendants": 4,
+      "id": 20307347,
+      "kids": [
+        20320603,
+        20311065,
+        20309053
+      ],
+      "score": 1,
+      "text": "I'd like to have a Unix script that basically generates a text file named, with the page title, with the article text neatly formatted.<p>This seems to me to be something that would be so commonly desired by people that it would've been done and done and done a hundred times over by now, but I haven't found the magic search terms to dig up people's creations.</p><p>I imagine it starts with \"links -dump\", but then there's using the title as the filename, and removing the padded left margin, wrapping the text, and removing all the excess linkage.</p><p>I'm a beginner-amateur when it comes to shell scripting, python, etc. - I can Google well and usually understand script or program logic but don't have terms memorized.</p><p>Is this exotic enough that people haven't done it, or as I suspect does this already exist and I'm just not finding it?  Much obliged for any help.</p>",
+      "time": 1561746213,
+      "title": "Ask HN: Scripts/commands for extracting URL article text? (links -dump but)",
+      "type": "story",
+      "time_iso": "2019-06-28 14:23:33"
+    },
+    "20311065": {
+      "by": "westurner",
+      "id": 20311065,
+      "parent": 20307347,
+      "text": "&gt; <i>I imagine it starts with \"links -dump\", but then there's using the title as the filename,</i><p>The title tag may exceed the filename length limit, be the same for nested pages, or contain newlines that must be escaped.</p><p>These might be helpful for your use case:</p><p>\"Newspaper3k: Article scraping &amp; curation\"\n<a href=\"https://github.com/codelucas/newspaper\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/codelucas/newspaper</a></p><p>lazyNLP \"Library to scrape and clean web pages to create massive datasets\"\n<a href=\"https://github.com/chiphuyen/lazynlp/blob/master/README.md#step-4-clean-the-webpages\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/chiphuyen/lazynlp/blob/master/README.md#s...</a></p><p>scrapinghub/extruct\n<a href=\"https://github.com/scrapinghub/extruct\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/scrapinghub/extruct</a></p><p>&gt; <i>extruct is a library for extracting embedded metadata from HTML markup.</i></p><p>&gt; <i>It also has a built-in HTTP server to test its output as JSON.</i></p><p>&gt; <i>Currently, extruct supports:</i></p><p>&gt; <i>- W3C's HTML Microdata</i></p><p>&gt; <i>- embedded JSON-LD</i></p><p>&gt; <i>- Microformat via mf2py</i></p><p>&gt; <i>- Facebook's Open Graph</i></p><p>&gt; <i>- (experimental) RDFa via rdflib</i></p>",
+      "time": 1561789135,
+      "type": "comment",
+      "time_iso": "2019-06-29 02:18:55"
+    },
+    "20320603": {
+      "by": "WCityMike",
+      "id": 20320603,
+      "kids": [
+        20340333
+      ],
+      "parent": 20307347,
+      "text": "Just for the record in case anyone digs this up on a later Google search, install the newspaper, unidecode, and re python libraries (pip3 install), then:<p></p><pre><code>  from sys import argv\n  from unidecode import unidecode\n  from newspaper import Article\n  import re\n\n  script, arturl = argv\n\n  url = arturl\n  article=Article(url)\n\n  article.download()\n  article.parse()\n\n  title2 = unidecode(article.title)\n\n  fname2 = title2.lower()\n  fname2 = re.sub(r\"[^\\w\\s]\", '', fname2)\n  fname2 = re.sub(r\"\\s+\", '-', fname2)\n   \n  text2 = unidecode(article.text)\n  text2 = re.sub(r'\\n\\s*\\n', '\\n\\n', text2)\n\n  f = open( '~/Desktop/' + str(fname2) + '.txt', 'w' )\n  f.write( str(title2) + '\\n\\n' )\n  f.write( str(text2) + '\\n' )\n  f.close()\n</code></pre>\nI execute via from shell:<p></p><pre><code>  #!/bin/bash\n  /usr/local/opt/python3/Frameworks/Python.framework/Versions/3.7/bin/python3 ~/bin/<a href=\"http://url2txt.py\" rel=\"nofollow noopener\" target=\"_blank\">url2txt.py</a> $1\n\n</code></pre>\nIf I want to run it on all the URLs in a text file:<p></p><pre><code>  #!/bin/bash\n  while IFS='' read -r l || [ -n \"$l\" ]; do\n    ~/bin/u2t \"$l\"\n  done &lt; $1\n  </code></pre>\nI'm sure most of the coders here are wincing at one or multiple mistakes or badly formatted items I've done here, but I'm open to feedback ...",
+      "time": 1561929744,
+      "type": "comment",
+      "time_iso": "2019-06-30 17:22:24"
+    },
+    "20335780": {
+      "by": "danso",
+      "descendants": 16,
+      "id": 20335780,
+      "kids": [
+        20337065,
+        20336822,
+        20336284,
+        20336726
+      ],
+      "score": 101,
+      "time": 1562079728,
+      "title": "NPR's Guide to Hypothesis-Driven Design for Editorial Projects",
+      "type": "story",
+      "url": "https://docs.google.com/document/d/1Jm3jc2RGUTS_pp02eVJ1BuzfyDYGtOgnow02HamHPXE/edit",
+      "time_iso": "2019-07-02 11:02:08"
+    },
+    "20337065": {
+      "by": "westurner",
+      "id": 20337065,
+      "parent": 20335780,
+      "text": "HDD \u2013 Hypothesis-Driven Development \u2013 Research, Plan, Prototype, Develop, Launch, Review.<p>The article lists (and links to!) \"Lean UX\" [1] and Google Ventures' Design Sprint Methodology as inspirations.</p><p>[1] \"Lean UX: Applying Lean Principles to Improve User Experience\" <a href=\"http://shop.oreilly.com/product/0636920021827.do\" rel=\"nofollow noopener\" target=\"_blank\">http://shop.oreilly.com/product/0636920021827.do</a></p><p>[2] <a href=\"https://www.gv.com/sprint/\" rel=\"nofollow noopener\" target=\"_blank\">https://www.gv.com/sprint/</a></p><p>\"How To Write A Technical Paper\" [3][4] has: (Related Work, System Model, Problem Statement),\n(Your Solution), (Analysis), (Simulation, Experimentation), (Conclusion)</p><p>[3] <a href=\"https://news.ycombinator.com/item?id=18226543\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=18226543</a></p><p>[4] <a href=\"https://westurner.github.io/hnlog/#story-18225197\" rel=\"nofollow noopener\" target=\"_blank\">https://westurner.github.io/hnlog/#story-18225197</a></p>",
+      "time": 1562086988,
+      "type": "comment",
+      "time_iso": "2019-07-02 13:03:08"
+    },
+    "20340333": {
+      "by": "westurner",
+      "id": 20340333,
+      "parent": 20320603,
+      "text": "There could be collisions where `fname2` is the same for different pages; resulting in unintentionally overwriting. A couple possible solutions: generate a random string and append it to the filename, set fname2 to a hash of the URL, replace unsafe filename characters like '/' and/or '\\' and/or '\\n' with e.g. underscores. IIRC, URLs can be longer than the max filename length of many filesystems, so hashes as filenames are the safest solution. You can generate an index of the fetched URLs and store it with JSON or e.g. SQLite (with Records and/or SQLAlchemy, for example).<p>If or when you want to parallelize (to do multiple requests at once because most of the time is spent waiting for responses from the network) write-contention for the index may be an issue that SQLite solves for better than a flatfile locking mechanism like creating and deleting an index.json.lock. requests3 and aiohttp-requests support asyncio. requests3 supports HTTP/2 and connection pooling.</p><p>SQLite can probably handle storing the text of as many pages as you throw at it with the added benefit of full-text search. Datasette is a really cool interface for sqlite databases of all sorts.\n<a href=\"https://datasette.readthedocs.io/en/stable/ecosystem.html#tools-for-creating-sqlite-databases\" rel=\"nofollow noopener\" target=\"_blank\">https://datasette.readthedocs.io/en/stable/ecosystem.html#to...</a></p><p>...</p><p>Apache Nutch + ElasticSearch / Lucene / Solr are production-proven crawling and search applications:\n<a href=\"https://en.m.wikipedia.org/wiki/Apache_Nutch\" rel=\"nofollow noopener\" target=\"_blank\">https://en.m.wikipedia.org/wiki/Apache_Nutch</a></p>",
+      "time": 1562110364,
+      "type": "comment",
+      "time_iso": "2019-07-02 19:32:44"
     }
   },
   "roots": [
+    20307347,
+    20335780,
     20236066,
     20239844,
     20179529,

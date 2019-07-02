@@ -114,17 +114,31 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-06-28 14:23:33</td>
+        <td><a href="#story-20307347">Ask HN: Scripts/commands for extracting URL article text? (links -dump but)</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=WCityMike">WCityMike</a></td>
+        <td>1</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-07-02 11:02:08</td>
+        <td><a href="#story-20335780">NPR's Guide to Hypothesis-Driven Design for Editorial Projects</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=danso">danso</a></td>
+        <td>101</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-06-20 14:56:56</td>
         <td><a href="#story-20236066">Gryphon: An open-source framework for algorithmic trading in cryptocurrency</a></td>
         <td><a href="https://news.ycombinator.com/user?id=reso">reso</a></td>
-        <td>195</td>
+        <td>236</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-06-21 00:18:36</td>
         <td><a href="#story-20239844">Wind-Powered Car Travels Downwind Faster Than the Wind</a></td>
         <td><a href="https://news.ycombinator.com/user?id=J253">J253</a></td>
-        <td>3</td>
+        <td>5</td>
     </tr>
     
     <tr scope="row" >
@@ -2351,6 +2365,146 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-20307347">
+    <div class="card-block">
+      <a class="collapser" href="#story-20307347-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20307347-collapse">
+        <h4 class="card-title"><a href="#story-20307347">Ask HN: Scripts/commands for extracting URL article text? (links -dump but)</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=WCityMike" target="_blank" rel="nofollow noopener">WCityMike</a> |
+          <a href="https://news.ycombinator.com/item?id=20307347" target="_blank" rel="nofollow noopener"
+          
+          >2019-06-28 14:23:33</a> | 1  | <a href="#story-20307347">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">I'd like to have a Unix script that basically generates a text file named, with the page title, with the article text neatly formatted.<p>This seems to me to be something that would be so commonly desired by people that it would've been done and done and done a hundred times over by now, but I haven't found the magic search terms to dig up people's creations.</p><p>I imagine it starts with "links -dump", but then there's using the title as the filename, and removing the padded left margin, wrapping the text, and removing all the excess linkage.</p><p>I'm a beginner-amateur when it comes to shell scripting, python, etc. - I can Google well and usually understand script or program logic but don't have terms memorized.</p><p>Is this exotic enough that people haven't done it, or as I suspect does this already exist and I'm just not finding it?  Much obliged for any help.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-20320603">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20320603-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20320603-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=WCityMike" target="_blank" rel="nofollow noopener">WCityMike</a> |
+          <a href="https://news.ycombinator.com/item?id=20320603" target="_blank" rel="nofollow noopener"
+          id="comment-20320603"
+          >2019-06-30 17:22:24</a> | <a href="#comment-20320603">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Just for the record in case anyone digs this up on a later Google search, install the newspaper, unidecode, and re python libraries (pip3 install), then:<p></p><pre><code>  from sys import argv
+  from unidecode import unidecode
+  from newspaper import Article
+  import re
+
+  script, arturl = argv
+
+  url = arturl
+  article=Article(url)
+
+  article.download()
+  article.parse()
+
+  title2 = unidecode(article.title)
+
+  fname2 = title2.lower()
+  fname2 = re.sub(r"[^\w\s]", '', fname2)
+  fname2 = re.sub(r"\s+", '-', fname2)
+   
+  text2 = unidecode(article.text)
+  text2 = re.sub(r'\n\s*\n', '\n\n', text2)
+
+  f = open( '~/Desktop/' + str(fname2) + '.txt', 'w' )
+  f.write( str(title2) + '\n\n' )
+  f.write( str(text2) + '\n' )
+  f.close()
+</code></pre>
+I execute via from shell:<p></p><pre><code>  #!/bin/bash
+  /usr/local/opt/python3/Frameworks/Python.framework/Versions/3.7/bin/python3 ~/bin/<a href="http://url2txt.py" rel="nofollow noopener" target="_blank">url2txt.py</a> $1
+
+</code></pre>
+If I want to run it on all the URLs in a text file:<p></p><pre><code>  #!/bin/bash
+  while IFS='' read -r l || [ -n "$l" ]; do
+    ~/bin/u2t "$l"
+  done &lt; $1
+  </code></pre>
+I'm sure most of the coders here are wincing at one or multiple mistakes or badly formatted items I've done here, but I'm open to feedback ...</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20340333">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20340333-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20340333-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20340333" target="_blank" rel="nofollow noopener"
+          id="comment-20340333"
+          >2019-07-02 19:32:44</a> | <a href="#comment-20340333">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">There could be collisions where `fname2` is the same for different pages; resulting in unintentionally overwriting. A couple possible solutions: generate a random string and append it to the filename, set fname2 to a hash of the URL, replace unsafe filename characters like '/' and/or '\' and/or '\n' with e.g. underscores. IIRC, URLs can be longer than the max filename length of many filesystems, so hashes as filenames are the safest solution. You can generate an index of the fetched URLs and store it with JSON or e.g. SQLite (with Records and/or SQLAlchemy, for example).<p>If or when you want to parallelize (to do multiple requests at once because most of the time is spent waiting for responses from the network) write-contention for the index may be an issue that SQLite solves for better than a flatfile locking mechanism like creating and deleting an index.json.lock. requests3 and aiohttp-requests support asyncio. requests3 supports HTTP/2 and connection pooling.</p><p>SQLite can probably handle storing the text of as many pages as you throw at it with the added benefit of full-text search. Datasette is a really cool interface for sqlite databases of all sorts.
+<a href="https://datasette.readthedocs.io/en/stable/ecosystem.html#tools-for-creating-sqlite-databases" rel="nofollow noopener" target="_blank">https://datasette.readthedocs.io/en/stable/ecosystem.html#to...</a></p><p>...</p><p>Apache Nutch + ElasticSearch / Lucene / Solr are production-proven crawling and search applications:
+<a href="https://en.m.wikipedia.org/wiki/Apache_Nutch" rel="nofollow noopener" target="_blank">https://en.m.wikipedia.org/wiki/Apache_Nutch</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card comment" id="comment-20311065">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20311065-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20311065-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20311065" target="_blank" rel="nofollow noopener"
+          id="comment-20311065"
+          >2019-06-29 02:18:55</a> | <a href="#comment-20311065">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>I imagine it starts with "links -dump", but then there's using the title as the filename,</i><p>The title tag may exceed the filename length limit, be the same for nested pages, or contain newlines that must be escaped.</p><p>These might be helpful for your use case:</p><p>"Newspaper3k: Article scraping &amp; curation"
+<a href="https://github.com/codelucas/newspaper" rel="nofollow noopener" target="_blank">https://github.com/codelucas/newspaper</a></p><p>lazyNLP "Library to scrape and clean web pages to create massive datasets"
+<a href="https://github.com/chiphuyen/lazynlp/blob/master/README.md#step-4-clean-the-webpages" rel="nofollow noopener" target="_blank">https://github.com/chiphuyen/lazynlp/blob/master/README.md#s...</a></p><p>scrapinghub/extruct
+<a href="https://github.com/scrapinghub/extruct" rel="nofollow noopener" target="_blank">https://github.com/scrapinghub/extruct</a></p><p>&gt; <i>extruct is a library for extracting embedded metadata from HTML markup.</i></p><p>&gt; <i>It also has a built-in HTTP server to test its output as JSON.</i></p><p>&gt; <i>Currently, extruct supports:</i></p><p>&gt; <i>- W3C's HTML Microdata</i></p><p>&gt; <i>- embedded JSON-LD</i></p><p>&gt; <i>- Microformat via mf2py</i></p><p>&gt; <i>- Facebook's Open Graph</i></p><p>&gt; <i>- (experimental) RDFa via rdflib</i></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-20335780">
+    <div class="card-block">
+      <a class="collapser" href="#story-20335780-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20335780-collapse">
+        <h4 class="card-title"><a href="#story-20335780">NPR's Guide to Hypothesis-Driven Design for Editorial Projects</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=danso" target="_blank" rel="nofollow noopener">danso</a> |
+          <a href="https://news.ycombinator.com/item?id=20335780" target="_blank" rel="nofollow noopener"
+          
+          >2019-07-02 11:02:08</a> | 101  | <a href="#story-20335780">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://docs.google.com/document/d/1Jm3jc2RGUTS_pp02eVJ1BuzfyDYGtOgnow02HamHPXE/edit" target="_blank" rel="nofollow noopener">https://docs.google.com/document/d/1Jm3jc2RGUTS_pp02eVJ1BuzfyDYGtOgnow02HamHPXE/edit</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20337065">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20337065-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20337065-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20337065" target="_blank" rel="nofollow noopener"
+          id="comment-20337065"
+          >2019-07-02 13:03:08</a> | <a href="#comment-20337065">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">HDD – Hypothesis-Driven Development – Research, Plan, Prototype, Develop, Launch, Review.<p>The article lists (and links to!) "Lean UX" [1] and Google Ventures' Design Sprint Methodology as inspirations.</p><p>[1] "Lean UX: Applying Lean Principles to Improve User Experience" <a href="http://shop.oreilly.com/product/0636920021827.do" rel="nofollow noopener" target="_blank">http://shop.oreilly.com/product/0636920021827.do</a></p><p>[2] <a href="https://www.gv.com/sprint/" rel="nofollow noopener" target="_blank">https://www.gv.com/sprint/</a></p><p>"How To Write A Technical Paper" [3][4] has: (Related Work, System Model, Problem Statement),
+(Your Solution), (Analysis), (Simulation, Experimentation), (Conclusion)</p><p>[3] <a href="https://news.ycombinator.com/item?id=18226543" rel="nofollow noopener" target="_blank">https://news.ycombinator.com/item?id=18226543</a></p><p>[4] <a href="https://westurner.github.io/hnlog/#story-18225197" rel="nofollow noopener" target="_blank">https://westurner.github.io/hnlog/#story-18225197</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-20236066">
     <div class="card-block">
       <a class="collapser" href="#story-20236066-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -2360,7 +2514,7 @@
           <a href="https://news.ycombinator.com/user?id=reso" target="_blank" rel="nofollow noopener">reso</a> |
           <a href="https://news.ycombinator.com/item?id=20236066" target="_blank" rel="nofollow noopener"
           
-          >2019-06-20 14:56:56</a> | 195  | <a href="#story-20236066">#</a> | <a href="#" class="toplink">^</a>
+          >2019-06-20 14:56:56</a> | 236  | <a href="#story-20236066">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="http://www.gryphonframework.org/" target="_blank" rel="nofollow noopener">http://www.gryphonframework.org/</a></span>
@@ -2636,7 +2790,7 @@ What NN topology can learn a quantum harmonic model?
           >2019-06-21 01:30:05</a> | <a href="#comment-20240105">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">"The Carbon Footprint of Bitcoin" (2019) defines a number of symbols that could be standard in [crypto]economics texts. Figure 2 shows the "profitable efficiency" (which says nothing of investor confidence and speculative information and how we maybe overvalue security (in 2007-2009)). Figure 5 lists upper and lower estimates for the BTC network's electricity use.
+        <p class="card-text">"The Carbon Footprint of Bitcoin" (2019) defines a number of symbols that could be standard in [crypto]economics texts. Figure 2 shows the "profitable efficiency" (which says nothing of investor confidence and speculative information and how we maybe overvalue teh security (in 2007-2009)). Figure 5 lists upper and lower estimates for the BTC network's electricity use.
 <a href="https://www.cell.com/joule/fulltext/S2542-4351(19)30255-7" rel="nofollow noopener" target="_blank">https://www.cell.com/joule/fulltext/S2542-4351(19)30255-7</a><p>Here's a cautionary dialogue about correlative and causal models that may also be relevant to a cryptoasset price NN learning experiment:
 <a href="https://news.ycombinator.com/item?id=20163734" rel="nofollow noopener" target="_blank">https://news.ycombinator.com/item?id=20163734</a></p></p></div>
     </div>
@@ -2668,7 +2822,7 @@ What NN topology can learn a quantum harmonic model?
           <a href="https://news.ycombinator.com/user?id=J253" target="_blank" rel="nofollow noopener">J253</a> |
           <a href="https://news.ycombinator.com/item?id=20239844" target="_blank" rel="nofollow noopener"
           
-          >2019-06-21 00:18:36</a> | 3  | <a href="#story-20239844">#</a> | <a href="#" class="toplink">^</a>
+          >2019-06-21 00:18:36</a> | 5  | <a href="#story-20239844">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.wired.com/2010/06/downwind-faster-than-the-wind/" target="_blank" rel="nofollow noopener">https://www.wired.com/2010/06/downwind-faster-than-the-wind/</a></span>
@@ -2687,7 +2841,39 @@ What NN topology can learn a quantum harmonic model?
           >2019-06-21 01:18:30</a> | <a href="#comment-20240060">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">&gt; <i>The unusual wind-powered car hit a top speed 2.86 times faster than the wind during one recent run,</i><p>I can't even.</p></p></div>
+        <p class="card-text">&gt; <i>The unusual wind-powered car hit a top speed 2.86 times faster than the wind during one recent run,</i><p>I can't even.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-20241932">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20241932-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20241932-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=karmakaze" target="_blank" rel="nofollow noopener">karmakaze</a> |
+          <a href="https://news.ycombinator.com/item?id=20241932" target="_blank" rel="nofollow noopener"
+          id="comment-20241932"
+          >2019-06-21 08:36:30</a> | <a href="#comment-20241932">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">We'll have to rewrite some Saturday morning cartoons (are they still a thing?)</p></div></div>
+    </div>
+  </div>
+  <div class="item card comment" id="comment-20247493">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20247493-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20247493-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=Fjolsvith" target="_blank" rel="nofollow noopener">Fjolsvith</a> |
+          <a href="https://news.ycombinator.com/item?id=20247493" target="_blank" rel="nofollow noopener"
+          id="comment-20247493"
+          >2019-06-21 21:32:18</a> | <a href="#comment-20247493">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Must have been heading downhill.</p></div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
@@ -20437,7 +20623,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
