@@ -114,6 +114,27 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-08-05 17:19:30</td>
+        <td><a href="#story-20619096">The Fed is getting into the Real-Time payments business</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=apo">apo</a></td>
+        <td>47</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-07-08 15:26:38</td>
+        <td><a href="#story-20385903">A Giant Asteroid of Gold Won’t Make Us Richer</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=pseudolus">pseudolus</a></td>
+        <td>92</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-07-08 10:52:06</td>
+        <td><a href="#story-20383217">Abusing the PHP Query String Parser to Bypass IDS, IPS, and WAF</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=lelf">lelf</a></td>
+        <td>92</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-06-28 14:23:33</td>
         <td><a href="#story-20307347">Ask HN: Scripts/commands for extracting URL article text? (links -dump but)</a></td>
         <td><a href="https://news.ycombinator.com/user?id=WCityMike">WCityMike</a></td>
@@ -2365,6 +2386,199 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-20619096">
+    <div class="card-block">
+      <a class="collapser" href="#story-20619096-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20619096-collapse">
+        <h4 class="card-title"><a href="#story-20619096">The Fed is getting into the Real-Time payments business</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=apo" target="_blank" rel="nofollow noopener">apo</a> |
+          <a href="https://news.ycombinator.com/item?id=20619096" target="_blank" rel="nofollow noopener"
+          
+          >2019-08-05 17:19:30</a> | 47  | <a href="#story-20619096">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html" target="_blank" rel="nofollow noopener">https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20621830">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20621830-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20621830-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20621830" target="_blank" rel="nofollow noopener"
+          id="comment-20621830"
+          >2019-08-05 23:20:33</a> | <a href="#comment-20621830">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">This system will need to interface with other domestic and international settlement and payments networks.<p>There is thus an opportunity for standards, a need for federation, and a need to make it easy for big players to offer liquidity.</p><p>As far as I understand, e.g. Ripple and Stellar solve basically exactly the 24x7x365 RTGS problem that FedNow intends to solve; and, they allow all sorts of assets to be plugged into the network. Could FedNow just use a different UNL (Unique Node List) with participating banks operating trusted validators and/or offering liquidity ("liquidity provisioning")?</p><p>Notably, Ripple is specifically positioned to do <i>international</i> interbank real time gross settlement (RTGS) <i>and</i> remittances. Ripple could integrate with FedNow directly. Most efficiently, if it complies with KYC/AML requirements, FedNow could operate an XRP Ledger. Or, each bank could operate XRP Ledgers.
+<a href="https://xrpl.org/become-an-xrp-ledger-gateway.html" rel="nofollow noopener" target="_blank">https://xrpl.org/become-an-xrp-ledger-gateway.html</a></p><p>Getting thousands of banks to comply with an evolving API / EDI spec is no small task. Blockchain solutions require API compliance, have solutions for governance where there are a number of stakeholders seeking to reach consensus, and lack single points of failure.</p><p>Here's to hoping that we've learned something about decentralizing distributed systems for resiliency.</p><p>&gt;&gt; <i>In contrast, the XRP Ledger requires 80 percent of validators on the entire network, over a two-week period, to continuously support a change before it is applied. Of the approximately 150 validators today, Ripple runs only 10. Unlike Bitcoin and Ethereum — where one miner could have 51 percent of the hashing power — each Ripple validator only has one vote in support of an exchange or ordering a transaction.</i>
+<a href="https://news.ycombinator.com/item?id=19195050" rel="nofollow noopener" target="_blank">https://news.ycombinator.com/item?id=19195050</a></p><p>So, you want to get banks onboard with only one s'coin USD stablecoin; but you don't want to deal with exchanges or FOREX or anything because that's a different thing? And, this is not just yet another ACH with lower clearance time?</p><p>&gt; <i>Interledger Architecture</i></p><p><a href="https://interledger.org/rfcs/0001-interledger-architecture/" rel="nofollow noopener" target="_blank">https://interledger.org/rfcs/0001-interledger-architecture/</a></p><p>&gt; <i>Interledger provides for secure payments across multiple assets on different ledgers. The architecture consists of a conceptual model for interledger payments, a mechanism for securing payments, and a suite of protocols that implement this design.</i></p><p>&gt; <i>The Interledger Protocol (ILP) is the core of the Interledger protocol suite. Colloquially, the whole Interledger stack is sometimes referred to as "ILP". Technically, however, the Interledger Protocol is only one layer in the stack.</i></p><p>&gt; <i>Interledger is not a blockchain, a token, nor a central service. Interledger is a standard way of bridging financial systems. The Interledger architecture is heavily inspired by the Internet architecture described in RFC 1122, RFC 1123 and RFC 1009.</i></p><p>[...]</p><p>&gt; <i>You can envision the Interledger as a graph where the points are individual nodes and the edges are accounts between two parties. Parties with only one account can send or receive through the party on the other side of that account. Parties with two or more accounts are connectors, who can facilitate payments to or from anyone they're connected to.</i></p><p>&gt; <i>Connectors provide a service of forwarding packets and relaying money, and they take on some risk when they do so. In exchange, connectors can charge fees and derive a profit from these services. In the open network of the Interledger, connectors are expected to compete among one another to offer the best balance of speed, reliability, coverage, and cost.</i></p><p>Why should we prefer an immutable, cryptographically-signed blockchain solution over SQL/BigTable/MQ for FedNow?</p><p>Blockchain and payments standards:
+<a href="https://news.ycombinator.com/item?id=19813340" rel="nofollow noopener" target="_blank">https://news.ycombinator.com/item?id=19813340</a></p><p>... Here's the notice and request for comment PDF: "Docket No. OP – 1670:
+Federal Reserve Actions to Support Interbank Settlement of Faster Payments"
+<a href="https://www.federalreserve.gov/newsevents/pressreleases/files/other20190805a1.pdf" rel="nofollow noopener" target="_blank">https://www.federalreserve.gov/newsevents/pressreleases/file...</a></p><p>"Federal Reserve announces plan to develop a new round-the-clock real-time payment and settlement service to support faster payments"
+<a href="https://www.federalreserve.gov/newsevents/pressreleases/other20190805a.htm" rel="nofollow noopener" target="_blank">https://www.federalreserve.gov/newsevents/pressreleases/othe...</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-20385903">
+    <div class="card-block">
+      <a class="collapser" href="#story-20385903-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20385903-collapse">
+        <h4 class="card-title"><a href="#story-20385903">A Giant Asteroid of Gold Won’t Make Us Richer</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=pseudolus" target="_blank" rel="nofollow noopener">pseudolus</a> |
+          <a href="https://news.ycombinator.com/item?id=20385903" target="_blank" rel="nofollow noopener"
+          
+          >2019-07-08 15:26:38</a> | 92  | <a href="#story-20385903">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://www.bloomberg.com/opinion/articles/2019-07-08/asteroid-16-psyche-and-all-that-gold-won-t-make-earth-richer" target="_blank" rel="nofollow noopener">https://www.bloomberg.com/opinion/articles/2019-07-08/asteroid-16-psyche-and-all-that-gold-won-t-make-earth-richer</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20386775">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20386775-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20386775-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20386775" target="_blank" rel="nofollow noopener"
+          id="comment-20386775"
+          >2019-07-08 17:08:33</a> | <a href="#comment-20386775">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>this example shows that real wealth doesn’t actually come from golden hoards. It comes from the productive activities of human beings creating things that other human beings desire.</i><p>Value, Price, and Wealth</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-20386840">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20386840-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20386840-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=dredmorbius" target="_blank" rel="nofollow noopener">dredmorbius</a> |
+          <a href="https://news.ycombinator.com/item?id=20386840" target="_blank" rel="nofollow noopener"
+          id="comment-20386840"
+          >2019-07-08 17:16:22</a> | <a href="#comment-20386840">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">???<p>I'd suggest a different triad:  cost, price, value.</p><p><a href="https://old.reddit.com/r/dredmorbius/comments/48rd02/cost_value_price_money_and_emergy_developing/" rel="nofollow noopener" target="_blank">https://old.reddit.com/r/dredmorbius/comments/48rd02/cost_va...</a></p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20386923">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20386923-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20386923-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20386923" target="_blank" rel="nofollow noopener"
+          id="comment-20386923"
+          >2019-07-08 17:27:02</a> | <a href="#comment-20386923">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Good call. I don't know where I was going with that. Cost, price, value, and wealth.<p>Are there better examples for illustrating the differences between these kind of distinct terms?</p><p>Less convertible collectibles like coins and baseball cards (that require energy for exchange) have (over time t): costs of production, marketing, and distribution; retail sales price; market price; and 'value' which is abstract relative (opportunity cost in terms of fiat currency (which is somehow distinct from price at time t (possibly due to 'speculative information')))</p><p>Wealth comes from relationships, margins between costs and prices, long term  planning, […]</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-20387476">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20387476-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20387476-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=dredmorbius" target="_blank" rel="nofollow noopener">dredmorbius</a> |
+          <a href="https://news.ycombinator.com/item?id=20387476" target="_blank" rel="nofollow noopener"
+          id="comment-20387476"
+          >2019-07-08 18:48:45</a> | <a href="#comment-20387476">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text"><i>Are there better examples for illustrating the differences between these kind of distinct terms?</i><p>For concepts as intrinsically fundamental to economics as these are, the agreement and understanding of what they are, even amomg economists, is surprisingly poor. It's not even clear whether or not "wealth" refers to a flow or stock -- Adam Smith uses the term both ways.  And much contemporary mainstream 'wealth creation" discussion addresses <i>accounting profit</i> rather than <i>economic wealth</i>.  Or broader terms such aas <i>ecological wealth</i> (or natural capital).  There's some progress, and Steve Keen has been synthesizing much of it recently, but the terms fare poorly.</p><p>A key issue is that "price‘ and "exchange value" are ofteen conflated, creating confusiin with use/ownership value.</p><p>Addressing your terms, "cost" and "price", and typically "value", indicate some metric of <i>exchange</i> or <i>opportunity cost</i> (or benefit).  Whilst "wealth", as typically used, tends to relate to some <i>store</i> or <i>accumulation</i>.  In electrical terms (a potentially, so to speak, useful analogue) the difference between voltage and charge, with current representing some other property, possibly material flows of goods or energy.</p><p>The whole question of <i>media for exchange</i> (currency, and the like), and <i>durable forms of financial wealth</i> (land, art, collectibles) is another interesting one, with discussionnby Ricardo and Jevons quite interesting -- both useful and flawed.</p><p>And don't even get me started on the near total discounting of accumulated natural capital, say, the 100-300 million year factor of time embodied in fossil fuels.  The reasons and rationales for excluding that being fascinating (Ricardo, Tolstoy, Gray, Hotelling, Boulding, Soddy, Georgescu-Roegen, Daly, Keen).</p><p>You are correct that all value (and hence wealth) is relative, and hence relational.</p><p>TL;DR: Not that I'm aware.</p></p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-20383217">
+    <div class="card-block">
+      <a class="collapser" href="#story-20383217-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20383217-collapse">
+        <h4 class="card-title"><a href="#story-20383217">Abusing the PHP Query String Parser to Bypass IDS, IPS, and WAF</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=lelf" target="_blank" rel="nofollow noopener">lelf</a> |
+          <a href="https://news.ycombinator.com/item?id=20383217" target="_blank" rel="nofollow noopener"
+          
+          >2019-07-08 10:52:06</a> | 92  | <a href="#story-20383217">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://www.secjuice.com/abusing-php-query-string-parser-bypass-ids-ips-waf/" target="_blank" rel="nofollow noopener">https://www.secjuice.com/abusing-php-query-string-parser-bypass-ids-ips-waf/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20385939">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20385939-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20385939-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=chx" target="_blank" rel="nofollow noopener">chx</a> |
+          <a href="https://news.ycombinator.com/item?id=20385939" target="_blank" rel="nofollow noopener"
+          id="comment-20385939"
+          >2019-07-08 15:30:17</a> | <a href="#comment-20385939">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Hrm... the solution is to keep your PHP codebase up to date...?</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20385999">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20385999-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20385999-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=JeremyBanks" target="_blank" rel="nofollow noopener">JeremyBanks</a> |
+          <a href="https://news.ycombinator.com/item?id=20385999" target="_blank" rel="nofollow noopener"
+          id="comment-20385999"
+          >2019-07-08 15:36:38</a> | <a href="#comment-20385999">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">The solution is to throw out your WAF.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20386831">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20386831-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20386831-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20386831" target="_blank" rel="nofollow noopener"
+          id="comment-20386831"
+          >2019-07-08 17:14:53</a> | <a href="#comment-20386831">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Possible solutions:<p>(1) Change all underscores in WAF rule URL attribute names to the appropriate non-greedy regex. Though I'm not sure about the regex the article suggests: '.' only matches one character, AFAIU.</p><p>(2) Add a config parameter to PHP that turns off the magical url parameter name mangling that no webapp should ever depend on ( and have it default to off because if you rely on this 'feature' you should have to change a setting in php.ini anyway )</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-20307347">
     <div class="card-block">
       <a class="collapser" href="#story-20307347-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -20623,7 +20837,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>

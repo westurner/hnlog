@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -19119,9 +19119,197 @@
       "time": 1562110364,
       "type": "comment",
       "time_iso": "2019-07-02 19:32:44"
+    },
+    "20383217": {
+      "by": "lelf",
+      "descendants": 32,
+      "id": 20383217,
+      "kids": [
+        20386038,
+        20389615,
+        20389561,
+        20387724,
+        20387714,
+        20385939,
+        20389980
+      ],
+      "score": 92,
+      "time": 1562597526,
+      "title": "Abusing the PHP Query String Parser to Bypass IDS, IPS, and WAF",
+      "type": "story",
+      "url": "https://www.secjuice.com/abusing-php-query-string-parser-bypass-ids-ips-waf/",
+      "time_iso": "2019-07-08 10:52:06"
+    },
+    "20385903": {
+      "by": "pseudolus",
+      "descendants": 172,
+      "id": 20385903,
+      "kids": [
+        20386537,
+        20385991,
+        20386700,
+        20386023,
+        20386104,
+        20386449,
+        20387462,
+        20386744,
+        20386465,
+        20386801,
+        20386071,
+        20387548,
+        20386027,
+        20386092,
+        20386094,
+        20386439,
+        20386098,
+        20386003,
+        20386839,
+        20387494,
+        20386306,
+        20387882,
+        20386089,
+        20387773,
+        20388517,
+        20387933,
+        20386155,
+        20386233,
+        20386775,
+        20386211,
+        20389031,
+        20386063,
+        20386239,
+        20387845,
+        20386567,
+        20387715,
+        20385973
+      ],
+      "score": 92,
+      "time": 1562613998,
+      "title": "A Giant Asteroid of Gold Won\u2019t Make Us Richer",
+      "type": "story",
+      "url": "https://www.bloomberg.com/opinion/articles/2019-07-08/asteroid-16-psyche-and-all-that-gold-won-t-make-earth-richer",
+      "time_iso": "2019-07-08 15:26:38"
+    },
+    "20385939": {
+      "by": "chx",
+      "id": 20385939,
+      "kids": [
+        20385999
+      ],
+      "parent": 20383217,
+      "text": "Hrm... the solution is to keep your PHP codebase up to date...?",
+      "time": 1562614217,
+      "type": "comment",
+      "time_iso": "2019-07-08 15:30:17"
+    },
+    "20385999": {
+      "by": "JeremyBanks",
+      "id": 20385999,
+      "kids": [
+        20386280,
+        20386117,
+        20386831
+      ],
+      "parent": 20385939,
+      "text": "The solution is to throw out your WAF.",
+      "time": 1562614598,
+      "type": "comment",
+      "time_iso": "2019-07-08 15:36:38"
+    },
+    "20386775": {
+      "by": "westurner",
+      "id": 20386775,
+      "kids": [
+        20386840
+      ],
+      "parent": 20385903,
+      "text": "&gt; <i>this example shows that real wealth doesn\u2019t actually come from golden hoards. It comes from the productive activities of human beings creating things that other human beings desire.</i><p>Value, Price, and Wealth</p>",
+      "time": 1562620113,
+      "type": "comment",
+      "time_iso": "2019-07-08 17:08:33"
+    },
+    "20386831": {
+      "by": "westurner",
+      "id": 20386831,
+      "parent": 20385999,
+      "text": "Possible solutions:<p>(1) Change all underscores in WAF rule URL attribute names to the appropriate non-greedy regex. Though I'm not sure about the regex the article suggests: '.' only matches one character, AFAIU.</p><p>(2) Add a config parameter to PHP that turns off the magical url parameter name mangling that no webapp should ever depend on ( and have it default to off because if you rely on this 'feature' you should have to change a setting in php.ini anyway )</p>",
+      "time": 1562620493,
+      "type": "comment",
+      "time_iso": "2019-07-08 17:14:53"
+    },
+    "20386840": {
+      "by": "dredmorbius",
+      "id": 20386840,
+      "kids": [
+        20386923
+      ],
+      "parent": 20386775,
+      "text": "???<p>I'd suggest a different triad:  cost, price, value.</p><p><a href=\"https://old.reddit.com/r/dredmorbius/comments/48rd02/cost_value_price_money_and_emergy_developing/\" rel=\"nofollow noopener\" target=\"_blank\">https://old.reddit.com/r/dredmorbius/comments/48rd02/cost_va...</a></p>",
+      "time": 1562620582,
+      "type": "comment",
+      "time_iso": "2019-07-08 17:16:22"
+    },
+    "20386923": {
+      "by": "westurner",
+      "id": 20386923,
+      "kids": [
+        20387476
+      ],
+      "parent": 20386840,
+      "text": "Good call. I don't know where I was going with that. Cost, price, value, and wealth.<p>Are there better examples for illustrating the differences between these kind of distinct terms?</p><p>Less convertible collectibles like coins and baseball cards (that require energy for exchange) have (over time t): costs of production, marketing, and distribution; retail sales price; market price; and 'value' which is abstract relative (opportunity cost in terms of fiat currency (which is somehow distinct from price at time t (possibly due to 'speculative information')))</p><p>Wealth comes from relationships, margins between costs and prices, long term  planning, [\u2026]</p>",
+      "time": 1562621222,
+      "type": "comment",
+      "time_iso": "2019-07-08 17:27:02"
+    },
+    "20387476": {
+      "by": "dredmorbius",
+      "id": 20387476,
+      "parent": 20386923,
+      "text": "<i>Are there better examples for illustrating the differences between these kind of distinct terms?</i><p>For concepts as intrinsically fundamental to economics as these are, the agreement and understanding of what they are, even amomg economists, is surprisingly poor. It's not even clear whether or not \"wealth\" refers to a flow or stock -- Adam Smith uses the term both ways.  And much contemporary mainstream 'wealth creation\" discussion addresses <i>accounting profit</i> rather than <i>economic wealth</i>.  Or broader terms such aas <i>ecological wealth</i> (or natural capital).  There's some progress, and Steve Keen has been synthesizing much of it recently, but the terms fare poorly.</p><p>A key issue is that \"price\u2018 and \"exchange value\" are ofteen conflated, creating confusiin with use/ownership value.</p><p>Addressing your terms, \"cost\" and \"price\", and typically \"value\", indicate some metric of <i>exchange</i> or <i>opportunity cost</i> (or benefit).  Whilst \"wealth\", as typically used, tends to relate to some <i>store</i> or <i>accumulation</i>.  In electrical terms (a potentially, so to speak, useful analogue) the difference between voltage and charge, with current representing some other property, possibly material flows of goods or energy.</p><p>The whole question of <i>media for exchange</i> (currency, and the like), and <i>durable forms of financial wealth</i> (land, art, collectibles) is another interesting one, with discussionnby Ricardo and Jevons quite interesting -- both useful and flawed.</p><p>And don't even get me started on the near total discounting of accumulated natural capital, say, the 100-300 million year factor of time embodied in fossil fuels.  The reasons and rationales for excluding that being fascinating (Ricardo, Tolstoy, Gray, Hotelling, Boulding, Soddy, Georgescu-Roegen, Daly, Keen).</p><p>You are correct that all value (and hence wealth) is relative, and hence relational.</p><p>TL;DR: Not that I'm aware.</p>",
+      "time": 1562626125,
+      "type": "comment",
+      "time_iso": "2019-07-08 18:48:45"
+    },
+    "20619096": {
+      "by": "apo",
+      "descendants": 38,
+      "id": 20619096,
+      "kids": [
+        20620185,
+        20621849,
+        20621191,
+        20620991,
+        20621830,
+        20620673,
+        20620472,
+        20621201,
+        20620685,
+        20620965,
+        20620927,
+        20620239,
+        20620599
+      ],
+      "score": 47,
+      "time": 1565039970,
+      "title": "The Fed is getting into the Real-Time payments business",
+      "type": "story",
+      "url": "https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html",
+      "time_iso": "2019-08-05 17:19:30"
+    },
+    "20621830": {
+      "by": "westurner",
+      "id": 20621830,
+      "parent": 20619096,
+      "text": "This system will need to interface with other domestic and international settlement and payments networks.<p>There is thus an opportunity for standards, a need for federation, and a need to make it easy for big players to offer liquidity.</p><p>As far as I understand, e.g. Ripple and Stellar solve basically exactly the 24x7x365 RTGS problem that FedNow intends to solve; and, they allow all sorts of assets to be plugged into the network. Could FedNow just use a different UNL (Unique Node List) with participating banks operating trusted validators and/or offering liquidity (\"liquidity provisioning\")?</p><p>Notably, Ripple is specifically positioned to do <i>international</i> interbank real time gross settlement (RTGS) <i>and</i> remittances. Ripple could integrate with FedNow directly. Most efficiently, if it complies with KYC/AML requirements, FedNow could operate an XRP Ledger. Or, each bank could operate XRP Ledgers.\n<a href=\"https://xrpl.org/become-an-xrp-ledger-gateway.html\" rel=\"nofollow noopener\" target=\"_blank\">https://xrpl.org/become-an-xrp-ledger-gateway.html</a></p><p>Getting thousands of banks to comply with an evolving API / EDI spec is no small task. Blockchain solutions require API compliance, have solutions for governance where there are a number of stakeholders seeking to reach consensus, and lack single points of failure.</p><p>Here's to hoping that we've learned something about decentralizing distributed systems for resiliency.</p><p>&gt;&gt; <i>In contrast, the XRP Ledger requires 80 percent of validators on the entire network, over a two-week period, to continuously support a change before it is applied. Of the approximately 150 validators today, Ripple runs only 10. Unlike Bitcoin and Ethereum \u2014 where one miner could have 51 percent of the hashing power \u2014 each Ripple validator only has one vote in support of an exchange or ordering a transaction.</i>\n<a href=\"https://news.ycombinator.com/item?id=19195050\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=19195050</a></p><p>So, you want to get banks onboard with only one s'coin USD stablecoin; but you don't want to deal with exchanges or FOREX or anything because that's a different thing? And, this is not just yet another ACH with lower clearance time?</p><p>&gt; <i>Interledger Architecture</i></p><p><a href=\"https://interledger.org/rfcs/0001-interledger-architecture/\" rel=\"nofollow noopener\" target=\"_blank\">https://interledger.org/rfcs/0001-interledger-architecture/</a></p><p>&gt; <i>Interledger provides for secure payments across multiple assets on different ledgers. The architecture consists of a conceptual model for interledger payments, a mechanism for securing payments, and a suite of protocols that implement this design.</i></p><p>&gt; <i>The Interledger Protocol (ILP) is the core of the Interledger protocol suite. Colloquially, the whole Interledger stack is sometimes referred to as \"ILP\". Technically, however, the Interledger Protocol is only one layer in the stack.</i></p><p>&gt; <i>Interledger is not a blockchain, a token, nor a central service. Interledger is a standard way of bridging financial systems. The Interledger architecture is heavily inspired by the Internet architecture described in RFC 1122, RFC 1123 and RFC 1009.</i></p><p>[...]</p><p>&gt; <i>You can envision the Interledger as a graph where the points are individual nodes and the edges are accounts between two parties. Parties with only one account can send or receive through the party on the other side of that account. Parties with two or more accounts are connectors, who can facilitate payments to or from anyone they're connected to.</i></p><p>&gt; <i>Connectors provide a service of forwarding packets and relaying money, and they take on some risk when they do so. In exchange, connectors can charge fees and derive a profit from these services. In the open network of the Interledger, connectors are expected to compete among one another to offer the best balance of speed, reliability, coverage, and cost.</i></p><p>Why should we prefer an immutable, cryptographically-signed blockchain solution over SQL/BigTable/MQ for FedNow?</p><p>Blockchain and payments standards:\n<a href=\"https://news.ycombinator.com/item?id=19813340\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=19813340</a></p><p>... Here's the notice and request for comment PDF: \"Docket No. OP \u2013 1670:\nFederal Reserve Actions to Support Interbank Settlement of Faster Payments\"\n<a href=\"https://www.federalreserve.gov/newsevents/pressreleases/files/other20190805a1.pdf\" rel=\"nofollow noopener\" target=\"_blank\">https://www.federalreserve.gov/newsevents/pressreleases/file...</a></p><p>\"Federal Reserve announces plan to develop a new round-the-clock real-time payment and settlement service to support faster payments\"\n<a href=\"https://www.federalreserve.gov/newsevents/pressreleases/other20190805a.htm\" rel=\"nofollow noopener\" target=\"_blank\">https://www.federalreserve.gov/newsevents/pressreleases/othe...</a></p>",
+      "time": 1565061633,
+      "type": "comment",
+      "time_iso": "2019-08-05 23:20:33"
     }
   },
   "roots": [
+    20619096,
+    20385903,
+    20383217,
     20307347,
     20335780,
     20236066,
