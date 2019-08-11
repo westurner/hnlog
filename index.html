@@ -114,10 +114,24 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-08-11 16:22:30</td>
+        <td><a href="#story-20670235">Ask HN: Configuration Management for Personal Computer?</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=jacquesm">jacquesm</a></td>
+        <td>66</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-08-08 13:11:06</td>
+        <td><a href="#story-20646350">GitHub Actions now supports CI/CD, free for public repositories</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=dstaheli">dstaheli</a></td>
+        <td>675</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-08-05 17:19:30</td>
         <td><a href="#story-20619096">The Fed is getting into the Real-Time payments business</a></td>
         <td><a href="https://news.ycombinator.com/user?id=apo">apo</a></td>
-        <td>47</td>
+        <td>95</td>
     </tr>
     
     <tr scope="row" >
@@ -2386,6 +2400,141 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-20670235">
+    <div class="card-block">
+      <a class="collapser" href="#story-20670235-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20670235-collapse">
+        <h4 class="card-title"><a href="#story-20670235">Ask HN: Configuration Management for Personal Computer?</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=jacquesm" target="_blank" rel="nofollow noopener">jacquesm</a> |
+          <a href="https://news.ycombinator.com/item?id=20670235" target="_blank" rel="nofollow noopener"
+          
+          >2019-08-11 16:22:30</a> | 66  | <a href="#story-20670235">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Hello HN,<p>Every couple of years I find myself facing the same old tired routine: migrating my stuff off some laptop or desktop to a new one, usually combined with an OS upgrade. Is there anything like the kind of luxuries we now consider normal on the server side (IaaS; Terraform; maybe Ansible) that can be used to manage your PC and that would make re-imaging it as easy as it is on the server side?</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-20671184">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20671184-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20671184-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20671184" target="_blank" rel="nofollow noopener"
+          id="comment-20671184"
+          >2019-08-11 19:22:56</a> | <a href="#comment-20671184">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Ansible is worth the extra few minutes, IMHO.<p>+ (minimal) Bootstrap System playbook</p><p>+ Complete System playbook (that references group_vars and host_vars)</p><p>+ Per-machine playbooks stored alongside the ansible inventory, group_vars, and host_vars in a separate repo (for machine-specific kernel modules and e.g. touchpad config)</p><p>+ User playbook that calls my bootstrap dotfiles shell script</p><p>+ Bootstrap dotfiles shell script, which creates symlinks and optionally installs virtualenv+virtualenvwrapper, gitflow and hubflow, and some things with pipsi. <a href="https://github.com/westurner/dotfiles/blob/develop/scripts/bootstrap_dotfiles.sh" rel="nofollow noopener" target="_blank">https://github.com/westurner/dotfiles/blob/develop/scripts/b...</a></p><p>+ <a href="http://setup_miniconda.sh" rel="nofollow noopener" target="_blank">setup_miniconda.sh</a> that creates a CONDA_ROOT and CONDA_ENVS_PATH for each version of CPython (currently py27-py37)</p><p>Over the years, I've worked with Bash, Fabric, Puppet, SaltStack, and now Ansible + Bash</p><p>I log shell commands with a script called <a href="http://usrlog.sh" rel="nofollow noopener" target="_blank">usrlog.sh</a> that creates a $USER and per-virtualenv tab-delimited logfiles with unique per-terminal-session identifiers and ISO8601 timestamps; so it's really easy to just grep for the apt/yum/dnf commands that I ran ad-hoc when I should've just taken a second to create an Ansible role with `ansible-galaxy init ansible-role-name ` and referenced that in a consolidated system playbook with a `when` clause.
+<a href="https://westurner.github.io/dotfiles/usrlog.html#usrlog" rel="nofollow noopener" target="_blank">https://westurner.github.io/dotfiles/usrlog.html#usrlog</a></p><p>A couple weeks ago I added an old i386 netbook to my master Ansible inventory and system playbook and VScode wouldn't install because VScode Linux is x86-64 only and the machine doesn't have enough RAM; so I created when clauses to exclude VScode and extensions on that box (with host_vars). Gvim with my dotvim works great there too though. Someday I'll merge my dotvim with SpaceVim and give SpaceMacs a try; `git clone; make install` works great, but vim-enhanced/vim-full needs to be installed with the system package manager first so that the vimscript plugin installer works and so that the vim binary gets updated when I update all.</p><p>I've tested plenty of Ansible server configs with molecule (in docker containers), but haven't yet taken the time to do a full workstation build with e.g. KVM or VirtualBox or write tests with testinfra. It should be easy enough to just run Ansible as a provisioner in a Vagrantfile or a Packer JSON config. VirtualBox supports multi-monitor VMs and makes USB passthrough easy, but lately Docker is enough for everything but Windows (with a PowerShell script that installs NuGet packages with chocolatey) and MacOS (with a few setup scripts that download and install .dmg's and brew) VMs. Someday I'll write or adapt Ansible roles for Windows and Mac, too.</p><p>I still configure browser profiles by hand; but it's pretty easy because I just saved all the links in my tools doc: <a href="https://westurner.github.io/tools/#browser-extensions" rel="nofollow noopener" target="_blank">https://westurner.github.io/tools/#browser-extensions</a></p><p>Someday, I'll do bookmarks sync correctly with e.g. Chromium and Firefox; which'll require extending westurner/pbm to support Firefox SQLite or a rewrite in JS with the WebExtension bookmarks API.</p><p>A few times, I've decided to write docs for my dotfiles and configuration management policies like someone else is actually going to use them; it seemed like a good exercise at the time, but invariably I have to figure out what the ultimate command sequence was and put <i>that</i> in a shell script (or a Makefile, which adds a dependency on GNU make that's often worth it)</p><p>Clonezilla is great and free, but things get out of date fast in a golden master image. It's actually possible to PXE boot clonezilla with Cobbler, but, AFAICT, there's no good way to secure e.g. per-machine disk or other config with PXE. Apt-cacher-ng can proxy-cache-mirror yum repos, too. Pulp requires a bit of RAM but looks like a solid package caching system. I haven't yet tested how well Squid works as a package cache when all of the machines are simultaneously downloading the exact same packages before a canary system (e.g. in a VM) has populated the package cache.</p><p>I'm still learning to do as much as possible with Docker containers and Dockerfiles or REES (Reproducible Execution Environment Specifications) -compatible dependency configs that work with e.g. repo2docker and <a href="https://mybinder.org/" rel="nofollow noopener" target="_blank">https://mybinder.org/</a> (BinderHub)</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-20646350">
+    <div class="card-block">
+      <a class="collapser" href="#story-20646350-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20646350-collapse">
+        <h4 class="card-title"><a href="#story-20646350">GitHub Actions now supports CI/CD, free for public repositories</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=dstaheli" target="_blank" rel="nofollow noopener">dstaheli</a> |
+          <a href="https://news.ycombinator.com/item?id=20646350" target="_blank" rel="nofollow noopener"
+          
+          >2019-08-08 13:11:06</a> | 675  | <a href="#story-20646350">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/" target="_blank" rel="nofollow noopener">https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20646415">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20646415-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20646415-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=sytse" target="_blank" rel="nofollow noopener">sytse</a> |
+          <a href="https://news.ycombinator.com/item?id=20646415" target="_blank" rel="nofollow noopener"
+          id="comment-20646415"
+          >2019-08-08 13:17:43</a> | <a href="#comment-20646415">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">This is great news for developers. The trend has been to combine version control and CI for years now. For a timeline see <a href="https://about.gitlab.com/2019/08/08/built-in-ci-cd-version-control-secret/" rel="nofollow noopener" target="_blank">https://about.gitlab.com/2019/08/08/built-in-ci-cd-version-c...</a><p>This is bad news for the CI providers that depend on GitHub, in particular CircleCI. Luckily for them (or maybe they saw this coming) they recently raised a series D <a href="https://circleci.com/blog/we-raised-a-56m-series-d-what-s-next-for-circleci-customers/" rel="nofollow noopener" target="_blank">https://circleci.com/blog/we-raised-a-56m-series-d-what-s-ne...</a> and are already looking to add support for more platforms. It is hard to depend on a marketplace when it starts competing with you, from planning (<a href="http://Waffle.io" rel="nofollow noopener" target="_blank">Waffle.io</a>), to dependency scanning (Gemnasium acquired by us), to CI (Travis CI layoff where especially sad).</p><p>It is interesting that a lot of the things GitHub is shipping is already part of Azure DevOps <a href="https://docs.microsoft.com/en-us/azure/architecture/example-scenario/apps/devops-dotnet-webapp" rel="nofollow noopener" target="_blank">https://docs.microsoft.com/en-us/azure/architecture/example-...</a> The overlap between Azure DevOps and GitHub seems to increase instead of to be reduced. I wonder what the integration story is and what will happen to Azure DevOps.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20647093">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20647093-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20647093-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=snitko" target="_blank" rel="nofollow noopener">snitko</a> |
+          <a href="https://news.ycombinator.com/item?id=20647093" target="_blank" rel="nofollow noopener"
+          id="comment-20647093"
+          >2019-08-08 14:19:32</a> | <a href="#comment-20647093">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">It's a horrible trend. CI should not be tied to version control. I mean we all have to deal with it now, but I'd much rather have my CI agnostic and not have config files for it checked into the repo.<p>I've browsed through the article you linked to, one of the subtitles was "Realizing the future of DevOps is a single application". Also a horrible idea: I think it locks developers into a certain workflow which is hard to escape.  You have an issue with your setup you can't figure out - happened to me with Gitlab CI - sorry, you're out of luck. Every application is different, DevOps processes is something to be carefully crafted for each particular case with many considerations: large/small company, platform, development cycle, people preferred workflow etc. What I like to do is to have small well tested parts constitute my devops. It's a bad idea to adopt something just because everyone is doing this.</p><p>To sum it up, code should be separate from testing, deployment etc. On our team, I make sure developers don't have to think about devops. They know how to deploy and test and they know the workflow and commands. But that's about it.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20647202">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20647202-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20647202-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=clinta" target="_blank" rel="nofollow noopener">clinta</a> |
+          <a href="https://news.ycombinator.com/item?id=20647202" target="_blank" rel="nofollow noopener"
+          id="comment-20647202"
+          >2019-08-08 14:31:02</a> | <a href="#comment-20647202">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">I'm an operations guy, but I think I have a different perspective. The developers I work with don't have to think about CI/CD, but the configuration still lives in the repo, I'm just a contributer to that repo like they are.<p>Having CI configuration separate from the code sounds like a nightmare when a code change requires CI configurations to be updated. A new version of code requires a new dependency for instance, there needs to be a way to tie the CI configuration change with a commit that introduced that dependency. That comes automatically when they're in the same repo.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20648035">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20648035-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20648035-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=structural" target="_blank" rel="nofollow noopener">structural</a> |
+          <a href="https://news.ycombinator.com/item?id=20648035" target="_blank" rel="nofollow noopener"
+          id="comment-20648035"
+          >2019-08-08 15:56:31</a> | <a href="#comment-20648035">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Having CI configuration inside the codebase also sounds like a nightmare when changes to the CI or deployment environment require configuration changes or when multiple CI/deployment environments exist.<p>For example as a use case: Software has dozens of tagged releases; organization moves from deploying on AWS to deploying in a Kubernetes cluster (requiring at least one change to the deployment configuration). Now, to deploy any of the old tagged releases, every release now has to be updated with the new configuration. This gets messy because there are two different orthogonal sets of versions involved. First, the code being developed has versions and second, the environments for testing, integration, and deployment also change over time and have versions to be controlled.</p><p>Even more broadly, consider multiple organizations using the same software package. They will each almost certainly have their own CI infrastructure, so there is no one "CI configuration" that could ever be checked into the repository along with the code without each user having to maintain their own forks/patchsets of the repo with all the pain that entails.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20648958">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20648958-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20648958-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20648958" target="_blank" rel="nofollow noopener"
+          id="comment-20648958"
+          >2019-08-08 17:25:28</a> | <a href="#comment-20648958">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">You can create a separate repo with your own CI config that pulls in the code you want to test; and thus ignore the code's CI config file. When something breaks, you'd then need to determine in which repo something changed: in the CI config repo, or the code repo. And then, you have CI events attached to PRs in the CI config repository.<p>IMHO it makes sense to have CI config version controlled in the same repo as the code. Unless there's a good tool for bisecting across multiple repos and subrepos?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-20619096">
     <div class="card-block">
       <a class="collapser" href="#story-20619096-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -2395,7 +2544,7 @@
           <a href="https://news.ycombinator.com/user?id=apo" target="_blank" rel="nofollow noopener">apo</a> |
           <a href="https://news.ycombinator.com/item?id=20619096" target="_blank" rel="nofollow noopener"
           
-          >2019-08-05 17:19:30</a> | 47  | <a href="#story-20619096">#</a> | <a href="#" class="toplink">^</a>
+          >2019-08-05 17:19:30</a> | 95  | <a href="#story-20619096">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html" target="_blank" rel="nofollow noopener">https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html</a></span>
@@ -20837,7 +20986,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
