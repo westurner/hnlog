@@ -114,24 +114,38 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-08-13 02:09:30</td>
+        <td><a href="#story-20683212">MesaPy: A Memory-Safe Python Implementation based on PyPy (2018)</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=ospider">ospider</a></td>
+        <td>112</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-08-12 08:15:23</td>
+        <td><a href="#story-20674665">Root: CERN's scientific data analysis framework for C++</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=z3phyr">z3phyr</a></td>
+        <td>13</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-08-11 16:22:30</td>
         <td><a href="#story-20670235">Ask HN: Configuration Management for Personal Computer?</a></td>
         <td><a href="https://news.ycombinator.com/user?id=jacquesm">jacquesm</a></td>
-        <td>66</td>
+        <td>190</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-08-08 13:11:06</td>
         <td><a href="#story-20646350">GitHub Actions now supports CI/CD, free for public repositories</a></td>
         <td><a href="https://news.ycombinator.com/user?id=dstaheli">dstaheli</a></td>
-        <td>675</td>
+        <td>678</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-08-05 17:19:30</td>
         <td><a href="#story-20619096">The Fed is getting into the Real-Time payments business</a></td>
         <td><a href="https://news.ycombinator.com/user?id=apo">apo</a></td>
-        <td>95</td>
+        <td>96</td>
     </tr>
     
     <tr scope="row" >
@@ -2400,6 +2414,92 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-20683212">
+    <div class="card-block">
+      <a class="collapser" href="#story-20683212-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20683212-collapse">
+        <h4 class="card-title"><a href="#story-20683212">MesaPy: A Memory-Safe Python Implementation based on PyPy (2018)</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=ospider" target="_blank" rel="nofollow noopener">ospider</a> |
+          <a href="https://news.ycombinator.com/item?id=20683212" target="_blank" rel="nofollow noopener"
+          
+          >2019-08-13 02:09:30</a> | 112  | <a href="#story-20683212">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://github.com/mesalock-linux/mesapy" target="_blank" rel="nofollow noopener">https://github.com/mesalock-linux/mesapy</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20686580">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20686580-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-20686580-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=_nhynes" target="_blank" rel="nofollow noopener">_nhynes</a> |
+          <a href="https://news.ycombinator.com/item?id=20686580" target="_blank" rel="nofollow noopener"
+          id="comment-20686580"
+          >2019-08-13 11:12:48</a> | <a href="#comment-20686580">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">I gave this a spin a while back but, unfortunately didn’t get very far since the software and dependencies have grown long in the byte. Since then, I’ve found RustPython [0] which is progressing toward feature parity with CPython but entirely written in Rust (!). A side benefit is that it compiles to Web Assembly, so if you could sandbox it without too much extra overhead.<p>[0] <a href="https://github.com/RustPython/RustPython" rel="nofollow noopener" target="_blank">https://github.com/RustPython/RustPython</a></p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-20691687">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20691687-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20691687-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20691687" target="_blank" rel="nofollow noopener"
+          id="comment-20691687"
+          >2019-08-13 20:37:46</a> | <a href="#comment-20691687">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; <i>Since then, I’ve found RustPython [0] which is progressing toward feature parity with CPython but entirely written in Rust (!). A side benefit is that it compiles to Web Assembly, so if you could sandbox it without too much extra overhead.</i><p>It's now possible to run JupyterLab entirely within a browser with jyve (JupyterLab + pyodide)
+<a href="https://github.com/iodide-project/pyodide/issues/431" rel="nofollow noopener" target="_blank">https://github.com/iodide-project/pyodide/issues/431</a></p><p>Pyodide:</p><p>&gt; <i>Pyodide brings the Python runtime to the browser via WebAssembly, along with the Python scientific stack including NumPy, Pandas, Matplotlib, parts of SciPy, and NetworkX. The packages directory lists over 35 packages which are currently available.</i></p><p>Is the RustPython WASM build more performant or otherwise preferable to brython or pyodide?</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-20674665">
+    <div class="card-block">
+      <a class="collapser" href="#story-20674665-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-20674665-collapse">
+        <h4 class="card-title"><a href="#story-20674665">Root: CERN's scientific data analysis framework for C++</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=z3phyr" target="_blank" rel="nofollow noopener">z3phyr</a> |
+          <a href="https://news.ycombinator.com/item?id=20674665" target="_blank" rel="nofollow noopener"
+          
+          >2019-08-12 08:15:23</a> | 13  | <a href="#story-20674665">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://root.cern.ch/" target="_blank" rel="nofollow noopener">https://root.cern.ch/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-20691614">
+    <div class="card-block">
+      <a class="collapser" href="#comment-20691614-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-20691614-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=20691614" target="_blank" rel="nofollow noopener"
+          id="comment-20691614"
+          >2019-08-13 20:26:55</a> | <a href="#comment-20691614">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text"><a href="https://root.cern.ch/root-has-its-jupyter-kernel" rel="nofollow noopener" target="_blank">https://root.cern.ch/root-has-its-jupyter-kernel</a> (2017)<p>&gt; <i>Yet another milestone of the integration plan of ROOT with the Jupyter technology has been reached: ROOT now offers a Jupyter kernel! You can try it already now.</i></p><p>&gt; <i>ROOT is the 54th entry in this list and this is pretty cool. Now not only the PyROOT, the ROOT Python bindings, are integrated with notebooks but it's also possible to express your data mining in C++ within a notebook, taking advantage of all the powerful features of ROOT - plotting (now also interactive thanks to (Javascript ROOT](<a href="https://root.cern.ch/js/)" rel="nofollow noopener" target="_blank">https://root.cern.ch/js/)</a>), multivariate analysis, linear algebra, I/O and reflection: all available within a notebook.</i></p><p>Does this work with JupyterLab now?</p><p>...</p><p>ROOT is now installable with conda: `conda install -c conda-forge root metakernel jupyterlab # notebook`</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-20670235">
     <div class="card-block">
       <a class="collapser" href="#story-20670235-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -2409,7 +2509,7 @@
           <a href="https://news.ycombinator.com/user?id=jacquesm" target="_blank" rel="nofollow noopener">jacquesm</a> |
           <a href="https://news.ycombinator.com/item?id=20670235" target="_blank" rel="nofollow noopener"
           
-          >2019-08-11 16:22:30</a> | 66  | <a href="#story-20670235">#</a> | <a href="#" class="toplink">^</a>
+          >2019-08-11 16:22:30</a> | 190  | <a href="#story-20670235">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
         <p class="card-text">Hello HN,<p>Every couple of years I find myself facing the same old tired routine: migrating my stuff off some laptop or desktop to a new one, usually combined with an OS upgrade. Is there anything like the kind of luxuries we now consider normal on the server side (IaaS; Terraform; maybe Ansible) that can be used to manage your PC and that would make re-imaging it as easy as it is on the server side?</p></p><div class="kids">
@@ -2442,7 +2542,7 @@
           <a href="https://news.ycombinator.com/user?id=dstaheli" target="_blank" rel="nofollow noopener">dstaheli</a> |
           <a href="https://news.ycombinator.com/item?id=20646350" target="_blank" rel="nofollow noopener"
           
-          >2019-08-08 13:11:06</a> | 675  | <a href="#story-20646350">#</a> | <a href="#" class="toplink">^</a>
+          >2019-08-08 13:11:06</a> | 678  | <a href="#story-20646350">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/" target="_blank" rel="nofollow noopener">https://github.blog/2019-08-08-github-actions-now-supports-ci-cd/</a></span>
@@ -2544,7 +2644,7 @@
           <a href="https://news.ycombinator.com/user?id=apo" target="_blank" rel="nofollow noopener">apo</a> |
           <a href="https://news.ycombinator.com/item?id=20619096" target="_blank" rel="nofollow noopener"
           
-          >2019-08-05 17:19:30</a> | 95  | <a href="#story-20619096">#</a> | <a href="#" class="toplink">^</a>
+          >2019-08-05 17:19:30</a> | 96  | <a href="#story-20619096">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html" target="_blank" rel="nofollow noopener">https://www.cnn.com/2019/08/05/investing/fed-real-time-payments/index.html</a></span>
@@ -20986,7 +21086,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
