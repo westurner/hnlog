@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -19458,9 +19458,9 @@
         20673836,
         20670664,
         20670626,
-        20734565,
         20671360,
         20671000,
+        20734565,
         20670739,
         20673561,
         20672129,
@@ -19475,8 +19475,8 @@
         20672488,
         20670959,
         20671199,
-        20717435,
         20672229,
+        20717435,
         20673817,
         20670619,
         20670578,
@@ -19487,8 +19487,8 @@
         20672626,
         20674785,
         20671807,
-        20671499,
         20671015,
+        20671499,
         20671656,
         20670642,
         20674132,
@@ -19545,8 +19545,8 @@
         20693317,
         20691614,
         20674767,
-        20696228,
         20691731,
+        20696228,
         20701496,
         20700238,
         20691880,
@@ -19809,7 +19809,7 @@
         20763098,
         20762250
       ],
-      "score": 11,
+      "score": 12,
       "text": "I have 4 kids. I am filling out all the start of school forms for each kid. I have to fill out these same forms each year. Are you doing the same thing? Let's make this year the last year we are manually filling out forms -- let's build a SaaS platform for school forms. Community built, open-sourced, free.<p>Brief sketch of the idea: survey monkey + docusign, but with a 100 pre-built templates for K-12 school situations. Medical emergency form. Carpool form. Field trip permission form. Backend gives schools an easy way to customize and track forms. Forms are emailed to parents and filled out online. Parent's information is saved so that any new form is pre-filled in with as much known info as possible.</p><p>Anyone feeling the same pain? Anyone want to join with me and do it?</p>",
       "time": 1566423293,
       "title": "Ask HN: Let's make an open source/free SaaS platform to tackle school forms",
@@ -19842,15 +19842,16 @@
     },
     "20764927": {
       "by": "sohkamyung",
-      "descendants": 14,
+      "descendants": 19,
       "id": 20764927,
       "kids": [
         20770785,
-        20772972,
+        20774259,
         20771554,
+        20772972,
         20770349
       ],
-      "score": 63,
+      "score": 84,
       "time": 1566451783,
       "title": "Crystal growers who sparked a revolution in graphene electronics",
       "type": "story",
@@ -19864,7 +19865,7 @@
       "kids": [
         20772777
       ],
-      "score": 2,
+      "score": 3,
       "time": 1566504387,
       "title": "Electric Dump Truck Produces More Energy Than It Uses",
       "type": "story",
@@ -19887,20 +19888,32 @@
     },
     "20772053": {
       "by": "matt_d",
-      "descendants": 32,
+      "descendants": 104,
       "id": 20772053,
       "kids": [
         20772872,
         20772660,
         20772830,
-        20772791,
+        20773462,
+        20774373,
+        20773796,
         20772794,
+        20773386,
+        20773415,
+        20772791,
+        20774289,
+        20774349,
+        20772627,
         20772809,
-        20772627
+        20773954,
+        20773582,
+        20774760,
+        20773600,
+        20773981
       ],
-      "score": 50,
+      "score": 190,
       "time": 1566505663,
-      "title": "Things You Didn't Know About GNU Readline",
+      "title": "Things to Know About GNU Readline",
       "type": "story",
       "url": "https://twobithistory.org/2019/08/22/readline.html",
       "time_iso": "2019-08-22 16:27:43"
@@ -19930,8 +19943,8 @@
       "by": "westurner",
       "id": 20772830,
       "kids": [
-        20773246,
         20772895,
+        20773246,
         20772920
       ],
       "parent": 20772053,
@@ -19997,6 +20010,11 @@
     "20773017": {
       "by": "colejohnson66",
       "id": 20773017,
+      "kids": [
+        20773594,
+        20774796,
+        20775852
+      ],
       "parent": 20772895,
       "text": "&gt; I also remap tab completion to cycle through all matches instead of stopping at the first ambiguous character<p>Windows PowerShell does this and I love it. I don\u2019t understand why people <i>wouldn\u2019t</i> want this</p>",
       "time": 1566513495,
@@ -20065,6 +20083,67 @@
       "time": 1566516245,
       "type": "comment",
       "time_iso": "2019-08-22 19:24:05"
+    },
+    "20773594": {
+      "by": "wruza",
+      "id": 20773594,
+      "kids": [
+        20773830,
+        20775168
+      ],
+      "parent": 20773017,
+      "text": "Because instead of helping me enter a long filename by its distinctive parts, it forces flat mental read-decide-skip loop based on first few letters, which is slow and cannot be narrowed down without typing out additional letters by hand. It is like selecting from a popup menu through a 1-line window.<p>If it presented a real popup for file selection, combining both worlds (tab to longest match, untab to undo, up-down to navigate), that would be great. But it doesn\u2019t.</p>",
+      "time": 1566519469,
+      "type": "comment",
+      "time_iso": "2019-08-22 20:17:49"
+    },
+    "20773830": {
+      "by": "nathanwh",
+      "id": 20773830,
+      "kids": [
+        20776291
+      ],
+      "parent": 20773594,
+      "text": "For anyone who isn\u2019t already aware, fzf[0] does this exactly (and more!)<p><a href=\"https://github.com/junegunn/fzf\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/junegunn/fzf</a></p>",
+      "time": 1566523055,
+      "type": "comment",
+      "time_iso": "2019-08-22 21:17:35"
+    },
+    "20774796": {
+      "by": "RHSeeger",
+      "id": 20774796,
+      "parent": 20773017,
+      "text": "Interestingly, that's one of the things I hate about powershell (and dos)",
+      "time": 1566538762,
+      "type": "comment",
+      "time_iso": "2019-08-23 01:39:22"
+    },
+    "20775168": {
+      "by": "wtallis",
+      "id": 20775168,
+      "parent": 20773594,
+      "text": "&gt; which is slow and cannot be narrowed down without typing out additional letters by hand.<p>In a PowerShell environment specifically, you usually end up having to backspace a dozen or more characters completed from a long command name before you can resume narrowing the search. It's less of a problem on a Unix shell where commands tend to be short.</p>",
+      "time": 1566544279,
+      "type": "comment",
+      "time_iso": "2019-08-23 03:11:19"
+    },
+    "20775852": {
+      "by": "skocznymroczny",
+      "id": 20775852,
+      "parent": 20773017,
+      "text": "zsh works like that too.",
+      "time": 1566553338,
+      "type": "comment",
+      "time_iso": "2019-08-23 05:42:18"
+    },
+    "20776291": {
+      "by": "Fnoord",
+      "id": 20776291,
+      "parent": 20773830,
+      "text": "Rust implementation [1]<p>[1] <a href=\"https://github.com/lotabout/skim\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/lotabout/skim</a></p>",
+      "time": 1566558631,
+      "type": "comment",
+      "time_iso": "2019-08-23 07:10:31"
     }
   },
   "roots": [
