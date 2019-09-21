@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -20580,7 +20580,7 @@
     },
     "20996771": {
       "by": "gdb",
-      "descendants": 59,
+      "descendants": 60,
       "id": 20996771,
       "kids": [
         20999856,
@@ -20590,25 +20590,26 @@
         20998670,
         20997742,
         21001655,
-        21006290,
         20997109,
         20997998,
-        21006674,
         20999201,
         20997313,
+        21006290,
         20997745,
         20997353,
+        21015204,
         20998312,
-        21003286,
-        21004285,
-        21002716,
-        20998317,
-        20999172,
         21000664,
+        21004285,
+        21003286,
+        20998317,
+        21006674,
+        21002716,
+        20999172,
         20998565,
         20998891
       ],
-      "score": 314,
+      "score": 327,
       "time": 1568736054,
       "title": "Emergent Tool Use from Multi-Agent Interaction",
       "type": "story",
@@ -20617,7 +20618,7 @@
     },
     "21001969": {
       "by": "nkoren",
-      "descendants": 151,
+      "descendants": 163,
       "id": 21001969,
       "kids": [
         21002899,
@@ -20626,69 +20627,96 @@
         21002517,
         21002610,
         21003281,
-        21007124,
         21003265,
-        21003123,
         21003579,
-        21005740,
-        21005877,
-        21008009,
-        21007980,
+        21003123,
+        21007124,
         21002738,
         21002683,
-        21005666,
+        21005740,
         21002541,
+        21005877,
         21003305,
         21003533,
-        21004486,
         21002863,
+        21002903,
+        21004486,
+        21005666,
+        21003346,
+        21003326,
+        21003569,
+        21005629,
+        21007980,
+        21008009,
+        21003795,
+        21003045,
+        21003412,
+        21005900,
         21006638,
         21006766,
-        21002903,
-        21005900,
-        21003346,
-        21003569,
-        21003326,
-        21003795,
-        21007052,
-        21003412,
-        21003045,
-        21005014,
         21004632,
+        21005014,
+        21007052,
         21002751,
-        21005629,
         21002912
       ],
-      "score": 574,
+      "score": 602,
       "time": 1568773945,
       "title": "Inkscape 1.0 Beta 1",
       "type": "story",
       "url": "https://inkscape.org/news/2019/09/08/inkscape-10-beta1-available-testing/",
       "time_iso": "2019-09-17 22:32:25"
     },
+    "21003945": {
+      "by": "timothycrosley",
+      "descendants": 37,
+      "id": 21003945,
+      "kids": [
+        21010278,
+        21007604,
+        21008479,
+        21007656,
+        21011573,
+        21006651,
+        21020909,
+        21007783,
+        21013306,
+        21004288,
+        21013764
+      ],
+      "score": 130,
+      "time": 1568803966,
+      "title": "Show HN: Python Tests That Write Themselves",
+      "type": "story",
+      "url": "https://timothycrosley.github.io/hypothesis-auto/",
+      "time_iso": "2019-09-18 06:52:46"
+    },
     "21004115": {
       "by": "Anon84",
-      "descendants": 111,
+      "descendants": 162,
       "id": 21004115,
       "kids": [
         21004517,
         21005359,
         21004432,
+        21011800,
         21004915,
         21004610,
         21004814,
-        21007584,
         21004612,
+        21009977,
         21005188,
         21005958,
+        21007584,
         21006173,
-        21006143,
-        21005064,
-        21006486,
+        21010792,
         21006306,
-        21005966
+        21006143,
+        21006486,
+        21005966,
+        21005064
       ],
-      "score": 212,
+      "score": 289,
       "time": 1568805876,
       "title": "New Query Language for Graph Databases to Become International Standard",
       "type": "story",
@@ -20772,6 +20800,7 @@
       "by": "moxious",
       "id": 21008502,
       "kids": [
+        21013497,
         21009125
       ],
       "parent": 21008329,
@@ -20783,15 +20812,451 @@
     "21009125": {
       "by": "westurner",
       "id": 21009125,
+      "kids": [
+        21018060
+      ],
       "parent": 21008502,
-      "text": "&gt; <i>property graphs are demonstrably easier to work with for most use cases.</i><p>How do you see property graphs as distinct from RDF?</p><p>People build terrible apps without schema validation and leave others to clean that up.</p>",
+      "text": "&gt; <i>property graphs are demonstrably easier to work with for most use cases.</i><p>How do you see property graphs as distinct from RDF?</p><p>People build terrible apps without schema or validation and leave others to clean that up.</p>",
       "time": 1568835320,
       "type": "comment",
       "time_iso": "2019-09-18 15:35:20"
+    },
+    "21010278": {
+      "by": "mrfusion",
+      "id": 21010278,
+      "kids": [
+        21010736,
+        21011145,
+        21013401,
+        21010305,
+        21010342,
+        21010591,
+        21011190
+      ],
+      "parent": 21003945,
+      "text": "This actually gave me another idea. What do you all think, I\u2019d be up for trying to build it.<p>It would watch your program during execution and record each function calls input and output. And then create tests for each function using those inputs and outputs.</p><p>You could always go over the created tests manually and fix them or review them but if nothing else it could be a good start.</p>",
+      "time": 1568841178,
+      "type": "comment",
+      "time_iso": "2019-09-18 17:12:58"
+    },
+    "21010736": {
+      "by": "OJFord",
+      "id": 21010736,
+      "kids": [
+        21012133
+      ],
+      "parent": 21010278,
+      "text": "Instagram created 'MonkeyType' to do something similar for type annotations.<p>A lower barrier way of trying this out could be to run MonkeyType in combination with OP's hypothesis-auto (which uses type annotations to generate the tests).</p>",
+      "time": 1568844087,
+      "type": "comment",
+      "time_iso": "2019-09-18 18:01:27"
+    },
+    "21012133": {
+      "by": "westurner",
+      "id": 21012133,
+      "parent": 21010736,
+      "text": "pytype (Google) [1], PyAnnotate (Dropbox) [2], and MonkeyType (Instagram) [3] all do dynamic / runtime PEP-484 type annotation type inference [4]<p>[1] <a href=\"https://github.com/google/pytype\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/google/pytype</a></p><p>[2] <a href=\"https://github.com/dropbox/pyannotate\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/dropbox/pyannotate</a></p><p>[3] <a href=\"https://github.com/Instagram/MonkeyType\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/Instagram/MonkeyType</a></p><p>[4] <a href=\"https://news.ycombinator.com/item?id=19454411\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=19454411</a></p>",
+      "time": 1568854194,
+      "type": "comment",
+      "time_iso": "2019-09-18 20:49:54"
+    },
+    "21015964": {
+      "by": "ph0rque",
+      "descendants": 472,
+      "id": 21015964,
+      "kids": [
+        21016431,
+        21016202,
+        21019865,
+        21016548,
+        21016779,
+        21016472,
+        21016863,
+        21016589,
+        21021163,
+        21021051,
+        21016838,
+        21022995,
+        21019962,
+        21017023,
+        21017121,
+        21016527,
+        21022255,
+        21017165,
+        21020314,
+        21017137,
+        21022251,
+        21029537,
+        21019209,
+        21017690,
+        21016821
+      ],
+      "score": 616,
+      "time": 1568899903,
+      "title": "Solar and Wind Power So Cheap They\u2019re Outgrowing Subsidies",
+      "type": "story",
+      "url": "https://www.bloomberg.com/news/features/2019-09-19/solar-and-wind-power-so-cheap-they-re-outgrowing-subsidies",
+      "time_iso": "2019-09-19 09:31:43"
+    },
+    "21016431": {
+      "by": "tito",
+      "id": 21016431,
+      "kids": [
+        21016669,
+        21016532,
+        21017032,
+        21016801,
+        21016830,
+        21016763,
+        21016767,
+        21019359,
+        21019532,
+        21016845
+      ],
+      "parent": 21015964,
+      "text": "USD$5.2 trillion was spent globally on fossil fuel subsidies in 2017<p><a href=\"https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Global-Fossil-Fuel-Subsidies-Remain-Large-An-Update-Based-on-Country-Level-Estimates-46509\" rel=\"nofollow noopener\" target=\"_blank\">https://www.imf.org/en/Publications/WP/Issues/2019/05/02/Glo...</a></p><p>\"hey fossil fuels, let's 1v1\"\nsincerely, solar</p><p>(From Forbes: United States Spend Ten Times More On Fossil Fuel Subsidies Than Education)</p>",
+      "time": 1568902965,
+      "type": "comment",
+      "time_iso": "2019-09-19 10:22:45"
+    },
+    "21016669": {
+      "by": "tryitnow",
+      "id": 21016669,
+      "kids": [
+        21016914,
+        21016999,
+        21016933,
+        21017770,
+        21018166,
+        21017334,
+        21020996,
+        21021552,
+        21016807,
+        21016827
+      ],
+      "parent": 21016431,
+      "text": "A few things:<p>1) That's not what was spent, it's what this paper projected was spent.</p><p>2) I think this paper is defining subsidy in a way that we don't usually use that word.  They're calling the costs associated with anthropogenic climate change and pollution \"subsidies\", most people would just call those things \"costs.\"</p><p>Using the word \"subsidy\" implies that governments are actively taking tax dollars and giving it to fossil fuel companies and consumers.  That doesn't appear to be what's going on for the most part.</p><p>Look at Figure 4, the bulk of the so-called \"subsidies\" are \"global warming\" and \"local pollution\" those aren't what most people would call subsidies, they're costs.</p><p>I'm saying this just to clarify things, personally I am supportive of massive tax increases on carbon and massive  subsidies for renewables.</p>",
+      "time": 1568904386,
+      "type": "comment",
+      "time_iso": "2019-09-19 10:46:26"
+    },
+    "21016914": {
+      "by": "mikeash",
+      "id": 21016914,
+      "kids": [
+        21017780,
+        21026390,
+        21018353,
+        21018980,
+        21017730,
+        21017007,
+        21017668,
+        21017959,
+        21021888,
+        21018075,
+        21017284
+      ],
+      "parent": 21016669,
+      "text": "It\u2019s an unconventional way to use \u201csubsidy,\u201d but I think it fits.<p>Imagine a garbage company. The government pays them so they can buy land where they dump their garbage. Obviously a subsidy.</p><p>Now, let\u2019s say the government buys the land themselves then gives it to the company for dumping. No money changes hands but this is still pretty clearly a subsidy.</p><p>Instead of giving the company land, the government retains ownership, but lets the company dump there for free. Still a pretty clear subsidy.</p><p>Instead of buying the land, the government just takes it. Now no money is involved at all, but it\u2019s still a subsidy.</p><p>Instead of taking the land, the government just declares that it\u2019s legal for the garbage company to dump trash on other people\u2019s land, and the owners just have to deal with it. This is quite different in the details from the original subsidy, but the overall effect is essentially the same.</p><p>Polluters are in a situation that\u2019s exactly like this last scenario. They get to dump their trash on everyone\u2019s property and don\u2019t have to pay for the privilege. They\u2019re being subsidized in an amount equal to whatever payment it would take to get everyone to willingly accept this trash.</p>",
+      "time": 1568905836,
+      "type": "comment",
+      "time_iso": "2019-09-19 11:10:36"
+    },
+    "21017780": {
+      "by": "astine",
+      "id": 21017780,
+      "kids": [
+        21017996,
+        21018673,
+        21021760
+      ],
+      "parent": 21016914,
+      "text": "This is wrong because subsidies aren't just externalized costs. They are defined as monetary gifts. You're extending the definition by analogy and arguing that a company externalizing its costs is the same thing as a subsidy, but a subsidy implies direct and deliberate support.<p>This is important for a couple of reasons: The main one is that it's confusing to redefine subsidy when you can just say \"cost\" and have people understand you. People reading this survey might see the $5.2T number and assume that that cost is in addition to whatever the cost of climate change is and will have to read the paper to understand otherwise. This is unnecessarily confusing even if one were to grant the logic of it.</p><p>In addition, when people discuss subsidies, they are often most interested in government policy. The purpose of a subsidy often is to increase a certain kind of business, so we might worry about unnecessarily funding the fossil fuels and thus encouraging climate change in a manner above and beyond simply allowing them to be used the way we've always done, but that's not quite what's going on here.</p><p>One thing to keep in mind is that it's a lot easier to measure a genuine government subsidy than an externality. So the distinction matters in that regard as well. Any measure of the cost of climate change is to at least some degree speculation, whereas any attempt to measure the direct amount of money given to fossil fuel companies can probably be much more exact.</p>",
+      "time": 1568910445,
+      "type": "comment",
+      "time_iso": "2019-09-19 12:27:25"
+    },
+    "21017996": {
+      "by": "mikeash",
+      "id": 21017996,
+      "kids": [
+        21018110,
+        21018339
+      ],
+      "parent": 21017780,
+      "text": "Gifts in kind aren\u2019t subsidies? If the government gives equipment or resources or labor, rather than money, it\u2019s no longer a subsidy? That sure doesn\u2019t fit how I understand the term. What would you call those?",
+      "time": 1568911622,
+      "type": "comment",
+      "time_iso": "2019-09-19 12:47:02"
+    },
+    "21018060": {
+      "by": "moxious",
+      "id": 21018060,
+      "kids": [
+        21022589
+      ],
+      "parent": 21009125,
+      "text": "&gt; How do you see property graphs as distinct from RDF?<p>This is the full answer: <a href=\"https://stackoverflow.com/a/30167732/2920686\" rel=\"nofollow noopener\" target=\"_blank\">https://stackoverflow.com/a/30167732/2920686</a></p>",
+      "time": 1568912013,
+      "type": "comment",
+      "time_iso": "2019-09-19 12:53:33"
+    },
+    "21018110": {
+      "by": "astine",
+      "id": 21018110,
+      "kids": [
+        21018497,
+        21018481,
+        21018247,
+        21018973
+      ],
+      "parent": 21017996,
+      "text": "\"<i>Gifts in kind aren\u2019t subsidies?</i>\"<p>They can be but that's less common. The key difference is that a subsidy is direct and an active policy.</p><p>For example, when people talk about subsidies for renewables, they aren't talking about any externalized costs of manufacture, which do exist, they are talking about direct government gifts and tax breaks deliberately put in place to encourage investment in renewables. When people talk about subsidies given to fossil fuels the same is true, especially when they are being compared to renewables as is the case in this discussion.</p><p>Edit: removed word \"decision\" to clarify my meaning</p>",
+      "time": 1568912283,
+      "type": "comment",
+      "time_iso": "2019-09-19 12:58:03"
+    },
+    "21018481": {
+      "by": "mikeash",
+      "id": 21018481,
+      "kids": [
+        21018687
+      ],
+      "parent": 21018110,
+      "text": "Why do subsidies have to be an <i>active</i> policy decision?<p>You\u2019re right, when people talk about fossil fuel subsidies, that\u2019s thinking of government gifts and tax breaks. My point is that this is a deeply inadequate way to think about it. If you only look at these, and compare fossil fuels to renewables, you\u2019ll come away thinking that fossil fuels are far cheaper than they actually are.</p>",
+      "time": 1568914175,
+      "type": "comment",
+      "time_iso": "2019-09-19 13:29:35"
+    },
+    "21018497": {
+      "by": "rndgermandude",
+      "id": 21018497,
+      "kids": [
+        21018829,
+        21021953
+      ],
+      "parent": 21018110,
+      "text": "Then it's a gift in kind and a subsidy.<p>When I litter, I get fined, but those companies are not when they litter e.g. carbon all over. When I dump chemicals into nature, I get fined for polluting the environment or even imprisoned outright, those companies do not e.g. when it's in the form of \"emissions\". Cars in my country get taxed directly or indirectly (through fuel) based in part on emissions, while a lot of commercial vehicles and fuels for these vehikles get a reduced rate or even excluded from taxation. But cars here are taxed far less so than in other European countries. etc.</p><p>The governments are clearly aware that pollution and dumping your garbage are things you should not do or at least minimize. They made laws against it, but actively decided to exclude certain business sectors and/or certain types of pollution, or actively decided not to regulate or tax certain types of pollution while regulating/taxing others.</p>",
+      "time": 1568914244,
+      "type": "comment",
+      "time_iso": "2019-09-19 13:30:44"
+    },
+    "21018687": {
+      "by": "astine",
+      "id": 21018687,
+      "kids": [
+        21026161,
+        21022230
+      ],
+      "parent": 21018481,
+      "text": "\"<i>If you only look at these, and compare fossil fuels to renewables, you\u2019ll come away thinking that fossil fuels are far cheaper than they actually are.</i>\"<p>In the case of this discussion, you're looking at it backwards. The subject of fossil fuel subsidies was brought up in comparison to subsidies for renewables which in this case were already defined as specific government programs. If it weren't for that, I wouldn't be being such a stickler. However given that we are comparing renewables to fossil fuels we need to be sure that we are measuring the same thing and to include externalities when measuring fossil fuels and not when measuring renewables is to be not measuring the same thing. (I actually got confused when I first saw the IMF link so I know my concern isn't hypothetical.)</p><p>Yes, I get that the case can be made that cost of using fossil fuels is more that the sum of direct gifts by the government to fossil fuel companies (fucking duh!) but that can be expressed without implying that governments gave $5.2T in tax dollars directly to fossil fuel companies in 2017. Where confusion is possible, it's best to make distinctions and clarify what is meant.</p>",
+      "time": 1568915454,
+      "type": "comment",
+      "time_iso": "2019-09-19 13:50:54"
+    },
+    "21018829": {
+      "by": "astine",
+      "id": 21018829,
+      "kids": [
+        21019140
+      ],
+      "parent": 21018497,
+      "text": "\"<i>Cars in my country get taxed directly or indirectly (through fuel) based in part on emissions</i>\"<p>Unless these emmission taxes are calibrated to the cost of climate change then this argument is missing the point. Taxes and subsidies are often instituted in response to negative and positive externalities, but that doesn't change the fact that they are <i>different things</i>. This is important when trying to draw policy <i>comparisons</i> which is our situation here.</p><p>You seem to want to argue that subsidizing a business and not taxing them on an externality is somehow morally the same thing, and that's an entirely different discussion, but it doesn't mean that they are factually the same thing. There is a practical difference in terms of how things are measured and how policies are compared across industries and governments and that difference matters.</p>",
+      "time": 1568916338,
+      "type": "comment",
+      "time_iso": "2019-09-19 14:05:38"
+    },
+    "21019140": {
+      "by": "rndgermandude",
+      "id": 21019140,
+      "kids": [
+        21019377
+      ],
+      "parent": 21018829,
+      "text": "&gt;Unless these emmission taxes are calibrated to the cost of climate change then this argument is missing the point.<p>The stated policy goal in part is to reduce emissions to met climate targets to fight climate change, so yes.</p><p>&gt;You seem to want to argue that subsidizing a business and not taxing them on an externality is somehow morally the same thing</p><p>It is.</p><p>&gt;but it doesn't mean that they are factually the same thing.</p><p>First of all, the meaning of words and political concepts are never factual.</p><p>But I'd still argue that at a high level they are the same, and both are subsidies. In both cases the government refuses money it would otherwise collect from different parties, thereby gifting those entities value you can put a price tag on.</p><p>Those decisions are active decisions NOT to do something (while doing something about the same thing or very similar things when it comes to other parts of the population), at least at this point.</p><p>The only distinction I'd make is between direct subsidies (the government forks over money) and indirect/implicit subsidies (the government decides not to make certain entities pay for certain things for which other entities have to pay the government).</p>",
+      "time": 1568918106,
+      "type": "comment",
+      "time_iso": "2019-09-19 14:35:06"
+    },
+    "21019377": {
+      "by": "astine",
+      "id": 21019377,
+      "kids": [
+        21022180
+      ],
+      "parent": 21019140,
+      "text": "\"<i>&gt;but it doesn't mean that they are factually the same thing.</i><p><i>First of all, the meaning of words and political concepts are never factual.</i>\"</p><p>You're still missing the point. The point is that there is a distinction between a subsidy and an externality and that distinction is important. It's important for measurement reasons (The exact monetary amount a government spends on something is easier to measure than the indirect cost of a policy,) and for simple communication reasons. It makes no sense to talk about instituting a tax to cover a subsidy. You institute a tax to cover an externality. It also matters because there are ways of dealing with externalities other than taxes and subsidies and reducing the language makes this more confusing. It's especially confusing when the distinction is made in one discussion (about renewables) but not in the other (about fossil fuels.)</p><p>There is a term for using an unexpected definition for a word that already has a widely used definition during a discussion, that is a 'stipulative definition'. It's dishonest to do so without being clear upfront or in response to a discussion where the original definition is in use. This results in equivocation. Whether or not a subsidy is morally equivalent to an externality is a moot point if you're willing toss about with the language. My work involves financial reporting and if my employer asked for one set of numbers and I gave him another that I argued were 'morally equivalent' would pretty clearly be in the wrong, even if the point I was making about moral equivalence was correct.</p>",
+      "time": 1568919313,
+      "type": "comment",
+      "time_iso": "2019-09-19 14:55:13"
+    },
+    "21021970": {
+      "by": "oglowo3",
+      "descendants": 1,
+      "id": 21021970,
+      "kids": [
+        21022376
+      ],
+      "score": 4,
+      "time": 1568937614,
+      "title": "Craftsmanship\u2013The Alternative to the 4 Hour Work Week",
+      "type": "story",
+      "url": "https://techcrunch.com/2018/04/26/the-alternative-to-the-four-hour-work-week-mindset/",
+      "time_iso": "2019-09-19 20:00:14"
+    },
+    "21022180": {
+      "by": "westurner",
+      "id": 21022180,
+      "kids": [
+        21022269,
+        21024045
+      ],
+      "parent": 21019377,
+      "text": "No, you're splitting hairs.<p>There are direct and indirect subsidies. Indirect subsidies include externalities: external costs paid by everyone else (that the government should be incentivizing reductions in by requiring the folks causing them to pay)</p><p>Semantic digressions aside, they're earning while everyone else pays costs resultant from their operations (and from our apparent inability to allocate with e.g. long term security, health, and prosperity as primary objectives for the public sphere)</p>",
+      "time": 1568939643,
+      "type": "comment",
+      "time_iso": "2019-09-19 20:34:03"
+    },
+    "21022230": {
+      "by": "westurner",
+      "id": 21022230,
+      "kids": [
+        21023118
+      ],
+      "parent": 21018687,
+      "text": "\"subsidies\" includes both direct and indirect subsidies.<p>We can measure direct subsidies by measuring real and effective tax rates.</p><p>We can measure indirect subsidies like healthcare costs paid by Medicare with subjective valuations of human life and rough estimates of the value of a person's health and contribution to growth in GDP, and future economic security.</p><p>But who has the time for this when we're busy paying to help folks who require disaster relief services from the government and NGOs (neither of which are preventing further escalations in costs)</p>",
+      "time": 1568940242,
+      "type": "comment",
+      "time_iso": "2019-09-19 20:44:02"
+    },
+    "21022269": {
+      "deleted": true,
+      "id": 21022269,
+      "parent": 21022180,
+      "time": 1568940657,
+      "type": "comment",
+      "time_iso": "2019-09-19 20:50:57"
+    },
+    "21022376": {
+      "by": "westurner",
+      "id": 21022376,
+      "parent": 21021970,
+      "text": "&gt; <i>To be successful over the course of a career requires the application and accumulation of expertise. This assumes that for any given undertaking you either provide expertise or you are just a bystander. It\u2019s the experts that are the drivers \u2014 an expertise that is gained from a curiosity, and a mindset of treating one\u2019s craft very seriously.</i>",
+      "time": 1568941683,
+      "type": "comment",
+      "time_iso": "2019-09-19 21:08:03"
+    },
+    "21022589": {
+      "by": "westurner",
+      "id": 21022589,
+      "parent": 21018060,
+      "text": "I added an answer in context to the comments on the answer you've linked but didn't add a link from the comments to the answer. Here's that answer:<p>&gt; <i>(in reply to the comments on this answer: <a href=\"https://stackoverflow.com/a/30167732\" rel=\"nofollow noopener\" target=\"_blank\">https://stackoverflow.com/a/30167732</a> )</i></p><p>&gt; <i>When an owl:inverseOf production rule is defined, the inverse property triple is inferred by the reasoner either when adding or updating the store, or when selecting from the store. This is a \"materialized relation\"</i></p><p>&gt; <i><a href=\"http://Schema.org\" rel=\"nofollow noopener\" target=\"_blank\">Schema.org</a> - an RDFS vocabulary - defines, for example, <a href=\"https://schema.org/isPartOf\" rel=\"nofollow noopener\" target=\"_blank\">https://schema.org/isPartOf</a> as the inverse property of hasPart. If both are specified, it's not necessary to run another graph pattern query to traverse a directed relation in the other direction. (:book1 schema:hasPart ?o), (?o schema:isPartOf :book1), (?s schema:hasPart :chapter2)</i></p><p>&gt; <i>It's certainly possible to use RDFS and OWL to describe schema for and within neo4j property graphs; but there's no reasoner to e.g. infer inverse properties or do schema validation.</i></p><p>&gt; <i>Is there any RDF graph that neo4j cannot store? RDF has datatypes and languages for objects: you'd need to reify properties where datatypes and/or languages are specified (and you'd be re-implementing well-defined semantics)</i></p><p>&gt; <i>Can every neo4j graph be represented with RDF? Yes.</i></p><p>&gt; <i>RDF is a representation for graphs for which there are very many store implementations that are optimized for various use cases like insert and query performance.</i></p><p>&gt; <i>Comparing neo4j to a particular triplestore (with reasoning support) might be a more useful comparison given that all neo4j graphs can be expressed as RDF.</i></p>",
+      "time": 1568944013,
+      "type": "comment",
+      "time_iso": "2019-09-19 21:46:53"
+    },
+    "21023118": {
+      "by": "tylerl",
+      "id": 21023118,
+      "parent": 21022230,
+      "text": "Problem is that if the word \"subsidies\"  is used exclusively to mean a specific and narrow concept around cash transfers when talking about renewables, but then you use the term to include a much broader set of scenarios when talking about fossil fuels, while directly comparing the derived numbers, then you're misusing the language in order to deceive, regardless of all else. You're communicating that the numbers represent the same calculations for both forms of energy, when you know that they actually don't.<p>Define the terms however you like, as long as you are careful to not to induce people to believe someone that is untrue.</p>",
+      "time": 1568950266,
+      "type": "comment",
+      "time_iso": "2019-09-19 23:31:06"
+    },
+    "21024045": {
+      "by": "sooheon",
+      "id": 21024045,
+      "kids": [
+        21026309
+      ],
+      "parent": 21022180,
+      "text": "Handing money to polluters helps polluters, and failing to disincentivize externalities also helps polluters, but it's OK to call one thing a subsidy and the other thing poor governance.<p>\"Subsidy\" carries a connotation of purposeful action to help something. Subsidizing a bad thing is worse than merely allowing it to happen or looking the other way. It seems like you want to re-label things in \"B\" by the label for \"A\" to make it sound worse.</p>",
+      "time": 1568964434,
+      "type": "comment",
+      "time_iso": "2019-09-20 03:27:14"
+    },
+    "21026309": {
+      "by": "DoctorOetker",
+      "id": 21026309,
+      "parent": 21024045,
+      "text": "&gt;\"Subsidy\" carries a connotation of purposeful action to help something.<p><i>Purpouseful action</i> implies awareness and intention.</p><p><i>Externality</i> implies not yet recognized.</p><p>Having 2 words for similar concepts does not mean they are different concepts. \"heavy\" and \"massive\" are two different words but they convey essentially the same thing.</p><p>I would agree that <i>unrecognized externalities</i> are not subsidies, say CO2 pollution before it was recognized, but then again since they were literally not recognized as externalities (yet).</p><p>But the very moment CO2 pollution is recognized, the previously unrecognized externality is to be instantly viewed as a subsidy.</p><p>History repeats itself, the first time as a tragedy, from then on as a farce.</p>",
+      "time": 1568985405,
+      "type": "comment",
+      "time_iso": "2019-09-20 09:16:45"
+    },
+    "21036020": {
+      "by": "signa11",
+      "descendants": 1,
+      "id": 21036020,
+      "kids": [
+        21037310
+      ],
+      "score": 2,
+      "time": 1569081060,
+      "title": "Reinventing Home Directories \u2013 systemd-homed [pdf]",
+      "type": "story",
+      "url": "https://cfp.all-systems-go.io/media/homed-asg2019.pdf",
+      "time_iso": "2019-09-21 11:51:00"
+    },
+    "21036503": {
+      "by": "unbalancedparen",
+      "descendants": 14,
+      "id": 21036503,
+      "kids": [
+        21036982,
+        21036745,
+        21037144,
+        21037029,
+        21037031,
+        21036578,
+        21037078
+      ],
+      "score": 99,
+      "time": 1569085708,
+      "title": "Weld: Accelerating numpy, scikit and pandas as much as 100x with Rust and LLVM",
+      "type": "story",
+      "url": "https://notamonadtutorial.com/weld-accelerating-numpy-scikit-and-pandas-as-much-as-100x-with-rust-and-llvm-12ec1c630a1",
+      "time_iso": "2019-09-21 13:08:28"
+    },
+    "21036982": {
+      "by": "westurner",
+      "id": 21036982,
+      "kids": [
+        21037286
+      ],
+      "parent": 21036503,
+      "text": "There's also RustPython, a Rust implementation of CPython 3.5+: <a href=\"https://news.ycombinator.com/item?id=20686580\" rel=\"nofollow noopener\" target=\"_blank\">https://news.ycombinator.com/item?id=20686580</a><p>&gt; <i><a href=\"https://github.com/RustPython/RustPython\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/RustPython/RustPython</a> </i></p>",
+      "time": 1569090093,
+      "type": "comment",
+      "time_iso": "2019-09-21 14:21:33"
+    },
+    "21037286": {
+      "by": "tomrod",
+      "id": 21037286,
+      "parent": 21036982,
+      "text": "Is this basically what Cython and PyPy are trying to do, but with Rust?",
+      "time": 1569093235,
+      "type": "comment",
+      "time_iso": "2019-09-21 15:13:55"
+    },
+    "21037310": {
+      "by": "westurner",
+      "id": 21037310,
+      "parent": 21036020,
+      "text": "What a good idea.<p>Here's the hyperlinkified link to the {systemd-homed.service, systemd-userdbd.service, homectl, userdbctl} sources from the PDF: <a href=\"https://github.com/poettering/systemd/tree/homed\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/poettering/systemd/tree/homed</a></p><p>Hadn't heard of varlink: <a href=\"https://varlink.org/\" rel=\"nofollow noopener\" target=\"_blank\">https://varlink.org/</a></p><p>Is there a FIPS-like subset of the most-widely-available LUKS configs? Otherwise home directories won't work on systems that have a limited set of LUKS modules.</p>",
+      "time": 1569093536,
+      "type": "comment",
+      "time_iso": "2019-09-21 15:18:56"
     }
   },
   "roots": [
+    21036020,
+    21036503,
     21004115,
+    21021970,
+    21015964,
+    21003945,
     20918731,
     20996771,
     21001969,
