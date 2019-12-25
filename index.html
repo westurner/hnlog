@@ -114,6 +114,27 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-12-25 08:16:17</td>
+        <td><a href="#story-21878372">Ask HN: Is it worth it to learn C in 2020?</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=zabana">zabana</a></td>
+        <td>8</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-12-21 07:55:04</td>
+        <td><a href="#story-21851020">Free and Open-Source Mathematics Textbooks</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=vo2maxer">vo2maxer</a></td>
+        <td>320</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-12-18 09:24:05</td>
+        <td><a href="#story-21825100">Make CPython segfault in 5 lines of code</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=coolreader18">coolreader18</a></td>
+        <td>130</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-12-10 12:05:36</td>
         <td><a href="#story-21754306">Applications Are Now Open for YC Startup School – Starts in January</a></td>
         <td><a href="https://news.ycombinator.com/user?id=erohead">erohead</a></td>
@@ -2764,6 +2785,223 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-21878372">
+    <div class="card-block">
+      <a class="collapser" href="#story-21878372-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-21878372-collapse">
+        <h4 class="card-title"><a href="#story-21878372">Ask HN: Is it worth it to learn C in 2020?</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=zabana" target="_blank" rel="nofollow noopener">zabana</a> |
+          <a href="https://news.ycombinator.com/item?id=21878372" target="_blank" rel="nofollow noopener"
+          
+          >2019-12-25 08:16:17</a> | 8  | <a href="#story-21878372">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-21878664">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21878664-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21878664-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21878664" target="_blank" rel="nofollow noopener"
+          id="comment-21878664"
+          >2019-12-25 09:42:12</a> | <a href="#comment-21878664">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">The GNU/Linux kernel, FreeBSD kernel, Windows kernel, MacOS kernel, Python, Ruby, Perl, PHP, NodeJS, and NumPy are all written in C. If you want to review and contribute code, you'd need to learn C.<p>There are a number of coding guidelines e.g. for safety-critical systems where bounded running time and resource consumption are essential. These coding guidelines and standards are basically only available for C, C++, and Ada. <a href="https://github.com/stanislaw/awesome-safety-critical/blob/master/README.md#coding-guidelines" rel="nofollow noopener" target="_blank">https://github.com/stanislaw/awesome-safety-critical/blob/ma...</a></p><p>Even though modern languages have garbage-collection that runs whenever it feels like it,
+It's helpful to learn about memory management in C (or C++). You'll appreciate object destructor methods that free memory and sockets and file handles that much more. Reference cycles in object graphs are easier to handle with modern C++ than with C. Are there RAII (Resource Acquisition is Initialization) "smart pointers" that track reference counts in C?</p><p>Without OO namespacing, in C, function names are often prefixed with namespaces. How many ways could a struct be initialized? When can I free that memory?</p><p>When strace prints a syscall, what is that?</p><p>Is it <i>necessary</i> to learn C? Somebody needs to maintain and improve the C-based foundation for most of our OSs and very many of our fancy scripting languages. C can be very unforgiving: it's really easy to do it wrong, and there's a lot to keep in mind at once: the cognitive burden is higher with C (and then still with ASM and WebASM) than with an interpreted (or compiled) duck-typed 3GL scripting language with first-class functions.</p><p>What's a good progression that includes syntax, finding and reading the libc docs, Make/CMake/Autotools, secure recommended compiler flags for GCC (CPPFLAGS, CFLAGS, LDFLAGS) and LLVM Clang?</p><p>C: <a href="https://learnxinyminutes.com/docs/c/" rel="nofollow noopener" target="_blank">https://learnxinyminutes.com/docs/c/</a></p><p>C++: <a href="https://learnxinyminutes.com/docs/c++/" rel="nofollow noopener" target="_blank">https://learnxinyminutes.com/docs/c++/</a></p><p>Links to the docs for Libc and other tools: <a href="https://westurner.github.io/tools/#libc" rel="nofollow noopener" target="_blank">https://westurner.github.io/tools/#libc</a></p><p>xeus-cling is a Jupyter kernel for C++ (and most of C) that works with nbgrader. <a href="https://github.com/QuantStack/xeus-cling" rel="nofollow noopener" target="_blank">https://github.com/QuantStack/xeus-cling</a></p><p>What's a better unit-testing library for C/C++ than gtest?  <a href="https://github.com/google/googletest/" rel="nofollow noopener" target="_blank">https://github.com/google/googletest/</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-21878834">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21878834-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21878834-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=zabana" target="_blank" rel="nofollow noopener">zabana</a> |
+          <a href="https://news.ycombinator.com/item?id=21878834" target="_blank" rel="nofollow noopener"
+          id="comment-21878834"
+          >2019-12-25 10:30:05</a> | <a href="#comment-21878834">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Amazing comment, thank you for your detailed input and the awesome resources. I want to get into C because I like network and system programming but lack the underlying knowledge and experience. These links will help me start on that new path. Very much appreciated sir :)</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21879726">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21879726-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21879726-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21879726" target="_blank" rel="nofollow noopener"
+          id="comment-21879726"
+          >2019-12-25 13:15:50</a> | <a href="#comment-21879726">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">For network programming, you might consider asynchronous programming with coroutines. C++20 has them and they're already supported in LLVM. For C, there are a number of implementations of coroutines: <a href="https://en.wikipedia.org/wiki/Coroutine#Implementations_for_C" rel="nofollow noopener" target="_blank">https://en.wikipedia.org/wiki/Coroutine#Implementations_for_...</a><p>&gt; <i>Once a second call stack has been obtained with one of the methods listed above, the setjmp and longjmp functions in the standard C library can then be used to implement the switches between coroutines. These functions save and restore, respectively, the stack pointer, program counter, callee-saved registers, and any other internal state as required by the ABI, such that returning to a coroutine after having yielded restores all the state that would be restored upon returning from a function call. Minimalist implementations, which do not piggyback off the setjmp and longjmp functions, may achieve the same result via a small block of inline assembly which swaps merely the stack pointer and program counter, and clobbers all other registers. This can be significantly faster, as setjmp and longjmp must conservatively store all registers which may be in use according to the ABI, whereas the clobber method allows the compiler to store (by spilling to the stack) only what it knows is actually in use.</i></p><p>CPython's asyncio implementation (originally codenamed 'tulip') is written in C and IMHO much easier to use than callbacks like Twisted and JS before Promises and the inclusion of tulip-like async/await keywords in ECMAscript. Uvloop - based on libuv, like Node - is apparently the fastest asyncio event loop.
+CPython Asyncio C module source: <a href="https://github.com/python/cpython/blob/master/Modules/_asynciomodule.c" rel="nofollow noopener" target="_blank">https://github.com/python/cpython/blob/master/Modules/_async...</a>
+Asyncio docs:  <a href="https://docs.python.org/3/library/asyncio.html" rel="nofollow noopener" target="_blank">https://docs.python.org/3/library/asyncio.html</a></p><p>(When things like file or network I/O are I/O bound, the program can yield to allow other asynchronous coroutines ('async') to run on that core. With network programming, we're typically waiting for things to send or reply.)</p><p>Return-oriented-programming &gt; Return-into-library technique is an interesting read regarding system programming :)
+<a href="https://en.wikipedia.org/wiki/Return-oriented_programming#Return-into-library_technique" rel="nofollow noopener" target="_blank">https://en.wikipedia.org/wiki/Return-oriented_programming#Re...</a></p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-21851020">
+    <div class="card-block">
+      <a class="collapser" href="#story-21851020-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-21851020-collapse">
+        <h4 class="card-title"><a href="#story-21851020">Free and Open-Source Mathematics Textbooks</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=vo2maxer" target="_blank" rel="nofollow noopener">vo2maxer</a> |
+          <a href="https://news.ycombinator.com/item?id=21851020" target="_blank" rel="nofollow noopener"
+          
+          >2019-12-21 07:55:04</a> | 320  | <a href="#story-21851020">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="http://dcernst.github.io/resources/free-and-open-source-textbooks/" target="_blank" rel="nofollow noopener">http://dcernst.github.io/resources/free-and-open-source-textbooks/</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-21851255">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21851255-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21851255-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21851255" target="_blank" rel="nofollow noopener"
+          id="comment-21851255"
+          >2019-12-21 09:15:18</a> | <a href="#comment-21851255">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">This is a good list of books. Unfortunately many of the links are broken? Probably just my luck, but the first few "with Sage" books I excitedly selected unfortunately 404'd.
+I'll send an email.<p>&gt; <i>Moreover, the American Institute of Mathematics maintains a list of approved open-source textbooks.
+<a href="https://aimath.org/textbooks/approved-textbooks/" rel="nofollow noopener" target="_blank">https://aimath.org/textbooks/approved-textbooks/</a> </i></p><p>I also like the (free) Green Tea Press books: Think Stats, Think Bayes, Think DSP, Think Complexity, Modeling and Simulation in Python, 
+Think Python 2e: How To Think Like a Computer Scientist
+<a href="https://greenteapress.com/wp/" rel="nofollow noopener" target="_blank">https://greenteapress.com/wp/</a></p><p>And IDK how many times I've recommended the book for the OCW "Mathematics for Computer Science" course: <a href="https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/" rel="nofollow noopener" target="_blank">https://ocw.mit.edu/courses/electrical-engineering-and-compu...</a></p><p>There may be a newer edition than the 2017 version of the book: 
+<a href="https://courses.csail.mit.edu/6.042/spring17/mcs.pdf" rel="nofollow noopener" target="_blank">https://courses.csail.mit.edu/6.042/spring17/mcs.pdf</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-21852146">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21852146-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21852146-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=throwaway17_17" target="_blank" rel="nofollow noopener">throwaway17_17</a> |
+          <a href="https://news.ycombinator.com/item?id=21852146" target="_blank" rel="nofollow noopener"
+          id="comment-21852146"
+          >2019-12-21 12:02:53</a> | <a href="#comment-21852146">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Does anyone have a good strategy for archiving and downloading the textbooks from <a href="http://aimath.org?" rel="nofollow noopener" target="_blank">aimath.org?</a> They are all excellently formatted in HTML, but I am not certain what the best way to get the complete book would be.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21852401">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21852401-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21852401-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=BlackLotus89" target="_blank" rel="nofollow noopener">BlackLotus89</a> |
+          <a href="https://news.ycombinator.com/item?id=21852401" target="_blank" rel="nofollow noopener"
+          id="comment-21852401"
+          >2019-12-21 12:51:49</a> | <a href="#comment-21852401">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">When I have books in form of webpages I normally write a small crawler in python, extract the text div with beautifulsoup, add &lt;hn&gt; tags for chapter names and throw them all together in html form. Add a cover image and combine everything with pandoc.<p>Nothing fancy but works reliable in an automated fashion</p></p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card comment" id="comment-21852101">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21852101-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21852101-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=integricho" target="_blank" rel="nofollow noopener">integricho</a> |
+          <a href="https://news.ycombinator.com/item?id=21852101" target="_blank" rel="nofollow noopener"
+          id="comment-21852101"
+          >2019-12-21 11:55:37</a> | <a href="#comment-21852101">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">I've found MIT's "Mathematics for Computer Science" actually hard to read, and in my opinion it cannot really be called a proper book, more like a collection of notes, as it skips over many details, jumping to conclusions, definitions, results, without giving you an intuitive explanation. In that regards it's actually hard to follow.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21852451">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21852451-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21852451-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=generationP" target="_blank" rel="nofollow noopener">generationP</a> |
+          <a href="https://news.ycombinator.com/item?id=21852451" target="_blank" rel="nofollow noopener"
+          id="comment-21852451"
+          >2019-12-21 13:01:47</a> | <a href="#comment-21852451">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">It's fast-going. You may want to start with something more introductory, like:<p>Levin <a href="http://discrete.openmathbooks.org/dmoi3.html" rel="nofollow noopener" target="_blank">http://discrete.openmathbooks.org/dmoi3.html</a></p><p>Hammack <a href="https://www.people.vcu.edu/~rhammack/BookOfProof/" rel="nofollow noopener" target="_blank">https://www.people.vcu.edu/~rhammack/BookOfProof/</a></p><p>the early parts of Newstead <a href="https://infinitedescent.xyz/" rel="nofollow noopener" target="_blank">https://infinitedescent.xyz/</a></p></p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-21825100">
+    <div class="card-block">
+      <a class="collapser" href="#story-21825100-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-21825100-collapse">
+        <h4 class="card-title"><a href="#story-21825100">Make CPython segfault in 5 lines of code</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=coolreader18" target="_blank" rel="nofollow noopener">coolreader18</a> |
+          <a href="https://news.ycombinator.com/item?id=21825100" target="_blank" rel="nofollow noopener"
+          
+          >2019-12-18 09:24:05</a> | 130  | <a href="#story-21825100">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://gist.github.com/coolreader18/6dbe0be2ae2192e90e1a809f1624c694" target="_blank" rel="nofollow noopener">https://gist.github.com/coolreader18/6dbe0be2ae2192e90e1a809f1624c694</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-21836037">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21836037-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21836037-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21836037" target="_blank" rel="nofollow noopener"
+          id="comment-21836037"
+          >2019-12-19 11:01:22</a> | <a href="#comment-21836037">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">FWIW, this segfaults CPython in 2 lines:<p></p><pre><code>  import ctypes
+  ctypes.cast(1, ctypes.py_object)
+</code></pre>
+Interestingly, this works:<p></p><pre><code>  import ctypes, gc
+  x = 22
+  _id = id(x)
+  del x
+  gc.collect()
+  y = ctypes.cast(_id, ctypes.py_object).value
+  assert y == 22</code></pre></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-21754306">
     <div class="card-block">
       <a class="collapser" href="#story-21754306-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -25036,7 +25274,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
