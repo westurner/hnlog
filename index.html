@@ -114,24 +114,45 @@
     <tbody>
     
     <tr scope="row" >
+        <td>2019-12-29 13:32:58</td>
+        <td><a href="#story-21907517">A lot of complex “scalable” systems can be done with a simple, single C++ server</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=Impossible">Impossible</a></td>
+        <td>391</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-12-31 10:19:32</td>
+        <td><a href="#story-21921520">Warren Buffett is spending billions to make Iowa 'the Saudi Arabia of wind'</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=corporate_shi11">corporate_shi11</a></td>
+        <td>49</td>
+    </tr>
+    
+    <tr scope="row" >
+        <td>2019-12-27 07:08:54</td>
+        <td><a href="#story-21890867">Scientists Likely Found Way to Grow New Teeth for Patients</a></td>
+        <td><a href="https://news.ycombinator.com/user?id=elorant">elorant</a></td>
+        <td>243</td>
+    </tr>
+    
+    <tr scope="row" >
         <td>2019-12-26 13:32:34</td>
         <td><a href="#story-21885680">Announcing the New PubMed</a></td>
         <td><a href="https://news.ycombinator.com/user?id=vo2maxer">vo2maxer</a></td>
-        <td>48</td>
+        <td>119</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-12-25 08:16:17</td>
         <td><a href="#story-21878372">Ask HN: Is it worth it to learn C in 2020?</a></td>
         <td><a href="https://news.ycombinator.com/user?id=zabana">zabana</a></td>
-        <td>9</td>
+        <td>11</td>
     </tr>
     
     <tr scope="row" >
         <td>2019-12-21 07:55:04</td>
         <td><a href="#story-21851020">Free and Open-Source Mathematics Textbooks</a></td>
         <td><a href="https://news.ycombinator.com/user?id=vo2maxer">vo2maxer</a></td>
-        <td>320</td>
+        <td>321</td>
     </tr>
     
     <tr scope="row" >
@@ -2792,6 +2813,306 @@
 
   <h3><a id="items" href="#items">Items</a><a href="#" class="toplink">^</a></h3>
   
+  <div class="item card story" id="story-21907517">
+    <div class="card-block">
+      <a class="collapser" href="#story-21907517-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-21907517-collapse">
+        <h4 class="card-title"><a href="#story-21907517">A lot of complex “scalable” systems can be done with a simple, single C++ server</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=Impossible" target="_blank" rel="nofollow noopener">Impossible</a> |
+          <a href="https://news.ycombinator.com/item?id=21907517" target="_blank" rel="nofollow noopener"
+          
+          >2019-12-29 13:32:58</a> | 391  | <a href="#story-21907517">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://twitter.com/ID_AA_Carmack/status/1210997702152069120" target="_blank" rel="nofollow noopener">https://twitter.com/ID_AA_Carmack/status/1210997702152069120</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-21908964">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21908964-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21908964-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=jandrewrogers" target="_blank" rel="nofollow noopener">jandrewrogers</a> |
+          <a href="https://news.ycombinator.com/item?id=21908964" target="_blank" rel="nofollow noopener"
+          id="comment-21908964"
+          >2019-12-29 17:17:20</a> | <a href="#comment-21908964">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Many developers severely underestimate how much workload can be served by a single modern server and high-quality C++ systems code. I've scaled distributed workloads 10x by moving them to a single server and a different software architecture more suited for scale-up, dramatically reducing system complexity as a bonus. The number of compute workloads I see that actually need scale-out is vanishingly small even in industries known for their data intensity. You can often serve millions of requests per second from a single server even when most of your data model resides on disk.<p>We've become so accustomed to extremely inefficient software systems that we've lost all perspective on what is possible.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21910676">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21910676-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21910676-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=hnews_account_1" target="_blank" rel="nofollow noopener">hnews_account_1</a> |
+          <a href="https://news.ycombinator.com/item?id=21910676" target="_blank" rel="nofollow noopener"
+          id="comment-21910676"
+          >2019-12-29 22:48:15</a> | <a href="#comment-21910676">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Can you expand on this? I have some pretty massive compute loads that need to be scaled onto a cluster with 100+ workers for most computations. This is after I use a library called dask that graphically does its own mapreduce optimisation inside its modules. This is all for a relatively small 250GB raw data file that I keep in a csv (and need to convert to SQL at some point).<p>Are you saying this can be optimised to fit inside a single 10 core server in terms of compute loads?</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21911056">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21911056-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21911056-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=sfifs" target="_blank" rel="nofollow noopener">sfifs</a> |
+          <a href="https://news.ycombinator.com/item?id=21911056" target="_blank" rel="nofollow noopener"
+          id="comment-21911056"
+          >2019-12-30 00:35:50</a> | <a href="#comment-21911056">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Don't know why you're being downvoted but I'll assume your question is genuine.<p>You use a cluster when your data and compute requirements are large and parallel enough that the tax paid on network latency trumps the 10-20X speedup you get on SSD and 1000X speedup you get from just keeping data in RAM.</p><p>250 Gigs is tiny enough that you could probably much get better performance running on high memory instance in AWS or GCP. You'll generally have to write your own multiprocessing code though which is fairly simple - your existing library may also be able to support it.</p><p>I once actually ran this kind of workload on just my laptop using a compiled language that performed better than pyspark on a cluster.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21915098">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21915098-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21915098-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=hnews_account_1" target="_blank" rel="nofollow noopener">hnews_account_1</a> |
+          <a href="https://news.ycombinator.com/item?id=21915098" target="_blank" rel="nofollow noopener"
+          id="comment-21915098"
+          >2019-12-30 12:35:22</a> | <a href="#comment-21915098">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">I'd love to keep it in RAM if I could. The problem is, the library I'm familiar with (pandas) typically seems to take more memory than the original csv file once it loads it onto memory. I know this is due to bad data types but in certain cases, I cannot get around those.<p>However, even if I could load it all into memory at once, and assuming it takes 200 gb, I'm still using a master's student access to a cluster. So I get preempted like it's nobody's business. Hence why I prefer a smaller memory footprint even if I take up cpus at variable rates through a single execution.</p><p>I did try to write my own multiprocessing code for this, but the operations are sometimes too complicated (like groupby) for me to rewrite everything from the ground up. If I'm not reliant on serial data communication between processes (like you'd need to sort a column), I can get it done pretty easily. In fact, I wrote my data cleaning code with this and cleaned up the entire file in half an hour because single chunks didn't rely on others.</p><p>However, if you have some idea of how to run these computational loads in parallel in python or any other language on single compute instances (like the size of a laptop's memory of 16 gb), I'd really love to see it. Thanks.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21916162">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21916162-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21916162-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=giantrobot" target="_blank" rel="nofollow noopener">giantrobot</a> |
+          <a href="https://news.ycombinator.com/item?id=21916162" target="_blank" rel="nofollow noopener"
+          id="comment-21916162"
+          >2019-12-30 15:00:17</a> | <a href="#comment-21916162">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Numpy supports memory mapping `ndarrays` which can back a DataFrame in pandas. This lets you access a dataset far larger than will fit in RAM as if it lived in RAM. Provided it's on fast SSD storage you'll have speedy access to the data and can process huge chunks at once.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21917371">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21917371-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21917371-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=hnews_account_1" target="_blank" rel="nofollow noopener">hnews_account_1</a> |
+          <a href="https://news.ycombinator.com/item?id=21917371" target="_blank" rel="nofollow noopener"
+          id="comment-21917371"
+          >2019-12-30 17:46:26</a> | <a href="#comment-21917371">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Can you provide a link to this please? My current knowledge is that all numpy data lives in memory, and pandas itself has a feature to fragment any data into iterables so I can read upto my memory limit. I cannot use this feature due to the serial nature of some of the operations that I alluded to (I'd have to almost rewrite the entire library for some of these complicated operations like groupby and sorting).<p>I do have fast SSD storage because it's on the scratch drive of a cluster and from what I've seen it can do ~300-400 MB/s easily. I haven't had a chance to test more than that since I'm mostly memory constrained in much of my testing.</p><p>My current attempt is to push this data into a pure database handling system like SQL so that I can query it. But like I said, I work with a less-than-stellar set of tools and I have to literally set up a postgres server from ground up to write to it. Which shouldn't be a big deal except when it's on a non-root user and I have to keep remapping dependencies (took 5-6 hours to set it up on the instance I have access to).</p><p>My other option was to write the entire 250 GB to a sqllite database using the sqlalchemy library in Python, but that seems to fail whether I do it with parallel writes, or serial writes. In both cases, it fails after I create ~64-70 tables.</p></p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21918658">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21918658-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21918658-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21918658" target="_blank" rel="nofollow noopener"
+          id="comment-21918658"
+          >2019-12-30 22:09:01</a> | <a href="#comment-21918658">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Dask groupby example:
+<a href="https://examples.dask.org/dataframes/02-groupby.html" rel="nofollow noopener" target="_blank">https://examples.dask.org/dataframes/02-groupby.html</a><p>&gt; <i>Generally speaking, Dask.dataframe groupby-aggregations are roughly same performance as Pandas groupby-aggregations, just more scalable.</i></p><p>The dask.distributed scheduler can also run on one high-RAM instance (with threads or processes) 
+<a href="https://docs.dask.org/en/latest/setup.html" rel="nofollow noopener" target="_blank">https://docs.dask.org/en/latest/setup.html</a></p><p>Pandas docs &gt; Ecosystem &gt; Out-of-core:
+<a href="https://pandas.pydata.org/pandas-docs/stable/ecosystem.html#out-of-core" rel="nofollow noopener" target="_blank">https://pandas.pydata.org/pandas-docs/stable/ecosystem.html#...</a></p><p>Reading from Parquet into Apache Arrow is much faster than CSV because the data can just be directly loaded into RAM.
+<a href="https://ursalabs.org/blog/2019-10-columnar-perf/" rel="nofollow noopener" target="_blank">https://ursalabs.org/blog/2019-10-columnar-perf/</a></p><p>If you have GPU instances, cuDF has a Pandas-like API on top of Apache Arrow.
+<a href="https://github.com/rapidsai/cudf" rel="nofollow noopener" target="_blank">https://github.com/rapidsai/cudf</a></p><p>&gt; <i>Built based on the Apache Arrow columnar memory format, cuDF is a GPU DataFrame library for loading, joining, aggregating, filtering, and otherwise manipulating data.</i></p><p>&gt; <i>cuDF provides a pandas-like API that will be familiar to data engineers &amp; data scientists, so they can use it to easily accelerate their workflows without going into the details of CUDA programming.</i></p><p>Dask-ML makes scalable scikit-learn, XGBoost, TensorFlow really easy.
+<a href="https://dask-ml.readthedocs.io/en/latest/" rel="nofollow noopener" target="_blank">https://dask-ml.readthedocs.io/en/latest/</a></p><p>... re: the OT: While it's possible to write C++ code that's really fast, it's generally inflexible, expensive to develop, and dangerous for devs with experience in their respective domains of experience to write. Much saner to put a Python API on top and optimize that during compilation.</p><p>There are a few C++ frameworks in the top quartile of the TechEmpower framework benchmarks.
+<a href="https://www.techempower.com/benchmarks/" rel="nofollow noopener" target="_blank">https://www.techempower.com/benchmarks/</a></p><p>Hardware/hosting is relatively cheap. Developers and memory vulnerabilities aren't.</p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-21925244">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21925244-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21925244-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=hnews_account_1" target="_blank" rel="nofollow noopener">hnews_account_1</a> |
+          <a href="https://news.ycombinator.com/item?id=21925244" target="_blank" rel="nofollow noopener"
+          id="comment-21925244"
+          >2019-12-31 17:35:59</a> | <a href="#comment-21925244">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Unfortunately, I'm not sure what's wrong with dask, but it doesn't work properly on my cluster. I tested it on an exceedingly simple operation - find all unique values in a very big column (5 billion rows, but I know for a fact that there are only 500-502 unique values in there). With a 100 workers, it still failed. Now this is an embarrassingly parallel operation that can be implemented trivially. So I'm not sure if there's a problem with my cluster or if dask just does not work with slurm clusters very well.</p></div><div class="kids">
+          
+  <div class="item card comment" id="comment-21925976">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21925976-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21925976-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21925976" target="_blank" rel="nofollow noopener"
+          id="comment-21925976"
+          >2019-12-31 20:21:49</a> | <a href="#comment-21925976">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text"><a href="https://docs.dask.org/en/latest/setup/hpc.html" rel="nofollow noopener" target="_blank">https://docs.dask.org/en/latest/setup/hpc.html</a> says dask-jobqueue handles "PBS, SLURM, LSF, SGE and other resource managers"<p>"Dask on HPC, what works and what doesn't" <a href="https://github.com/dask/dask-blog/issues/5" rel="nofollow noopener" target="_blank">https://github.com/dask/dask-blog/issues/5</a></p><p>Maybe you should spend some time developing a job visualization system for end users from scratch, for end users with lots of C, JS, and HTML experience
+<a href="https://jobqueue.dask.org/en/latest/interactive.html" rel="nofollow noopener" target="_blank">https://jobqueue.dask.org/en/latest/interactive.html</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-21926627">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21926627-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21926627-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=hnews_account_1" target="_blank" rel="nofollow noopener">hnews_account_1</a> |
+          <a href="https://news.ycombinator.com/item?id=21926627" target="_blank" rel="nofollow noopener"
+          id="comment-21926627"
+          >2019-12-31 23:21:09</a> | <a href="#comment-21926627">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Yes, I think the library still isn't ready for non HPC experts to use without tinkering. I don't have that level of expertise. I'm a data person who can handle working tools.</p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-21921520">
+    <div class="card-block">
+      <a class="collapser" href="#story-21921520-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-21921520-collapse">
+        <h4 class="card-title"><a href="#story-21921520">Warren Buffett is spending billions to make Iowa 'the Saudi Arabia of wind'</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=corporate_shi11" target="_blank" rel="nofollow noopener">corporate_shi11</a> |
+          <a href="https://news.ycombinator.com/item?id=21921520" target="_blank" rel="nofollow noopener"
+          
+          >2019-12-31 10:19:32</a> | 49  | <a href="#story-21921520">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-invest-billions-iowa-saudi-arabia-wind-2019-12-1028787852" target="_blank" rel="nofollow noopener">https://markets.businessinsider.com/news/stocks/warren-buffett-berkshire-hathaway-invest-billions-iowa-saudi-arabia-wind-2019-12-1028787852</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-21922558">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21922558-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21922558-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21922558" target="_blank" rel="nofollow noopener"
+          id="comment-21922558"
+          >2019-12-31 12:09:50</a> | <a href="#comment-21922558">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">It's both cost-rational and environment-rational to invest heavily in clean energy (with or without the comparatively paltry tax incentives).<p>The long-term costs of climate change and inaction are unfortunately still mostly external costs to energy producers. We should expect that to change as we start developing competencies in evaluating the costs and frequency of weather disasters exacerbated by anthropogenic climate change. We all get to pay for floods, fires, tornados, hurricanes, landslides, blizzards, and the gosh darn heat.</p><p>Insurance firms clearly see these costs. Our military sees the costs of responding to natural disasters. Local economies see the costs of months and years spent on disaster relief; on just getting back up to speed so that they can generate profit from selling goods and services (and pay taxes to support disaster relief efforts essential to operational readiness).</p><p>The cost per kilowatt hour of wind (and solar) energy is now lower than operating existing dirty energy plants that dump soot on our crops, air, and water.</p><p>With wind, they talk about the "alligator curve". With solar, it's the "duck curve".
+Grid-scale energy storage is necessary for reaching 100% renewable energy as soon as possible.</p><p>Iowa's renewable energy tax incentives are logically aligned with international long-term goals:</p><p>UN Sustainable Development Goal 7: Affordable and Clean Energy
+<a href="https://www.globalgoals.org/7-affordable-and-clean-energy" rel="nofollow noopener" target="_blank">https://www.globalgoals.org/7-affordable-and-clean-energy</a></p><p>Goal 13: Climate Action
+<a href="https://www.globalgoals.org/13-climate-action" rel="nofollow noopener" target="_blank">https://www.globalgoals.org/13-climate-action</a></p><p>SDG Target 12.6: "Encourage companies to adopt sustainable practices and sustainability reporting" (CSR; e.g. GRI Sustainability Reporting Standards that we can score portfolios with)</p><p><a href="https://www.undp.org/content/undp/en/home/sustainable-development-goals/goal-12-responsible-consumption-and-production/targets.html" rel="nofollow noopener" target="_blank">https://www.undp.org/content/undp/en/home/sustainable-develo...</a> :</p><p>&gt; <i>Rationalize inefficient fossil-fuel subsidies that encourage wasteful consumption by removing market distortions, in accordance with national circumstances, including by restructuring taxation and phasing out those harmful subsidies, where they exist, to reflect their environmental impacts, taking fully into account the specific needs and conditions of developing countries and minimizing the possible adverse impacts on their development in a manner that protects the poor and the affected communities</i></p><p>...</p><p>&gt; <i>Thanks. How can I say "try and only run this [computational workload] in zones with 100% PPA offsets or 100% directly sourced #CleanEnergy"? #Goal7 #Goal11 #Goal12 #Goal13 #GlobalGoals #SDGs</i></p><p>It makes good business sense to invest in clean energy to take advantage of tax incentives, minimize future costs to other business units (e.g. insurance, taxes), and earn the support of investors choosing portfolios with long term environmental (and thus economic) sustainability as a primary objective.</p></p></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+  <div class="item card story" id="story-21890867">
+    <div class="card-block">
+      <a class="collapser" href="#story-21890867-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
+      <div class="collapsable" id="story-21890867-collapse">
+        <h4 class="card-title"><a href="#story-21890867">Scientists Likely Found Way to Grow New Teeth for Patients</a></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=elorant" target="_blank" rel="nofollow noopener">elorant</a> |
+          <a href="https://news.ycombinator.com/item?id=21890867" target="_blank" rel="nofollow noopener"
+          
+          >2019-12-27 07:08:54</a> | 243  | <a href="#story-21890867">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        <div class="card-subtitle text-muted">
+            <span><a href="https://www.sciencetimes.com/articles/24252/20191111/scientists-likely-found-way-to-grow-new-teeth-for-patients.htm" target="_blank" rel="nofollow noopener">https://www.sciencetimes.com/articles/24252/20191111/scientists-likely-found-way-to-grow-new-teeth-for-patients.htm</a></span>
+        </div>
+        <div class="kids">
+          
+  <div class="item card comment" id="comment-21891503">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21891503-collapse" onclick="toggleDownward(this);event.preventDefault()"></a>
+      <div class="" id="comment-21891503-collapse">
+        <h4 class="card-title bold"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=westurner" target="_blank" rel="nofollow noopener">westurner</a> |
+          <a href="https://news.ycombinator.com/item?id=21891503" target="_blank" rel="nofollow noopener"
+          id="comment-21891503"
+          >2019-12-27 09:33:20</a> | <a href="#comment-21891503">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">"Scientists Have Discovered a Drug That Fixes Cavities and Regrows Teeth"
+<a href="https://futurism.com/neoscope/scientists-have-discovered-this-drug-fixes-cavities-and-regrows-teeth" rel="nofollow noopener" target="_blank">https://futurism.com/neoscope/scientists-have-discovered-thi...</a><p>Tideglusib
+<a href="https://en.wikipedia.org/wiki/Tideglusib" rel="nofollow noopener" target="_blank">https://en.wikipedia.org/wiki/Tideglusib</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-21891901">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21891901-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21891901-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=minxomat" target="_blank" rel="nofollow noopener">minxomat</a> |
+          <a href="https://news.ycombinator.com/item?id=21891901" target="_blank" rel="nofollow noopener"
+          id="comment-21891901"
+          >2019-12-27 10:41:31</a> | <a href="#comment-21891901">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">&gt; Tooth repair mechanisms that promotes dentine reinforcement of a sponge structure until the sponge biodegrades, leaving a solid dentine structure. In 2016, the results of animal studies were reported in which 0.14 mm holes in mouse teeth were permanently filled.<p>Very interesting mechanism.</p></p></div></div>
+    </div>
+  </div>
+  <div class="item card comment" id="comment-21891936">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21891936-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21891936-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=1996" target="_blank" rel="nofollow noopener">1996</a> |
+          <a href="https://news.ycombinator.com/item?id=21891936" target="_blank" rel="nofollow noopener"
+          id="comment-21891936"
+          >2019-12-27 10:48:07</a> | <a href="#comment-21891936">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">GSK3 inhibitors are interesting, but we don't understand much the subtypes that are likely to exist: "GSK-3 appears to both promote and inhibit apoptosis, and this regulation varies depending on the specific molecular and cellular context."<p>Still, I believe better GSK3i will find a role in autologous bone-marrow grafting therapies to fight senescence: with TERC/TERT overexpression (the opposite of DeGrey WILT ideas) to send new stem cells to the tissues - just like how you can find the donors chromosomes in most tissues of grafted patient.</p></p></div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
+        </div></div>
+    </div>
+  </div>
   <div class="item card story" id="story-21885680">
     <div class="card-block">
       <a class="collapser" href="#story-21885680-collapse" onclick="toggleDownward(this);event.preventDefault()">[-]</a>
@@ -2801,7 +3122,7 @@
           <a href="https://news.ycombinator.com/user?id=vo2maxer" target="_blank" rel="nofollow noopener">vo2maxer</a> |
           <a href="https://news.ycombinator.com/item?id=21885680" target="_blank" rel="nofollow noopener"
           
-          >2019-12-26 13:32:34</a> | 48  | <a href="#story-21885680">#</a> | <a href="#" class="toplink">^</a>
+          >2019-12-26 13:32:34</a> | 119  | <a href="#story-21885680">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="https://becker.wustl.edu/news/announcing-the-new-pubmed/" target="_blank" rel="nofollow noopener">https://becker.wustl.edu/news/announcing-the-new-pubmed/</a></span>
@@ -2835,7 +3156,40 @@
         </div>
         
         <p class="card-text">This looks great: I like the search timeline, the ability to easily search for free full-text meta-analyses (a selection bias we should all be aware of), the MeSH term listing in a reasonably-sized font, and that there's <a href="http://schema.org/ImageObject" rel="nofollow noopener" target="_blank">schema.org/ImageObject</a> metadata within the page, but there's no [Medical]ScholarlyArticle metadata?<p>I've worked with Google Scholar (:o) [1], Semantic Scholar (Allen Institute for AI) [2], Meta (Chan Zuckerberg Institute) [3], Zotero, Mendeley and a number of other tools for indexing and extracting metadata and graph relations from <a href="https://schema.org/ScholarlyArticle" rel="nofollow noopener" target="_blank">https://schema.org/ScholarlyArticle</a> and MedicalScholarlyArticles . Without RDFa (or Microdata, or JSON-LD) in PDF, there's a lot of parsing that has to go down in order to get a graph from the citations in the article. Each service adds value to this graph of resources. Pushing forward on publishing linked research that's reproducible (#LinkedResearch, #LinkedReproducibility) is a worthwhile investment in meta-research that we have barely yet addressed:</p><p>&gt; <i><a href="http://Schema.org/NewsArticle" rel="nofollow noopener" target="_blank">http://Schema.org/NewsArticle</a> .citation: <a href="https://schema.org/citation" rel="nofollow noopener" target="_blank">https://schema.org/citation</a> ... Wouldn't it be great if NewsArticles linked to the ScholarlyArticle and/or Notebook CreativeWorks that they're .about (with reified relations)?</i></p><p>&gt; <i>A practical use case: Alice wants to publish a ScholarlyArticle [1] (in HTML with structured data, as a PDF) predicated upon Datasets [2] (as CSV, CSVW JSONLD, XLSX (DataDownload)) with static HTML (and no special HTTP headers). 1 <a href="https://schema.org/ScholarlyArticle" rel="nofollow noopener" target="_blank">https://schema.org/ScholarlyArticle</a> 2 <a href="https://schema.org/Dataset*" rel="nofollow noopener" target="_blank">https://schema.org/Dataset*</a></i></p><p><i>&gt; </i>B wants to build a meta analysis: to collect a # of ScholarlyArticles and Dataset DataDownloads; review study controls and data; merge, join,  &amp; concatenate Datasets if appropriate, and inductively or deductively infer a conclusion and suggestions for further studies of variance*</p><p>The Linked Open Data Cloud shows the edges, the relations, the structured data links between very many (life sciences) datasets: <a href="https://lod-cloud.net/" rel="nofollow noopener" target="_blank">https://lod-cloud.net/</a> . <a href="https://5stardata.info/en/" rel="nofollow noopener" target="_blank">https://5stardata.info/en/</a> lists TimBL's suggested 5-start deployment schema for Open Data; which culuminates in publishing linked open data in non-proprietary formats that uses URIs to describe and link to things.</p><p>Could any of these [1][2][3][4][5] services cross-link the described resources, given a common URI identifier such as <a href="https://schema.org/identifier" rel="nofollow noopener" target="_blank">https://schema.org/identifier</a> and/or <a href="https://schema.org/url" rel="nofollow noopener" target="_blank">https://schema.org/url</a> ? ORCID is a service for generating stable identifiers for researchers and publishers who have names in common but different emails. W3C DID solves for this need in a different way.</p><p>When I check an article result page with the OpenLink OSDS extension (or any of a number of other tools for extracting structured data from HTML pages (and documents!) <a href="https://github.com/CodeForAntarctica/codeforantarctica.github.io/pull/3" rel="nofollow noopener" target="_blank">https://github.com/CodeForAntarctica/codeforantarctica.githu...</a> ), there could be quite a bit more data there for search engines, browser extensions, and meta-research tools.</p><p>Is this something like ElasticSearch on the backend? It <i>is</i> possible to store JSON-LD documents in the search index. I threw together elasticsearchjsonld to "Generate JSON-LD @contexts from ElasticSearch JSON Mappings" for the OpenFDA FAERS data a few year ago. That's not GraphQL or SPARQL, but it's something and it's Linked Data.</p><p>re: "Canada's Decision To Make Public More Clinical Trial Data Puts Pressure On FDA" <a href="https://news.ycombinator.com/item?id=21232183" rel="nofollow noopener" target="_blank">https://news.ycombinator.com/item?id=21232183</a></p><p>&gt; <i>We really could get more out of this data through international collaboration and through linked data (e.g. URIs for columns). See: "Open, and Linked, FDA data" <a href="https://github.com/FDA/openfda/issues/5#issuecomment-539296649" rel="nofollow noopener" target="_blank">https://github.com/FDA/openfda/issues/5#issuecomment-5392966...</a> and "ENH: Adverse Event Count / 'Use' Count Heatmap" <a href="https://github.com/FDA/openfda/issues/49" rel="nofollow noopener" target="_blank">https://github.com/FDA/openfda/issues/49</a> . With sales/usage counts, we'd have a denominator with which we could calculate relative hazard.</i></p><p>W3C Web Annotations handle threaded comments and highlights; reviewing the reviewers is left as an exercise for the reader.
-Does Zotero still make it easy to save the bibliographic metadata for one or more ScholarlyArticles from PubMed to a collection in the cloud (and add metadata/annotations)?</p><p>Great job on this. This opens up many new opportunities for research.</p><p>[1] <a href="https://scholar.google.com" rel="nofollow noopener" target="_blank">https://scholar.google.com</a></p><p>[2] <a href="https://www.semanticscholar.org/" rel="nofollow noopener" target="_blank">https://www.semanticscholar.org/</a></p><p>[3] <a href="https://www.meta.org/" rel="nofollow noopener" target="_blank">https://www.meta.org/</a></p><p>[4] <a href="https://zotero.org/" rel="nofollow noopener" target="_blank">https://zotero.org/</a></p><p>[5] <a href="https://mendeley.org/" rel="nofollow noopener" target="_blank">https://mendeley.org/</a></p></p></div>
+Does Zotero still make it easy to save the bibliographic metadata for one or more ScholarlyArticles from PubMed to a collection in the cloud (and add metadata/annotations)?</p><p>Sorry to toot my own horn here.
+Great job on this. This opens up many new opportunities for research.</p><p>[1] <a href="https://scholar.google.com" rel="nofollow noopener" target="_blank">https://scholar.google.com</a></p><p>[2] <a href="https://www.semanticscholar.org/" rel="nofollow noopener" target="_blank">https://www.semanticscholar.org/</a></p><p>[3] <a href="https://www.meta.org/" rel="nofollow noopener" target="_blank">https://www.meta.org/</a></p><p>[4] <a href="https://zotero.org/" rel="nofollow noopener" target="_blank">https://zotero.org/</a></p><p>[5] <a href="https://mendeley.org/" rel="nofollow noopener" target="_blank">https://mendeley.org/</a></p></p><div class="kids">
+          
+  <div class="item card comment" id="comment-21891359">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21891359-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21891359-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=acomjean" target="_blank" rel="nofollow noopener">acomjean</a> |
+          <a href="https://news.ycombinator.com/item?id=21891359" target="_blank" rel="nofollow noopener"
+          id="comment-21891359"
+          >2019-12-27 09:05:31</a> | <a href="#comment-21891359">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">Pubmed publishes its dataset for download.  Its rather large but update files come frequently.  Its amazing.  I beleive NIH adds the MESH terms.<p><a href="ftp://ftp.ncbi.nlm.nih.gov/pubmed/" rel="nofollow noopener" target="_blank">ftp://ftp.ncbi.nlm.nih.gov/pubmed/</a></p><p>We had someone do a project with it.  downloaded the dataset and used it and create a tool to do some searches that we found useful to find colaborators: (last author, working on a specific gene, paper counts, most recent).</p><p>Searching by Mesh Terms across species, and search with orthologs.</p><p>The dataset sometimes has a hard time disambiguating names (I think the european dataset assigns Ids to names)</p></p></div></div>
+    </div>
+  </div>
+  <div class="item card comment" id="comment-21893914">
+    <div class="card-block">
+      <a class="collapser" href="#comment-21893914-collapse" onclick="toggleDownward(this);event.preventDefault()">[+]</a>
+      <div class="collapsable collapsed" id="comment-21893914-collapse">
+        <h4 class="card-title"></h4>
+        <div class="card-subtitle text-muted">
+          <a href="https://news.ycombinator.com/user?id=cheviana" target="_blank" rel="nofollow noopener">cheviana</a> |
+          <a href="https://news.ycombinator.com/item?id=21893914" target="_blank" rel="nofollow noopener"
+          id="comment-21893914"
+          >2019-12-27 14:47:01</a> | <a href="#comment-21893914">#</a> | <a href="#" class="toplink">^</a>
+        </div>
+        
+        <p class="card-text">To make sure your feedback is heard, please use "Feedback button" found in bottom right corner of <a href="https://pubmed.gov/labs" rel="nofollow noopener" target="_blank">https://pubmed.gov/labs</a></p></div></div>
+    </div>
+  </div>
+        </div></div>
     </div>
   </div>
         </div></div>
@@ -2853,7 +3207,7 @@ Does Zotero still make it easy to save the bibliographic metadata for one or mor
           <a href="https://news.ycombinator.com/user?id=zabana" target="_blank" rel="nofollow noopener">zabana</a> |
           <a href="https://news.ycombinator.com/item?id=21878372" target="_blank" rel="nofollow noopener"
           
-          >2019-12-25 08:16:17</a> | 9  | <a href="#story-21878372">#</a> | <a href="#" class="toplink">^</a>
+          >2019-12-25 08:16:17</a> | 11  | <a href="#story-21878372">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="kids">
           
@@ -2922,7 +3276,7 @@ Asyncio docs:  <a href="https://docs.python.org/3/library/asyncio.html" rel="nof
           <a href="https://news.ycombinator.com/user?id=vo2maxer" target="_blank" rel="nofollow noopener">vo2maxer</a> |
           <a href="https://news.ycombinator.com/item?id=21851020" target="_blank" rel="nofollow noopener"
           
-          >2019-12-21 07:55:04</a> | 320  | <a href="#story-21851020">#</a> | <a href="#" class="toplink">^</a>
+          >2019-12-21 07:55:04</a> | 321  | <a href="#story-21851020">#</a> | <a href="#" class="toplink">^</a>
         </div>
         <div class="card-subtitle text-muted">
             <span><a href="http://dcernst.github.io/resources/free-and-open-source-textbooks/" target="_blank" rel="nofollow noopener">http://dcernst.github.io/resources/free-and-open-source-textbooks/</a></span>
@@ -25333,7 +25687,7 @@ The Personal MBA (Josh Kaufman)<p>Lever ( <a href="https://www.lever.co" rel="no
           >2017-01-02 00:25:05</a> | <a href="#comment-13299250">#</a> | <a href="#" class="toplink">^</a>
         </div>
         
-        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
+        <p class="card-text">Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- "CSV on the Web: A Primer" <a href="http://w3c.github.io/csvw/primer/" rel="nofollow noopener" target="_blank">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href="https://github.com/w3c/csvw" rel="nofollow noopener" target="_blank">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href="https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href="https://wrdrd.com/docs/consulting/knowledge-engineering#csvw" rel="nofollow noopener" target="_blank">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#="" ns="" &lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="&lt;a href="<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">http://www.w3.org</a>" rel="nofollow noopener" target="_blank"&gt;<a href="http://www.w3.org" rel="nofollow noopener" target="_blank">www.w3.org</a>=""&gt; .
 &lt;/http:&gt;</code></pre>
 @context: <a href="http://www.w3.org/ns/csvw.jsonld" rel="nofollow noopener" target="_blank">http://www.w3.org/ns/csvw.jsonld</a></p></div>
     </div>
