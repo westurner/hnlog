@@ -2820,7 +2820,7 @@
     "13299250": {
       "time_iso": "2017-01-02 00:25:05",
       "parent": 13275834,
-      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
+      "text": "Arguing for the CSVW (CSV on the Web) W3C Standards:<p>- \"CSV on the Web: A Primer\" <a href=\"http://w3c.github.io/csvw/primer/\" rel=\"nofollow noopener\" target=\"_blank\">http://w3c.github.io/csvw/primer/</a></p><p>- Src: <a href=\"https://github.com/w3c/csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/w3c/csvw</a></p><p>- Columns have URIs (ideally from a shared RDFS/OWL vocabulary)</p><p>- Columns have XSD datatype URIs</p><p>- CSVW can be represented as RDF, JSON, JSONLD</p><p>With CSV, which extra metadata file describes how many rows at the top are for columnar metadata? (I.e. column labels, property URI, XSD datatype URI, units URI, precision, accuracy, significant figures) ... <a href=\"https://wrdrd.com/docs/consulting/linkedreproducibility#csv-csvw-and-metadata-rows\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/linkedreproducibility#csv-...</a></p><p>... CSVW: <a href=\"https://wrdrd.com/docs/consulting/knowledge-engineering#csvw\" rel=\"nofollow noopener\" target=\"_blank\">https://wrdrd.com/docs/consulting/knowledge-engineering#csvw</a></p><p></p><pre><code>  @prefix csvw: &lt;http: csvw#=\"\" ns=\"\" &lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"&lt;a href=\"<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org</a>\" rel=\"nofollow noopener\" target=\"_blank\"&gt;<a href=\"http://www.w3.org\" rel=\"nofollow noopener\" target=\"_blank\">www.w3.org</a>=\"\"&gt; .\n&lt;/http:&gt;</code></pre>\n@context: <a href=\"http://www.w3.org/ns/csvw.jsonld\" rel=\"nofollow noopener\" target=\"_blank\">http://www.w3.org/ns/csvw.jsonld</a>",
       "id": 13299250,
       "time": 1483334705,
       "type": "comment",
@@ -25762,29 +25762,29 @@
     },
     "22917941": {
       "by": "docdeek",
-      "descendants": 146,
+      "descendants": 172,
       "id": 22917941,
       "kids": [
         22918189,
-        22918839,
-        22918210,
         22918196,
+        22918210,
+        22918839,
         22918188,
         22919914,
-        22919481,
-        22920586,
-        22918878,
-        22920285,
         22919328,
-        22918742,
+        22918878,
         22918650,
+        22918742,
         22918365,
-        22918305,
+        22920586,
+        22919481,
+        22920285,
         22919239,
         22919090,
+        22918305,
         22918594
       ],
-      "score": 135,
+      "score": 148,
       "time": 1587322471,
       "title": "Facebook, Google to be forced to share ad revenue with Australian media",
       "type": "story",
@@ -25797,17 +25797,17 @@
       "kids": [
         22918493,
         22918510,
+        22919772,
         22918362,
         22918539,
         22919424,
-        22919609,
-        22919510,
-        22919772,
-        22918351,
         22918420,
+        22919510,
+        22919609,
+        22918351,
+        22918743,
         22918207,
-        22918524,
-        22918743
+        22918524
       ],
       "parent": 22917941,
       "text": "What if Google and Facebook just said \u201cNo, thank you.\u201d? I think Google and Facebook have more power in this relationship, which might say something about the tech giants. The only possible thing the Aussies could do is block the websites, and that sounds like political suicide to me. I\u2019m guessing the companies will decide to play ball, but if other countries start to follow suit, it might be interesting to see what happens if they start pushing back.",
@@ -25846,7 +25846,8 @@
       "by": "westurner",
       "id": 22919127,
       "kids": [
-        22919650
+        22919650,
+        22921827
       ],
       "parent": 22918725,
       "text": "If you don't want them to index your content and send you free traffic, you can already specify that in your robots.txt; for free.\n<a href=\"https://en.wikipedia.org/wiki/Robots_exclusion_standard\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/Robots_exclusion_standard</a><p>There are no ads on Google News.</p><p>There is an apparent glut of online news: supply exceeds demand and so the price has fallen.</p>",
@@ -25941,9 +25942,194 @@
       "time": 1587356425,
       "type": "comment",
       "time_iso": "2020-04-20 00:20:25"
+    },
+    "22960455": {
+      "by": "stareatgoats",
+      "descendants": 1,
+      "id": 22960455,
+      "kids": [
+        22961294
+      ],
+      "score": 2,
+      "time": 1587671903,
+      "title": "Innovating on Web Monetization: Coil and Firefox Reality",
+      "type": "story",
+      "url": "https://hacks.mozilla.org/2020/03/web-monetization-coil-and-firefox-reality/",
+      "time_iso": "2020-04-23 15:58:23"
+    },
+    "22960757": {
+      "by": "caution",
+      "descendants": 1,
+      "id": 22960757,
+      "kids": [
+        22961433
+      ],
+      "score": 2,
+      "time": 1587673164,
+      "title": "Google ditched tipping feature for donating money to sites",
+      "type": "story",
+      "url": "https://techcrunch.com/2020/04/23/google-contributor-donate-tips/",
+      "time_iso": "2020-04-23 16:19:24"
+    },
+    "22961294": {
+      "by": "westurner",
+      "id": 22961294,
+      "parent": 22960455,
+      "text": "Coil: $5/mo, Content creators get a proportional cut of that amount according to what is browsed with the browser extension enabled or the Puma browser, and Private: No Tracking<p>&gt; <i>Coil sends payments via the Interledger Protocol, which allows any currency to be used for sending and receiving.</i></p><p><a href=\"https://github.com/coilhq\" rel=\"nofollow noopener\" target=\"_blank\">https://github.com/coilhq</a></p><p>It looks like the Web Monetization API is not yet listed on the \nWebsite Monetization Wikipedia page:\n<a href=\"https://en.wikipedia.org/wiki/Website_monetization\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/Website_monetization</a></p><p>Quoting from earlier this week:</p><p>&gt; <i>Web Monetization API (ILP: Interledger Protocol)</i></p><p>&gt;&gt; <i>A JavaScript browser API which allows the creation of a payment stream from the user agent to the website.</i></p><p>&gt;&gt; <i>Web Monetization is being proposed as a #W3C standard at the Web Platform Incubator Community Group.</i></p><p>&gt; <i><a href=\"https://webmonetization.org/\" rel=\"nofollow noopener\" target=\"_blank\">https://webmonetization.org/</a> </i></p><p>&gt; <i>Interledger: Web Monetization API <a href=\"https://interledger.org/rfcs/0028-web-monetization/\" rel=\"nofollow noopener\" target=\"_blank\">https://interledger.org/rfcs/0028-web-monetization/</a> </i></p>",
+      "time": 1587675414,
+      "type": "comment",
+      "time_iso": "2020-04-23 16:56:54"
+    },
+    "22961433": {
+      "by": "westurner",
+      "id": 22961433,
+      "parent": 22960757,
+      "text": "&gt; <i>When asked, Google confirmed that the designs were an internal idea it explored last year but decided not to pursue as part of [Google Contributor] and Google Funding Choices, which lets sites ask visitors to disable ad blockers, or instead buy a subscription or pay a per page fee to remove ads.</i><p>Could this be built on Web Monetization API (ILP (Interledger Protocol)) and e.g. Google Pay as one of many possible payment/card/cryptocurrency  processing backends; just like Coil is built on Web Monetization API?</p>",
+      "time": 1587676037,
+      "type": "comment",
+      "time_iso": "2020-04-23 17:07:17"
+    },
+    "22978147": {
+      "by": "janvdberg",
+      "descendants": 61,
+      "id": 22978147,
+      "kids": [
+        22978945,
+        22978885,
+        22979520,
+        22979218,
+        22979384,
+        22978973,
+        22981247,
+        22979403,
+        22982622,
+        22979230,
+        22978923,
+        22978859
+      ],
+      "score": 297,
+      "time": 1587823205,
+      "title": "What does the 'rc' in `.bashrc`, etc. mean?",
+      "type": "story",
+      "url": "https://superuser.com/questions/173165/what-does-the-rc-in-bashrc-etc-mean",
+      "time_iso": "2020-04-25 10:00:05"
+    },
+    "22979520": {
+      "by": "donarb",
+      "id": 22979520,
+      "kids": [
+        22979555,
+        22979825,
+        22980353,
+        22979977,
+        22982019
+      ],
+      "parent": 22978147,
+      "text": "For me, the hard part is remembering if .bashrc is supposed to source .bash_profile or vice versa.",
+      "time": 1587834839,
+      "type": "comment",
+      "time_iso": "2020-04-25 13:13:59"
+    },
+    "22980353": {
+      "by": "westurner",
+      "id": 22980353,
+      "parent": 22979520,
+      "text": "<p></p><pre><code>  info bash -n \"Bash Startup Files\"\n  </code></pre>\n<a href=\"https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html\" rel=\"nofollow noopener\" target=\"_blank\">https://www.gnu.org/software/bash/manual/html_node/Bash-Star...</a>",
+      "time": 1587840878,
+      "type": "comment",
+      "time_iso": "2020-04-25 14:54:38"
+    },
+    "22990014": {
+      "by": "hoanhan101",
+      "descendants": 67,
+      "id": 22990014,
+      "kids": [
+        22992082,
+        22990399,
+        22991086,
+        22990242,
+        22990350,
+        22994283,
+        22994069,
+        22991811,
+        22999214,
+        22990407,
+        22990579,
+        22993289,
+        22993217,
+        22994308,
+        22990505,
+        22993571,
+        22990325,
+        22992226,
+        22990748
+      ],
+      "score": 173,
+      "time": 1587933193,
+      "title": "Psychological techniques to practice Stoicism",
+      "type": "story",
+      "url": "https://hoanhan101.github.io/2020/04/26/guide-to-the-good-life",
+      "time_iso": "2020-04-26 16:33:13"
+    },
+    "22990325": {
+      "deleted": true,
+      "id": 22990325,
+      "parent": 22990014,
+      "time": 1587935678,
+      "type": "comment",
+      "time_iso": "2020-04-26 17:14:38"
+    },
+    "23033210": {
+      "by": "westurner",
+      "descendants": 2,
+      "id": 23033210,
+      "kids": [
+        23033354,
+        23033279
+      ],
+      "score": 2,
+      "text": "Heat rises. Is heat trapped in the rack? Would mounting servers <i>sideways</i> (vertically) allow heat to transfer out of the rack?<p>Many systems have taken the vertical mount approach approach over the years:\nBlade servers, routers, modems, and various gaming systems.</p><p>Horizontally-mounted: parallel with the floor</p><p>Vertically-mounted: perpendicular to the floor</p>",
+      "time": 1588266413,
+      "title": "Ask HN: Does mounting servers parallel with the temperature gradient trap heat?",
+      "type": "story",
+      "time_iso": "2020-04-30 13:06:53"
+    },
+    "23033279": {
+      "by": "westurner",
+      "id": 23033279,
+      "kids": [
+        23033365
+      ],
+      "parent": 23033210,
+      "text": "Thermodynamics <a href=\"https://en.wikipedia.org/wiki/Thermodynamics\" rel=\"nofollow noopener\" target=\"_blank\">https://en.wikipedia.org/wiki/Thermodynamics</a><p>Are engine cylinders ever mounted horizontally? Why or why not?</p>",
+      "time": 1588266794,
+      "type": "comment",
+      "time_iso": "2020-04-30 13:13:14"
+    },
+    "23033354": {
+      "deleted": true,
+      "id": 23033354,
+      "parent": 23033210,
+      "time": 1588267189,
+      "type": "comment",
+      "time_iso": "2020-04-30 13:19:49"
+    },
+    "23033365": {
+      "by": "westurner",
+      "id": 23033365,
+      "parent": 23033279,
+      "text": "&gt; <i>Heat rises.</i><p>Warmer air is less dense / more buoyant; so it floats.</p><p>\"Does hot air really rise?\"\n<a href=\"https://physics.stackexchange.com/questions/6329/does-hot-air-really-rise\" rel=\"nofollow noopener\" target=\"_blank\">https://physics.stackexchange.com/questions/6329/does-hot-ai...</a></p><p>- Water ice floats because \u2013 somewhat uniquely \u2013 solid water is less dense than liquid water.</p><p>&gt; <i>Is heat trapped in the rack?</i></p><p>Probably.</p><p>&gt; <i>Would mounting servers sideways (vertically) allow heat to transfer out of the rack?</i></p><p>How could we find studies that have already tested this hypothesis?</p>",
+      "time": 1588267241,
+      "type": "comment",
+      "time_iso": "2020-04-30 13:20:41"
     }
   },
   "roots": [
+    23033210,
+    22990014,
+    22978147,
+    22960757,
+    22960455,
     22920596,
     22920613,
     22917941,
