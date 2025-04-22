@@ -23,4 +23,7 @@ commit:
 push:
 	git push
 
+open:
+	python -m webbrowser ./index.html
+
 all: backup commit push
